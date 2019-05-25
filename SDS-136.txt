@@ -1,0 +1,158 @@
+SDS PODCAST
+EPISODE 136
+FIVE MINUTE
+FRIDAY:
+www.sdsblockchain.com
+
+-
+
+LEARN
+BLOCKCHAIN
+Show Notes: http://www.superdatascience.com/136
+
+1
+
+This is Five Minute Friday episode number 136: Learn Blockchain.
+All right, welcome ladies and gentlemen to this super-exciting episode
+because we've got a super-exciting announcement for you. This week on
+Tuesday, we launched our fourth Kickstarter, and the topic for this
+Kickstarter is... you guessed it, Blockchain.
+Once again, Hadelin and I are teaming up to take on one of the world's
+most disruptive technologies, and this time it's Blockchain.
+You may have heard about Blockchain before. To me, it crept up quite
+unexpectedly. I was definitely looking out for AI and deep learning and
+seeing what things progressed in that space, but Blockchain was, first of all
+a mystery to me but also, I was not expecting the power and the amount of
+disruption it would bring.
+To be honest, from what I know about Blockchain now I can see now that
+it's completely redesigning whole, not just companies, but industries on the
+fly and it's happening so quickly. Much faster. The integration of
+Blockchain is happening much, much faster than even Artificial
+Intelligence.
+And that's what makes us so excited about this technology. About what it
+can do. Blockchain can be applied virtually anywhere. Anywhere you need
+trust, where you need some sort of authority or some sort of intermediary to
+create trust, Blockchain can be applied there. Anywhere where you have a
+necessity for privacy, Blockchain can be applied there. Anywhere where you
+need a necessity for transparency, Blockchain can be applied there.
+Blockchain can be applied almost anywhere, from transportation to
+logistics to health care to online voting to media distribution to pretty much
+any industry. Just name any industry, Blockchain can be applied there.
+
+Show Notes: http://www.superdatascience.com/136
+
+2
+
+And that's what also makes us so excited - the versatility of the
+applications.
+And on the other hand as well, Blockchain isn't as complex a topic as AI.
+Blockchain is definitely much more down-to-earth, it's seemingly much
+easier to understand in the sense that there's no A3C algorithm or there's
+no Boltzmann Machines like in deep learning - some very, very
+sophisticated things that require complex mathematics. The concepts inside
+Blockchain are quite easy to grasp on their own but what I found extremely
+difficult, while trying to learn Blockchain for myself over the past couple of
+weeks or even months now, what I found extremely difficult is the volume the volume of these different concepts.
+This technology, even though it's only been developed for around 10 years
+now, since the launch of Bitcoin, since it's only been around for that long,
+there are so many components. From distributed peer-to-peer networks to
+Byzantine fault tolerance to consensus protocols for proof of work to proof
+of stake consensus protocols, immutable ledgers and so on. Every time you
+think you've got your head around something, something new pops up.
+
+And that's also why we're so excited about this course. That's what our
+mission is this time, to as always, make the complex simple. And in this
+specific case, it's not just to break down very complex individual topics
+such as the A3C algorithm in Artificial Intelligence into bite-size chunks but
+to break down this whole technology of Blockchain and its myriad of
+components to break it down and put it back together in such a way that
+will help you go through this course and understand and develop a holistic
+- my favorite word this time round - understanding of what this technology
+is all about. Because that's where the value is.
+Anybody can go and look up one of these topics like Byzantine fault
+tolerance on YouTube and understand it. But, it's about the linking them
+Show Notes: http://www.superdatascience.com/136
+
+3
+
+up together, to actually present it in such a way that anybody not just
+understand one topic, but the whole thing holistically.
+And that's what the challenge is for us. For Hadelin and I. And that's why
+I'm recording today's 5 Minute Friday episode is because today we need
+your help.
+We need your help to make this project go viral.
+We want to bring this technology to the world. We can see how it's going to
+change industries, lives, companies, countries even. And at the same time,
+we don't want this technology to be held only by those people that are
+capable of using it, like a select few individuals - like a couple of hundred
+few. We want everyone to have access to it.
+And that's why we're creating this course and we need this Kickstarter to go
+viral and we need your help.
+So how can you help us?
+First thing is of course, I need to tell you where the Kickstarter is. So, it's
+very hard to share a link on a podcast, that's why we've set up a special
+URL that you can find this Kickstarter - it will redirect you to the
+Kickstarter.
+The URL is very simple: sdsblockchain.com. SuperDataScience is
+abbreviated to SDS.
+If you go there, you'll be redirected to the Kickstarter and there, so how can
+you help us? Of course, if you're interested in learning this technology, if
+you want to be part of this disruptive revolution, then back our campaign.
+That will be a huge, massive help. That will build that social proof that will
+show people that there are students out there who already know us, trust
+us and believe in the fact that we can put this course together.
+
+Show Notes: http://www.superdatascience.com/136
+
+4
+
+Second option, if you're not interested in Blockchain for whatever reason or
+if you cannot afford to back this campaign, even though we - because we
+want to bring this technology to the world - we tried to make the pledge
+levels as affordable as possible. But if you cannot afford to back the
+campaign, there's an option at the very top called HadCoin Supporter. Oh
+yeah, in this course Hadelin is going to create his own cryptocurrency - he'll
+show you how to create a cryptocurrency and it's going to be called
+HadCoin. Basically, there's this option at the top called HadCoin Supporter
+- it's a $1 option. So even if you can pledge $1 to show us your support,
+that would be extremely helpful because again, that will show others that
+there are people who trust in us, who believe us and who are willing to
+support us, even if it's in that way. And for us, we'd really appreciate that
+type of support.
+And of course finally, if you can share this link with your network sdsblockchain.com - if you can share this around on Facebook, on
+LinkedIn, on Twitter, on Instagram - wherever you are - by email to your
+friends, to your family, to your network - if you could share it, that would
+be huge help to us. The more people that get to know about this, the better,
+and the more lives we can impact, the more industries we can change, the
+more companies and people we can help. And that's our goal ultimately.
+So there we go, that's the course. As usual, you'll get lots and lots of
+content. We're planning on creating three modules. In Module 1, we're going
+to show you how to create a Blockchain which you can use absolutely for
+anything. In Module 2, we're going to show you how to create a
+cryptocurrency of your own and in Module 3, we're going to teach you how
+to work with Ethereum and smart contracts and how to create your own
+smart contract and how to create an ICO. We're going to simulate an ICO an initial coin offering - in Module 3. And as usual, we're going to have
+Intuitions so I'm doing the Intuition tutorial in every single module and
+Hadelin is doing the practical tutorials.
+Show Notes: http://www.superdatascience.com/136
+
+5
+
+So you'll learn tons and tons of different tools, from Blockchain to Bitcoin to
+Ethereum to Python, Solidity, JSON, Ganache, Postman, MyEtherWallet,
+Anaconda, Flask, Spyder and others. And of course, on the Intuition side,
+you're definitely going to get a lot of content. There's actually a list of
+planned tutorials on the Kickstarter page, so you if you go there, you can
+check them out and see what's going on there.
+There we go - I'm going to stop the rant now. I hope to see you on the
+Kickstarter. Once again, it's at www.sdsblockchain.com (all one word) and
+let's make this happen together. The Kickstarter is already launched, it's
+already going, and we need you onboard. We need your help and support.
+And thank you so much for being here today. I can't wait to see you inside
+Blockchain A-Z!
+
+Show Notes: http://www.superdatascience.com/136
+
+6
+
+

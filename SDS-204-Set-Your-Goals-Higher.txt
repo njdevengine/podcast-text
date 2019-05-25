@@ -1,0 +1,213 @@
+SDS PODCAST
+EPISODE 204
+FIVE MINUTE
+FRIDAY:
+SET YOUR GOALS
+HIGHER
+
+http://www.superdatascience.com/204
+
+This is Five Minute Friday, episode number 204, Set Your Goals Higher.
+Welcome back to the Super Data Science Podcast ladies and gentlemen,
+we're very excited to have you on this show today. And today's title of the
+episode is actually quite literal. Set Your Goals Higher. And the thing is that
+Paolo and I are, right now, in Yosemite National Park, which is a beautiful,
+wonderful place. We're super excited to be here, we're grateful to be
+exploring this wonderful landscape and all these mountains and hikes. If
+you haven't been yet, then this is a park in California, which is kind of like
+between San Francisco and LA and more to the east side of the state.
+Highly, highly recommend checking it out, it's just a majestic place, cooking
+dinners, lunches on the fire, goal for hikes in the early morning, and lots of
+places to see here.
+And so how did this title, or this episode come to mind? So the thing is that
+we went for a hike two days ago, so the day before yesterday. We actually
+just arrived three days ago in the afternoon, or the evening. Then we
+decided, okay, tomorrow we're going to go for a hike, and we're not really
+hikers, we've done maybe a couple of mountains each, but not like
+professional hikers, or anything. So we decided, okay, we're going to go and
+find the most toughest challenge there is here, and go and hike that. And so
+we went to the reception, we asked around, what's the hardest thing, is it
+...? And there's one mountain called the Half Dome, we'll post some
+pictures in our show notes, you'll find them in superdatascience.com/204 if
+you're interested to see some photos from Yosemite, and from some of these
+beautiful mountains, and the hikers we did. And there's this one mountain
+called the Half Dome. So it's called the Half Dome because it looks like
+there was a dome and then half of it was chopped off, if you take a vertical
+cross section.
+And we thought that was the hardest hike, but then when we asked at
+reception they said, there's a hike even harder, which is called the Cloud's
+http://www.superdatascience.com/204
+
+Rest, where clouds take their time to rest, I guess. That's how high it is and
+how far it is. It's actually so far that it's not even on the map, not on the
+local map of this village, so it's on a bigger map. So we decided to go there
+all the way and conquer this Cloud's Rest place. And so, charged with this
+confidence we decided to wake up the next morning, well two days ago, we
+woke up around 5:45, we were supposed to leave at 6:00, we left around
+7:00. Nevertheless, we are marching away up these mountains, very naive,
+newborn hikers, and first stop was called the Vernal Falls. And that took us
+a couple of hours to get there. Then we went to Nevada Falls, that's another
+waterfalls that's even higher. So we're going from the floor of the Yosemite
+Valley, we're going higher and higher, higher. So the floor of the Yosemite
+Valley is about 4,000 feet above sea level, which is about 1,200 meters
+above sea level.
+So we're going higher and higher and higher and then, eventually we get to,
+we meet some people who are also doing some hike, we discussed, and
+we're like, we're going to go to, they're also going to Cloud's Rest, but they're
+going to sleep over half way and then they're going to go further. We don't
+have any tents with us, any permits to sleep over. So that's not an option
+for us. We meet some other people who are going to Half Dome. So we learn
+a few things along the way, what's happening and stuff like that. And then
+we realize we're getting super tired. Another thing is that we're actually
+already about five hours in, or four hours in when we planned to do the
+whole hike in about six hours, there and back. We're about four hours in,
+and we're only about half way. And half way there, we're not even returning
+back.
+And at that point we started thinking to ourselves whether it's actually
+realistic to get to Cloud's Rest today or not. And we decided, we calculated
+the distance and how fast we had been walking, and how far we're going to
+go. And we decided that it's actually not possible, we're only going to get
+there by 5:00 P.M. and then to come back it'll be already sunset, and we
+http://www.superdatascience.com/204
+
+won't be able to get back on time because the way back, even though it's
+downhill, it's still quite a long way, and you need to be home before sunset,
+otherwise it's actually, there's bears. When we went for this walk we saw
+bears, we saw a mother bears, it's a black bears with two cubs. And those
+are not like grizzly bears that can actually kill you, but they can kill you,
+but they're not as aggressive, they're not going to charge at you, especially if
+you don't dangle any food in front of it. So we saw bears, we saw lots of
+squirrels, lots of deer and stuff like that.
+But yeah, so basically bottom line is, it's dangerous to be out there at night,
+especially if you don't know how to survive in the wilderness. Another thing
+we found is that we didn't take enough water. Even though the
+recommendation was to take one liter of water per hour of hiking, we
+actually took, in total, less than three liters of water for the two of us. And
+we thought it was going to be a six hour hike, so we already took less water.
+But in reality, what happened is when we got to that, there's a crossroad
+where we could have gone right and gone for the Cloud's Rest mountain, or
+we could have gone left and gone for the Half Dome, which was, we
+originally thought was the hardest, but according to reception it wasn't the
+super hardest, really tough, but it wasn't the super hardest.
+Anyway, so we at that point decided we're not going to get to Cloud's Rest
+today. We decided to turn left to go to Half Dome. And, even from there,
+even at that point it was well four hours in or so, even from there it took us
+another three hours to get to the top of Half Dome. And for those of you
+who have been to Yosemite I'm going to make a small caveat here. We didn't
+get to the very top of Half Dome because the cables are down. We got to the
+top of the Sub Dome, which is maybe 200 meters below the top of the Half
+Dome. And we didn't have our harness, or any harnesses with us. So we
+could't climb it.
+
+http://www.superdatascience.com/204
+
+So basically, we got almost to the very top of the Half Dome, but it took us a
+total of seven hours to get there, and by then we had already finished all
+our water, most of our food, and most of everything, and we still had the
+way back to go. And to get back, by then we were first, I was super tired,
+Paolo was pushing me. Then Paolo was super tired, I was pushing him, let's
+do this, we can do this, we're almost there, and so on. And really, really
+important to have that teamwork. But anyway, at the top of the Sub Dome,
+we finished our lunches and then we started our way back. Zero water, this
+whole way to go. And so just to put it into perspective, it's about eight and a
+half miles each way. So that's about 13.6 kilometers, and that's not just
+walking on the flats, it's going up. So as mentioned, the four, the Half Dome
+village where we started was about 4,000 feet elevation, or in meters that's
+1,200 meters elevation. And the Half Dome itself is about 8,800 feet, or
+2,695 meters.
+So, in total we climbed about 1,000, so we didn't get to the very top, but it
+was over kilometer, definitely over kilometer, maybe over kilometer point
+two, 1,200 meters and about 4,000 feet that we climbed up in this whole
+process. So in total, it's a 17 mile hike there and back. So it took us seven
+hours to get to the top and another four hours to get back. We survived, we
+drank a lot of water, we were very tired, we slept 12 hours after that, had a
+rest the following day, and everything was great. But the moral of this story
+is of course, follow the rules. If a certain amount of water is recommended,
+then hydrate yourself, that's important.
+But, the real essence of this story is set your goals higher. What does that
+mean? Well, we originally wanted to climb the Cloud's Rest mountain,
+which is even higher and even further, and would have taken us longer, but
+we were so naive and ignorant that we thought we could do it. And we
+didn't get scared by the fact that maybe we won't make it. We just said, set
+ourself the goal and we're going to go for it.
+http://www.superdatascience.com/204
+
+And along the way, literally, along the journey, we met people, we talked to
+them, some were going to the Half Dome, they explained to us why and
+what they were doing, and how they were going to get there. We talked to
+people who were going to Cloud's Rest and that they're going to have a
+camp over and how much water they brought and things like that. So we
+learned things that influenced our decision and we changed our route to get
+to Half Dome. And climbing Half Dome on the first day for very naive and
+new hikers, if you told us today that that's the journey we have to do, we
+would probably say no. We would probably say that is impossible. There
+was no way we were going to get to the top of Half Dome without any
+experience, without any prior preparation, without any understanding of
+the terrain, and things like that. We would probably say, no, because we
+actually later, yesterday and today, we saw Half Dome, this mountain that
+we actually went to, from different perspectives, from other different cliffs.
+And we noticed that it's actually really far. We saw the journey that we went
+through, when you're in it you don't see from a bird's eye's perspective,
+you're in the moment. And your just seeing the trees, the path and
+everything seems like flowing past you and your having fun. We saw it from
+a different perspective, we actually saw this 3-D map on the table, and we
+saw that it is insane the amount, the distance that we went and climbing
+those two waterfalls, the elevation, everything put into perspective. If we
+had known this beforehand, we would have thought it would have been
+unreasonable to do it.
+But by setting ourself a goal of not just climbing Half Dome, but climbing
+something even further, this Half Dome goal seemed like something totally
+achievable. It seemed a step down in comparison to what we originally set
+for ourselves.
+And you can do this in any part of life, not just in hiking, or in sports and
+climbing, or running, or whatever, swimming it is. For instance, if you set
+http://www.superdatascience.com/204
+
+yourself a goal of running, I don't know, 20 miles, then when you actually
+get to 12 miles, it seems that you just passed half way of your goal, and it
+feels like not such a big deal. But originally if you set yourself a goal of 12
+miles, then by the time you're at eight miles, you might feel well 12 miles
+seems such a long distance.
+And you can also do that in your career. You can do that in setting yourself
+a goal. For instance, I want to learn how to apply a certain type of neural
+network to a business problem. Well, instead of setting yourself a goal of
+just reading about it and maybe doing a sample problem, why don't you set
+yourself a goal of actually solving a big massive business challenge from
+[inaudible 00:11:29], or something like that. And that way, even if you don't
+get to your final goal that you're looking towards, the journey that you go
+through and the goals that you do achieve are going to be still so massive in
+comparison to where you started.
+So that's the moral of the story here that, if you originally set your goals
+higher than anything you accomplish underneath that goal, even though it
+will seem smaller than the original goal in comparison, it will still be a great
+accomplishment. Having said that, it's not to say, no, I'm not saying that
+you should always set yourself massive goals because every single day,
+every single hour, or every single moment of your life you should have
+massive goals because that might scare away that enthusiasm or that
+determination. The massive goals should be set for big projects like all
+right, in this month I'm going to do this, or in this year I'm going to
+accomplish this thing. I think everybody needs, we all need a northern star
+that we're pointing towards. And the higher that northern star is, the higher
+that goal is, the easier it's going to get to us. But then, every single day,
+every single hour, you break it down to baby steps. In our hike, we had this
+goal of getting to Cloud's Rest, but it's not every single moment of the, every
+single step of the way we were thinking, oh, we've got another 10, 12
+whatever it is miles to go. We were thinking, all right we're just going to get
+http://www.superdatascience.com/204
+
+to this waterfall, and how are we going to get to this waterfall. So we're
+breaking it down to baby steps.
+So, the bottom line is, set yourself high goals that will lead you on a
+ambitious path which might take you somewhere where you don't even
+know is possible, and at the same time, break it down into baby steps to get
+there one step at a time. So that massive goal that you're pursing is not
+going to scare away your determination and enthusiasm.
+So, there we go, that was a little story from Yosemite. Check it out it's an
+amazing place. And we'll post some photos on superdatascience.com/204 if
+you'd like to check them out as well. And on that note, thanks so much
+guys for being here, and I look forward to seeing you next time, until then,
+happy analyzing.
+
+http://www.superdatascience.com/204
+
+

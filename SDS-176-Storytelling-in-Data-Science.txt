@@ -1,0 +1,123 @@
+SDS PODCAST
+EPISODE 176
+FIVE MINUTE
+FRIDAY:
+STORYTELLING IN
+DATA SCIENCE
+
+Show Notes: http://www.superdatascience.com/176
+
+1
+
+Welcome back to the SuperDataScience Podcast. This is FiveMinuteFriday,
+and today we're talking about storytelling in data science.
+So just recently I was watching a compilation of talks by Ann marie
+Houghtailing. So Ann marie is an author and a public speaker. And what I
+found interesting in this compilation is one talk where she was talking
+specifically about storytelling. This was not necessarily related to data
+science, just about conversations and how we talk and engage with people,
+and how we get others to understand our message and remember it.
+And so what I found interesting was that she said there's two types, two
+ways of going about explaining something and conveying information. One
+way is just the hard facts, just conveying facts, data, information for a
+person to grasp and understand and comprehend. And in that case, when
+you are just conveying facts to somebody, what actually happens is there's
+only two parts of the brain that are activated at that point in time. One part
+is called the Broca's area and the second part is called the Wernicke's area.
+So Broca's area is the part of the brain which is responsible for language
+production, where we actually can create words and actually say things,
+whereas Wernicke's area is the part of the brain that is responsible for
+language comprehension, when we take in words and process them into
+information, into things, like data, that is going to be stored in our brain, so
+we're actually understanding what is being said. So only two parts of the
+brain are active when you're telling somebody facts, when you're
+exchanging facts with somebody.
+On the other hand, if you tell somebody a story, if you make them excited, if
+you make them engaged with the story, if you make them imagine things, if
+you make them sorta try to understand not just the facts, but understand
+how things feel, how things look, how things might smell, and so a huge
+number of parts of the brain are all of a sudden activated. For instance, I've
+got them right here. She states that the amygdala is activated, the part of
+the brain responsible for visual images, part of the brain responsible for
+Show Notes: http://www.superdatascience.com/176
+
+2
+
+memories of our experiences, part of the motor cortex, emotions, smells,
+and other parts of the brain are all of a sudden activated.
+And a great example of that is if you tell somebody 10 random facts, or let's
+say you name for somebody 10 of the tallest buildings in the world, and you
+tell them how high they are and which order they go. And you just tell them
+those facts and then you ask them to reproduce those facts like three
+minutes later. They will probably get like three or four of those right out of
+10. On the other hand, if you give somebody those 10 facts, but you
+support it with a story, with some charts and graphs, with some visual
+representations, some, like make them imagine something happening,
+something going on. And then you ask them to reproduce those same facts
+in three minutes, you're gonna get much more right. They might not get 10
+out of 10, but they might get like seven or eight right, because all of a
+sudden they had a story behind why this building is taller than that
+building, or you know, who constructed them. Or it could even be an
+imaginary story of somebody running across these buildings and jumping
+from one to the other, and which order they go and so on.
+So in that sense, all of a sudden, a story helps people remember things,
+helps people comprehend things better. And that's exactly how memory
+masters are able to remember lots and lots of facts. For instance, a couple
+of episodes ago on the show, we had Anthony Metivier, who actually trains
+people how to use their memory better, and he shared some tips on the
+podcast. And that is what exactly he does. He goes through stories.
+And so now we're bringing all of that back to data science. How is that
+related? Well, in data science, all of the time, we don't just search for facts
+and give insights, right? We don't just create insights. We have to convey
+those insights. We have to explain them to people who are less technical
+than us, or just business decision makers or managers or colleagues. We
+have to explain those insights. And the first impulse that we always have,
+or usually people have is just to present the facts, just supply the facts. But
+Show Notes: http://www.superdatascience.com/176
+
+3
+
+what if you take those facts and you put them into a story. Not an
+imaginary story, but a story of what's, what the facts mean for the
+company, how, what the facts mean for the customers, what journey you
+personally went through when you were discovering and uncovering those
+facts. And you help people comprehend those facts through all those
+different areas of the brain. So not just the Wernicke's area that is
+responsible for language comprehension just 'cause you're supplying facts.
+But you get them to feel, to see, to taste, to smell all these different things.
+You know, you don't have to engage all the parts of the brain with your
+story. But the more you engage, the more, the easier it's gonna be for
+people to comprehend what you're conveying, and understand it, and retain
+that information.
+So that's the power of storytelling in data science from a scientific point of
+view. And I challenge you to try it out sometime this weekend. It doesn't
+have to be in data science. It can be in anything. Whenever you're trying to
+convey some fact to somebody, stop yourself and try it through a story. And
+even if you don't have the situation where you need to convey facts, try it
+out, just for practice. Get your friend or relative and sit them down, and
+play this game, where you can just come up with some random facts. Look
+up the top 10 tallest buildings in the world or something like that, and
+explain it to them, but not just through facts but through a story. And
+practice that. And then next week, see how you can do that at work.
+So that was storytelling in data science. Very powerful. One of the core
+components of storytelling in data science is visualization, is creating
+images. And on that note, what I wanted to say is next week, look out for
+something special. We are relaunching. Right now, we are in the process of
+reworking, remastering all of our Tableau courses. Tableau is a
+visualization tool. So next week, you will hear from us about the relaunch of
+these courses. And if you're interested in upgrading your visualization skills
+with the latest Tableau software, then look out for that. There'll be emails
+Show Notes: http://www.superdatascience.com/176
+
+4
+
+flying out and around next week all about Tableau 10. And that can help
+you in visualization, which is a component of storytelling.
+On that note, I hope you enjoyed today's podcast and I look forward to
+seeing you back here next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/176
+
+5
+
+

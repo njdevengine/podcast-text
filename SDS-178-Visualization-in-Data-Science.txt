@@ -1,0 +1,107 @@
+SDS PODCAST
+EPISODE 178
+FIVE MINUTE
+FRIDAY:
+VISUALIZATION IN
+DATA SCIENCE
+
+Show Notes: http://www.superdatascience.com/178
+
+1
+
+Hey, guys. Welcome to the Super Data Science Podcast. This is Five-Minute
+Friday, and today, we're talking about the importance of visualization in
+data science.
+Today, I'm at the Queensland University of Technology Library. Queensland
+University of Technology or QUT for short is a wonderful university in the
+city of Brisbane in the state of Queensland in Australia. Today, we're
+talking about visualization, so you probably have already noticed a couple
+of emails floating around and a few invitations for you to come and join us
+in the revamped Tableau 2018 course.
+In fact, we're launching two courses at the same time this week. We're
+launching the Tableau Basic 2018 Course and the Tableau 2018 Advanced
+Course at the same time, so we'd love to see you in there, and today's FiveMinute Friday is inspired by those courses to talk about the topic of
+visualization.
+Last week, during the Five-Minute Friday, we spoke about the importance
+of storytelling in data science. Well, visualization is something that can help
+with storytelling. In fact, visualization has two components. This is my
+personal view. Visualization in data science can be used for two distinct
+purposes, and we're going to actually start off a different purpose, not the
+one that's related to storytelling, but like ... It is in a way, but it isn't.
+The first purpose of visualization that I define for myself is visualization for
+data mining. When you have a lot of data, when you have tons, and tons of
+rows and columns, and data points in your dataset, it can be very difficult
+through them, very difficult to understand what's going on and make sense
+of it even for yourself, even to understand where to start building your
+model to explore the data to perform that crucial step of data mining when
+you're looking for clues, when you're looking for answer.
+We're not even ready yet to build a model because you want to understand,
+what are the important features? What are the not important features?
+Show Notes: http://www.superdatascience.com/178
+
+2
+
+What anomalies exist in your dataset? What does your dataset look like,
+and what does it feel like? If we were machines, we would just like look
+through all that data, all those tables and spreadsheets, whatever other
+data we have, and we would understand right away what's going on. We'd
+be able to, from there, start our analytics, but we are not.
+For us as humans, it's really hard to look at a spreadsheet of a billion roles
+and try to get something from it. What we can do on the other hand is we
+can look at visuals, and that's where visualization comes in in this first
+purpose where it allows you and helps you to see your data, to get a feel for
+your data, to transform your data from just numbers into something that
+can actually ... that you can interact with, that you can understand as the
+explorer, as the investigator.
+That's why I really like visualization a lot. At the very start of my projects,
+before I even create any models, even before ... like even sometimes before I
+do the proper data progression when I can just like get the data, throw it
+into the visualization tool, solve this like a drag-and-drop fast tool. I already
+might be able to get some insight from it. It might even help me during the
+data progression phase to understand, "Okay. What are the anomalies? All
+right. What do the distributions look like and other things like that?" That's
+data visualization for data mining.
+On the other hand, we have visualization for presentation, and that ties in
+very well with what we talked about last time on the previous week's FiveMinute Friday where we're talking about the importance of storytelling. As
+you remember, when we just throw hard facts at people, only two areas of
+the brain are actually active. When we tell a story, we can engage way more
+areas of the brain, and that will help with compression of it and retention of
+information.
+That's why it's so important to be able to come up with not just the
+visualization that conveys the insights, but a visualization that actually tells
+a story, that engages your audience, that gets them intrigued, that gets
+Show Notes: http://www.superdatascience.com/178
+
+3
+
+them fascinated, that makes them say, "Wow," that makes them ask more
+questions and get the answers from that same visualization or the next
+visualization in your slide deck in your presentation.
+That is, my friends, the importance and value of visualization. In fact, we
+currently are in a state of data science where there's lots of companies
+demanding data scientists and there's lots of data scientists that are ready
+to provide these services. This field has been around for a couple of years
+now, and it's slowly starting to get to the phase where the demand is high
+and the supply is high, but what is actually the missing link are those data
+scientists that can not only get the insights, but actually convey the
+insights to the audience in a way that's going to be engaging, that's going to
+be fun, that's going to help them understand.
+Those are the top, top data scientists, and one of the most important skills
+that they have is visualizing the data or the insights that they have and
+presenting them to the audience, so that is the importance of visualization.
+It can help you in two phases. It can help you at the very start of your data
+science project, and it can help you at the very end of your data science
+project in order to make you one of the most successful data scientists.
+If you're excited about that and you've seen some of our Tableau invitations
+for Tableau 2018 courses that we're releasing this week, then jump on
+board. Tableau is an amazing tool, one of my favorite. In fact, my favorite
+tool for visualizing data. It's very drag-and-drop tool. Very easy to use, and
+we'd love to help you master that tool and become a master visualizer. On
+that note, thank you for being here today, and I can't wait to see you back
+here next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/178
+
+4
+
+

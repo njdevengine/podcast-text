@@ -1,0 +1,1422 @@
+	  
+
+SDS PODCAST
+EPISODE 17
+WITH
+COLIN SLOSS
+
+Show Notes: http://www.superdatascience.com/17
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 17, with Data Engineer Colin Sloss.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello and welcome to the SuperDataScience podcast. Today
+we’ve got a very interesting guest. Colin, who joined us
+today, is a database expert. Currently, he works at a
+company called Carrot Insights, a very interesting Canadianbased company who measure your steps as you do exercises
+or walk around the city and reward you for that. So
+definitely check out their app if you're interested in that you
+live somewhere in Canada. And what we'll be talking about
+today with Colin is the different ways that databases are
+used, the different ways that databases are structured, and
+just basically how databases work.
+Because as data scientists, we work with data all the time.
+That's basically what we do. But at the same time, we rarely
+stop to think about where that data is coming from, how it's
+stored, what processes govern that data, and how the
+databases are structured from which that data is coming
+from. So this episode serves as a window into the world of
+databases and it will help you better understand what's
+going on in the background.
+
+Show Notes: http://www.superdatascience.com/17
+
+2
+
+	  
+
+So for example, you'll learn about what a data pipeline is,
+you'll learn about partitioning, you'll learn about different
+processes, you'll learn how Python is used in databases,
+you'll learn about the different types of databases that exist.
+You'll even learn about the different roles of the people that
+govern these databases. For instance, you'll find out the
+difference between a database administrator, architect,
+engineer, and developer. And also database master, as Colin
+calls them. So there's a lot of different valuable insights just
+so that you can build a better picture of what databases are.
+And also, Colin will share his own journey. So you'll see how
+Colin's career actually started in programming, and as he
+got to learn more about databases, he got so fascinated with
+them that he decided to steer his career into the realm of
+databases. And you'll see how he went about that and how
+he slowly shifted into the world of databases and exactly
+why he did that.
+So I can't wait for you to check out this episode. Let's get
+started. And without further ado, I bring to you Colin Sloss,
+the data engineer.
+(background music plays)
+Hello everybody, welcome to this episode of the
+SuperDataScience podcast. Today I have Colin Sloss here
+with me. Hello Colin. We're on the call and you're in Toronto,
+is that right?
+Colin:
+
+That's right.
+
+Kirill:
+
+Awesome, how's the weather there in Toronto?
+
+Colin:
+
+It's good, it's just started snowing. And it's been a pretty
+warm fall, but now we're getting into winter season.
+
+Show Notes: http://www.superdatascience.com/17
+
+3
+
+	  
+
+Kirill:
+
+That is so, so cool. So I'm sitting in Brisbane, for those of
+you who don't know, in Australia, and it's just starting to
+heat up for summer. It's like 31 degrees outside. Barely
+standable out there. And I was in Montreal, in Canada, just
+earlier this year and it was also summer, and there they told
+me that you get like 4 months of summer, and then you get
+8 months of snow all over the place. Is that the same thing
+in Toronto?
+
+Colin:
+
+It's similar, but right now, every year is totally different.
+Sometimes we get like 6-7 months of crazy cold, and ice, and
+snow, and other winters it's just maybe one month. So last
+winter was pretty mild, and I think this one might be too.
+
+Kirill:
+
+Wow. Ok. Do you think that has something to do with the
+global warming?
+
+Colin:
+
+What's that?
+
+Kirill:
+
+You haven't heard of it in Canada?
+
+Colin:
+
+That hoax? I'm just kidding. Yeah, I don't know. I mean, it's
+hard to say. The whole weather system here is kind of weird.
+We have what's called the Great Lakes effect. So there's a
+whole weather system that lives over our Great Lakes that
+just seems to do what it wants. It's very temperamental.
+
+Kirill:
+
+That's very interesting.
+
+Colin:
+
+It's what leads to us having very snowy and cold winters
+where not necessarily everyone on the same latitude, or
+longitude, whichever it is, would have.
+
+Kirill:
+
+Oh, that's very cool. I didn't think of it that way. I would love
+to talk more about the weather effects and the climate
+change. I think we could have a great discussion about that,
+but I don't think our listeners would appreciate it. So I'll
+
+Show Notes: http://www.superdatascience.com/17
+
+4
+
+	  
+
+move on to who Colin is. So Colin is a data engineer. And
+he's got so much experience with databases. So today we're
+going to be drilling into databases and how they're used for
+data science. It's going to be fun. And before we start, I just
+wanted to mention how cool it was how we met. So Colin,
+you sent me a message on LinkedIn, right? A couple of
+weeks ago.
+Colin:
+
+Yeah, that's right.
+
+Kirill:
+
+What was it about?
+
+Colin:
+
+It was about your Machine Learning A-Z course on Udemy. I
+enrolled in it and started taking it, and found it really
+amazing, really has helped me answer a lot of my
+outstanding questions as to why data scientists are doing
+certain things certain ways. I mean, I'm still a novice, still
+learning, and I've been learning some books. But I find that
+the books tend to tell you how to do something, but they
+don't really explain why. And I really wanted to reach out to
+you guys and tell you what a great job you did at answering
+those kind of questions for me as you guided us through
+some great examples on how to create algorithms in
+machine learning code.
+
+Kirill:
+
+Thank you. Thank you so much, Colin. It means a lot. And I
+was actually referring to how it was so cool reading your
+message. You mentioned you had taken the machine
+learning course, and then you said that you demonstrated
+the KNN visualisation of your step tracking data, and your
+PhD candidate who's running the program came up to you
+and asked how the hell you learned to do that. That was so
+cool.
+
+Show Notes: http://www.superdatascience.com/17
+
+5
+
+	  
+
+Colin:
+
+Yeah, that's right. No, it was a great feeling. Right away I'm
+already getting people kind of like bewildered. And I just
+pulled up Spyder 3 and just showed them the code and
+started running some different sample data sets and
+visualising the data. You know, they were sceptical about if
+we’re going to use it because my example wasn’t really good,
+it was just one that I had a simple dataset for. It was like
+people’s steps baselined to their age. It was pretty much
+taking new template and putting my data in and showing
+some different cool ways to figure out the outliers. Yeah,
+people were kind of—I don’t think they knew that I knew
+anything about data science yet, you know? I’m the data
+engineer there, so they were kind of like, “This kid can do
+data science now all of a sudden. That’s different.”
+
+Kirill:
+
+That is so cool. It’s always amazing to hear these stories of—
+you know, you learn the knowledge from the course and you
+don’t only just keep it to yourself, but you apply it in
+practice and you start impressing people, impacting lives,
+changing the way business is run. It’s always great to hear.
+So thank you so much for sharing that story. That’s
+fantastic.
+So when I saw that, and I looked through your portfolio, I
+was like, “I’ve got to get Colin on the podcast.” We haven’t
+had anybody speak about databases in depth yet, so it will
+be great to listen to this podcast for our listeners. And for
+those listening to us, I just want to outline that we have a
+challenge ahead of us with Colin today to present databases
+to you in the light that you want to hear, because there are
+so many ways that databases can be used. There are
+databases that are used just in organizations to keep them
+running because, you know, databases are all over the
+
+Show Notes: http://www.superdatascience.com/17
+
+6
+
+	  
+
+place, we all use IT, all organizations need databases. There
+are databases that are used to create applications and
+maintain these customer records, and so on. There are
+databases that are created for analytics purposes, and those
+are probably that we’re most interested in. There’s also the
+side of databases on how to query them – not on how to
+create them, but how to query them, how to interact with
+them and things like that. That’s something we’re also
+interested in, so throughout this podcast you’ll probably
+hear us venture into either of those sides. So take as much
+as you can from the things that we’re discussing. And you’ll
+probably here a bit more that is not directly related to your
+role, but at the same time it will be handy. To start us off,
+Colin, where did you start? What is your background in
+terms of education? What did you study back in school?
+Colin:
+
+I studied computer programming at Humber College. I was
+already taking some programming courses in grade school,
+and starting to do my own programming, and build websites
+and things and I was really fascinated by it, so I went to
+college for it. Other than certifications, that’s the only real
+studying, post-secondary, that I’ve done.
+
+Kirill:
+
+Okay. And what kind of programming language did you
+focus on in your college education?
+
+Colin:
+
+There wasn’t really one focus. I mean, they really tried to
+give you a handful of different types of programming
+language syntax to hit the job market with, so there’s a lot of
+courses on Java, and there’s all sorts of other stuff – SQL,
+Cobalt, some new and old languages. Yeah, I think their aim
+was to have a hands-on approach. You can go through
+university and decide to do everything in C++ at a lot of
+universities, and just whatever you write your code in. It’s a
+
+Show Notes: http://www.superdatascience.com/17
+
+7
+
+	  
+
+lot about doing essays about code as much as it is about
+doing code. Whereas at this college, it was very much like
+they just wanted to give you hands-on experience so that
+you're coming into the job market ready to code with the
+knowledge of a few languages under your belt.
+Kirill:
+
+Yeah, that’s a very valid approach, because you don’t know
+what you’ll need in the future. I’ve got an interesting
+question. A lot of the time, people take some education in
+college and then they find that by the time they’re out in the
+market, especially like 5 years down the track, it’s all
+become obsolete, the world’s moved on, and you’ve got to
+relearn these things if you haven’t been keeping up to date.
+Do you find the same with programming? Do you find that
+those languages that you learned have changed so much
+that a lot of the knowledge you’ve learned in programming is
+no longer useful and you have to relearn things?
+
+Colin:
+
+I don’t know. I mean, there are still object-oriented
+programming languages in use all over the world, but we see
+new styles and new frameworks popping up all the time. I
+mean, almost all the startups that I’ve been with in the last
+few years are now onto MVC style programming.
+
+Kirill:
+
+What’s that?
+
+Colin:
+
+Model View Controller basically, or a variable of it. Like, with
+Python – I think some people call it MVT because it’s not
+quite MVC. I don’t even remember what that stands for. You
+know, it’s hard to say that things change that much, but I
+think it’s good when they change, because no one has made
+this perfect all-around, all-encompassing framework for
+everyone to use yet. Everyone has its own perks and its own
+disadvantages. Now we’re getting into everyone saying
+
+Show Notes: http://www.superdatascience.com/17
+
+8
+
+	  
+
+microservices until—let’s sing it from the rooftops right now,
+and then as long as they don’t have to administrate it,
+because 100 microservices can be a lot harder than
+administrating one stack, but one stack can also be hard to
+keep adding to until it’s a behemoth. It’s such an interesting
+world that there is all these different styles of programming
+popping up as fast as the blogs can talk about them.
+Kirill:
+
+Yeah, true. And I completely agree that new styles are
+coming up, and it’s a good thing, you know, we can see the
+world evolving. But at the same time, I can also resonate
+that sentiment that programming is one of those things that
+is more or less kind of like a constant, that once you learn it,
+the world doesn’t move that fast like in other professions
+where you can’t keep up. Your skills are not going to be
+100% relevant all the time but they won’t drop below 80%
+within 20 or 30 years. Still, everything you learn is very, very
+adaptable and very easily refreshable to get to the peak or to
+the forefront of what’s being used in the industry. So
+programming is always a good skill to learn. If any of our
+listeners are still selecting what to pick for university, if
+you’re interested in programming, I think it’s a good idea to
+get into it. Okay, you started with programming. And how
+did you get into databases? Because that’s a bit of a different
+field from programming.
+
+Colin:
+
+Yeah, well a lot of the first companies I worked at, we were
+building database-driven web applications and internal
+applications, and I was just really fascinated with how
+things were working from databases, and then we could also
+go in and make reports and see how people are using the
+site just through this magical data store that just has all
+this information. I was constantly challenging myself to code
+
+Show Notes: http://www.superdatascience.com/17
+
+9
+
+	  
+
+better in that later and learn more about it, and I just sort of
+started to see that there’s tons of jobs that are just
+specializing in database. So I became a lot more interested in
+what goes on in the database, and less about front end
+programming, like “I’m going to write these seven lines of
+JavaScript for every popular browser out there right now.” I
+was really not interested in that side of programming.
+Making things work in browsers and making them do fancy
+visual tricks was definitely not something I like to spend
+time on. Crunching huge amounts of data and coming up
+with facts that the company actually wants to know I found
+to be a lot more rewarding.
+Kirill:
+
+Okay, fantastic. So what was your first job related to
+databases?
+
+Colin:
+
+My first job title with “database” in it was “Database
+Developer”. That was at Skype. They were building a
+database development team. I was basically the fourth
+person other than the team lead and two or three other
+programmers that came over from the application team, and
+we just started building the team. The whole drive behind
+that was that they were going to employ something called
+horizontal partitioning, which is basically like table
+partitioning, but rather than partitioning the table in the
+database, you’re actually partitioning it across many
+different servers. So one chunk of each of the tables is going
+to be in one node of the database, which is a commodity
+server. The problem they were having is everything was
+getting into these huge databases with huge amounts of
+hardware being thrown at them.
+Once they were supporting millions of people, they were not
+seeing that they would be able to keep doing their online
+
+Show Notes: http://www.superdatascience.com/17
+
+10
+
+	  
+
+transaction database this way. So they designed horizontal
+partitioning. I’m not sure if they quite designed it, but they
+kind of worked with Postgres on it. Part of doing that is that
+you’re better off writing all of your important data handling
+code into database. So we started writing database functions
+and database schema that could be deployed over these
+partitions and all sorts of other Python-based jobs to help
+move data between different sources and keep things
+updated and relevant. And that was the job. I mean, it was a
+great opportunity to see the way that we were using
+Postgres. Skype also developed SkyTools, which had some
+first attempts at tools like replication and things like that,
+and bouncing connections and all sorts of other little
+libraries that they were building. People were actually using
+it in the industry a lot, so it was really cool to be a part of a
+company that wasn’t just using – they were actually making
+things that the community were adopting.
+Kirill:
+
+Yeah, I can totally see how that’s a very lucrative part of the
+job. Because I’ve heard that, for instance, in Google and in
+other huge companies, oftentimes code is developed and
+ideas are developed, but then they never see the light of day.
+Like, 80% of the projects that are developed in some of these
+companies, they never go out into the world because they
+end up being these pilot projects that never get a good
+uptake, and a lot of time people sit there their whole careers
+creating code for things that never goes out there and
+becomes used, and it must be not fulfilling to be doing that.
+And you mentioned quite a lot of things, so I just wanted to
+take a pause here and ask you a few questions. Partitioning,
+what is partitioning?
+
+Show Notes: http://www.superdatascience.com/17
+
+11
+
+	  
+
+Colin:
+
+Table partitioning would be basically, rather than having one
+table, you make as many different copies of the same table
+as you want and you distribute the data over them. So this
+is advantageous if you have a table that has a lot of data and
+you know that some queries will come in that will probably
+only actually need a certain chunk of the data, whether you
+are partitioning it by time-based, or just by groups of IDs, or
+geography-based – maybe you have one table for your Asian
+customers, and another table for your American customers.
+You know, there’s any kind of way that you want to partition
+it you think would be advantageous.
+
+Kirill:
+
+Okay, gotcha. So to kind of make a few tables that are
+smaller in size and easier to query.
+
+Colin:
+
+Yeah. This way, rather than having one big table with three
+big indexes, you could have 16 small tables with a hundred
+smaller indexes or whatever. I’m not going to do quick math
+for you. I don’t want to impress anyone too much.
+
+Kirill:
+
+Gotcha. And you mentioned also Python-based jobs. What
+are the jobs and what does that mean?
+
+Colin:
+
+Yeah, I guess I meant more like different queues. So
+basically we would have some data that needs to go from one
+database to another. We would build a queue table and it
+would have a row in it with a message. I think in this case
+we would just pretty much put the SQL statement into a text
+field that needed to be executed on the destination. You
+basically have just configurations of these different queue
+consumers and publications that needed to be moved
+around and you’d have things written in Python that went in
+and moved them. We did a lot of scripting in Python. We
+built stuff that handled our code releases and our
+
+Show Notes: http://www.superdatascience.com/17
+
+12
+
+	  
+
+deployments and stuff as well. We were very happy with
+Python.
+Kirill:
+
+Yeah, gotcha. And we discussed before the podcast that
+you’re taking the machine learning course in Python as well
+because obviously you have so much more experience. So
+after Skype, you moved on and you’ve done a couple of roles.
+We’re not going to go into detail on all of them but I really
+want to read them out because it’s such a portfolio of
+companies. You’ve worked at eWinery Solutions, you’ve
+worked at SendMe Inc., you worked as a Database
+Consultant, you worked at Odobo Limited, at Qoints, at
+Think Research, at 500px, and finally now you’re at
+CARROT Insights.
+Out of all those roles, what we talked about in your Skype
+role is more related to developing these databases,
+maintaining them and like creating this infrastructure. Out
+of those following roles, could you point out some of the
+examples where you could share with us how the databases
+that you created or you maintained, or maybe even through
+your assistance, how these databases were actually used for
+analytics and data science?
+
+Colin:
+
+Sure. I mean, a lot of these roles – well all of the roles – are
+really with startups, so even if I was coming in as a database
+administrator, it would end up being a lot more of an
+architect and building those data pipelines. The most
+relevant example I have is where I’m working right now. I
+built a data pipeline for analytics that was basically—I guess
+you can call it centralized logging or log streaming, it goes by
+more than one name. But basically it’s taking all of the
+access logs from the nodes of the application. Like, it’s
+written in nodes, so basically it’s running on 5 or 7 different
+
+Show Notes: http://www.superdatascience.com/17
+
+13
+
+	  
+
+servers at any time. So grabbing the log file of each of those
+servers and bringing them into one database and one table
+and using that information to show active users.
+So rather than the database table that’s for the application,
+it doesn’t necessarily get updated every time someone logs in
+or does a certain action or hits a certain endpoint. What’s
+great about centralized logging is you have a real-time
+analytical view of exactly how people are using your app and
+you can do it for performance of your new version. You can
+see if you’re getting more 401 errors on certain endpoints, or
+if people are hitting one endpoint more than you thought
+they would have, or more than they ever used to, you can
+raise any kind of red flags and discover if something is not
+operating properly in your application. Or just if maybe
+someone did an email push with an incorrect link or
+anything like that can be easily diagnosed when you have a
+real-time view of your logs. It can save companies big time,
+especially when there’s scammers out there and there’s all
+sorts of fraud and stuff that you can detect just by seeing a
+burst in activity.
+Kirill:
+
+That’s interesting. So you created a pipeline to bring these
+logs to sight so people can analyse them. Did you do any
+analytics around those logs? Were there any visualizations
+created, or how did people go about analysing logs? Because
+as I imagine, it’s just rows and rows of information.
+
+Colin:
+
+Yes, absolutely. Okay. Actually, I don’t mind giving a bit of a
+breakdown of all the technologies and then I’ll tell you the
+analysis part.
+
+Kirill:
+
+Yeah, sounds good.
+
+Show Notes: http://www.superdatascience.com/17
+
+14
+
+	  
+
+Colin:
+
+So basically, the logs on each of the servers can be handled
+with—so I’ll run on Amazon AWS, Amazon Web Services,
+and there’s a service called CloudWatch, so you have a
+CloudWatch agent that you install whenever one of these
+boxes is built and it watches the log and it ships it into
+Amazon. From there, I built a Lambda function that
+basically grabs that data any time there’s information and
+executes a Python function, of course a Python function, and
+puts it into the table that it’s supposed to go into.
+From there, I set up another server with a program called
+Redash, which is a very simple kind of query visualization
+tool. From there, I build all sorts of graphs and counters for
+monthly active users, daily active users, like analysis from
+last active users over the last half hour compared to the half
+hour before, and anything that the business side thinks of.
+You know, we have a step-tracking app, so what cities are
+people stepping in the most right now, all sorts of geographic
+step information, and anything like that. Anything that we
+think of, we start playing in Redash until we have a
+visualization, whether it’s just a vanity metric or whether it’s
+something that’s actually important for our board members
+and for proving our KPIs and monitoring them as we grow.
+
+Kirill:
+
+Okay. That’s very interesting. So you’ve got quite a few
+elements to creating these reports and visualizations. And
+just for the benefit of our listeners, because we talked about
+this before the podcast, but we haven’t touched on it during
+the podcast yet, you’re currently working for CARROT
+Insights and you mentioned steps. So what does CARROT
+Insights do, and what are these steps that we’re talking
+about?
+
+Show Notes: http://www.superdatascience.com/17
+
+15
+
+	  
+
+Colin:
+
+At CARROT—we are basically an application, so it runs on
+Android or Apple, and we give out surveys that have to do
+with health and wellness and diseases and all sorts of public
+health information. We engage users through that and we
+also have a step-tracking app, which you activate with your
+phone or with your Fitbit. We record your activity and we
+start to reward you for hitting your daily goals. So we’ll take
+a benchmark of your first two weeks of activity and we’ll say,
+“Okay, it looks like you get around 4,000 steps a day or
+8,000 steps a day. There’s your baseline. Hit that in the first
+week and we will give you goals. And then the next week
+we’ll challenge you to do a few hundred more steps a week,
+and we’ll give you more incentive to take on even more
+challenges over two-week periods and get more rewards.” So
+the way that rewards work is it’s linked in with your
+Aeroplan air miles or More Rewards card, a SCENE card or
+Petro-Points. I know that these programs might not mean
+much to you over in Australia, but in Canada these are
+pretty big rewards providers. So people aren’t just doing it
+for their good health – they’re also getting money out of it.
+
+Kirill:
+
+That’s really cool. That’s awesome. So is this just Canada, is
+it just a local app, or can anybody in the world download it?
+
+Colin:
+
+Right now it’s only local, and it’s actually only in two
+provinces that we’ve launched. Most of our campaigns and
+stuff are really big in B.C. right now, but we’ve also launched
+in Newfoundland. We have a lot of programs going on there
+and we are looking to launch in Ontario soon, which is going
+to be huge for us because it will really expand our user base
+and I’m sure that our backend is going to be put through the
+best testing possible once we have all these hundreds of
+thousands of users signed up. We’ve been doing our best to
+
+Show Notes: http://www.superdatascience.com/17
+
+16
+
+	  
+
+optimize things as fast as we can to make sure that we’re
+going to be able to handle this many users. It’s pretty
+exciting.
+Kirill:
+
+That’s awesome. So there you go, guys. If you live in British
+Columbia in Canada, or Newfoundland, or if you’re in
+Ontario, where this app is coming soon, then look out for it.
+It’s called CARROT Insights. Make sure you download it and
+try to crash Colin’s servers.
+All right, so that’s very interesting. What you mentioned
+before now makes more sense to our listeners, the whole
+situation where you take the data from your AWS, you go
+through the Python function and then you put it on the
+server via Redash and you do some analytics there. That
+makes sense to why it’s important for this company to
+analyse how many people are using the app, if there’s like
+drop-offs in the logs or spikes if somebody is trying to scam
+the app. Also, taking care of the steps, understanding how
+many steps people are taking, and doing all sorts of
+analytics around that. It makes total sense why that’s
+important.
+Like you said, there is a PhD on your team, and there’s some
+other people also doing analytics. How do you interact as a
+database administrator, or the data engineer for CARROT
+Insights, how do you interact with the other people that are
+also doing analytics in your company?
+
+Colin:
+
+It’s actually really interesting here because we have already
+been exposed to a few different big brains, big scientist
+brains at this small little startup, which is great. The
+gentleman I was referring to, he is a PhD candidate, so he is
+doing his PhD, and a lot of the work that we’re doing with
+
+Show Notes: http://www.superdatascience.com/17
+
+17
+
+	  
+
+the step-tracking is contributing information to a paper that
+he’s currently working on.
+And another person in the office is also working with him.
+She’s more of a full-time employee, and she’s also helping
+gather all the analysis. So we kind of get together and say,
+“Okay, what do we need for this analysis?” and we come up
+with a data mining exercise where we end up with a huge
+spreadsheet of hundreds and thousands of users’ data
+broken down by day and showing which steps they got each
+day, if they’ve hit their daily goals or not, and giving them a
+good data source that actually they can go and prove the
+success or lack thereof of the program and show results for
+their papers and their research.
+And there’s a lot of other companies that are already
+interested in our data, like StatsCan, which is a big
+Canadian statistics company that does lots of public health
+statistics and we’ll be organizing a data pull for them soon.
+And other partners, they really can’t believe some of the data
+that we’re putting together already because a lot of public
+health surveys take 5-7 years of gathering data and going
+out into the public and questioning people in shopping malls
+and stuff. We’re getting this automatically, just status quo. I
+look up at Redash and I see there is 1,800 people online,
+maybe 3,300 people at once. And it’s really remarkable, the
+product that we have. We rarely have issues right now, so –
+knock on wood – it’s really cool that that many users can be
+supported via mobile app and you are just gathering this
+great data that we can get a lot of ideas and a lot of ways to
+help people from.
+Kirill:
+
+That’s really cool. I can imagine how that would feel, that
+you guys are doing something so important and so huge,
+
+Show Notes: http://www.superdatascience.com/17
+
+18
+
+	  
+
+and also at the same time so quickly [inaudible]. Also, it was
+very interesting listening to you talk about the people that
+you work with because for me, and I’m sure for a lot of our
+listeners, it’s kind of like a reverse situation. Usually, I am
+the person talking to the database administrators, to the
+database engineers and architects, and asking for certain
+things, asking for certain data, whereas here we’re now
+seeing your side of the story and that’s a great insight. While
+we’re on that topic, I’ve always found this fascinating and I
+don’t know to a complete extent the difference between
+these. What is the difference between a database
+administrator, a database architect and a database
+engineer?
+Colin:
+
+Uh… salary? (laughs) I mean, it’s funny because earlier in
+my career, other than database developer, database
+administrator just kind of seemed like the only title out
+there. I hired one gentleman once, and I loved his answer.
+Because I was like, “We’re hiring you as database
+administrator, but obviously it’s a start-up. We’re doing
+everything. We’re doing engineering. We’re architecting.
+We’re not always just going to be optimizing configuration
+and backups. There’s going to be a lot of intense
+programming and stuff like that.” So I asked him “I think
+that the job titles in databases need an upgrade. What do
+you think you’d like to be called if you had a choice?” and he
+said “Database master.” I was like “Yeah, that is a more
+encompassing term for what you’re doing here. Because
+we’re going to be the architects and the engineers and the
+administrator. We’re not going to just do what’s in our job
+description because start-ups are not like that.” It’s good to
+have a process, and good to have people that have
+ownership of certain things, but when doing something that
+
+Show Notes: http://www.superdatascience.com/17
+
+19
+
+	  
+
+week can be the difference of the company succeeding or
+not, you just roll up your sleeves and do it.
+So when you consider a database architect, I imagine
+someone who is concerned with building every detail of
+anything that handles data. So that’s not just the database,
+it’s anything that is moving data, any queue system, any
+ETL system. They are done to every column name and data
+type. They are interested in documenting and designing that
+to whatever level of detail that’s appropriate for the project.
+Database administrator would be more someone that’s
+concerned with the online access to the database, and
+backups, recovery, disaster recovery, testing your backups,
+making sure the jobs – again, I’m using the word
+“jobs” – so if you have hunks of code that are running every
+night that maybe calculate some transactions for finances,
+or do some bug fixing on data that for some reason no one
+ever fixed properly or something like that, that's what I mean
+by jobs. So a lot of the administrators will automate a lot of
+their work so that they don’t have to do everything every day
+because it would be annoying to come and do the same
+thing all morning every day, right? That’s a big part of that
+job. Just setting things up, automating them and then
+monitoring them are big parts of that job.
+And as far as database developer, that’s a lot more
+programming: making SQL functions, iterative loops and
+stored procedures and functions that handle the data,
+arrange things, aggregate things for data analysis – anything
+like that, I would consider a database developer. And they
+can usually also dig into code and figure out how things
+work. They know enough programming languages that
+they’re not even adverse to writing maybe some Python or
+Show Notes: http://www.superdatascience.com/17
+
+20
+
+	  
+
+some Ruby or something that they can put into the
+application and get things working the right way.
+Kirill:
+
+Gotcha. And engineer?
+
+Colin:
+
+So engineer is kind of like an architect in a lot of ways. I
+mean, every company would have a different thing between
+administrator and engineer. It’s kind of difficult to say, but I
+guess with engineer, it’s more about leveraging the
+technology and the database to create things, whether
+they’re programming or just functions in the database that
+you can use to get data in the right place, like thinking of
+foreign data wrappers, or any other kind of data access that
+would be needed in the database. I’m sure things like that
+could be what a database engineer does. And a lot of
+analysis. I mean, data engineers are usually kind of like the
+next step up from data analyst. Again, every company is
+different. There’s no real distinction here, depending on who
+you talk to, but I would say that an engineer would really
+want to help bring insights of how the company is doing to
+the business side, or to the rest of the IT team, or to
+whomever he works with.
+
+Kirill:
+
+Gotcha. So the data engineer, out of those four, is kind of
+the person that’s closest to data science, like on the verge
+between data science and databases. So you can either do
+some database work if you need to, or you can get some
+insights and run some algorithms on those to derive some
+reports and some business intelligence from that, right?
+
+Colin:
+
+Yeah. Some people I worked with, they’ve described it as
+they’re the data scientists, and they’ve got 10 data engineers
+working. So any time they say “I want this column there,” or
+“I want to see the analysis like this,” or “Build me this set of
+
+Show Notes: http://www.superdatascience.com/17
+
+21
+
+	  
+
+tables,” then they just go off and hack at it until it’s done. I
+think all the job titles there are fairly interchangeable,
+depending on the company.
+Kirill:
+
+Yeah, totally. I understand. But it’s still very helpful to get
+this overview of the different roles. So the titles might be
+different and different companies might change around, but
+there’s at least four distinct roles that we just discussed:
+administrator, architect, engineer and developer. From what
+you explained I really got a good understanding of how the
+roles differ and why they differ. So if I ever need to revise
+that, because I’m probably not going to remember, I’ll just
+come back to this podcast and listen to this part and I’ll be
+like, “Okay, cool. I remember now. That’s the different roles
+and that’s the person I need to talk to now.” So that’s very
+helpful.
+And another thing I wanted to ask you is about the tools.
+You mentioned lots and lots of different programming
+languages that you’ve studied and learned. In terms of
+databases, there’s kind of four main ones that we know
+about and that our listeners have probably encountered at
+least one of them in their experience with data science. I
+wanted to get your thoughts on all four. To start off, we’ve
+got Microsoft SQL Server, then we’ve got Oracle SQL, then
+we’ve got MySQL, and we’ve also got PostgreSQL. So there
+are the four. What are your thoughts on them in terms of,
+let’s say, popularity, in terms of which is the best one, and
+in terms of the future of these languages?
+
+Colin:
+
+Okay. Yeah, these are obviously the leaders of database
+technologies, and they’re all kind of in their own category
+almost. I mean, Postgres and MySQL are very similar, but
+they are more on the open source, community distilled,
+
+Show Notes: http://www.superdatascience.com/17
+
+22
+
+	  
+
+although MySQL is not truly open source any more, some
+would argue, since they’ve become owned. But with Oracle,
+you’ve got more of your enterprise. I consider them top level.
+You know, big companies are going to pay big bucks for
+Oracle because they basically invented databases. They’re
+the one that’s been around and they started doing this a
+long time ago and making the first things that has become
+what we know as relational databases today.
+Their pricing is going to be on the higher side, so with
+MySQL and Postgres you’ve got the advantage that it’s as
+free as you want it to be. You can go and install it and get a
+database up and running in minutes and never pay a dollar
+for it, whereas with Oracle you’re going to be paying a lot,
+and with Microsoft SQL Server, it’s more medium to large
+businesses as far as what it supports and who it aims to
+charge. Now, all of them can handle different types of
+databases whether it’s OLTP or large distributed data
+warehouses. They’ve all been applied by different companies
+for different reasons.
+As far as which one is the best, it depends a lot on what
+your requirements are, what the company requires, what
+kind of support they require. Postgres and MySQL don’t offer
+you any kind of support as products. Maybe that’s changed
+with MySQL, actually, but you can still find other companies
+that support Postgres or in the case of EnterpriseDB, they
+kind of support their own version of Postgres. They have
+access to make their own releases and their own tools. But
+then you’ve got other teams like Second Quadrant, that will
+support whatever you want to do in Postgres. I really like
+them. I’ve met the guy who made that company and he’s a
+fascinating guy. If I were to pick one between the two for
+Show Notes: http://www.superdatascience.com/17
+
+23
+
+	  
+
+Postgres, that’s who I would pick. Obviously, with different
+support tiers on SQL Server and Oracle, you can pay them
+to do as much or as little as you want. But more
+importantly, you can have a telephone number to pick up
+and call, and tell people what’s going on, and come to a
+solution very quickly. They’ll set up SLAs with you and you
+can get high-level support from them.
+Kirill:
+
+Okay, gotcha. So that was very helpful and definitely a good
+overview of the main differences between them. And before
+we had our chat, I always thought that MySQL was used
+mostly for online websites and online solutions. Is that the
+case? Or is MySQL also used as a database structure inside
+companies for on-going operations?
+
+Colin:
+
+I haven’t actually seen it used much for database
+warehouses. Usually I would tend to agree that the most
+times I see it is backing up a web application or some other
+kind of OLTP database, like Online Transaction Processing.
+As far as OLAP, which is Online Analytical Processing, you
+don’t tend to see them chosen. You know, it could be the
+fact that it doesn’t necessarily have a lot of BI functions
+built-in, which I’m sure is changing because they all tend to
+compete with each other and keep up with each other. But I
+don’t think that it’s restrictive. I think that you can definitely
+use it for anything you can use Postgres for.
+My first question would be “Why would you?” I just tend to
+like Postgres a lot more. MySQL is definitely a great quick
+database setup, and that’s why start-ups loved it, because
+they could start up their own product the same day they
+thought about it. But Postgres is just as accessible now, and
+is, in my opinion, far more sophisticated in what it offers
+and what it can do and the people that contribute to it. I
+
+Show Notes: http://www.superdatascience.com/17
+
+24
+
+	  
+
+guess that’s my answer to that question. I’m not sure if I
+answered it very well.
+Kirill:
+
+No, that’s a great answer. So we’ve kind of got two sides of
+the coin or a dilemma here for somebody who’s new to
+databases and who wants to get into this space of learning
+these languages. We’ve got SQL Server and Oracle, which
+are used for mostly large organizations. And I’ll agree with
+you on that. I’ve been in some large organizations and it’s
+one or the other, and most of the time I’ve had to deal with
+SQL Server. Large organizations do tend to gravitate to these
+two just because it’s like a legacy thing and PostgreSQL is
+only picking up now. And also, SQL Server and Oracle, they
+have their support as you said, so there’s always somebody
+to blame or somebody to sue if something goes wrong. But at
+the same time, we’ve got PostgreSQL, who is kind of like the
+black horse, who is slowly gaining momentum, who is
+becoming more and more popular, especially in the start-up
+space. Based on that situation, what would you say is the
+best bet for somebody who wants to get into this space of
+SQL programming? Would they go for PostgreSQL and learn
+that? Would they start by learning SQL Server or Oracle?
+What’s your recommendation?
+
+Colin:
+
+Well, I think that it depends a lot on what you want to do.
+Obviously, not everyone will have a full, all-encompassing,
+kind of “This is exactly what my future in big databases will
+be.” But for example, if you’re working in a bank, and you
+want to get into that side more, and you know that you’ll
+always be working in a bank, then it might be better to look
+at Oracle or SQL Server because it’s way more likely that
+most operations would be on those databases. Whereas if
+you’re more like looking into a side project, “I want to build a
+
+Show Notes: http://www.superdatascience.com/17
+
+25
+
+	  
+
+web application, something quick and simple,” then
+obviously Postgres and MySQL are a great place to start.
+Really, any of them are a great place to start because when
+it comes to SQL syntax and querying, it’s all very similar.
+There are distinct differences and reasons why each
+language chooses their own syntax, but the basics of this
+SQL structure can be pretty much almost line for line put
+into each database and still return something. Yeah, as far
+as querying and things like that, I would say it all depends
+on what you want to do with it. There’s no simple answer to
+that question. I can’t just say Postgres. Even though most of
+the times that’s what I’d say, I’m not going to say that.
+Kirill:
+
+Yeah, gotcha. You don’t want to give the wrong advice.
+That’s fair enough. Exactly. So everybody should consider
+their situation. If you don’t know what you’re going to be
+doing with SQL, and you don’t know what organization
+you’re going to be in, and it’s completely equivalent for you
+which one to start off, then maybe consider PostgreSQL. But
+otherwise definitely do some research and understand what
+you will need. And it’s very good to hear from somebody
+who’s worked in most of these languages for such a long
+time that the skills are transferrable, that the syntax isn’t
+that different, so wherever you start, you’ll be able to jump
+onto the other ship very, very easily. So that’s some very
+good insights.
+I also appreciate a lot that you described the OLTP versus
+OLAP. That’s some cool abbreviations that people should
+definitely know. I wanted to ask you a couple of questions
+about your personal experience in this space and in the
+space of analytics and data science. To start off, what would
+you say has been the biggest challenge for you that you’ve
+
+Show Notes: http://www.superdatascience.com/17
+
+26
+
+	  
+
+ever had in your role as a database administrator, engineer
+and through the analytics work you’ve done? What would
+you say is the biggest challenge that pops to mind when you
+think about it?
+Colin:
+
+That’s a great question. I suppose that, again, I can refer to
+my current role. I kind of came in the door and asked the
+person who hired me, “What are you looking to see from the
+data right now? What’s the first thing that people are
+screaming for?” And she told me “Monthly active users. We
+want to be able to see how we’re doing and be able to report
+that to the board, because it’s a big metric for start-ups and
+right now we don’t have a reliable source.” That’s what
+began my foray into building this data pipeline for
+centralized logging. It really was not anywhere close to as
+simple as I thought, as simple as the blogs made it seem to
+be. At first, I was messing around with it on a service called
+Kinesis as part of it, and I don’t know how much you worked
+in Amazon Web Services, but the documentation tends to
+not really give you a lot of guidance. It’s very simplistic, so
+you have to kind of learn by doing and just go in and start
+playing with things and it quickly turns into square peg,
+round hole. And then you have to go back and figure out
+why something doesn’t work.
+With Kinesis and Lambda, it was just weird things like —
+you know, one of them runs inside your private cloud and
+one of them doesn’t. So you need to have things able to
+access outside the cloud. And once you do that, you’ve got to
+build NATS and Internet gateways, and it just started to
+become a real can of worms.
+So I realized after looking at it, kind of stepping back and
+looking at my design again, that I could really just take the
+
+Show Notes: http://www.superdatascience.com/17
+
+27
+
+	  
+
+Kinesis step out. Even though all the examples on all the
+blogs were using Kinesis, I just kind of decided I’m just going
+to use the Lambda function. It’s going to access my node, or
+access CloudWatch, and then access my database. It doesn’t
+really need anything else right now, and that’s been working
+just fine. You know, any kind of project like that, you expect
+there to be a few bumps, but when it came down to it, I built
+that in three weeks and within my first month, they had
+monthly active users up on the television screen in the
+middle of the office. So it was a pretty good result.
+I was glad to have the challenge and to build something I
+hadn’t built before. I asked some of the other programmers
+that had already been working on the stack for a long time,
+and they knew what I was trying to do and why, but they
+were also just as confused. They were like, “I don’t know
+how to architect this kind of things in cloud.” So I really had
+no guidance from anyone that had already been working on
+it but that was fine with me. I’m pretty stubborn. If I say I’m
+going to do something, I like to just keep trying at it in
+different ways until it’s built.
+Kirill:
+
+Fantastic. I’ve just got to say “Wow!” As you were talking
+through that, and I think a lot of our listeners will find
+themselves in the same boat as me, so much of that stuff
+went right over my head. We just don’t have the time to go
+into detail into all of that, but it just gave me a new
+perspective about how complex the job of a data engineer or
+database architect and administrator can be. And all these
+pipelines and clouds and all these processes that you set up.
+Sometimes I feel that I’m very privileged to be able to be
+working with data and not have to know what’s going on in
+
+Show Notes: http://www.superdatascience.com/17
+
+28
+
+	  
+
+the background. So yeah, that was pretty cool. And I was
+going to ask you –
+Colin:
+
+I apologize. I know I tend to just use the vernacular I’m used
+to but yeah, absolutely, I could sit here and talk for an hour
+on just what I was talking about there, but it might be not
+so interesting. You know, we do these lunch-and-learns at
+the company, and one of the persons was presenting, and so
+I said “Yeah, I’ll get up at the end and do something,” and I
+got in front of the whiteboard and I just started drawing out
+our entire stack for people, like how the application in the
+mobile works a little bit because I don’t know much about
+mobile, and then all the way back to the data services that
+existed when I came in and the new ones that I’m building.
+So it ended up a full whiteboard with boxes and lines and all
+sorts of confusing acronyms and stuff. And I did this for the
+entire business, or most of the people that were there that
+day, so 90% of the business, and I was really amazed to see
+that they were really appreciative. Like you say, they didn’t
+realize how much is going into this and how many different
+layers and aspects there is to it until you just get up and
+painstakingly draw it out for them. But they were so
+fascinated. They were like, “We actually learned so much.” I
+felt like they might be offended because you’re showing them
+so much and just spitting jargon at them but no, they were
+so appreciative and they really like to see how things look
+under the hood, and how things operate, and know that next
+time they ask us something, they actually have a bit more
+insight into what they’re actually asking, so they don’t take
+it so hard when you say no. Or maybe.
+
+Kirill:
+
+Yeah, totally. This whole episode of the podcast has been a
+great glimpse into the world of databases and what’s going
+
+Show Notes: http://www.superdatascience.com/17
+
+29
+
+	  
+
+on in the back around there in these organizations and
+whenever we’re querying databases and getting information
+out of them. So it’s been a huge eye-opener and it’s been a
+pleasure just talking about them. Even sometimes I like a lot
+of things I don’t know in-depth and they’re new to me, but
+it’s good to know that they’re there. It’s good to see what’s
+going on. So, yeah, thank you so much for all the insights.
+It’s been wonderful.
+A quick question I have is: From where you’re standing,
+where do you think the field of data is going? Where do you
+think the world will be 5-10 years from now in terms of how
+data is used, how data is stored, how data is all over the
+place?
+Colin:
+
+Yeah, I mean, it’s funny because right now is a very trying
+time for data. Everyone’s been “Oh, big data, big data!” and
+now all you see is big data has failed the presidential
+election. All these headlines that are like “Is big data really
+worth anything now?” Everyone’s questioning it because so
+many things got things totally wrong in the election and, you
+know, that’s how it is with big data. Big data can do certain
+things amazing, and other things it’s going to guess as long
+as people are predictable. Or as long as certain things
+operate certain ways.
+You know, with machine learning models you’ve got to
+readdress your model all the time. Your product changes
+and your people change, everything changes. As far as where
+it’s going, I think it’s pretty amazing to see already how
+much quicker companies can go through the steps of data
+maturity and know what to expect of their data and what the
+data team can bring to the company.
+
+Show Notes: http://www.superdatascience.com/17
+
+30
+
+	  
+
+You know, years ago, there’s so many that I build now that I
+wouldn’t even have thought of building, because no one was
+asking for it and our competitors weren’t doing it. Now
+people see the cool things that you can do with big data, and
+even if they don’t understand it, they want it. There’s so
+much more chances to build stuff and to get into stuff like
+machine learning and prediction. But, you know, you can’t
+predict before you’re doing the first basic analysis. That’s
+kind of where we’re at in my company, but I’m still kind of
+showing them the light at the end of the tunnel by doing
+these cool little machine learning things.
+As far as data in general, it’s so hard to predict. I think that
+what we’re already seeing is that companies that trust their
+data instead of their gut are tending to succeed more. This is
+no longer a secret. So I think a lot of companies will start to
+put a lot more concentration into their data integrity and
+also their data analysis, and it can lead to great things. I
+was just talking to an Uber driver yesterday. He was asking
+me what I do and he is interested in learning SQL. And I told
+him “Great, because all I see now is data jobs.” And 5 years
+ago this was not the landscape. I mean, it was hard to find a
+job in Postgres. Now I could find a job in 15 minutes, and I
+could find a good one in a month. So I just see that it’s going
+to keep growing as it’s been doing, and it’s going to keep
+shaping the way we think about the world, which is
+amazing.
+Kirill:
+
+Yeah. I cannot agree more with you. I was just speaking with
+Rachel yesterday. Shout out to Rachel, who is the lady that
+transcribes our podcast. Thank you very much, Rachel. I
+appreciate you a lot. I was just talking yesterday, and she
+said that looking for a job in finance, in banking, in credit
+
+Show Notes: http://www.superdatascience.com/17
+
+31
+
+	  
+
+scoring and creating models for banks—a couple of years
+ago it wasn’t a case, but now you need to know SQL. It’s on
+the job description for a bank to be able to create these
+different models so she’s also learning SQL. It’s very
+interesting how the world is going very rapidly into this
+space where everybody has to know data and how to deal
+with databases.
+Thank you very much for coming on the podcast. This brings
+us to the end of today’s chat. If our listeners would like to
+follow you and contact you or maybe follow your career and
+see what you’re up to, where can they find you?
+Colin:
+
+LinkedIn is the best.
+
+Kirill:
+
+Beautiful. We’ll include a link to your LinkedIn profile in the
+show notes. And one final question: What is your one
+favourite book that can help our listeners become better
+with dealing with data?
+
+Colin:
+
+As far as data science, I really liked “Doing Data Science,”
+which is written by two bright young women. They’re very
+funny and have great stories and use cases, so I enjoyed
+reading it. I didn’t get quite through the whole thing but it’s
+mainly because there’s so much content and examples. I
+was just trying to do it at the same rate that I was learning
+it. So definitely a worthy investment in that book.
+As far as Postgres, there is another one.
+like “High Performance Postgres,”
+performance Postgres. And if you’re
+database then, as far as being the
+programmer, that thing gives you
+unbelievable, as to how to configure
+
+Show Notes: http://www.superdatascience.com/17
+
+It’s called something
+something about
+interested in that
+administrator or a
+so many tips it’s
+your database and
+
+32
+
+	  
+
+anything around the database. So for your data analysts
+that are out there, that’s a good one.
+Kirill:
+
+Wonderful. Thank you so much. We’ll include that in the
+show notes. So “Doing Data Science” and “High Performance
+Postgres,” and we’ll include the exact titles and links in the
+show notes, so make sure to check that out. Thank you so
+much, Colin. It was a pleasure having you here. I definitely
+learned so many new things and got this glimpse into the
+world of databases. I really appreciate you coming on the
+show today.
+
+Colin:
+
+Great! Thanks for having me.
+
+Kirill:
+
+All right. Thank you. Bye.
+
+Colin:
+
+Bye.
+(background music plays)
+
+Kirill:
+
+So there you have it. I hope you enjoyed this episode. Very
+valuable insights from Colin. And for me, definitely the most
+valuable part was just the general overview of what is the
+world of databases. Because as data scientists we don’t often
+think about that side of data. We just take it for granted that
+the data is there, that the data is coming to us, that we can
+access it when we need it. But as you can tell from this
+podcast, so much work and effort goes into keeping all of
+that database infrastructure alive and running. So at the
+very least, this episode should give you a much better
+appreciation for the work that these people do, that database
+administrators, architects, engineers and developers do for
+us. And maybe, maybe even, it sparked some interest in you
+to go and explore the world of databases more. Hopefully,
+that is the case.
+
+Show Notes: http://www.superdatascience.com/17
+
+33
+
+	  
+
+And if you’d like to get the show notes, the transcript, and
+all of the links from this episode, then go to
+www.superdatascience.com/17. Also there, you will be able
+to click on Colin’s LinkedIn and follow him there and
+bombard him with questions about databases if you still
+have any that have not been answered. On that note, I’m
+going to end today’s episode. Make sure to follow us on
+Facebook, so find the Super Data Science Facebook page
+and hit “like” and show us that you do enjoy this podcast. I
+can’t wait to see you next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/17
+
+34
+
+

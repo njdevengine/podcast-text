@@ -1,0 +1,1360 @@
+	  
+
+SDS PODCAST
+EPISODE 13
+WITH
+DAMIAN R MINGLE
+
+Show Notes: http://www.superdatascience.com/13
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 13, with Chief Data Scientist at WPC
+Healthcare, Damian Mingle.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week, we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello and welcome to the SuperDataScience podcast. Today
+we have a unique episode because we have a very special
+guest, Damian Mingle. Damian is the Chief Data Scientist at
+WPC Healthcare, but not only that, he's also a speaker and
+author and he has been ranked in the top 1% of data
+scientists across the whole world by Kaggle. That's right,
+today we have one of the top 1% of data scientists in the
+world on our show. How great is that!
+But is even more important is that Damian in his day to day
+role uses data science to save people's lives. In this podcast
+episode, we will discuss a case study where Damian and his
+team came up with a model that can predict sepsis even
+before people see a doctor. And that is a life changing thing
+that data science can do. Because when people come into
+the emergency room, if they happen to have sepsis, every
+hour counts. People can die very quickly from sepsis, and
+sometimes in emergency rooms, you have to wait for a long
+time. And therefore Damian's data science model literally
+saves lives.
+
+Show Notes: http://www.superdatascience.com/13
+
+2
+
+	  
+
+And on top of that case study and other case studies which
+we cover off in this episode, we talk about many other
+interesting things. We talk about how Damian builds models
+with 95% accuracy rates, how to use ensemble methods,
+how to combine quantitative data science investigations and
+analytics with qualitative research findings of doctors and
+other medical practitioners. We'll talk about how to combine
+quantitative data science analytics and qualitative domain
+knowledge to come up with very, very powerful models. We'll
+talk about the tools that Damian uses, he'll give us his
+opinion on Python versus R, and also Damian will share
+with you his vision for the future of data science which I
+personally found very eye opening. And it will give you some
+ideas of where you can focus your career next.
+And I can't wait for you to listen to this super high profile,
+yet not complicated, episode. Damian really went that extra
+mile to break down the complex and make it simple. And
+without further ado, I bring to you Damian Mingle, Chief
+Data Scientist at WPC Healthcare.
+(background music plays)
+Hello everybody, welcome to the SuperDataScience podcast.
+Today you won't believe who is on the show with me. I have
+a very special guest, Damian Mingle from WPC Healthcare in
+Tennessee. Hello Damian, how are you today?
+Damian:
+
+Hey there, how are you? I'm doing well, thank you.
+
+Kirill:
+
+Thank you very much. So for those of you who don't know,
+Damian is the Chief Data Scientist at WPC Healthcare,
+which is an organisation which combines data and
+healthcare. And also, Damian is ranked in the top 1%
+globally by Kaggle as a data scientist. Damian, very great to
+
+Show Notes: http://www.superdatascience.com/13
+
+3
+
+	  
+
+have you on the show today. Could you tell us a little bit
+about what WPC Healthcare is all about?
+Damian:
+
+Sure, absolutely. At the end of the day, in healthcare, we are
+interested mostly in assisting in the clinical side of the
+house, financial side and the operational side. So it's really
+more in the comprehensive aspect of that, so not necessarily
+just one component of those three, but actually try to bring
+all that together, and we do that using data integration and
+data science.
+
+Kirill:
+
+Very interesting. And so is this just a medical facility that
+treats patients? So are you more of a B2C company? Or do
+you work with other clinics as well, and you supply the data
+to other clinics?
+
+Damian:
+
+Right, that's a good question. So we actually work with
+hospitals, or acute setting, and then the post acute setting.
+So kind of the sickest of the sick, and specifically skilled
+nursing facilities, things like that. We also work with groups
+that bundle services together, like an anaesthesiologist
+group, maybe. So we do work in those areas. And we've been
+seeing, mainly on the healthcare provider side, however over
+the years, it's been increasingly becoming more interesting
+on the payer side. So the insurance, health insurance, has it
+become more interested in our approach, and how we're
+solving all of these healthcare problems.
+
+Kirill:
+
+Oh, very interesting. How insurance would be interested to
+get more data to create their policies more correctly, I would
+imagine. What about your role? What is your role as the
+Chief Data Scientist at WPC Healthcare?
+
+Damian:
+
+It's kind of interesting, I kind of wear all hats. And that's ok
+with me. I mean, I'll do everything from creating
+
+Show Notes: http://www.superdatascience.com/13
+
+4
+
+	  
+
+visualisations, trying to basically build context for an end
+user. I might create targets, so it might be that we're trying
+to blend some data sets together and I kind of get into ok,
+this is how we would create this as a variable so we can
+create a model around it. I do the modelling aspect. And
+also, more and more these days, I'm crafting write ups,
+doing presentations, or publications, and it probably has a
+lot to do with the amount of time that I'm spending more
+and more in front of the client. So we've had to leverage
+technology quite a bit so that I can be kicking off models in
+the morning, letting them compute while I'm in a meeting,
+and then come back and reviewing results, and that sort of
+thing. That's really my day to day. We have a few people on
+our team, so PhDs and such, that contribute wildly to our
+success, and it's always fun to kind of get trapped in a room
+for about an hour and just have a good think tank kind of
+conversation. So that's kind of my role here, which is in
+charge of really trying to extract knowledge out of the data
+for our clients.
+Kirill:
+
+That's fantastic. And I was about to say that that sounds
+like a lot of work for one person, and you must have a team.
+How big is your team?
+
+Damian:
+
+We have probably, hard core data scientists, I would say two
+others besides myself. There are other aspects of that where
+we might offload some of the data munching who are more
+technical side, and there are three people there. We also
+have some domain experts for various things. So the
+fortunate thing for me is I have this core team, but I'm able
+to put my hands on other people in other departments and
+really grow my team pretty quickly if I need to on a
+particular problem.
+
+Show Notes: http://www.superdatascience.com/13
+
+5
+
+	  
+
+Kirill:
+
+That's very nice to have that flexibility. And at the same
+time, people are not just left doing nothing, they're just ad
+hoc doing data science when it's needed. Very interesting.
+And could you give us a couple of examples of what kind of
+data science do you do? Like I'm assuming mostly it's
+modelling or some machine learning. Could you give us
+some examples please?
+
+Damian:
+
+We might have a situation where a client says, hey, I'm
+really interested in scheduling. Make sure I have the right
+amount of coverage. And primarily because they may have
+as-needed consultants that fill a gap for a particular
+healthcare provider. And so it's really important if they call
+too late in the day, or if they call too late in the process, they
+actually have to pay a premium. So to kind of know in
+advance, it really impacts the bottom line.
+So scheduling kind of sounds humdrum. But the interesting
+aspect of it is, when our team was able to look at it, we
+actually just came back with the client and said, "Listen.
+What about if we don't just look at scheduling, but what if
+we started to bring in quality of care as a component as
+well?" And so being able to say, "Well, we scheduled
+something. We're not just scheduling for people to cover
+shifts. We're also doing some matchmaking between let's
+say, CRNAs and anaesthesiologists, if they are known to be
+better teammates, we can create a better quality outcome for
+a person. We want to schedule for that firstly. And so that's
+kind of a unique application of what we do.
+In other aspects, there's financial impacts, through the
+financial revenue cycle side of the house. We mentioned
+operational. We have sepsis, or condition awareness for
+people as they come in to facilities that's a really interesting
+
+Show Notes: http://www.superdatascience.com/13
+
+6
+
+	  
+
+application of machine learning. Many of the rural hospitals
+that we work with, they just don't have the technical
+capability to be able to pull off anything other than "just let
+me turn it on". And it's just a resource constraint that they
+have. So being able to do everything from building the model
+to actually when someone comes into a facility, have that
+data exchange with us, real time, and score a patient before
+a doctor maybe, and then provide that information through
+like secure text, or secure email, it really takes machine
+learning from the back office, or some sort of visualisation
+presentation to where it actually says it's useful. It's very
+exciting for all of our clients.
+Kirill:
+
+Yeah. I totally can see how that would be valuable, especially
+for patients coming in when they are greeted with the right
+people that will deliver the right value and their treatment is
+expedited. That's very powerful. And I actually watched one
+of your videos online. I watched your presentation on the
+West Nile Virus, and how you created a predictive model to
+predict in which areas of a city, I forget --
+
+Damian:
+
+Chicago.
+
+Kirill:
+
+Chicago, that's right. How the mosquitos which had this
+virus were spreading over the years. That was very
+interesting. Could you talk us through a little bit on that
+application of machine learning?
+
+Damian:
+
+Yeah, so I think just from a business kind of higher level,
+city-state government type scenario, the process for them
+right now is they just didn't know where to spray. I mean,
+they had mosquito traps set, because they'd had an issue.
+Like many states' government do. They would literally just
+collect those, and see if West Nile was present in a mosquito
+trap. If there was, they would know this area has an issue.
+
+Show Notes: http://www.superdatascience.com/13
+
+7
+
+	  
+
+So this would be an area that we would generally spray.
+Except that mosquitos are kind of one of those crazy things
+to try to monitor and watch. I mean, they travel really, really
+well because a lot of times, the bird is a vector for transport.
+So when a bird's taking a little bit of a bath, a little bit of a
+dip, a mosquito might actually see that as food, and the bird
+may transfer this to another area. I mean, in my area, you
+hear a lot of times the birds fly south for the winter. So we
+have a lot of New York or Chicago area. They're going down
+to Florida, those sorts of things. So it's kind of interesting to
+see how nature kind of works. And it's really, really
+interesting to try to model things in in a natural
+environment.
+So, for us, that was really a great exploration exercise to see
+how other data, in addition to what was seen as the obvious
+data -- obvious data was, "I've collected this many
+observations from a mosquito trap," and combining it with
+data from weather, from humidity, from rain, from what are
+the temperatures, all that sort of stuff and trying to come up
+with many, many features from those interactions. And then
+also trying to figure out subspace in the features, figure out
+which ones blend well together to create kind of a
+supermodel. In the end if random is 50-50, meaning "I don’t
+exactly know where I need to spray this mosquito spray, but
+I’m spraying it", we were in the mid-80s on that, which was
+pretty powerful.
+Kirill:
+
+Wow, that’s a very impressive uplift. Also, like you say,
+trying to model nature, or natural phenomena in data
+science is always very interesting. And what kind of
+techniques did you use in this specific case, if you are able
+to disclose that information?
+
+Show Notes: http://www.superdatascience.com/13
+
+8
+
+	  
+
+Damian:
+
+Yeah, so a lot of it is just trying to understand what
+interactions occur on the data. So for us, if you take
+information gain, just what’s the mutual information, kind
+of the uncertainty in the field, and you take all those
+variables, in general, in that case, you know, what are the
+top 10? I take the top 10 and I start thinking about
+combinations. That’s kind of a "two to the end" scenario, so
+it’s a little over 1,000 combinations. So trying to figure out
+and model each subset of those, subspace of those, it takes
+some time. But if you use distributed computing, it can
+actually collapse the time quite a bit. And then trying to
+figure out how to ensemble those models. I’m a huge fan of
+diversity, so not only in—everybody starts with the same
+data, for the most part, unless you get into kind of "in the
+wild" real world setting. But like in these Kaggle
+competitions and such, everybody starts with a same
+dataset. So you have to figure a way to kind of diversify away
+from that. And a lot of times, it’s subsetting the data. So I
+want percents of a total column, and I want to create new
+datasets to create new models. Sometimes it is a subspace
+with the features. I want to take feature 2, 4 and 9, and I
+want to see what that does, and I literally try to model in a
+way that I grow the data to see if it’s a learning model versus
+just kind of a memorising model. So I might take 16% and
+32% and 64%. If the model—validation across validation, or
+in some cases the holdout is going up continually, it’s a good
+thing. If it’s going down, it’s scary.
+
+Kirill:
+
+So that’s—the first example would be a learning model. Is
+that correct?
+
+Damian:
+
+That’s right.
+
+Show Notes: http://www.superdatascience.com/13
+
+9
+
+	  
+
+Kirill:
+
+Okay. And a memorising model would be one where adding
+more data doesn’t really help.
+
+Damian:
+
+That’s it. That’s exactly right.
+
+Kirill:
+
+That’s a very interesting distinction, yeah. So testing for
+that, what would you do if it’s not a learning model, if it’s a
+memorising model, when you say it’s a scary situation?
+
+Damian:
+
+Yeah, so in those situations, I would pretty much discard
+that model and what I mean by "that model," it’s usually a
+model family. I mean, there’s a number of things. There are
+kind of the out of the box algorithms, if you will. XGBoost,
+for example, or Random Forest or Extra-Trees and those
+sorts of things. I’m a big fan of Scikit Learn. There’s some
+good stuff in R as well. But basically, when you change the
+subspace, sometimes, when I mentioned the first feature, or
+the first three features I talked about, they might work really
+well with a support vector machine. But the other three
+features in that top 10 may not. They may do really well with
+a regularised logistic regression. And so being able to create
+that diversity is a good thing, especially when we start to
+ensemble.
+
+Kirill:
+
+Okay, so to reiterate, a model that memorises, or a
+memorising model, is something like a curve fitting model,
+right? So it fits itself.
+
+Damian:
+
+That’s it.
+
+Kirill:
+
+Okay. Good, that all makes sense. And you mentioned Scikit
+Learn. Is that a certain tool? I haven’t heard of it before.
+
+Damian:
+
+Scikit Learn is just a Python library. So for us, it has a lot of
+these models that we’re talking about. It’s pretty easy to
+navigate, if you like Python. It works really, really well. It’s
+
+Show Notes: http://www.superdatascience.com/13
+
+10
+
+	  
+
+got some great pre-processing features, and it’s pretty welldeveloped. They’ve got some great core contributors on there
+that do a great job for the rest of us. That’s one that I use
+quite a bit. In the early days, I used to use an R package
+called Caret. It’s still a great package, it just depends on
+what the modelling task is.
+Kirill:
+
+All right. And we’re slowly getting into tools. First question
+that I love to ask, I call it the million dollar question, your
+view on Python versus R?
+
+Damian:
+
+I think where I’m at today is I’m a bigger and bigger fan of
+Python. And the main reason is it’s a little more intuitive for
+me. Syntactically, R is just different than what I’m used to. I
+don’t spend enough time in it to just say this is home base.
+The other thing is that the sort of thing we’re doing
+nowadays, we’re really interacting with a lot of web
+interfaces and properties, and we’re developing our own
+skins and applications, and we’ve got APIs. I know R can do
+a lot of that stuff. It seems that there is more developed stuff
+out there for me to kind of just grab and implement with
+Python. I think because it’s such a general purpose language
+that it just allows me to be more productive. I’m a very "nuts
+and bolts" kind of guy, probably not the kind of purist I
+should be, but in my context, we’re a very small organisation
+so I can’t—I can do anything I want on my free time, but
+when I get into the office, I have to be productive.
+
+Kirill:
+
+Totally. I totally appreciate that. So what would your advice
+be for somebody just starting out into the field of data
+science? Should they learn both? Or should they just focus
+on Python and not worry about R?
+
+Damian:
+
+I think learning both is a great solution. I can’t tell you the
+number of times I’ve read a paper and it’s written in C++
+
+Show Notes: http://www.superdatascience.com/13
+
+11
+
+	  
+
+even and you go "Oh, boy." So just having familiarity with
+it—I don’t want to have knowledge not available to me just
+because I know only one language. I want to make sure and
+use as much of it as I can. And we do, I mean, we use a lot
+of—I wouldn’t say a lot, but we use R in a lot of what we’re
+doing. Sometimes it could be as simple as Random Forest
+and R is different. It’s a different implementation in Python.
+So even though it’s Random Forest, because it’s
+implemented slightly differently, it creates another family of
+models. And so we’ll go ahead and use both.
+Kirill:
+
+Love it. I love the idea of limitation, consciously limiting the
+knowledge that’s available to you if you’ve learned one
+language, and also different models. Random Forest is called
+random for a reason. Random algorithms are different in
+different implementations, so I can totally appreciate how
+you can get different results with that. So speaking of tools,
+are there any other tools that you use or would recommend
+to those in data science, or even specifically in the
+healthcare space?
+
+Damian:
+
+That’s a good question. I’m going to talk about a dirty data
+science secret. I don’t know how many people would agree
+with this, but one of the tools I use is Microsoft Excel.
+
+Kirill:
+
+Wonderful.
+
+Damian:
+
+It’s a good standby. It’s good for rapid prototyping type stuff.
+I mean, I’m not crafting algorithms in there, but sometimes
+even for me to do Pandas work, it’s easier for me to type a
+little bit versus having to type three or four lines of code just
+to come up with the same sort of thing. There’s some
+limitations, obviously, so I’ll quickly move over to Pandas.
+But if I’m just trying to get a cursory look. Sometimes I find
+myself spending probably about 15% of my time in Excel.
+
+Show Notes: http://www.superdatascience.com/13
+
+12
+
+	  
+
+I use Tableau. Our team uses Tableau. For us, we look at—
+we like Shiny, for example. That’s an R type scenario. It’s
+very nice. For us, we just need to be able to be productive
+and we use Tableau. We’ve gone through stages on Tableau.
+We like to prototype in Tableau. We will deploy in Tableau.
+But more and more, what we’re looking to do is quickly
+iterate with our team in Tableau. Everybody can do their
+thing there and then get that to a development team or
+somebody on the data science team to code up and make it a
+little more proprietary. That’s really helpful. And we have
+people on our team, data science team, that are more R
+specific. Specifically in the biostatistics world, R has got a lot
+of traction, so we want to make sure and play well with that.
+We have a large university here in our area, Vanderbilt
+University – big biostatistics, big R users, so we want to
+make sure and play nice with others. We try to keep our
+hands on all those tools.
+Kirill:
+
+Yeah, totally. I can see how in biostatistics, R is popular in
+that department. You know, speaking of Johns Hopkins
+University and all those medical-oriented data scientists that
+are using R—it’s a huge following. You mentioned "play
+nice", and that instantly reminded me of one of the articles
+that you wrote: "Will Healthcare Play Nice with Data
+Science?" If our listeners haven’t read this article, I highly
+encourage you to check it out. It’s on LinkedIn. I’m just
+going to quickly give a background of what it talks about,
+that oftentimes, as Damian says, oftentimes when you’re
+learning something for a very long time, or when you’re very
+experienced or an expert in a field, and then somebody
+comes along and tells you their opinion about it, and they
+don’t know anything about your field, you’re going to get
+
+Show Notes: http://www.superdatascience.com/13
+
+13
+
+	  
+
+irritated. You’re going to get aggravated, and you’re going to
+feel this turf issue, like they’re threatening your territory.
+And in healthcare, that has happened many times over the
+years. There are examples with smallpox when the cure was
+invented and it wasn’t adopted for many years; cholera – we
+all know now that it’s transferred through the mouth. And
+before, the scientists and doctors used to think that it was
+transferred through the air, and that wasn’t changed for
+many years as well. And even washing hands – washing
+hands for medical practitioners – I was so shocked at this.
+Semmelweis asked the medical practitioners to wash their
+hands in 1846, and that was only adopted 130 years later.
+That is insane! So what you’re seeing, and what the article is
+about, is will healthcare now allow data science to come in
+and actually dictate, or even just advise and recommend
+some changes and some new things. I would love for you to
+share some of your thoughts on that with our listeners.
+Damian:
+
+Oh, yeah. You know, the truth is I lived that in healthcare.
+But the truth is probably data scientists all over the world
+are going to be, if they haven’t already, encountering those
+kinds of things, kind of the established domain expert. And
+then you start leveraging machines the way we do as data
+scientists. All of a sudden it’s like, "Well, how can that be?"
+In healthcare proper, what you have is a very smart group of
+people. You have a lot of MDs and PhDs. In many cases they
+run trials themselves on some selection of population. Some
+individuals actually start mining literature – they’ll do 25-30
+years of literature review, and they’re going to boil down
+everything to four or five rules. This is—like in the case of
+sepsis, usually in the four or five ways we’re going to identify
+sepsis. Everybody who is probably listening to this podcast
+
+Show Notes: http://www.superdatascience.com/13
+
+14
+
+	  
+
+would agree there’s more nuance than four or five rules. So
+when you come at it from that point of view, of nuance, and
+not these kind of static rules that were established 20 years
+ago, and keeping in mind that population shift occurs,
+people change, people get older, people die. Same thing for
+providers of care. They get smarter, some of them are brand
+new, nurses leave. You know, all this sort of stuff is
+happening underneath the data, and if you don’t take that
+into account, people kind of don’t appreciate that for the
+most part. So in the healthcare setting, we have spent
+probably the last 14 months in that dance of what is helpful,
+what is seen as a threat, explaining what machine learning
+is and what data scientists do, how we use data, why we
+would ever want to create bigger and bigger context with
+data outside the four walls of a hospital. All these sorts of
+things—I mean, the sepsis model that we’ve deployed
+actually doesn’t use any clinical values. So I never get any
+white blood count, I don’t have any blood drawn, I never
+know what the heart rate is or the respiratory rate, but yet
+we still have a very, very high – in the mid-90s – area under
+the curve.
+Kirill:
+
+Wow! That is so impressive.
+
+Damian:
+
+So, when you talk to a doctor about that, or a physician, if
+they don’t understand that we’re better together—we try to
+have the conversation of – and I could say that on this
+podcast – we want to have an ensemble. We don’t see these
+patients. We’re in Brentwood, Tennessee. So we don’t see
+these patients. They are there, they’re seeing them for real.
+And so they’re having a modelling aspect, and now what
+we’re talking about is our machine has a modelling aspect
+too. So we do well—both of us do really well. What’s
+
+Show Notes: http://www.superdatascience.com/13
+
+15
+
+	  
+
+interesting is, because of the diversity of the models, the
+physician and then our machine learning algorithm. We
+actually have a setting where we have an opportunity to
+blend those results. So when we blend those, we get so high.
+I mean, it’s like 98% accuracy or area under the curve, if you
+will, between both parties coming together. So it’s kind of
+like machine learning and providers of healthcare coming
+together. We’re trying that conversation because it’s still
+scary. I mean, I recently read an article that said anybody
+who’s touching machine learning or artificial intelligence
+should be charged an artificial intelligence tax. It makes you
+go into a bucket to help all the people that’s going to put
+them out of a job. And that is such hyperbole, it’s out of this
+world. But at the same point, I do think it does say to the
+rest of the world, it’s time to get into some higher order
+thinking where we can, and let the machines leverage what
+they’re good at.
+Kirill:
+
+Yeah, that’s fantastic. And I agree with you on that example
+of the tax. I can understand how people would think that,
+but that’s one of those things that just slows down progress
+and keeps us where we are as a civilisation. And I love the
+example of qualitative — if I may call it that— qualitative
+plus quantitative. So you’ve got the machine learning as
+quantitative modelling, and then you’ve got the doctors who
+may have their own approaches, but we’ll call it qualitative
+because it’s less quantitative.
+But, you know, when you combine the two and, as you say,
+you leverage this diversity, you create ensembles, and you
+don’t just focus on one level, but you leverage these different
+approaches. 98% accuracy – you know, if some of our
+previous podcast guests create models for banks and so on –
+
+Show Notes: http://www.superdatascience.com/13
+
+16
+
+	  
+
+if a bank could get a 98% accuracy, they would pay a lot of
+money for a model like that. Through all your experience of
+speaking with people who have this sense of a turf issue,
+you know, that you’re invading their space, that data science
+may be something new to them, through all of your
+experience of exploring this and getting the results but going
+the hard way, actually fighting your way through to get data
+science into these fields, what would your tips be for
+somebody who is starting out? Because, as you mentioned
+correctly, every data scientist, not just in healthcare but
+everywhere we experience this pushback. So what would
+your tips be on going around that, fighting that, or finding
+your way to actually kind of fulfil your role?
+Damian:
+
+You know, I think a lot of it would come down to just try to—
+as passionate as we are, there’s a certain level of expertise
+that we have that we feel like maybe we can’t explain
+because it’s just so intuitive. Some of us may have been
+doing this for a year or two, three years, five years or longer.
+And so it’s kind of hard sometimes to sit across the table
+and have somebody with a very strong opinion who is
+"analytical", but for whatever reason we’re not connecting on
+this data science issue. What I’ve had to try and train myself
+to do—and sometimes I do it better than others some days—
+is really try to understand, keep asking questions why. Why
+would they be saying this? Why is it that they’re saying they
+already do analytics? Maybe what we need to do is negotiate
+terminology. Let’s talk about what analytics is. When you
+kind of step into that in a non-threatening way, let’s just say
+"What do you mean by analytics?" you might soon find out
+that they’re talking about business intelligence report. And
+it’s not forecasting really, it’s not predictive, it’s not
+simulation or anything like that, and so when you do that
+
+Show Notes: http://www.superdatascience.com/13
+
+17
+
+	  
+
+we can say, "Oh, I see what you’re saying," "of course," and
+being able to kind of talk about retrospective and
+prospective, and the differences, and how you feel like you’ve
+obviously got to have that kind of support from the
+retrospective first and that sort of thing.
+The other thing is I’m learning more and more to try and
+bring smaller problems into an organisation where we can
+get some quick wins fast. Once they get a taste for what can
+really happen, it is a lot easier to get traction in an
+organisation. So, for example, if we went after a really, really
+sizeable problem I might say, "Look, that is great. I’m glad
+we’re going to do that. Can we talk about another problem
+as well?" And just flat out say it. "I want a quick win for us. I
+want you to see how it works and let’s talk about it." Some
+people need an explainable model, and so that’s important to
+them. Finding out what is driving them, motivating them to
+have the response is a big thing. We found in the case of
+healthcare—you know, think about how long a physician
+goes to school and then you come in and say, "I’ve got a
+model I just started up 5 minutes ago and it can predict
+pretty close to what you can predict." It would crush my
+spirit. But it’s really not a fair comparison. So trying to get
+them to help make those distinctions obvious and keep
+machine learning in certain aspects of the business where
+they don’t necessarily want to be in. So, for example, a lot of
+them, a lot of physicians hate putting data entry into an
+electronic medical record. So, if a machine can help in those
+areas and give them more time with their patient, that’s a
+good trade-off. So just kind of coming alongside those kinds
+of things. But the best thing is to be just be a persistent
+listener – less talking and really listening to what it is that
+might be motivating them.
+Show Notes: http://www.superdatascience.com/13
+
+18
+
+	  
+
+Kirill:
+
+That’s some solid advice. And at the end of the day, when we
+think about it, machines can significantly improve certain
+areas, but at the end of the day, patients coming into
+facilities want that human interaction. They want somebody
+to talk to them. They want somebody to listen and to hear
+them out. We’re not at that stage yet of our development as
+humans that we’re completely comfortable talking to a
+machine. Personally, if I would go into a healthcare facility, I
+would much rather talk to a doctor who can understand me,
+empathise with me, and things like that. So there is always
+going to be space for doctors. And as you say, if we can
+reduce the amount of time that they spend doing those
+things that they don’t love, as opposed to actually delivering
+value and sitting with those patients, then I think that’s an
+advantage of machine learning.
+And just to sum up the three things that you pointed out
+there as tips for our listeners who are facing these
+situations: try to be non-threatening, try to walk in the
+shoes and be very understanding of the person that you’re
+speaking with, the stakeholder; give them a taste so provide
+a quick win to show them the value that you can actually
+deliver; and find out what drives them. When you find out
+what people’s passions are, what people’s drivers are, it’s
+much easier to communicate to them. So those are some
+very good tips from Damian. Another thing I would like to
+talk about, so moving on a little bit from this topic, is
+situational fluency. We discussed this a little bit before the
+podcast. And by that, what we mean is how can you think
+about a problem in terms of data science? How do you
+decide how to apply data science to a problem. Because
+knowing the skills, knowing the techniques, is one thing, but
+then actually seeing a problem and switching on the right
+
+Show Notes: http://www.superdatascience.com/13
+
+19
+
+	  
+
+neurological pathways in your brain to come up with the
+correct way to apply this, it’s a completely different way.
+From your experience, Damian, what would you say—how
+do you go about this situation?
+Damian:
+
+So, generally, when we talk with a client, we generally ask
+them what they’re measuring today in reports, in
+retrospective reports. The reason we start there is we kind of
+get a sense for what’s important to the organisation and that
+is what we want to try to convert to either real-time machine
+learning applications, or something that’s a little bit more
+future than real time. Also start to understand a little bit
+where their pain points are, so what is it that’s a problem for
+them. I’ll give you a healthcare example. Imagine a scenario
+where you’re in an executive meeting and you hear, "Oh, my
+goodness. Our radiology, all the X-ray images and all that
+sort of stuff, is killing us. We’re paying these radiologists half
+a million dollars a year. They work 6 hours a day. They can
+only do so much." No kidding, it’s a very complex situation.
+So what we do is we can’t really grow the volume of our
+department because we can only afford to bring in one
+radiologist who wants to live in the middle of nowhere
+America or Australia or wherever. So it’s like, "Boy, how do
+we do this?!" A lot of companies, a lot of healthcare
+companies, outsource this to other individuals who are
+qualified across the ocean in China or in Asia. They do all
+this analysis and when they come in the morning, the
+radiologist reviews that too. That’s not free. It costs money.
+It’s certainly less, but when you think about all that sort of
+stuff—and as someone who consumes healthcare, one of the
+things that drives me nuts is having to get this really, really
+important test to find out if I’m going to die in five minutes
+
+Show Notes: http://www.superdatascience.com/13
+
+20
+
+	  
+
+or whatever the situation is, and really having to wait a week
+or two weeks.
+So how do we speed that up and bring some consumer focus
+in a patient experience? You could convert that pretty easily
+to a computer vision problem. So if I had images that were
+already annotated by radiologists over the last 2, 4, 5, 10
+years, let’s take those, let’s train them, maybe we can rotate
+the images so we can kind of synthetically grow that data
+and get a huge dataset for us to be able to get pretty darn
+close to a physician and that sort of stuff. Now, the
+physician or the radiologist can review that to confer with
+the machine. And there’s no sending overseas, the cost is
+negligible, it’s whatever it takes for S3 storage on Amazon
+and whatever GPU instance you might have. And that’s it.
+And speed up gets really quick. So, not necessarily going
+into those technical terms with your executive team but
+being able to say, "Look, this is how I see this happening.
+Here is where I think we can cut cost and here is why. And
+we can speed up the process and we can get decisions out to
+patients sooner." That sort of stuff in the healthcare world
+actually catches good attention. And it actually is good for
+business. So, besides just reducing costs, it actually
+becomes an economic driver.
+Kirill:
+
+Okay. That’s interesting. So you kind of see the problem and
+then you think of what uplifts and potential benefits you can
+deliver at the end of the day using the skills at hand and
+then you convey those. In that case, how do you go about—
+knowing for sure that you can actually deliver this increase
+in speed or this reduction in cost—you know certain skills
+and techniques and tools in data science, but how would
+
+Show Notes: http://www.superdatascience.com/13
+
+21
+
+	  
+
+you know with confidence that this is something that you
+will be able to deliver?
+Damian:
+
+So one of the best things I think I ever did a number of years
+ago was join Kaggle. And the reason was I remember—I first
+kind of got started when I picked up some magazine
+somewhere, it was a predictive magazine. It said, "Listen,
+you’ve got this Heritage Health Prize. It’s a 2-year
+competition. People are trying to model it, and we’re trying to
+win big money. See what you can do." And I thought "That’s
+really interesting." So I went at it with Microsoft Excel
+initially and then after about probably seven days trying to
+get there, I think I ranked in like the Top 2,000 or something
+like that. It was quite embarrassing, but that was a
+motivator for me to keep going, to get involved, to kind of
+understand.
+The reason why I bring up Kaggle is because Kaggle throws
+out so many different data sources that I would never, ever
+touch in just healthcare. So I’ve done classification for
+bioacoustics, for sounds of birds in the wild, and everything
+else. Whales and retail and all sorts of stuff. The reason why
+I find that valuable is because you’re learning at so many
+different levels when you’re on a Kaggle competition. One is
+you’re being exposed to new techniques and diversity.
+There’s people all over the world trying to solve this problem.
+What questions are they asking and answering, and how
+does that impact my learning when I go out into the
+workforce?
+The second thing is, when I started really getting into it, I
+remember being in some of these board meetings and in the
+early days, it was just I knew what I could do. And until
+someone basically said, "Hey, we think this is a data science
+
+Show Notes: http://www.superdatascience.com/13
+
+22
+
+	  
+
+thing," it was on me to just sit there and just know what I
+can do. That was really not so fulfilling. But when I started
+to understand, I would hear a problem and I’d go "Oh, that’s
+a lot like that bird competition that I was in," and "That’s
+interesting, that’s a lot like that retail, I was trying to
+forecast people coming back to make a purchase." And you
+start kind of understanding how the world works. I don’t
+exactly know any more, but I think they have about a
+hundred different competition datasets out there. I know
+they’re adding more and more datasets, open data, which is
+great. But just getting exposure to that, that’s going to build
+the confidence because you’re going to know it works. You’re
+going to see somebody get paid $25,000, $50,000 or
+$150,000. They’re not going to let loose to that money unless
+they know it works. So being able to drive that back into
+what you do every day is a huge win, I think, and it’s a great
+way to learn.
+Kirill:
+
+Yeah, totally fantastic. And I completely agree with you.
+Kaggle is a fantastic source of this exposure to hands-on
+experience. And hands-on experience in itself is a crucial
+component of becoming a successful data scientist. One
+thing is to go and learn the tool. Go and learn R or Python or
+Tableau or something else, learn the techniques as well. But
+that is a completely different story of taking the knowledge
+that you have and applying it to real world datasets and case
+studies to understand how to use that. And moreover, not
+just once, not just twice, but continuously doing that.
+Because if you don’t continuously use or find ways to apply
+your knowledge, you’re not going to be on the cutting edge of
+data science. Data science is evolving so quickly and moving
+so rapidly that you’re going to fall behind and you need a
+way to test your knowledge, a way to find new ways,
+
+Show Notes: http://www.superdatascience.com/13
+
+23
+
+	  
+
+techniques and methodologies and see how they’re applied
+in the real world. So definitely case studies and real world
+examples are very handy so, for our listeners, Kaggle is a
+great place to go. There are other places you can find
+datasets online to practice with those. Also, if you’re part of
+SuperDataScience, we have case studies there. We focus on
+that as well, on providing the real world examples because it
+is so, so important. I’ve got a couple of very interesting
+questions that I would really love to ask you because you
+have such broad experience in data science. And the first
+one is: What’s the biggest challenge you’ve ever had as a
+data scientist?
+Damian:
+
+Well, I really have to say I think it probably is
+communicating what we do with individuals who either have
+very little experience with analytics or have quite a bit of
+experience with analytics. I know just this week I got some
+questions from a client of ours. They have a statistician, and
+the questions were really good questions. But the issue
+became—it was a little less about statistics proper and more
+about what we know as data science, so this programming
+element, of course here’s the math and the stats, but how
+does this all relate to healthcare and how do we know we
+have a good model and those sorts of things. So I constantly
+think about new ways to try to communicate what it is we do
+in a specific task and make it relatable. Analogies work
+really, really well. It’s just kind of a new and emerging thing
+for a lot of businesses. Some people think that if they take
+the "business intelligence" doorplate off the department and
+just put "data science", that they have a data scientist team.
+It’s not that way. We know that there’s a real approach to
+data science. So explaining that three-legged stool is really,
+really complex or as simple as it should be. But if you think
+
+Show Notes: http://www.superdatascience.com/13
+
+24
+
+	  
+
+about it, when you look at a beautiful sunset, it should be
+really easy to describe. But it’s actually quite hard. And in a
+same way, that’s how I view data science when we talk with
+other individuals.
+Kirill:
+
+Fantastic! That totally makes sense why you wrote that
+article "How to Explain Data Science to Someone NonTechnical". Our listeners, if you haven’t seen that article,
+definitely go and check it out on LinkedIn. Damian actually
+has quite a few articles and very interesting reads. So, this
+one is called "How to Explain Data Science to Someone NonTechnical". If you ever face that same problem, you’ll pick up
+some great ideas from there. The next question is: What is a
+recent win you can share with us that you’ve had in your
+role, something that you’re proud of as a data scientist?
+
+Damian:
+
+I think the thing that I’m probably most proud of today is
+kind of Condition Awareness Module. It’s sort of a platform
+that we’ve created and what I like about it is it’s taking as
+kind of a first case a 3,000-year-old problem which has been
+really, really difficult to solve for, and that is the sepsis
+situation. We just published an article and it’s basically a
+review of just the very definition medically of what it means
+to be septic. There are people that argue about that on a
+very grand scale. If we can’t identify what the truth is, it’s
+hard to identify anything at all. So being able to come in and
+create supersets above that kind of the fray of what the
+definitions are and that sort of thing. We had to create that
+ground truth based on a lot of expertise that go beyond my
+knowledge and our group. And then we had to figure out
+data proxies, you know, how could we proxy an outcome or
+proxy a missing field. If you think about inferential
+statistics, there’s some imputations that had to be done to
+
+Show Notes: http://www.superdatascience.com/13
+
+25
+
+	  
+
+kind of smooth it out and get a good model going using a
+multitude of datasets. I mean, we’re constantly bringing in
+datasets not only to augment and enrich what we’re doing,
+but really just trying to know more about any of the
+problems that we might be encountering has really been
+useful.
+But the thing I think I’m most proud of is taking it from just
+a model that might produce another report to actually
+having a real world impact. We’ve deployed this model in two
+facilities and it’s been very interesting to see. At first it was—
+we had to meet with a lot of the executive team and kind of
+"What is this? What are you doing? What do you think you
+can do?" and all this sort of stuff. To my point earlier, not
+being able to use any of the clinical values because it’s too
+late then, we actually try to use this—John Tooke has got a
+famous quote. The idea is basically it’s better to have an
+approximate answer to the right question than have an exact
+answer to the wrong question. To me, the way we translated
+that was, "Listen, if I have to wait for my grandmother to
+come through the emergency department, and then they
+have to wait in the waiting room and then they have to see
+the doctor whenever you can get there and they have to do
+clinical values and you have to send off lab results and then
+I can know specifically that my grandmother has sepsis." In
+some cases, five hours has passed. There’s a 7.6% increase
+in mortality for every hour that passes, so that starts to
+mount up pretty quick.
+You can have the best medical facility, the best physician,
+the best world class protocol for treating sepsis, but if you
+don’t identify it early, it becomes a huge problem. A huge
+problem! A person is more than half dead before you can
+Show Notes: http://www.superdatascience.com/13
+
+26
+
+	  
+
+apply any of that great stuff to them. So being able to do
+that all without any kind of lift technically from a facility is a
+huge win for me and our team here. We’ve had some great
+collaborators. We’ve done a lot of publications around that.
+It’s been a fun process. It’s been certainly challenging. We’ve
+learned a ton throughout that process and constantly we’re
+trying – to go back to the other question you asked – we’re
+trying to reframe what it means when we have these results.
+So just coming about it and talking about what we’re able to
+find in those results and the level of area under the curve
+has been really tremendous and we’re very excited about the
+future.
+Kirill:
+
+Wow! Damian, I can only say wow, and hats off to you. I
+can’t imagine how many lives you saved with just data
+science and with that algorithm that you deployed. 7.6%
+increase in mortality per hour! I’ve been in emergency rooms
+myself where I had to sit like 4 hours, and I saw people that
+had much worse conditions where something was wrong
+with their head, or really serious injuries and they were still
+sitting for 4 hours. That is so impressive. I know it’s
+probably a huge study that you’ve done and we won’t have
+enough time to go into detail about it here, but is there any
+article or publication that you can recommend to our
+listeners if they would like to learn more about this specific
+case study of sepsis and how you use data science?
+
+Damian:
+
+On our website at wpchealthcare.com there is quite a bit of
+literature out there. We’ll be posting more and more over the
+next 45 days, specifically the results. We just published
+through the International Clinical Pathology Journal the
+evolving sepsis definition that was just produced last month,
+I think, so that’s out there. And then there’s some other
+
+Show Notes: http://www.superdatascience.com/13
+
+27
+
+	  
+
+publications that should be coming online that we’re
+impressed on right now. But most all of that is going to be
+put on wpchealthcare.com
+Kirill:
+
+Fantastic! So, guys, check out wpchealthcare.com if you’d
+like to learn more about that life changing application of
+data science. Moving towards the end, what is your view of
+data science right now? Like, from where you stand, from all
+of your experience, where would you say you think the field
+of data science is going and what should our listeners look
+out for to prepare for data science in the future?
+
+Damian:
+
+I think more and more of what will come is more of the
+automation. There’s been a real big emphasis on the fact
+that there’s not a lot of data scientists out there. I don’t
+know, maybe that’s true, maybe that’s not true. At least
+that’s what the media is saying. So there’s this scarcity and
+there’s a need to create some synthetic or artificial data
+scientists. Some of what we do can be automated,
+absolutely. So I think we’ll see more of that come into our
+wheelhouse, if you will. And that could be a good thing,
+much like if we kind of take our own medicine, like we were
+talking about with the doctor, maybe there’s some things
+that we don’t necessarily want to do in data science and
+there’s other things that we’re interested in doing.
+I think there’ll probably be three major things that will show
+up in the next maybe five years. One is, as a way to kind of
+prevent being automated out of data science, I think you’d
+have to think along the lines of "Can I convert a business
+problem into a data science problem?" Right now, if you
+think about IBM Watson and some of these other big
+cognitive platforms, they’re really great and it’s really
+exciting times. But there is a couple of hang-ups. One is if
+
+Show Notes: http://www.superdatascience.com/13
+
+28
+
+	  
+
+you can’t get the data to them they can’t do any of that stuff.
+So, figuring out how to get to your data, that’s the new
+bottleneck. It’s not crunch time on the numbers and that
+sort of thing. So that’s going to be an interesting thing to
+kind of overcome.
+The other thing is trying to create targets, so we talked
+about creating data science solutions from business
+problems. If you don’t know how to create a target,
+something you want to predict that’s not obvious, I think
+that you’ll have a difficult time in the future with data
+science. I really think, even in a meeting on your own,
+depending on what your role is with the company, thinking
+through "How will I make this a data science problem?" is
+good mental experiment that you can do. You never have to
+share it with anybody, but it’s a way for you to start doing
+some brain training on how to think machine learning in the
+world and that’s very, very powerful. If you can’t implement
+these data science solutions, I think that will be another
+struggle.
+And the third one, which I think is going to be everybody’s
+future field day – if you have the IBMs of the world and some
+of these other data science players come in and they starting
+automating, it’s going to send everybody’s floor – let’s call it
+80% area under the curve. The new gold will be trying to
+move it from 80% to 85, 86, 87%. So you’re going to have to
+have developed techniques on feature engineering and how
+to work with data and some of the stuff – we talked about
+subsetting, subspace, ensemble and all these sorts of things
+– to be able to get yourself the lift that you need because
+today people will pay from going from 50% to 85%. That’s
+huge! That means a lot of money in a lot of cases and a lot of
+Show Notes: http://www.superdatascience.com/13
+
+29
+
+	  
+
+saved lives. In the future I think you’ll see those margins
+shrink or those percents shrink but they’re still going to
+want to pay for them.
+Kirill:
+
+Yeah, totally. I agree with that completely. And just to
+summarise the points that you mentioned, so getting the
+data is always going to be valuable. Machines can’t make
+their predictions unless you give them the data. Finding
+your target of your data science exercise – that is also very
+valuable, especially if it’s unobvious to understand what the
+end outcome should be. And there’s a lot of mental
+experiments you mentioned. You just sit in any meeting and
+any conversation and you just think "How can I turn this
+into a machine learning problem?" And I’m totally going to
+do this. Even if I’m just going to a social event, I’m going to
+sit there and think "How can I turn this into machine
+learning problem?" And it’s funny how sometimes you get so
+carried away into data science and then you go out into the
+real world and people start thinking or even telling you that
+you’re a machine, or you think like a machine. So that’s
+going to exaggerate that even more.
+And finally, the 80-85%. Right now, the big money is in
+taking something from 50%, so basically flipping a coin, to
+80%. But look out for ways or start preparing for the future,
+start creating models, start thinking of ways to take it from
+80-85%. And luckily for our listeners we already discussed a
+couple of these methods – subsetting, ensemble – in this
+podcast. So there you go. You’ve got a head start. Thank you
+so much for coming on the show. How can our listeners
+contact you or follow you or follow your career or read your
+articles if they would like to know more about what you’re
+up to in the world?
+
+Show Notes: http://www.superdatascience.com/13
+
+30
+
+	  
+
+Damian:
+
+LinkedIn is a great place to connect with me. I usually post
+quite a few articles out there. I love to make connections
+with data scientists or people who appreciate data science
+all around the world. Twitter is another place, so that’s just
+DamianMingle, and then wpchealthcare.com is great and
+then, of course, if people want to reach out by e-mail, they
+are
+more
+than
+welcome
+to
+e-mail
+me
+at
+dmingle@wpchelathcare.com. I’d be happy to start up a
+conversation.
+
+Kirill:
+
+Thank you so much. There you go, guys. We’ll include all of
+those links in the show notes but right now, if you still want
+to become a super data scientist and learn more from
+Damian, go to Twitter right now and find him
+@DamianMingle and follow everything he has to share and
+follow his career. And one final question for you, Damian:
+What is your one favourite book that can help our listeners
+become better data scientists?
+
+Damian:
+
+"The Grammar of Science" by Karl Pearson is an oldie but a
+goodie. He was a professor of applied mathematics in
+London. That book actually went on to inspire Albert
+Einstein, so I always try to see if I can get any kind of
+Einstein fairy dust. I try to review that once a year. It’s a
+really old book but the idea is to try and think about science
+in a more comprehensive way and see the interactions for
+what they are looking at space and time and all that sort of
+stuff. Trying to bring that into data science, I think it would
+be hugely helpful in a very scientific way.
+
+Kirill:
+
+Fantastic! Anything that inspired Einstein is definitely going
+to be a good read. So, guys, pick up "The Grammar of
+Science" when you have a chance. It might inspire you to
+change the world. All right, thank you so much, Damian, for
+
+Show Notes: http://www.superdatascience.com/13
+
+31
+
+	  
+
+coming on the show. I really appreciate you taking the time
+and sharing this with our listeners. This has been a
+tremendous experience and you have delivered so much
+value to us. Thank you so much.
+Damian:
+
+Thank you. My pleasure.
+(background music plays)
+
+Kirill:
+
+So there you have it. That was Damian Mingle, chief data
+scientist at WPC Healthcare. Super exciting episode! I hope
+you learned a lot because personally I learned so much from
+Damian. The most impressive by far was the application of
+data science to actually save lives. This has been an eyeopening experience for me to witness first-hand that there
+are people out there who not only deliver business value and
+other types of values in the world using data science but
+actually save people’s lives. When every hour counts, when
+every minute counts, data science can come in and be that
+little difference that will help a person stay alive.
+Other things that I’ve picked up from this episode are, of
+course, the combining of qualitative research and knowledge
+and quantitative data science in order to come up with the
+most powerful models in the world. I mean, 95% accuracy –
+that is unheard of. That is very, very powerful. And, of
+course, that is super valuable especially in the area of
+medicine. And I was also intrigued by Damian’s view of the
+future of data science where creating models with 80%
+accuracy is going to be normal. People are going to want
+models with 85% accuracy, with 90% accuracy, with 95%
+accuracy. So looking into advanced modelling techniques
+such as ensemble methods and combining qualitative and
+quantitative data and other methods we discussed in this
+podcast is definitely a worthwhile exercise. So there you go.
+
+Show Notes: http://www.superdatascience.com/13
+
+32
+
+	  
+
+Make sure to look up Damian on Twitter. His Twitter handle
+is @DamianMingle, spelled @D-A-M-I-A-N-M-I-N-G-L-E.
+Follow Damian so you can get his latest articles and news
+and see what he’s up to in the world.
+Also, visit www.superdatascience.com/13 to get the links
+and show notes for this episode. You can also download the
+transcript and also you will get Damian’s LinkedIn, URL and
+some of his other articles that we discussed in this podcast
+episode. I really appreciate you, thank you so much for
+following the show. I can’t wait to see you on the next
+episode. Until next time, happy analysing.
+
+Show Notes: http://www.superdatascience.com/13
+
+33
+
+

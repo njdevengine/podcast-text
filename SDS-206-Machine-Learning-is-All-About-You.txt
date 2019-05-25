@@ -1,0 +1,216 @@
+SDS PODCAST
+EPISODE 206
+FIVE MINUTE
+FRIDAY:
+MACHINE
+LEARNING IS ALL
+AROUND YOU
+http://www.superdatascience.com/206
+
+This is Five Minute Friday, episode number 206, Machine Learning is All
+Around You. Welcome back to the Super Data Science podcast. Ladies and
+gentlemen, very excited to have you here for this Five Minute Friday
+episode. Title today is Machine Learning is All Around You. Really it should
+actually be Machine Learning, Deep Learning, Artificial Intelligence, and
+Data Science are All Around You. Why is that? And how did this episode
+actually come to be? Well, I have a few apps on my phone that I'm sure we
+all do, which quite heavily utilize these technologies, whether it's data
+science, machine learning, deep learning, or AI. We can all think of one or
+two, but what I found fascinating is only a couple of them, only like one or
+two of them actually trigger in my head this sense of amazement, the sense
+of awe at how, how cool they actually are, how they're leveraging these
+technologies and they're really, like it really stands out that this is deep
+learning. Wow, this is really cool.
+But if you think about it, there's plenty, plenty of apps on your phones that
+are indeed using this. And I think, I really think that it's a good idea, it's a
+very good idea for us as data scientists to actually observe that, to be aware
+of when and how these applications are using one of these technologies,
+whether it's data science, or deep learning, or AI, machine learning, doesn't
+matter. The point is that by being aware of it, by being aware of machine
+learning around us in use, we can actually come up with better ideas, we
+can think of better applications and maybe dig deeper into certain
+algorithms, and basically the point is use what's around you to get inspired.
+I'm only using a phone as an example because your phone is always in your
+hands, and you're looking at it on average like 115 times per day. It's
+become an integral part of us. It's become like an extension of our mind. So
+it's the easiest example too. But surely there are other examples of
+technologies that use around you during the course of your day or week
+that also use these, use deep learning or AI or something like that. What
+http://www.superdatascience.com/206
+
+I'm saying is I'm calling on you to be aware of when that happens and try to
+pause yourself for a second and look into it further.
+As an example, I put a little list together of the technologies that amaze me,
+and at the very end I've got like the two that I was talking about, at the end
+of this I'll show the two apps that really like blow my mind every time I use
+them. They're nothing crazy sophisticated. They're just daily kind or like
+weekly usage apps, but they're really cool. But let's go through the list.
+First one that I thought of was like a Tesla car. If you have a Tesla, you're a
+legend. I've been in a Tesla once. No, I actually, I don't think I've even been
+inside a Tesla, like driven, being driving or driven in a Tesla. I know friends
+who have, and I hear it's an amazing experience, especially when you can
+let go of the steering wheel and it goes in the highway, and it just drives
+itself, changes lanes and all those things. That's really cool. That would
+blow my mind. I'm really looking forward to that. If you already had that
+experience, that's awesome.
+One thing is just to enjoy it and to have fun, but the other thing is to think
+through how is it doing it, like what kind of ... I know we can't really guess
+all these proprietary algorithms, and it's much more complicated and
+everything, but is maybe a good idea to think what do I really know in deep
+learning or machine learning that it could be using to make these decisions,
+or what is it that I could learn from how it's doing it so that to inform my
+further education in this space?
+Another one is when you type something on your phone like a message and
+it gets autocompleted by your phone. That's a clear example of natural
+language processing that uses deep learning most likely to figure out what
+you're going to say next. And it learns as well. It learns from how you typed
+your previous 100 messages or what not and gives you better
+recommendations. In fact, you also right now have autoreplies suggestions
+in Gmail. If you get an email and then instead of replying a whole text to it,
+http://www.superdatascience.com/206
+
+you get these three options. Like somebody invites you to a party and you
+can say, "Yes, I'm in," or, "Thank you for the invitation, I will be there," or
+it'll be like, "No, unfortunately I can't make it," and you can just click one of
+them and send. That makes life easier and that's also another example of
+an NLP in action.
+Another case is when autocomplete ... when you have ... Now they actually
+have in Gmail when you're typing the message, it actually in this faint gray
+it will finish the sentence for you. You can just click Tab and you don't have
+to finish typing the sentence. I've already used that quite a lot, so that's
+another example of an NLP in action. Those are simple applications, simple
+use cases, but they're really powerful and they do use some powerful
+mechanics or algorithms in the background.
+Another cool one, which we use probably on a daily basis, is Google Maps.
+How do Google Maps know that there's a traffic jam somewhere along the
+road, how do they, how does it know that your route is going to be delayed
+by 5 or 15 minutes? Well, we probably all know this by now but
+nevertheless Google just analyzes how the phones are moving across the
+street. All these phones in the cars, it can see like how fast they're traveling
+as opposed to how fast they should be traveling, and so then it decides
+whether there's a traffic jam, another example of machine learning in
+action.
+An even cooler example is an app called Waze, and it's quite popular in the
+US, is getting more popular in Australia as well. I was present at an
+interview with the founder of Waze, and he described how they actually
+created Waze, and this is really fascinating. Waze unlike Google Maps or
+Apple Maps, it actually started with no map at all, like it doesn't actually
+have a map integrated as a starting point in the app, application. It started
+off with just like a blank black screen. Then people who signed up for Waze,
+they had the app on the phones and they would move around on the street.
+http://www.superdatascience.com/206
+
+Waze, the app itself, would decide, all right, so like 100 people went in this
+direction from A along this straight line, that must be a road, and they went
+with this speed, and then here they went 60 miles an hour, so that must be
+a highway or a motorway. They could decide.
+The app itself it builds up this world representation with all these roads,
+not based on any kind of map initially. That was all based on the activity of
+the users. And I think that's mind blowing. How cool is that? It took them
+many years to get it to a level where there was enough data for actually
+people to like to ... for it to be massively adopted, but now it's a very
+successful app, is one of the most successful map applications in the world,
+and all started with a black screen, blank black screen and just collecting
+data, machine learning, algorithms, analyzing it, and deciding what's a oneway street, what's a two-way street, it's a highway, what's a turn, what's a
+bicycle way I guess. I'm not that familiar. I don't use that app much myself,
+so I'm not sure the complexity is, but I'm pretty confident that has got some
+very, very complex algorithms in the background.
+Another one that we probably all know as well is Spotify and how it thinks,
+it goes, analyzes your music consumption to give you suggestions, so the
+recommender engine. That goes for recommender engines on Amazon,
+recommender engines on Netflix and all these other platforms as well.
+Those are really cool to think about, like how did it know that I would like
+this music. If you think about it, 10 years ago, that would've been insane to
+tell somebody that an app can predict what kind of music you're going to
+like, even though, you've never heard that music before. I think that's pretty
+cool.
+Okay, so we're getting close. Third last one, which I really like, an app that I
+enjoy a lot is called Foursquare. Foursquare, if you're using Foursquare,
+you're probably smiling now because it saved me plenty of time, like at least
+a couple of dozen times. It's an app that allows you to find places to eat,
+http://www.superdatascience.com/206
+
+and if you're traveling to a new city or even in your own city, if you haven't
+used it yet, highly recommend checking it out.
+You open it up and you say you want dinner or lunch, you want Indian, you
+want vegan, you want, I don't know, a steakhouse, and you put that in the
+search and then it will pop up a map showing you how users of the app
+have already rated the restaurants around your place. Every single time like
+if you find a restaurant that's eight stars or above, or especially if you find
+something like a nine stars or 8.9, once I think I saw a 9.2 restaurant, you
+have to go there. That means all these people, you can see how many
+ratings, but usually if it's at least 100, it means there's at least 100 people
+have been there and how that's how they rated it.
+The power of the crowd is always much more powerful or much stronger
+than just one expert or a couple of experts saying, "This is a good
+restaurant." When you have 100 or a 1000 people saying it's a great
+restaurant, you got to go there. Every single time because as you guys
+probably know I'm vegan, so when I go to a new place I just type in vegan
+and brings up all these places that are vegan or serve vegan options and
+then I pick the one with the best stars and usually like 99% of the time it's
+a very good guess. They have a lot of users, very powerful platform. I think
+we already talked on the podcast about how they use their foot traffic data
+to like one time they predicted how the annual statements of Chipotle will
+... what will they come out as even before the annual statements came out.
+It's a long story. You can check it out. There's an article I think on Medium
+about that, Foursquare and Chipotle, but other than that, great app, uses
+of course data science quite extensively, so another thing to think about
+when you're using it.
+Finally, my two top two apps that really blow my mind. As I said, they're
+quite simple ones, nothing sophisticated, not like a Tesla car, but really,
+really cool to watch them at work. Number two, or second top one is
+http://www.superdatascience.com/206
+
+Scannable. Scannable is an app by Evernote. So if you don't use notebooks
+by Evernote highly recommend those as well. You can replace all your
+notebooks and all your notes with Evernote and take really cool ... just keep
+a lot of notes in one place, and it's very, very powerful, but then you can
+download Scannable as well, and instead of using a scanner to scan
+documents, you use Scannable and it's actually better.
+There's lots of apps or you can take photos with your phone or there's other
+apps that you can take a picture, and it will recognize it as a document and
+save it as a PDF, but Scannable is by far the best one I've ever seen and the
+way it uses, I think it uses deep learning. I'm not sure. It might be some
+kind of machine learning or something like that, but to me it looks like deep
+learning, but it's just mesmerizing. When you put it, like put your phone
+over a page, even before you finish bringing your phone over, it's already
+taken a photo. This is blue screen that adapts to the size of the page. If you
+guys have a chance to check it out, you will really feel the power of these
+technologies in this simple application. Once again, it's called Scannable.
+Finally, one of my favorite ones is Vivino. I was recommended this app by a
+friend and colleague and is if you drink wine, then this is a lifesaver app
+because you can go to a store and you can take a photo of a bottle, of a
+label of a bottle of wine, and just like with Foursquare you will get a rating,
+well, how have people rated it before, how have people who've drank this
+wine, how do they rate it. You'll see if it's like a three star wine, a two star
+wine, a four star wine, whatever it is, and then you decide whether you
+want to buy or not. Amazing. It's really cool to see it in action.
+I especially like the feature when you can set it to not scan one bottle but
+scan multiple bottles, and you just go through the whole rack taking photos
+one after the other like in a row, like continuously, and as you're doing it,
+it's analyzing those photos in the cloud and popping up ratings right on
+your screen, so you can see like 4.3, 3.1, 3.9, 2.1, 4.4, and so on. Just as
+http://www.superdatascience.com/206
+
+you go and then when you see like acceptable rating like a 4 or 4.5 stars or
+4.3 stars for a wine, then you can just stop. It's really cool, also
+mesmerizing too [inaudible 00:13:53] in action. So even if you're not a wine
+drinker and you want to see some cool, I guess, and once again, I think
+that's deep learning in action, then highly recommend checking out Vivino.
+There we go. Those are some apps that can get you inspired, and I'm sure
+you've been already using quite a few of them already, but it's like it's about
+changing the perspective. I've said this on the podcast before, a really cool
+quote from my coach and it's, "When we change the way we look at things,
+the things we look at change." We've been using these apps, but now if you
+change the way look at them, the perspective you have, what you think
+about when you use them, then all of a sudden you'll be looking at different
+things, all of a sudden you'll broaden your horizons, you'll find more
+opportunities for your education, for the application of the knowledge that
+you already have in the space of deep learning, AI, machine learning, and
+data science.
+On that note, thank you so much for being here today, and I can't wait to
+see you next time. Until then, happy analyzing.
+
+http://www.superdatascience.com/206
+
+

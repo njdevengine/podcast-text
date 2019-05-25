@@ -1,0 +1,1615 @@
+	  
+
+SDS PODCAST
+EPISODE 14
+WITH
+GREG POPPE
+
+Show Notes: http://www.superdatascience.com/14
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 14, with Senior Vice President of
+Risk Management, Greg Poppe.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello and welcome to this episode of the SuperDataScience
+podcast. Today joining me on the show, I've got Greg Poppe,
+who is the Senior Vice President of Risk Management for
+Veros Credit, which is a financial services company that
+provides loans to people who want to buy cars in the US.
+And so can you guess what we discussed in this episode?
+That's right, we mostly talked about credit risk scoring. So
+in this episode, you will find out some interesting techniques
+that Greg uses when creating credit scoring models. You will
+also find out some of the challenges that he faces and some
+of the recent wins that he's had.
+We'll talk about linear models, we'll talk about decision
+trees, we'll talk about random forests, ensemble methods,
+and much, much more. We'll also go into the space of the
+law of large numbers, and that will help us understand a
+little bit better what the difference is between trying to
+predict the outcome for one person versus trying to predict
+the outcome for many people. And that will give us an
+understanding of how these businesses actually operate and
+what their risk models actually mean when they're dealing
+
+Show Notes: http://www.superdatascience.com/14
+
+2
+
+	  
+
+with large populations. Also, Greg will share his perspective
+on where the world is going in terms of data science and I
+think you will find some valuable insights there as well.
+So let's get this show started. Without further ado, I bring to
+you Greg Poppe, Senior Vice President of Risk Management
+at Veros Credit.
+(background music plays)
+Hello everybody, and welcome to the SuperDataScience
+podcast. Today I've got my friend Greg Poppe with me calling
+in from LA. Greg, how're you going today?
+Greg:
+
+I'm doing wonderful, Kirill. How're you doing?
+
+Kirill:
+
+I'm doing well as well, thank you. And we've got a very
+interesting story to kick us off. I promised Greg I would
+torture him about this a little bit. So Greg was supposed to
+be on the podcast with me a week ago initially, but
+something happened in his life and we had to move it. So
+Greg, what was the reason why you weren't able to literally
+speak a week ago?
+
+Greg:
+
+I had an emergency dental procedure. I had to get my
+wisdom teeth removed a week and a half ago. And it was
+very unexpected, my teeth were fine. And then one night, it
+just from 0 to 100. And the next day, I was in there, and
+then they took them out.
+
+Kirill:
+
+It's good that you're fine now, and it's good that it all worked
+out, but when I read it, I was like oh wow, you must have
+something really serious going on. And it probably was,
+probably was serious. But I just never heard of an
+emergency dental procedure. So there you go. Learned
+something new.
+
+Show Notes: http://www.superdatascience.com/14
+
+3
+
+	  
+
+Greg:
+
+Yes. Happy it's over with.
+
+Kirill:
+
+Yeah. Fantastic. Alright. So you're feeling fine, fit, and
+healthy for today?
+
+Greg:
+
+Feel wonderful.
+
+Kirill:
+
+Ok. Alright. So Greg has a very interesting story, and we're
+going to drill in to his background today. So Greg actually
+works in credit risk, and he uses data science techniques to
+fulfill his job. Quite an interesting podcast ahead. And to
+kick us off, Greg, can you tell us a bit about what industry
+you're in and how it works?
+
+Greg:
+
+Sure. I work in auto finance. So we're a consumer lender,
+and what we do is we provide credit for people to purchase
+vehicles. We are an indirect auto lender, and I want to clarify
+what that means real quick. So traditionally speaking, if you
+want a loan for a car or for a house or for a boat, you would
+go to a bank and you would apply in person and they would
+approve you or decline you and then whatever happens, you
+go on your way. We are different in a sense that we are not
+reaching out to the customer directly. We rely on a network
+of dealerships to provide us with a customer base. So how it
+would work, Kirill, if you’re trying to go buy a vehicle, you
+don’t have vehicle financing, you go to a dealership, you see
+a car that you like and the dealer says “Hey, Kirill, I can get
+you financed. Just fill this application and we’ll go from
+there.”
+And then what happens is the dealership will enter all of
+your information into some software and that software will
+blast out your application to about anywhere from 2 to 15
+different lenders. All of the lenders will reply with their
+approval or denial plus whatever interest rate they deem
+
+Show Notes: http://www.superdatascience.com/14
+
+4
+
+	  
+
+necessary for the type of risk that you are and they also
+charge a fee to the dealership to take on that risk. So the
+higher the fee and the higher the interest rate, obviously the
+higher the risk the person is.
+The relationship benefits both the dealership and the finance
+company because the dealership may not have the funds to
+finance this individual, nor do they want to take on the risk
+of financing this individual. So what they will do is we will
+step in as the lender and we will charge what we call a
+“discount” or a “fee”. For example, if you want to finance, say
+$10,000, we will finance the customer $10,000 but we will
+only give the dealership $9,000 and that $1,000 difference is
+our fee. So the dealership is happy – they have zero risk and
+then we take it on – and we’re happy because we’re buying
+the loan at a discount price.
+Kirill:
+
+Okay, gotcha. That’s a good explanation of how it works. The
+other question that pops to mind when you start talking
+about credits and finance, and I’m assuming quite a few of
+our listeners will be the same way, is defence mechanisms
+go up, you know. I feel like oh wow, you’re working for one of
+those sharks that you see in the movies, when people don’t
+pay up, you go break their legs, that type of thing. Can you
+put us at ease and just explain why the existence of your
+organization and the work that you’re doing, why it’s
+actually good for people, what it helps them do and how you
+establish and cultivate this relationship with your clients?
+
+Greg:
+
+Certainly. So it’s in everybody’s best interest – our interest,
+the dealership’s interest and the customer’s interest – to
+make their payments. I think sometimes there can be a
+narrative that lenders want a customer to default on their
+loan so they can repossess the vehicle and then sell it again
+
+Show Notes: http://www.superdatascience.com/14
+
+5
+
+	  
+
+and then have another person repossessed and sell it again
+and sell it again and sell it again. We do not want that to
+happen. In a perfect world, if I do my job correctly, nobody’s
+going to default, and everybody is going to make their
+payments, and everyone is going to be happy.
+Now, we are a specialty lender in a sense that we’re not
+competing against the big banks in the United States like
+Wells Fargo or Bank of America. Those are traditionally for
+prime or near-prime customers, meaning their credit score is
+probably above 650 or so. We are in a lower segment, a
+riskier segment, of the population where those banks don’t
+want to get involved because it’s too much risk, so we fill a
+need for that market that’s there. And a lot of these people
+who are our customers, they need this vehicle to go to and
+from work, to go to and from school, and without it, they
+have to take the bus or walk or ride a bike and it can be a
+very stressful situation without a vehicle.
+Kirill:
+
+Yeah, I totally understand. So at the end of the day, your
+company is coming up with ways to help out the population
+that the banks are not taking care of. Just because of their
+size, they can afford to deal with certain types of clients. You
+know, it can be a difficult job at times, and it can be
+sometimes difficult for people to repay the loans, but at the
+end of the day, the onus is on the person to find ways to
+manage their finances so they only take on credit that they
+can eventually pay off and they can afford at the end of the
+day. Would you say that is a correct sentiment?
+
+Greg:
+
+Absolutely one hundred percent. So if a customer is having
+trouble making payments, we will do everything we can to
+help that customer out. We will grant an extension, which
+means we will waive this payment but we add it on to the
+
+Show Notes: http://www.superdatascience.com/14
+
+6
+
+	  
+
+end. We will rewrite the contract to get a lower interest rate
+if we can. We will take a partial payment, and we will stop
+the collection process if they promise to make an additional
+payment later. So we try the best that we can to help the
+customer out in a situation because, like I said, we do not
+want to repossess the vehicle. That takes time and it costs
+money for us as well.
+That being said, we also do a lot of work on our dealership
+screening side. If we find dealerships are committing fraud,
+we terminate the relationship. We set underwriting
+boundaries in our buying program to make sure a customer
+can afford the vehicle they’re purchasing. You know, if they
+say they make $2,000, we won’t put them in a car where
+their payment is $600. We won’t let them take a loan out
+that’s worth a significant amount more than the car is worth
+as well. We do all of that to try to protect the customer as
+well.
+Kirill:
+
+Yeah, and which is fair enough. Okay, thank you for that
+description. I think that hopefully explains better to our
+listeners what exactly your company does. And moving on to
+your role in the company, what exactly is your role and what
+kind of work do you do at this agency?
+
+Greg:
+
+Sure. I’m the Senior Vice President of Risk Management. The
+risk management term is sort of a broad umbrella for data
+science and financial engineering, if you will. So what our
+department is in charge of is the computer program that
+gives the response back to the dealership. When the
+dealership submits an application, we get a whole set of
+attributes about that customer. We run our risk models
+against that data, the predictive models, and then it gives us
+a score. That score translates to either approval or a decline
+
+Show Notes: http://www.superdatascience.com/14
+
+7
+
+	  
+
+plus an interest rate and a fee that we charge. We send that
+back to the dealership, and then they choose whether or not
+they want to accept the terms of the loan. If they do, great,
+we fund the loan. If they don’t, then we don’t.
+Kirill:
+
+And all of that happens very quickly, right?
+
+Greg:
+
+Oh, yeah, within a second. It’s all automated. That is
+probably the largest burden that we have. Other parts are
+just general analytics within the company. You know, we’re
+building a model that will tell our collectors what is the best
+time to call a person based on their previous account
+history. So if we’re making calls every day at say, 3:00 p.m.,
+and we don’t get a response, then we make a call at 6:00
+p.m. We will build a predictive model that says “Okay, next
+time, call the person at 6:00 because they’re probably at
+work when we call at 3:00, that’s why they don’t answer.”
+And so we become more efficient that way. We do all sorts of
+analytics for the entire company.
+
+Kirill:
+
+Okay, so optimization
+something like that?
+
+Greg:
+
+Yes, correct.
+
+Kirill:
+
+That’s pretty cool. And the financial engineering side of
+things that you mentioned, is that the model that spits out
+the credit result?
+
+Greg:
+
+Yes, it’s related to that. So basically, we have to make sure
+that the interest rate that we approve a loan at and the fee
+that we charge will cover the anticipated risk of that loan
+given all the operating costs that we have involved with it
+and everything.
+
+of
+
+Show Notes: http://www.superdatascience.com/14
+
+your
+
+company
+
+operations,
+
+8
+
+	  
+
+Kirill:
+
+Okay. That’s really cool. Greg, I didn’t know that you were a
+Senior Vice President. Wow! It’s a very impressive role. Do
+you have a team that you work with?
+
+Greg:
+
+Right now it’s three people, including myself, and we are
+expanding. So we’re a fairly small company at the moment.
+Our portfolio is about $250 million, which I know sounds
+like a lot, but in our industry it’s on the verge of a mediumsized to a slightly larger medium-sized company. The
+previous company I came from, where I was Head of Risk
+there, was about $3 billion portfolio.
+
+Kirill:
+
+Wow! Huge. But now you’re—from our conversations, now
+you don’t have to be at many locations at the same time.
+You’re happy in Los Angeles and that was the trade-off,
+right?
+
+Greg:
+
+Yes. Absolutely.
+
+Kirill:
+
+Definitely. Okay, let’s move on to data science. Like, the
+financial engineering side of things, you said that’s the
+heavier side of data science of your company. Let’s start with
+that. So how do you use data science and analytics and
+obviously building these models? What goes into building a
+credit risk model? How do you go about thinking about one,
+what kind of algorithms do you use, or maybe even tools?
+Can you talk us through that?
+
+Greg:
+
+Sure. So at the end of the day, our basic goal is to estimate
+the amount of cash flow that will come in from our loan. So
+if we finance someone for $10,000, we will expect a certain
+amount of that to come back. It’s kind of an abstract thing
+to think about it as one loan, because one loan either pays
+or they don’t pay. But if you have a portfolio of thousands of
+loans, some pay, some don’t, and if you have a thousand
+
+Show Notes: http://www.superdatascience.com/14
+
+9
+
+	  
+
+loans that are $10,000 each, you’re getting 1,000 payments
+every month, you know, in a perfect world. But in reality,
+you might get 990 one month, and then 980 the next month.
+So the goal is to look at historical data and see sort of the
+timing of when those cash flows come in and how they come
+in. And that’s a data science issue, but it’s not like a
+predictive modelling issue. It’s more just “this is how it
+comes in.”
+And then from there what we do is we get a general shape of
+a curve of how these cash flows come in. Let’s say it’s a nondecreasing curve, meaning it will never go down. You’re
+never going to get payments going backwards – it’s always
+going to be a cumulative effect, right? Hopefully. If you have
+payments going backwards, then someone is stealing from
+your accounting department. And that’s what we do, we
+apply a risk model to that, which is a likelihood of default.
+And we say for every single loan, we can adjust our cash
+flow expectation up or down based on the risk. And then
+what we do is we try to solve for what interest rate and what
+fee we should charge to sort of make all the loans have the
+same expected return.
+Kirill:
+
+One loan you can’t really predict, but when there’s many of
+them you can have an expected result. You can adjust for it,
+right?
+
+Greg:
+
+Exactly. So think of it like -- you know, I would have a hard
+time telling you with any high degree of certainty, “This loan
+will pay. This loan will pay. But this loan won’t.” However, if
+you give me a portfolio of a hundred loans, I should be able
+to say “15 aren’t going to pay. I don’t know which 15, but 15
+won’t.” And then if you give me another portfolio that’s say
+riskier, I should be able to measure that risk and say “This
+
+Show Notes: http://www.superdatascience.com/14
+
+10
+
+	  
+
+is a riskier pool. 25 aren’t going to pay. And again, I don’t
+know which 25, but I’m estimating 25.” And that’s how we
+measure our accuracy. So it’s not so much on a loan-by-loan
+basis. It’s “If we just select a random sample, how many did
+not pay, and what was our expectation of that?” And if
+they’re very close, we consider our models to be accurate.
+Kirill:
+
+Yeah. And the larger the sample that you pick, the more
+precisely you can evaluate your model, right? In a sample
+size of 10, there could be a huge random error. All 10 cannot
+pay just accidentally. But in a sample size of 1,000, it’s
+much more precise.
+
+Greg:
+
+Absolutely. And we would stratify that among different risk
+metrics that we have. So, for example, like a credit score. If
+we take the lowest say, 25% of all loans we booked, the
+lowest credit scores, we’re going to expect a higher rate of
+default than say, the top 25%. And the question is, how
+accurate was our prediction?
+
+Kirill:
+
+Okay. That’s very powerful. For those of our listeners out
+there listening to this podcast, this is a very fundamental
+principle of data science that Greg has brought up here. And
+it’s all based on the Law of Large Numbers which says
+exactly that – that as you increase your sample size, your
+average is going to converge to your expected value.
+I’ll give you an example: If you flip a coin 10 times, we know
+that the expected result is 50/50. But if you flip it 10 times,
+you can easily get 7 heads and 3 tails. But if you flip a coin
+100 times, it’s much harder to get 70 heads and 30 tails.
+You might get 57-43, you might get 55-45. If you flip a coin
+1,000 times, it’s pretty much not impossible, but very near
+to impossible to get 700 heads and 300 tails on a fair coin.
+
+Show Notes: http://www.superdatascience.com/14
+
+11
+
+	  
+
+That just means that as you increase your sample size, your
+actual result – the percentage heads to percentage tails – is
+converging to your 50/50. And that’s exactly the principle
+that Greg is leveraging in this design of the models that
+they’re creating.
+Greg:
+
+Absolutely. A regression towards the mean.
+
+Kirill:
+
+Okay. So once you’ve establish that, you would have
+different models for people with higher credit scores and
+different models for people with lower credit scores? Is that
+right?
+
+Greg:
+
+Well, it’s going to be one model, but it may be segmented
+differently. When we try to segment a population, I try to
+always look at not so much different behaviours, but what
+are different profiles of people. A couple of segments that we
+have are a) what we call a thin file or a ghost, which means
+they have no credit history whatsoever, or they maybe have
+a very, very thin credit history like a $500 credit card or
+something like that. That could be either because they’re 19
+years old, they’ve never had credit. Or they’ve avoided credit
+their entire life. Whatever the reason may be, if you had a
+dataset that had default and non-default in a whole set of
+attributes and you looked at an algorithm to find the most
+predictive attributes, if you took that segment, they would
+have a very different set of attributes than somebody with an
+established credit history.
+So what we try to do is we say, “Okay, let’s take our thin
+files or our ghosts and make them a separate profile.” And
+we will look at other things like the structure of the loan,
+which would be the down payment, the loan to value, their
+payment to income, their job time or the general stability.
+
+Show Notes: http://www.superdatascience.com/14
+
+12
+
+	  
+
+But if you look at a person with established credit, you’re
+really looking at that credit. You’re trying to see okay, they’ve
+had two auto loans in the past and they paid each one very
+well. They also had a couple of credit cards they paid well.
+So those are the attributes that are more important than
+their job history. Because we make the assumption that they
+may have had instability their entire life, but they still find a
+way to make that payment.
+Kirill:
+
+So it’s about the habit of the person rather than where the
+money is coming from?
+
+Greg:
+
+Correct. In the credit world, we call it “intent to pay” and
+“ability to pay”. And there’s a very big distinction in there.
+
+Kirill:
+
+Yeah, you might have the ability to pay, but you can be like
+“Nah, I’m not paying.” Right?
+
+Greg:
+
+Exactly.
+
+Kirill:
+
+Okay. So that actually brings up an interesting notion. I was
+reading this book by Ramit Sethi. I think it’s called “I Will
+Teach You to Be Rich”. Yeah, because he has a blog “I Will
+Teach You to Be Rich” and the book is also called “I Will
+Teach You to Be Rich”. That’s one of the things he talks
+about. Like, I’ve always tried to avoid credit in my life. But
+what he talks about is that whether you need credit now or
+not is not important. What is important is that when you will
+need it, will you be, like you said, one of those ghosts in the
+eyes of a credit lender, or will you have some history? So
+what he says is even if you don’t need credit, it might be a
+good practice to have some credit cards and just put some
+minor expenses on them but still pay them off so that in the
+future—I know in your case it’s cars but this applies across
+the board, the mentality—so in the future, you can
+
+Show Notes: http://www.superdatascience.com/14
+
+13
+
+	  
+
+demonstrate this intent to pay. Is that the same way that it
+works with your business with vehicles?
+Greg:
+
+Absolutely. So we look at it—if somebody has no credit
+history, we have no idea if that person has any intention of
+paying. And if you think about it, any person with an 850
+credit score, which is the very, very upper range, all of them
+started out at one point with no credit score. So you’re
+wondering if that person who’s applying now with zero
+credit, are they a future 850? And if so, you want to give that
+person a loan. Are they a future 520? You might want to
+decline that loan. But you don’t have anything to base your
+decision on. So you just go off the things that you do know:
+their job, their income…
+
+Kirill:
+
+Gotcha. And in terms of credit score, just because we don’t
+have it in Australia, I have a vague understanding of what it
+is. What does it range between and what goes into your
+credit score?
+
+Greg:
+
+So the lower range is 400 range and the upper range is close
+to 900. In the States there’s three main credit bureaus.
+There’s Experian, there’s TransUnion and there’s Equifax,
+and they all have their own proprietary model, so it’s not a
+standard. However, generally speaking, they’re on the same
+range. They look at the same attributes. What they really
+look at is your payment history, the length of time that
+you’ve had credit, and they look at your inquiries. So are
+people pulling your credit?
+That one is sort of a touchy subject for some consumer
+advocates. They may say “Well, who cares if people are
+checking? How does that affect someone’s ability to pay?” So
+the laws have changed on that. Now you’re able to do what’s
+
+Show Notes: http://www.superdatascience.com/14
+
+14
+
+	  
+
+called a “soft pull” to view someone’s credit without affecting
+their credit score. However, it is important to look at
+inquiries from a risk perspective because Kirill, if you come
+to me and apply for a loan and I see that you’ve applied with
+five other banks over the last 60 days, I may think “Well, if
+you’re still applying, that means they all declined you. And
+why do they all decline you?”
+Kirill:
+
+Yeah, gotcha. That’s a bad situation to be in.
+
+Greg:
+
+Yes. So if you want to build credit, my recommendation
+would be limit the inquiries that you have. Obviously, make
+your payments, don’t be delinquent on those. Establish as
+early as you can – even if you’re not using your credit –
+establish some sort of presence on the bureau and don’t
+max yourself out in debt. And I know it’s easier said than
+done, present company included. We were all students once.
+Again, like you said, there are no bureaus in Australia, so I
+don’t know if they were to come to Australia, what they
+would do there.
+
+Kirill:
+
+There probably is, but it’s just that the credit score is
+measured differently than the United States.
+
+Greg:
+
+Yeah, probably. Right. So strictly, this is the American
+experience.
+
+Kirill:
+
+Yeah, gotcha. I’m sure that was helpful, some tips for our
+listeners, unexpected tips on how to manage your credit
+situation. We got a bit off-tracked from our data science. So
+moving back to your models, you’ve told us a bit about
+things you think about when you’re creating the models.
+What tools do you use to build these models?
+
+Show Notes: http://www.superdatascience.com/14
+
+15
+
+	  
+
+Greg:
+
+We use a wide range. At previous companies we used SAS.
+When I say previous companies, this was probably 7-8 years
+ago. SAS is kind of going by the wayside, I think, in the
+FinTech world, and now it’s more R and Python. So at the
+company I’m at now, we use R. I personally prefer Python.
+
+Kirill:
+
+Why is that?
+
+Greg:
+
+Just familiarity with it. No real reason. I wish I could say oh,
+the regression formulas are more finely tuned. You know, at
+the end of the day, it’s for the most part 99.9% the same. It’s
+just that I’m more familiar with Python.
+
+Kirill:
+
+And what techniques do you use in R for building these
+models? This is the fun stuff. We’re getting into the fun stuff!
+
+Greg:
+
+Right. Okay, so primarily in the credit decisioning models,
+we use regression models. And the reason why—well, there’s
+quite a few. One is it’s very computationally easy. It’s easy to
+explain, it’s easy for people to understand but it’s also not a
+black box in the sense that a lot of models can be, and what
+we need to do is we need to provide a continuity to a
+dealership because they can adjust the parameters of the
+application and that will adjust the risk accordingly. So, for
+example, obviously they can’t adjust the customer’s credit
+score or their income or their job time. But what they can
+adjust is the type of vehicle they put them in, the down
+payment that they get, the price that they sell the car for,
+the term of the loan – are they going to pay the loan in 60
+months or 48 months or whatever.
+So all of those things can change and we need to provide
+sort of a continuity of our risk-backed dealership, meaning if
+a dealership submits an application for a $2,000 down
+payment and they get an approval and we say we’ll charge a
+
+Show Notes: http://www.superdatascience.com/14
+
+16
+
+	  
+
+$1,000 fee, they expect that if they get say $2,500 down,
+that that fee will drop proportional to the risk, because it is a
+less risky loan. And a regression model is very good for that
+because you’re getting incremental increases or decreases in
+your score depending on those attributes. If we were to go
+with a CART model or any other decision tree model, if the
+first break point or the first cut point in that model is down
+payment and they go from one side to the other, it can throw
+it down a completely separate set of decision logic and they
+can get very strange approvals. From a data science
+perspective and from an analytics perspective, that may be
+more accurate but it’s not sellable, it’s not marketable to the
+dealership.
+Kirill:
+
+Wow! That is fantastic. That is mind-blowing. I mean, even
+just that one point is well worth listening to this podcast. I
+learned something cool just now. Like, you know in advance
+that maybe there are techniques out there like a decision
+tree or a Random Forest or a gradient boosting algorithm.
+Something that could probably provide a model of the
+situation better from a data science perspective but at the
+same time the people who are using these models – your
+partners, the dealerships – they except that as they change
+the parameters, there is some sort of continuity, as you
+mentioned. So they want to see the models spit out what
+they expect. So if they’re increasing the down payment, they
+want the risk to go down and consequently for the price to
+be lower and the interest rate to be better and things like
+that. But if you use other models, it won’t happen so that is
+why you stick to the regression types of model. That is a very
+cool concept of where data science meets explaining things
+to people and working in partnerships and stuff like that. So
+that’s a really cool way of doing it.
+
+Show Notes: http://www.superdatascience.com/14
+
+17
+
+	  
+
+Greg:
+
+Absolutely. And I would advise anyone who is working in
+any sort of model where they need to give a response back to
+a customer, if any parameters can be changed by that
+customer, try to go with a straightforward model. Now, what
+we’re trying to do is we’re trying to separate our attributes
+from fixed attributes, things that will never change like the
+customer’s credit, and adjustable attributes, like a down
+payment or a sales price. We’re trying to right now build a
+more complicated model on the fixed stuff, because that will
+spit out a score that will never change, and then merge that
+with maybe a regression model with the adjustable
+attributes. So we can maybe get a little more lift out of our
+model and still keep the continuity of it.
+
+Kirill:
+
+Yeah, that was my next question. It’s definitely a valid point.
+Stuff that is not going to change, you could use it separately.
+For instance, have you considered—let’s say you take the
+fixed attribute, like credit score, and based on that, you put
+people into categories and based on which category they’re
+in, you apply a different regression model. Is that how you’re
+going to approach it or is it going to be like—
+
+Greg:
+
+Absolutely. You got it 100%. That’s exactly right.
+
+Kirill:
+
+Gotcha. That’s a pretty smart idea. Wow! This is getting
+exciting. So for that fixed part, have you decided what
+technique you are going to use? Is it going to be just decision
+trees, or is it going to be an ensemble method or something
+like that?
+
+Greg:
+
+It will be an ensemble method, probably a Random Forest.
+They tend to be the most robust.
+
+Show Notes: http://www.superdatascience.com/14
+
+18
+
+	  
+
+Kirill:
+
+Yeah, gotcha. And just for the sake of our listeners, could
+you explain what an ensemble method is and why you think
+a Random Forest is more robust than a decision tree?
+
+Greg:
+
+Sure. An ensemble method combines hundreds, thousands
+or more votes, if you will, into one score. One of my favourite
+phrases in the data science world is “the wisdom of the
+crowd”. You have all these little decision trees that are voting
+and at the end of the day you merge all of those scores
+together to get one final score. And the problem that you
+may run into if you use one decision tree, even if it’s a very
+good one, is if you get into nodes that can be thin or, like I
+said, things that can change, that can really affect the score.
+And if you go to an ensemble method, you minimize outliers
+and you minimize the effect of one strong variable.
+If we continue with down payment, for example, if the
+dealership knows that they’re going to get a better approval
+with a stronger down, with a higher down payment, they are
+inclined to lie about that. And if you have a singular CART
+model, that can really underestimate your risk. And if you
+have an ensemble method, you can sort of average out all of
+the votes and you get a much smoother transition.
+Oh, actually, now that I say that, that reminds me of
+another reason why we use regression. We can limit, we can
+put caps on variables like down payment. So we can stop
+giving credit once a certain variable gets too high so it
+doesn’t drown out the model.
+
+Kirill:
+
+Yeah, that’s really cool. Thanks for the explanation. It was a
+great explanation and I’m sure a lot of people find it useful.
+And that’s exactly it. The ensemble methods have a better
+predictability because they’re leveraging the power of many
+
+Show Notes: http://www.superdatascience.com/14
+
+19
+
+	  
+
+rather than just one. Okay, so now we know the techniques
+you use. How do you go about building a model? I can just
+imagine. You mentioned that right now you’re trying to
+improve your model, trying to get some additional lift in your
+model by splitting out the fixed and adjustable attributes. At
+the same time, I can imagine this is a very lengthy process.
+You sit there, you’ve got a team, you try out this method and
+then you try this, you adjust this… What is this process all
+about? How does it happen? Can you walk us through from
+start to finish? What steps do you undertake to actually spit
+out a model in the end, like five or six months later?
+Greg:
+
+Sure. By far, the biggest hurdle in any model building
+process, I’m assuming, but definitely for us, is the data, is
+getting a clean dataset. Now, when it comes to credit
+variables, those are clean for the most part. They’re coming
+from a trusted reliable source like Experian. You have a lot
+of integrity in that data. Now, when it comes to a lot of other
+factors that are—in a perfect world, if the data is right, that
+can be very important, like job time, like income, like down
+payment, you start to get into a grey area where a) you can
+be relying on a human to input these values and they can
+very, very easily fat-finger something; b) there is maybe not
+the true value of that field. So down payment, for example. A
+dealership could say the down payment was $2,000, and it
+really wasn’t. They could say it was $2,000 but what it really
+was is the customer traded their vehicle in and the
+dealership gave them $2,000 for it, which is a very different
+thing than giving $2,000 cash down. So when you have data
+like that, it’s very hard to separate what’s accurate and
+what’s not.
+
+Show Notes: http://www.superdatascience.com/14
+
+20
+
+	  
+
+With job time, it’s open to so much interpretation. “How long
+have you been at your job?” “Two years.” So someone on our
+end might just put in 2 for 2 years. Well, what if someone
+else puts in 24 months? I have a value of 2 and I have a
+value of 24 and it’s supposed to mean the same thing. Same
+thing for income. Is that your weekly income, your monthly,
+your yearly? So there’s a lot of data scrubbing, data
+processing, that goes into that, data auditing.
+It’s very common in any industry to switch systems from one
+CRM to the next or from one platform to the next, making
+sure that data was all migrated properly. Many times it’s
+not. Many times something was never collected. So if I’m
+looking at a set of loans for the past 3 years, we may have
+only collected the vehicle miles 8 months ago and on, so I
+don’t have that data going back 2 years or 3 years. So I
+think getting the data is definitely the biggest challenge.
+Once we have the data and we’re very comfortable that it’s
+clean and accurate and precise, then it’s a data exploration
+process where I just test all sorts of theories that I have and
+I basically bend attributes into certain groups of 10 – deciles
+or quantiles or maybe just a binary field, yes or no. I just
+look through it manually, like “What is very predictive of
+loss?” Are all the customers that have, say, a repossession in
+their previous credit history—how do they perform against
+people that have no repossession? So I have a flag, “auto
+repo – yes/no”, and I look at the default rates for each of
+those. And I start to sort of just build a mental list. You
+know, I write it down and I say, “Okay, these are the factors
+that I really want to look at.” Then I’ll go into more detail and
+I’ll really look through them and I’ll make sure the data is all
+correct. I’ll see if there’s any weird things happening there.
+Show Notes: http://www.superdatascience.com/14
+
+21
+
+	  
+
+We try to get sort of a linear relationship. So if you take
+down payment from $0 down to say $5,000 down, you
+expect a very straightforward relationship in the default
+rates. When you look at say 0 to 1,000, 1,000 to 2,000 and
+so on. If you see something like a U shape, that doesn’t
+make sense. So you want to dig into that and see if there’s a
+reason why. Once that is all done then it’s a fairly
+straightforward process. You know, you code whatever
+library you’d like, whatever model that you want – probably
+a few different ones – you check the accuracy, you measure
+it, you measure it against the hold-out data sample to make
+sure it still holds if you’re looking at out-of-bag sampling.
+Then the hard part starts because you have to get
+management
+sign-off,
+and
+executive
+sign-off.
+It’s
+unfortunately non-data scientists who are executives.
+Probably one of the trickiest parts of my job is trying to
+explain—you know, they’ll look at one particular loan that
+charged off. That looked really good on paper, but it charged
+off. And they’ll say “How come it didn’t work on this loan?”
+And there’s always that one exception that you have to deal
+with. They see this loan they don’t like, they see that loan
+they don’t like. So getting the sign-off on that is probably
+one of the hardest steps.
+And then once that’s done we put it into beta testing and we
+run it in the background for a couple of months just to make
+sure a) it’s working correctly, that it’s calculating the
+numbers correctly. And then b) also to make sure that it’s
+still being predictive. And then once we’re comfortable with
+that, then we launch it into production. We monitor it like
+hawks. We adjust them constantly. We may make a new
+model once a year. So by adjusting, that is something sort of
+Show Notes: http://www.superdatascience.com/14
+
+22
+
+	  
+
+like—say we have a score from 0 to 100. We may find out
+“Hey, the model is not being very predictive on scores of 30
+and below on say high LTBs.” So we may say, “Okay, let’s
+just decline those.” So we’re making an adjustment on sort
+of the box that we allow through the door, or we may decide
+just to increase a fee on that.
+So those things are all adjustments that are probably going
+on, I would say, once a month. To measure the accuracy, all
+we do is we have an expected cash flow that we’re expecting
+to come in. And it kind of looks like a logistic function if you
+cut off sort of the beginning tail. So, it starts off sort of slow,
+it increases rapidly, and then it starts to flatten out and
+approaches 1. And our cash flows should follow that line
+very closely. If they start to deviate from that line, then we
+dig in and say “What’s wrong? Something is not working
+correctly.”
+Kirill:
+
+Gotcha. It makes sense. That’s a very involved process.
+There’s lots of elements to you creating a model while you’re
+looking up some models and convincing executives and so
+on and coming up with new models. I’m just curious—out of
+everything you’ve done, out of all of these iterations and out
+of models that you’ve created throughout your career, what
+would you say was your biggest win in terms of using data
+and data science?
+
+Greg:
+
+Biggest win? So fraud is a huge issue for any lender,
+obviously, because we’re not meeting these customers faceto-face and we’re relying on a dealership to give us the
+accurate information. There can be fraud from the customer
+perspective – they go and they lie to the dealership. There
+can be fraud from the dealership perspective where they lie
+to us. Or there could be both the dealership and the
+
+Show Notes: http://www.superdatascience.com/14
+
+23
+
+	  
+
+customer are in on the fraud and they both lie to us. So
+trying to minimize that is a huge priority for us. And fraud is
+always a tricky thing to call fraud. Because you have to
+show intent and it’s very hard. So we just have a lazy
+definition of it, and we say if somebody just did not pay at
+all, like their first payment, that’s fraud. Because that
+person never intended making a payment anyway. So we use
+a third party data provider who aggregate data from about
+300 or so different sources and they’re looking at everything
+from buying data from other companies to what they can
+find open-source on the Internet and they helped us create a
+fraud score. It was very accurate.
+If the customer provides us with an e-mail address and their
+home phone number, which we require on the application,
+they can tell us a) how long that e-mail has been in service
+or been in use, and they have sort of like a fuzzy languageprocessing network that it goes through that says how close
+does this e-mail address match their name. So for example,
+my name is Greg Poppe. My Gmail address is gpoppe – you
+know, first initial and last name – it’s very obvious that that
+is me. But if it was losangelesguyinthesun – you know,
+that’s a very suspect name. And if that e-mail address has
+only been in use for 30 days, well that’s even worse. And if
+their cell phone they provided to us is just a prepaid cell
+phone that they got last week, then there’s red flags going up
+all over the place. You try to think in the mind of “What
+would I do if I wanted to commit fraud?” and it would be
+“Well, I’m going to create a fake phone number or I’m going
+to get a phone just for this. I’m going to create an e-mail
+account just for this and I’m going to try to mask my identity
+as best I can.”
+Show Notes: http://www.superdatascience.com/14
+
+24
+
+	  
+
+Kirill:
+
+Okay. So thinking like the criminal?
+
+Greg:
+
+Yes. Yes.
+
+Kirill:
+
+All right. So you implemented this system. Did it show
+results?
+
+Greg:
+
+Absolutely. Basically it cut our what we call “first payment
+defaults” in half.
+
+Kirill:
+
+Wow!
+
+Greg:
+
+So that’s a huge win for us.
+
+Kirill:
+
+Fantastic! That’s a great result. And did it have a lot of false
+positives, or was that minimized?
+
+Greg:
+
+That was minimized. So it came through as a yes/no. About
+12% of applications came through flag marked as “yes”, and
+of those about half of those turned out not to make a first
+payment or two. And I say two because the dealership is on
+the hook for the first payment. So if the dealership is
+committing fraud in collusion or not in collusion with the
+customer, they will make that first payment to get
+themselves off the hook.
+
+Kirill:
+
+Okay, gotcha. Interesting. So, low false positives and you cut
+that in half, that first down payment not going through.
+That’s a really great result and very interesting. How long
+ago was this implemented?
+
+Greg:
+
+6 to 8 months ago, I think.
+
+Kirill:
+
+Yeah, powerful stuff. Okay, so that was your biggest win.
+And what would you say has been your biggest challenge?
+Apart from what you mentioned about cleaning the data,
+what has been your biggest data science challenge when
+working with credit risk models?
+
+Show Notes: http://www.superdatascience.com/14
+
+25
+
+	  
+
+Greg:
+
+Biggest challenge besides clean data? I would say executive
+sign-off and understanding of the models that we build. It’s
+very hard. I would say if there’s any students out there who
+are studying data science, I would say one skill that I’m very
+thankful for is—when I was in college I was a math and
+statistics tutor and it was a great experience because it
+really helped me explain complex problems to people who
+were not invested in the subject, who did not have a
+background in the subject. So as their tutor, I had to be very
+precise with my words but very specific and explain these
+very difficult concepts to them so that they could
+understand it. And once they could understand it, then
+obviously they get better grades and everyone is happy. I
+think that experience, doing that as a student, really helped
+me. I basically take that same approach when it comes to
+explaining this to management. So getting their sign-off is
+incredibly important and challenging. And if you can’t
+communicate it well – what you’re doing and why you’re
+doing it – then it’s an uphill battle.
+
+Kirill:
+
+Yeah, I totally agree. And that is some rock-solid advice
+about tutoring and about teaching. I completely side by that.
+That if you want to get that valuable experience of
+communicating data science and insights from your
+analytics—it’s a very helpful thing to do, to try to explain or
+try to teach data science or explain data science to your
+peers. That’s helpful to them because they get to learn data
+science, but it’s also helpful to you because you get that
+valuable experience of explaining complex things in a simple
+manner and that’s exactly what you need in the workplace.
+At the end of the day, there’s lots of people who can crunch
+numbers, who can write models and code in R and Python.
+What counts is the people that can convey those insights to
+
+Show Notes: http://www.superdatascience.com/14
+
+26
+
+	  
+
+the end stakeholders, so it’s a very, very important skill to
+have and I’m glad you highlighted that.
+Speaking of education, I noticed you had an education that
+is very closely related to your career currently. You did a
+Bachelor of Science in Mathematics, you’ve got a certificate
+in data mining, you’ve done graduate coursework in applied
+statistics. What would your advice be to people who don’t
+have that background but who want to get into the space of
+modelling or into the space of credit risk scoring? How would
+they go about gaining these skills that they might be lacking
+that you were able to develop during your studies?
+Greg:
+
+Sure. You know, during my studies, computer programming
+was not on the menu. You know, it was 10+ years ago.
+
+Kirill:
+
+You’re so old, Greg.
+
+Greg:
+
+I know, I know. The extent of my computer programming
+experience in college was a class in C++ and that was it. R
+was around, obviously, but it wasn’t really widely used in
+anything outside of academia. Python was the same thing.
+And those languages have become so popular now that if
+you don’t invest the time to learn those, you’re at a
+tremendous disadvantage. The good news now is if you have
+any programming experience it’s fairly easy to pick up these
+skills. There’s so many tutorials on the Internet for free or
+for even not a lot of money. Like I know on Udemy, you do
+the R courses. I took one of the R courses, actually, and it
+was very helpful.
+
+Kirill:
+
+Thanks.
+
+Greg:
+
+So all you listeners, check out the Kirill catalogue on
+courses. They’re very good.
+
+Show Notes: http://www.superdatascience.com/14
+
+27
+
+	  
+
+Kirill:
+
+Thanks, Greg.
+
+Greg:
+
+No worries. But you can get a very good free or nearly free
+education in coding, and a lot of these will offer certificates. I
+don’t have any certificates in Python or R or any other
+computer programming language. I do in SAS, but no one
+uses it anymore. So I would suggest just take the initiative
+to learn. And it depends on what your ultimate goal is. If
+your goal is to be like a hardcore data scientist, you’ll have
+to spend a lot of time learning the mathematics behind the
+algorithms, the reason why they work and why they don’t
+work and how to adjust them and how to apply them and
+when and where to apply them.
+If you want to maybe be in more of a managerial role and
+oversee data scientists, then I would say it’s less important
+to have the details but more important to have the
+communication ability and project management. I mean,
+most of my job right now is just project management.
+
+Kirill:
+
+Gotcha. Yeah, I really like that point. Actually, we’ve got this
+machine learning course with Hadelin which we’re finishing
+up still. It’s huge. We’re putting a lot of content into it. I was
+sitting down and explaining on video, or preparing the slides
+to explain a Kernel support vector machine, that algorithm,
+and I was asking myself the same question, like “Into how
+much detail and depth should I go?” A lot of the videos out
+there, a lot of the content that you find online, it goes into a
+lot of depth. Like, all the way. It tells you everything about
+what support vector machines are, and the different types of
+Kernels that exist, and how these Kernels work. They go into
+the formulas. But when you think about it, I think there’s a
+level of acumen that people should have, especially going
+into data science role. And then if you’re a manager you
+
+Show Notes: http://www.superdatascience.com/14
+
+28
+
+	  
+
+might take a step back from that. You might not need that
+much detail.
+If you’re doing the algorithms, that acumen might be
+enough. You don’t need to know the nitty-gritty
+mathematical academic formulas to everything about
+support vector machines or Kernels and stuff like that to
+apply it properly and get results. On the other hand, if you
+find that you do need that stuff you can go and spend some
+additional time learning. A lot of people fall into the trap.
+They try to learn everything in a lot of depth, whereas I think
+the space of data science is so broad you can’t just learn
+everything in huge depths. It’s better to learn everything to
+an acceptable level of acumen and then deepen your
+knowledge in the spaces that you need. Would you agree
+with that?
+Greg:
+
+A hundred percent. I would have to agree. You know, if you
+really want to get down and dirty in the mathematics and
+the formulas behind all these algorithms, MIT and Stanford
+all offer free videos of their lectures. You can just go on to
+the MIT website. Actually, I did watch one on SVMs –
+support vector machines. Having a background in
+mathematics is a huge advantage. I think what turns people
+off is just the notation alone. And having a background in
+mathematics, I’m very comfortable with the notation, but I
+think that scares a lot of people. It looks like Chinese to
+some people. But at the end of the day, if you take the time
+to sit down and understand what all these Greek alphabet
+letters mean, it’s just like reading a sentence when you look
+at a formula.
+Now, if you don’t want to get into that detail, I totally get it.
+You can be totally fine without it. I have never once in my
+
+Show Notes: http://www.superdatascience.com/14
+
+29
+
+	  
+
+career had somebody ask me what are the formulas behind
+the algorithm. And if they did I would say “Give me a second.
+Let me consult my friend Google.” You know, it’s not like an
+exam in school where you have to know it or you don’t. Now,
+you’d probably do it if you want to work for Facebook or
+Google – I think they ask you those things – but there’s a lot
+of jobs out there for people that don’t know them.
+Kirill:
+
+Exactly. And you can totally be successful as a data
+scientist.
+
+Greg:
+
+Absolutely. A hundred percent.
+
+Kirill:
+
+All right, that’s been a great overview of the skills and how
+deep you need to go into the skills. Plus we’ve already kind
+of touched on the history of data science. You’ve mentioned
+that you didn’t have R and Python, and you had to learn
+them as you progressed through your career, and also the
+decline of SAS, which was interesting to hear about. Now I
+want to look forward, I want to look ahead. What would you
+say from where you are in your position right now, from
+what you’ve seen about data science, where do you think
+this industry is going and basically what should our
+listeners prepare for?
+
+Greg:
+
+That’s a great question. And I do myself spend a
+considerable amount of time thinking about this myself,
+oddly enough. I think the future is the three A’s:
+automation, artificial intelligence and autonomy. That’s
+where I think the future is going. You know, automation is
+here. It’s been here for some time, and I’m not just talking
+about automation of tasks that you can program. A
+dishwasher and a copy machine – those are all humans
+trying to automate tasks. That’s here and it’s not going away
+
+Show Notes: http://www.superdatascience.com/14
+
+30
+
+	  
+
+anytime soon. And it’s always been very simple. I can make
+a machine or a robot to automate the task of taking part A
+and putting it on part B and then sending it to the
+department that makes part C. It’s simple. I don’t know if
+anyone’s heard, we’ve had an election here recently. It was a
+very mellow election. I’m sure nobody really paid attention to
+it.
+Kirill:
+
+The biggest one in history!
+
+Greg:
+
+I’ll try to keep my statements as apolitical as possible, but
+one of the themes was bringing American jobs back that
+were outsourced as a by-product of trade and globalization.
+And I think that yes, some jobs have been lost due to that,
+but the majority are lost to automation. So no matter what,
+it’s a bitter pill to swallow, but those jobs probably aren’t
+going to come back the way they were once before. It’s a cold
+hard truth, and I think we have to adapt and adjust our
+expectations rather than moving backwards. If you try to
+fight a rising tide, you’re going to lose all the time.
+So with that framework in mind, the question is what’s next.
+And I think we’re just only at the beginning of automation,
+to be honest. Like I said, we automate simple tasks and
+what we haven’t been able to do is automate tasks that
+require decision making. And I think that’s where the
+artificial intelligence aspect comes into it. You can quote me
+on this – predictions are fairly accurate – but I think that the
+biggest innovation that we will see in our lifetimes outside of
+the Internet, which I think will revolutionize the world, I
+think the next innovation is going to be self-driving vehicles.
+That encompasses the three things. It encompasses
+automation, artificial intelligence and autonomy. Once selfdriving cars are out there, I think it will put taxi drivers,
+
+Show Notes: http://www.superdatascience.com/14
+
+31
+
+	  
+
+Uber drivers, FedEx drivers, UPS drivers, the trucking and
+shipping industry – all those jobs are going to go. And what
+do we do next? I don’t know. I guess that’s a good question
+for our politicians and our lawmakers to discuss.
+That being said, I would say anything where you can learn
+the skills of programming that can affect any of those three
+areas is going to be critical. I think the self-driving cars are
+sort of the first step into a more broad technology, which is
+the automation and the autonomy. If you think about it, if
+all these cars are self-driving, it’s sort of like a hive
+technology. Why can’t we use that same technology to fight a
+disease in somebody’s body? Maybe a more scary scenario is
+fighting a war. I think once that technology is – I don’t want
+to say perfected, but improved, it’s going to change our lives
+dramatically in ways that I don’t think we can even
+comprehend at the moment.
+Kirill:
+
+Very interesting. I totally love that rule, AAA, automation,
+artificial intelligence and autonomy. And yeah, very
+profound examples of how technology behind self-driving
+cars can be used elsewhere. You’re right, it’s a huge
+disruptor that will not only disrupt the industries and
+reduce the amount of available jobs significantly in
+specifically in those industries, but it can be used
+throughout other places. And this is like a first step. We
+don’t even know what’s coming next.
+
+Greg:
+
+Yes. And I think – from a cultural and a societal standpoint –
+it is the first step for trusting the machines over the
+humans. And it could have been anything, but it just
+happens that cars are going to be the first thing, I think, to
+breach this new frontier. And I think about it all the time
+because this will directly affect my industry.
+
+Show Notes: http://www.superdatascience.com/14
+
+32
+
+	  
+
+Kirill:
+
+Yeah. You sell cars!
+
+Greg:
+
+Yeah. So if they’re not buying cars, or they’re not driving
+cars, or it switches to something like a car rental program
+like, if with your cell phone you buy minutes and it’s like
+you buy minutes or miles for a car every month, then how
+does that change my industry? It’s going to change it
+significantly.
+
+Kirill:
+
+Yeah, totally. Greg, I feel like we could just have a whole
+podcast dedicated to the future of data. It’s really
+interesting. Unfortunately we’re running out of time. But we
+might do that separately.
+
+Greg:
+
+Oh, I’m in!
+
+Kirill:
+
+Yeah, for sure! But it’s already a good point for people to
+start thinking about it. Think about these things that you
+see around you, and think of how they will change your
+industry because this disruption isn’t local. It’s global and
+it’s going to impact everything.
+
+Greg:
+
+And it’s not going to go backwards.
+
+Kirill:
+
+Yeah, it’s not. It’s definitely not. It’ll be very interesting to see
+what happens in the years to come – 2, 3, 5 years – it’s all
+happening very soon. Wrapping up today, how can our
+listeners contact you, follow you, find you, follow your
+career, ask you or bombard you with questions about the
+future?
+
+Greg:
+
+Sure. They’re welcome to contact me on LinkedIn. You can
+search for my name – Greg Poppe. It’s P-O-P-P-E. The
+handle is just linkedin/greg_poppe. They’re welcome to
+contact me on Gmail as well – it’s gpoppe329@gmail.com.
+
+Show Notes: http://www.superdatascience.com/14
+
+33
+
+	  
+
+Feel free to add me, follow me or whatever. I will respond the
+best I can.
+Kirill:
+
+Wonderful. We’ll definitely include all those links on the
+show notes page on SuperDataScience. Thank you very
+much for sharing and being open to that. And one final
+question: What is your one favourite book that you can
+recommend to our listeners for them to become better data
+scientists?
+
+Greg:
+
+Sure. There’s a book I read in college, so it’s a little old. It’s
+called “Innumeracy”. It’s written by a guy named John
+Paulos. It’s very short, it’s I think 150 pages maybe. It’s
+definitely under 200 pages, so it’s not intensive reading. The
+book is basically about how the author feels – and I agree
+with – that society has embraced sort of how it’s cool to not
+be good at math. You hear people all the time say, “Oh, I’m
+so bad at math.” “I’m not a math person.” But you would
+never in a million years hear somebody say the same thing
+about English or history. And it’s kind of like a joke. So the
+author sort of outlines this problem facing society called
+innumeracy, which is basically like illiteracy but with
+numbers. And he goes through a lot of examples about how
+people just have a general misunderstanding of numbers. I
+distinctly remember one example he gave where if you were
+to put like a 12-inch ruler and you were to say “Okay, let the
+left side of the ruler be 0 and the right side be 1 billion. So
+halfway in is a half of a billion. Where would you put 1
+million?” And people would put it at the 8-inch mark or at
+the 9-inch mark! It’s just a general misunderstanding of
+numbers and analytics and science. Yeah, it’s great. So I
+advise everyone to at least check it out. It’s a good one.
+
+Show Notes: http://www.superdatascience.com/14
+
+34
+
+	  
+
+Kirill:
+
+Okay, gotcha. Thank you so much. So that is “Innumeracy”
+by John Paulos. Guys, check it out if you want to learn more
+about how not knowing mathematics has become a joke in
+our society. Thank you so much, Greg. I really appreciate
+you coming on the podcast and sharing all your experiences
+with us today.
+
+Greg:
+
+Thank you, Kirill. I was happy to be here and happy to do it
+again any time you’d like.
+
+Kirill:
+
+For sure. We’ll definitely catch up again sometime soon. All
+right, take care, have a good day.
+
+Greg:
+
+Thank you. You too.
+
+Kirill:
+
+So there you have it. I hope you enjoyed today’s show. As
+you can see, by the end of it we went into a very passionate
+discussion of where the space of data science is going and
+what to expect in terms of job opportunities, in terms of the
+future of different industries and various roles in society. So
+it’s a very, very interesting, and some very powerful insights
+there from Greg.
+From this whole podcast, my main takeaway, the thing that
+struck me the most was when Greg mentioned that the way
+they create models is with a large focus on the end user. So
+even though he knows that there might be more powerful
+modelling techniques that he can explore, such as Random
+Forest or other ensemble methods, some of the time, he
+actually uses a simpler methodology such as a simple linear
+regression or other regressional methods to create his model
+in order to maintain continuity in the output of the model so
+that the person using the model can see that what he
+expects is happening. So if somebody is using the model and
+they get a certain percentage as the result, so a certain
+
+Show Notes: http://www.superdatascience.com/14
+
+35
+
+	  
+
+interest rate as a result of inputting their clients’ parameters
+into the model and then they suggest to the client to
+increase the down payment on the loan, then they expect
+that the interest rate will go down. So the model should
+comply with that. And it should be kind of intuitive to the
+people that are using it. And that was a very powerful
+insight and very interesting way how data science and the
+psychology of the end user actually blend in together to
+come up with this hybrid result.
+So there we go, that was our episode with Greg Poppe. As
+always,
+you
+can
+get
+the
+show
+notes
+at
+www.superdatascience.com/14. We will include all of the
+resources mentioned in this episode along with the best
+ways to contact Greg if you want to bombard him with
+questions. And to finish off, if you enjoyed this podcast, then
+make sure to leave us a rating on iTunes to help spread the
+word about SuperDataScience and get more people
+interested and passionate about developing a career in this
+fantastic space. And I look forward to seeing you next time.
+Until then, happy analysing.
+
+Show Notes: http://www.superdatascience.com/14
+
+36
+
+

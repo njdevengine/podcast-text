@@ -1,0 +1,1517 @@
+	  
+
+SDS PODCAST
+EPISODE 25
+WITH
+KIMBERLY DEAS
+
+Show Notes: http://www.superdatascience.com/25
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 25, with Data Analyst Kimberly
+Deas.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello and welcome to the SuperDataScience podcast. Super
+excited to see you here once again, and today we've got an
+interesting guest. Today we've got Kimberley Deas joining us.
+And Kimberly is using data science for something very, very
+noble. Kimberly is a data analyst in the space of medical
+research, and she uses data science to help provide
+healthcare and support services for individuals living with
+HIV and AIDS. So a very noble cause, as you can imagine.
+And in this podcast, we're going to discuss some very
+interesting topics relating to things that Kimberly has
+encountered during her profession.
+So for example, we're going to talk about how Kimberly
+transitioned from using standard academic approaches and
+philosophy to using data science in her day to day role to
+help people and fast track her research. Also, we're going to
+discuss how Kimberly uses two tools. She uses R for the
+analytics, and Tableau for the presentation. Which I found
+to be a very interesting discussion, because a lot of the time,
+people get side tracked with just one of the tools. So either
+people use Tableau for everything, or people use R for
+
+Show Notes: http://www.superdatascience.com/25
+
+2
+
+	  
+
+everything, including visualization. Whereas Kimberly has
+found that sweet spot of doing the analytics in R and then
+passing on the results to Tableau and creating amazing
+reports for management and for the presentations that she
+does using Tableau.
+So that's going to be a very interesting discussion. Also,
+we're going to talk about women in science, technology,
+engineering, and mathematics. And Kimberly is going to
+share some of her experience, how she created a career in
+this space. Also, she will provide some tips and advice for
+women out there who are looking to get into the field of
+STEM or how those who are looking to propel their STEM
+careers going forward.
+And of course, there's going to be lots and lots more value in
+this podcast, and I can't wait for you to check it out. Without
+further ado, I bring to you Kimberly Deas.
+(background music plays)
+Hello everybody, and welcome to the SuperDataScience
+podcast. Today I’ve got a very interesting guest, Kimberly
+Deas, who is a data analyst at the UT Southwestern Medical
+Center at Dallas. Hi Kimberly, how are you today?
+Kimberly:
+
+I'm great, how are you Kirill?
+
+Kirill:
+
+I'm good, thank you very much. How's the weather there in
+Dallas, Texas?
+
+Kimberly:
+
+It is finally starting to get cold so I’m very happy, because it
+was humid and hot up until maybe a week or two ago. I’m
+actually kidding, but it takes a while to actually get cool here
+in Dallas.
+
+Show Notes: http://www.superdatascience.com/25
+
+3
+
+	  
+
+Kirill:
+
+Yeah, I can imagine. How cold does it get, like the coldest in
+winter? Does it snow there?
+
+Kimberly:
+
+You know, I think they get a lot of ice in the winter time.
+This is actually my first winter in Dallas, so I’m still trying to
+acclimate to the weather. The biggest issue I’m having is
+with my allergies. Completely different set of allergens here;
+I’ve come from the East Coast. But otherwise it’s a wonderful
+city, lots of wonderful people and lots of career
+opportunities, especially in data science.
+
+Kirill:
+
+Fantastic. All right, so the way we met—for our listeners—is
+through our courses, right? I think you wrote me a message.
+Do you remember what that was about?
+
+Kimberly:
+
+Actually, I don’t remember what the message was about. But
+I’m enrolled in two of your courses – the R-programming
+course and also Tableau.
+
+Kirill:
+
+Okay, fantastic. So those are both tools that you use at your
+workplace?
+
+Kimberly:
+
+I do.
+
+Kirill:
+
+Okay, that’s great. So tell us a little bit about what you do.
+What is your profession? How would you describe it?
+Because I read through your LinkedIn and it just like totally
+blew over my head. You’re doing a PhD, you’re in medical
+research, you’re using data and you’re doing tutoring. So
+you’re in so many spaces. Just in a couple of sentences, how
+would you describe what you do to somebody off the street,
+somebody who you’ve just met?
+
+Kimberly:
+
+So the basic synopsis of what I do is I basically use
+information and we try to use that information to – we take
+data, convert it to information, I should say, and then we try
+
+Show Notes: http://www.superdatascience.com/25
+
+4
+
+	  
+
+to use that to impact the lives of individuals who are HIVpositive. So in addition to working with UT Southwestern,
+the Medical Center at Dallas, I am also employed with an
+organization called the Dallas Family Access Network. And
+it’s a Ryan White Part-D funded organization. Again, we
+provide medical services and support to individuals in the
+Metropolitan Dallas area who are HIV-positive or have
+diagnosed AIDS.
+So that’s what I do. I try to take the information, analyse it
+and use it in ways to impact some of the programming
+decisions that we make about communities that we want to
+go into to address what has become a national issue of
+health disparities, particularly in HIV incidence and AIDS
+occurrence in minority communities.
+Kirill:
+
+Wow, that’s a very noble thing to do, to apply data science to
+help people in difficult situations. So how did you get into
+this field? Like, what is your background? What did you
+study back at university?
+
+Kimberly:
+
+So I originally came into the field through a friend of mine.
+Her name is Laurie Pressley-Mitchell, and she’s over in an
+organization called Black Women in Technology. Their main
+office is in Los Angeles. And her background was in
+respiratory therapy. While she was working as a respiratory
+therapist at a hospital, she also acquired a bachelor’s degree
+in Computer Science. She and I became friends over the
+Internet.
+So having lengthy discussions about ways that her clinical
+background could be applied to a health care setting, she
+talked to me about different fields — health information
+technology, health data science, which is a subfield of data
+science. So, thinking about ways that I could use the
+
+Show Notes: http://www.superdatascience.com/25
+
+5
+
+	  
+
+background that I had already acquired as a research
+scientist, you know, acquire some additional skills and then
+be able to continue to use that in a research setting. So
+shout-out to my girlfriend Laurie.
+Kirill:
+
+Nice. Big shout-out to Laurie. So what attracted you in that
+field? Is it a bit different to research science, like what you
+were already doing at the time?
+
+Kimberly:
+
+It’s actually quite different except that most research
+scientists are aware that you need to apply statistical
+techniques in order to verify or confirm some of the
+information that you’re generating in a laboratory. So I had
+previously been involved in cancer research. I was predoctoral fellow at the National Cancer Institute for a year
+where I worked in genetic epidemiology. So a lot of the
+nature of that work involved looking at genetic
+predispositions for specific types of cancer. We looked at
+BRCA1 mutations, so a lot of that genomic information can
+be interpreted as data, and then we would use that
+information to make changes in how people who carry
+BRCA1 mutations should be cared for should they be
+diagnosed with breast cancer.
+That’s how I initially got into the field, coming from a bench
+science. I started off doing laboratory, working with mice
+and rats and things of that nature, and then gradually
+moved over to more of the analytical side, actually analysing
+some of the data that we were generating in the laboratory
+and again, drawing conclusions about some of the studies
+that we were doing. So we repeatedly kept coming back to
+doing a lot of statistical analysis. And so coming from
+epidemiology, the jump to data science was a pretty logical
+one and a very enjoyable one too.
+
+Show Notes: http://www.superdatascience.com/25
+
+6
+
+	  
+
+Kirill:
+
+Okay, gotcha. And how is it different? Can you explain?
+Because I hear a lot of examples where people use R
+programming in a research setting. How is the way you
+apply the statistical modelling in your epidemiology career
+path, and then how you move to data science, how is that
+different? What did the transition involve?
+
+Kimberly:
+
+So right now I’m using R programming to do logistical
+regression, where I’m looking at two different populations
+and trying to determine if there’s any statistically significant
+differences in those two populations. I would say that
+epidemiology, at least the area that I was involved in initially
+– it was infectious diseases epidemiology. And so we were
+using epidemiological techniques in order to map outbreaks
+of certain specific diseases.
+So, again, I think that this designation of data science
+actually was probably born out of epidemiology, although
+there might be some discussions from folks in the field who
+have a different take on it. But I think it’s just a matter of
+how you apply the information and how you use it. It’s just
+that a lot of these same types of techniques can be used.
+Now, with that said, most of what I found in epidemiology
+didn’t move in the direction of using complex programs like
+R in order to draw statistical conclusions. They used
+programs like Stata and SAS. So I think it was basically just
+a way to extend some of that knowledge that you’re able to
+gain from basic epidemiological research and actually draw
+some additional conclusions using programming languages
+like R, which are quite easy to use once you get the swing of
+things.
+
+Kirill:
+
+Okay. Yeah, gotcha. And how did you find the difference
+between SAS and R? I just have to ask this question because
+
+Show Notes: http://www.superdatascience.com/25
+
+7
+
+	  
+
+with the trends that we’re seeing, how R is getting more and
+more popular, like even pushing these more enterprisebased or enterprise-oriented and more expensive tools out of
+the market. What did you find is the difference between SAS
+and R and which one did you prefer?
+Kimberly:
+
+Well, because I’m using R a lot more, I would say R for that
+reason. In epidemiology we use a lot of SAS. I’d probably
+hesitate to make a direct comparison because I think what
+happens is that, because of the interest in public health, I
+think that they’re more used to using more simplistic ways
+of doing analysis. Whereas I’ve noticed that people,
+particularly in cancer research use more programmatic
+languages, like R, in order to do statistical analysis. So I
+think they both have a role, depending on what types of
+conclusions you’re trying to draw from the research and the
+work that you’re doing. It’s just a personal preference.
+One of my favourite analogies, having discussions with
+people that I work with in HIV who are still basically using
+Excel spreadsheets and databases sometimes, is that there
+are two modes of transportation that people can use to get to
+work. You can either ride a bicycle or you can drive a car. I
+see SAS more as riding a bicycle. It will get you there, it
+might be a bit slow, whereas R is a car, the way to get to
+your destination a little faster. That makes it really
+simplistic and it might offend some but that’s—again, being
+relatively new to the field, that’s my initial feeling about the
+differences between R and SAS. One is just a more advanced
+way of doing pretty much the same thing.
+
+Kirill:
+
+Okay, gotcha. That’s very interesting. Yeah, and again,
+people have different opinions. Somebody might be more
+into SAS, somebody more into R, and it’s about how
+
+Show Notes: http://www.superdatascience.com/25
+
+8
+
+	  
+
+everybody feels their way around these tools and
+understands how to use them. And you mentioned you used
+logistic regression in R, which is interesting. It’s a very
+powerful technique. I can imagine how that would be helpful
+in what you’re doing. Can you tell us a bit more about how
+exactly you apply it? More specifically, what kind of
+challenges does logistic regression help you solve in your
+day-to-day role? Again, if you can disclose this information,
+because I can imagine some of it would be sensitive.
+Kimberly:
+
+Right. So, because we deal with datasets that involve actual
+patients, I can’t go into too much detail because of PHIPA
+regulations. But what I can say is that—again, it’s relatively
+new, I think, to use a programming language like R to make
+conclusions about different populations in terms of the field
+overall. Most of the people that I notice in the literature that
+are using R are people who—actually, a lot of them are
+actually basic scientists, which is really interesting. So to be
+able to use it in a public health realm is relatively new.
+I think for me, though, it’s trying to move the HIV world into
+using some of these more advanced techniques. It’s a great
+idea in general, although like I said, it’s relatively new. And
+again, it’s a really quick and easy way for me to—something
+that I might notice graphically, like if I’m comparing two
+different populations. Again, I look at health disparities and
+barriers to care. So if I’m looking at one population where,
+for example, they may have more health care resources, and
+then I look at another population, I’m able to use logistic
+regression to say if there are really any statistical differences
+between the two populations in terms of who may be at a
+greater risk of being HIV-positive.
+
+Show Notes: http://www.superdatascience.com/25
+
+9
+
+	  
+
+And then the program that I work with uses that information
+to make some designations about how and where to apply
+resources. So that’s the power of what I’m able to do with R,
+to be able to help the program that I work for make
+decisions about how they want to allocate resources. But
+again, it’s relatively new and most of the people that are in
+the field are using more basic techniques, but I think the
+power of R is that you’re able to generate this information
+and it’s statistically sound and able to challenge it.
+And that’s no matter what you do, when you’re trying to get
+your information published, is that you have to be able to
+draw conclusions that others are able to duplicate. I think
+that one of the powers of using R is that the results are
+pretty irrefutable. You’re able to demonstrate, or not
+demonstrate, depending on what your hypothesis is, that the
+conclusion that you’re drawing is actually quite accurate. So
+that’s, for me, the power of using R for logistical regression.
+I’m able to back up what I think I can see graphically when
+I’m looking at two different populations, so that’s really
+powerful.
+Kirill:
+
+Yeah, that’s definitely a huge advantage of R. And also that
+it’s free, right? So if your research is available publicly, then
+anybody who has a computer and has a desire to just
+recreate your results can just download R, install it, run the
+same packages that you ran, and just see the results for
+themselves and make some minor tweaks. So they can build
+upon your research.
+
+Kimberly:
+
+Exactly. And the R community that’s available for asking
+questions is very active. You can go on Google, you can go
+on Kaggle, a number of different sites where you can ask
+these types of questions. And again, because the software is
+
+Show Notes: http://www.superdatascience.com/25
+
+10
+
+	  
+
+free, there’s a very active R community out there always
+willing to help. So it’s been a relatively smooth transition
+into data science in large part because of the large
+community of people who are using programs like R and are
+so willing to help people who are new to the field like myself.
+Kirill:
+
+Yeah, I totally agree. And are you seeing any initial results
+yet from using R? Like, have you been able to deliver some
+insights that have, for instance, changed the way things are
+currently done in your organization or other places?
+
+Kimberly:
+
+Well, I actually have. I recently was able to prove my first
+hypothesis. I should also specify that the nature of the work
+that I do for the organization that I work for is more along
+the lines of quality improvement versus clinical research,
+which is significantly different in terms of your hypothesis
+testing, in terms of the population sizes that you’re dealing
+with. And so I’ve absolutely recently just confirmed my first
+hypothesis and I’m actually in the process of writing my first
+manuscript in a number of years. So when I return from the
+holidays, I will be speaking to my advisers—both my
+[inaudible 16:42] adviser and obviously my adviser where I
+work at UT Southwestern—about some of the preliminary
+results and I’m tentatively scheduled to present these results
+at an HIV clinical conference that UT Southwestern has
+weekly on HIV. I’m scheduled to present that in April of next
+year, so I’m very excited about the results and looking
+forward to submitting the manuscript for publication some
+time in the near future.
+
+Kirill:
+
+Okay, fantastic. Congratulations on that. It sounds like a big
+step ahead. You’ve mentioned you’re in a different space to
+clinical research, you’re in quality improvement, was that
+right?
+
+Show Notes: http://www.superdatascience.com/25
+
+11
+
+	  
+
+Kimberly:
+
+Exactly correct. So we do quality improvement. Again, Ryan
+White supported through HRSA, and a very significant part
+of being able to address what are clear and distinct health
+disparities in terms of specific populations who have higher
+incidences and prevalence of HIV and AIDS in the
+community.
+
+Kirill:
+
+Okay, gotcha. So that’s a very interesting role that you’re in
+right now. And I noticed from your LinkedIn that you also
+are the founder and president of Kimist Konsulting and
+Tutoring Services. So you’ve been doing that for 4½ years
+now. Is that like some side hobby that you have? It looks like
+something that you’re passionate about if you’re doing that
+in parallel with your job.
+
+Kimberly:
+
+I am. So that actually was born of—I had worked in the
+pharmaceutical industry doing basic science research and
+had found myself in search of challenges where I wouldn’t
+have to make decisions about good science and integrity.
+That’s a politically correct way of putting that. So out of that
+experience, I decided to create an organization that would
+allow me to continue working with younger people,
+particularly minorities and especially women, to encourage
+them by being an example of how to navigate the STEM field
+– Science, Technology, Engineering and Math.
+And initially I started off as just a tutor. I worked with
+medical students because I’ve taken a number of medical
+school classes at Georgetown Medical School while I was a
+graduate student there. And I also worked with graduate
+students preparing for the GRE, pharmacy students
+preparing to take the PCAT, all the way down to elementary
+school students who are taking basic science and math
+courses. So in a lot of ways, it’s my way of giving back to the
+
+Show Notes: http://www.superdatascience.com/25
+
+12
+
+	  
+
+community. There were so many people that were
+instrumental in helping me get to this point that I wanted
+find a way to give back and, again, I had some challenges
+working in the pharmaceutical industry, so I started working
+as a tutor and decided to found my own organization. Again,
+it’s been going on for about 4 years.
+I don’t have the time that I used to have in my schedule now
+because in addition to working full-time as a data analyst,
+I’m also a PhD student and attending Tarrant County
+College, where I’m pursuing a Certificate in Health
+Information Technology. So I’m extremely busy, and so I
+don’t have as much time as I would like to have to work with
+people in a tutoring capacity. But that’s one of the things
+that I certainly hope to build upon in the future once I
+complete my PhD.
+Kirill:
+
+Yeah, I can totally imagine how you’re short on time and
+you’ve got so much on your plate with your PhD and the job
+and also this tutoring setup or tutoring business that you’re
+running and giving back to the community. And I think
+that’s a great thing that you’re doing. It’s amazing to be
+passionate about something like that when you’re helping
+other people. So just through the understanding that for you
+to get where you are other people helped you.
+I have the exact same sense of gratitude for those people
+who helped me in my journey. So you mentioned that you
+have a passion to help women navigate the space of STEM.
+For our listeners, STEM stands for Science, Technology,
+Engineering and Mathematics. Historically, it has been a
+predominantly male-dominated area. What would you say
+are the main challenges for women to get into STEM and be
+successful in the area of STEM?
+
+Show Notes: http://www.superdatascience.com/25
+
+13
+
+	  
+
+Kimberly:
+
+I would probably say the largest challenge is that even after
+all the successes that women have had in the area of STEM,
+that being stereotyped into specific roles and specific fields is
+still a big problem. I think the second most important thing
+is being able to identify mentors, people who are there to
+encourage you to commit to the field. Interestingly, I read an
+article last fall that said that Calculus One is the great
+limiting step, to use a biochemist term, in why women don’t
+stick with STEM.
+It’s interesting because I also had to retake Calculus One,
+but I was fortunate in that I was surrounded by people who
+encouraged me to hang in there. That repeating Calculus
+One is not indicative of your abilities in the future in STEM,
+but I think the message a lot of women are clearly getting—
+based on the numbers—is that if you can’t be successful in
+that one course, or general chemistry or general biology,
+then you won’t be successful in STEM. So I think the
+conversation needs to turn more towards how internal
+biases can affect how we communicate with male students
+versus how we communicate with female students. It’s a big
+problem, but I think that it begins with an open and honest
+conversation about what some of the real issues are. And
+then from there we can work on making some changes.
+
+Kirill:
+
+Okay. Yeah, I totally agree. I’ve met a lot of very smart
+women through my bachelor’s in Physics and when I was
+working at Deloitte. There’s lots and lots of very successful,
+very smart women who have overcome these challenges and
+have found their path and their career in the space of STEM.
+It’s a very sensitive topic that has been floating around for
+quite some time and finally it’s surfacing that yes, there is
+this kind of prejudice and it is hard for women to find their
+
+Show Notes: http://www.superdatascience.com/25
+
+14
+
+	  
+
+path in this space. And there’s lots of organizations that are
+helping out so it’s fantastic to see that you’re doing the
+same.
+What would your one most important piece of advice be to
+those of our listeners who are female and who are listening
+to this podcast right now who want to get into data science
+or some other fields of STEM and need some encouragement
+or guidance? What would you say is your one most
+important piece of advice for them?
+Kimberly:
+
+I would say the one most important piece of advice is to
+identify someone, male or female, who believes in what
+you’re trying to do and stick to them as closely as you can.
+One of the interesting aspects of my graduate education is
+that I initially relocated to Texas with the idea or with the
+intent of attending graduate school in biomedical informatics
+at an institution here in Texas. But after a year in the
+program I found myself not getting the support and
+encouragement that I needed to get to the point that I
+envisioned myself in terms of my career. So I initiated a
+transfer and have been very happy to be at Rutgers
+University, where I do feel a very strong sense of support
+and encouragement.
+So I think the most important thing would be to find an
+institution or an individual, preferably both, who will
+support and encourage you, but more importantly not be
+afraid to make a change if you find that what you’re doing or
+the decisions you’ve made isn’t working for you. There’s
+nothing wrong with making a change. Sometimes I feel that
+we have this idea that if we start somewhere and we don’t
+finish, that that imparts a sense of failure, and nothing can
+be further from the truth. There’s a lot about finding a place
+
+Show Notes: http://www.superdatascience.com/25
+
+15
+
+	  
+
+where you fit in and where you’re going to be supported and
+encouraged. So seeking those people out would be the most
+important thing, I think, about going into a field like data
+science.
+Kirill:
+
+Fantastic. That’s some very valuable advice and it all
+revolves around the notion of mentors which we’ve—several
+guests have mentioned this on the podcast. We’ve had some
+in-depth discussion how mentors are extremely important in
+every person’s life, regardless of whether you’re going into
+data science or not. It’s just an important thing to have
+somebody to share your thoughts and feelings with and also
+get some feedback and have these on-going discussions.
+Somebody who’s going to, like you say, support you through
+your career and life. It’s something that helps in difficult
+times and helps guide you as well in good times, just to
+understand in which way to develop further.
+
+Kimberly:
+
+And I just want to give you a shout-out for making R and
+Tableau so interesting. Your classes are fantastic. I would
+strenuously encourage your listeners to take one of your
+courses. It has made a significant difference in my being
+able to learn Tableau. And I’ve actually looked at some of the
+courses that are available on Coursera in particular,
+because there was a lot of positive feedback about one
+particular set of R courses, but it wasn’t until I came across
+your course where everything started to click and make
+sense for me. So I just wanted to thank you for providing
+that information to those of us who are trying to get into the
+field of data science.
+
+Kirill:
+
+Oh wow, thank you very much. Thank you. I always
+appreciate great feedback. Well, that’s kind of my way of
+giving back to the community, like you give back with your
+
+Show Notes: http://www.superdatascience.com/25
+
+16
+
+	  
+
+consulting services and helping women navigate their STEM.
+That’s the least I can do, to help people navigate the waters
+of R programming and Tableau, which can be extremely
+complex. So I’m glad that you enjoyed those courses.
+And that’s a good segue moving back into R and Tableau
+and the tools that you use in your day-to-day role. Can you
+tell us a bit more? So, we talked about logistic regression.
+And just like all these tools that you are using or you have
+used, such as R, Tableau, and you mentioned even Excel,
+and that you do some database design, so I’m assuming
+there must be other – so there’s some MySQL there and
+Access. What would you say are some other interesting
+techniques or methodologies that you use in any of these
+tools that you would like to point out to our listeners so that
+there’s something that they can digest and maybe look into
+for their own careers and professions?
+Kimberly:
+
+I think that one thing I would encourage people to do is to
+not be afraid of what can be seen as a steep learning curve
+with some of these more advanced techniques. Specifically,
+I’m referring to Tableau, and it’s not inherently difficult to
+learn. It can be real difficult to use the different dashboards
+and figure out what all the features are. But I think that
+what you get out of that are amazing data visualizations
+which can be critical to communicating whatever point
+you’re trying to make to audiences that may not be as
+STEM-astute. So I use Tableau extensively to make points
+that again, make it more clear for some of the people,
+individuals that I deal with on a daily basis who may or may
+not have the scientific background to understand. Most
+people, you can explain something in words, but if you’re
+able to make a visual presentation of it, it makes a lot more
+
+Show Notes: http://www.superdatascience.com/25
+
+17
+
+	  
+
+sense. So that’s the extent that I use Tableau pretty
+extensively and it’s my preference in terms of all of the data
+visualization software that’s out there. It’s the one that I use
+most extensively.
+Kirill:
+
+Gotcha. And that is actually something that I find very
+forward-looking in your position because I’ve seen a lot of
+situations where people use R in medical research. It’s one
+of the most popular tools and I think that the Johns
+Hopkins University is all about using R for medical
+applications and research as well. And a lot of the time I find
+that that’s where people limit themselves. They just use R
+and then they use ggplot2, which is an R package, which is
+fantastic, and they use it for visualization. Ggplot2 is
+fantastic for visualization, like ad hoc visualization for
+research, for trying to understand how something works,
+trying to build it. As you’re doing the analytics, you need
+this ad hoc research.
+But if you’re creating a full-blown presentation that you
+want to, like you say, get across to people who might not be
+as STEM-astute as you are or as other people that you
+normally interact with, or even if you want to create a
+beautiful presentation for a conference, then I see Tableau
+having so much advantage over ggplot2, or for that matter
+any R visualization package, that I just don’t understand
+why people choose to limit themselves and not explore the
+world of Tableau.
+Perhaps it could be due to the steep learning curve of
+Tableau, even though I think Tableau is easier to pick up
+than R. And also it could be because maybe people just want
+to stick to that one tool, R. But at the same time, it’s great to
+see that you’ve chosen this pathway of separating the two.
+
+Show Notes: http://www.superdatascience.com/25
+
+18
+
+	  
+
+You do your analytics in R; you do all the regression and all
+that other type of modelling in R, and then when you need to
+create a presentation, you switch to Tableau. So, how would
+you say you actually discovered Tableau and why did you
+decide to make the separation between the analytics and
+visualization and find the right tool for each of the jobs?
+What prompted you to venture down that path?
+Kimberly:
+
+You know, I’m actually thinking. I’m not really sure how I
+even learned that Tableau existed. I honestly think it was
+through—you know, I can’t remember. I’ve only been using it
+about a year. Maybe not quite a year, maybe I started in
+January, I think. But if I had to guess where I think it came
+from, I actually think it came from looking through the
+courses that you were offering that you teach through
+Udemy. Is that correct? I think I got that right.
+Yeah, I think that’s where I actually learned about Tableau,
+it was through looking through your course listings for
+different data visualization tools and recognizing that, again,
+because a lot of the information that I generate is going to be
+used to not only communicate with physicians and
+clinicians but also with people in the community who are
+HIV-positive and are part of the various Ryan White
+committees that most local cities, large cities have. And so
+trying to find the best tool that would be understood by
+people of various backgrounds was what initially prompted
+me to start using Tableau. And it’s worked quite [inaudible].
+
+Kirill:
+
+Yeah. And so would you recommend Tableau as a tool to
+people in professions similar to yours?
+
+Kimberly:
+
+I absolutely would recommend it, although someone recently
+turned me onto Microsoft—
+
+Show Notes: http://www.superdatascience.com/25
+
+19
+
+	  
+
+Kirill:
+
+Power BI?
+
+Kimberly:
+
+Right. (Laughs) Microsoft BI. I have it downloaded on my
+computer. I haven’t started playing around with it just yet.
+As a competitor, I would imagine—like I said, I use Tableau,
+I’m happy with it. Someone else suggested that I look at it.
+And I think that one of the other members of one of the
+other research groups that I work with in the infectious
+disease department actually uses BI. But yeah, I’m happy
+with Tableau. It works for the needs that we need it for, and
+I absolutely would recommend it. And as you mentioned,
+ggplot2 works well, but when you want to make an impact I
+think Tableau is the way to go.
+
+Kirill:
+
+Yeah, I totally agree. And just on Power BI, there’s actually a
+couple of tools that are in the space of visualization. And the
+leaders, I would say, are Tableau, then we’ve got Microsoft
+Power BI, we’ve got QlikView, we’ve got QlikSense, and then
+we’ve got a couple of others. There’s an IBM tool which
+they’re promoting and so on. Yeah, I would say Tableau is by
+far the most robust tool. And then I would say next, in my
+view, would come Microsoft Power BI, the one you
+mentioned. They are really putting a lot of effort into it. They
+only launched like a couple of years ago. Tableau has been
+around for 10 years or so—as far as I remember, 10 or 6,
+like, many years. And Microsoft Power BI has only been
+around since like 2015, or somewhere thereabouts. But
+they’re already really catching up to Tableau.
+And the big difference is that of course Microsoft BI is free,
+whereas Tableau has a very large fee associated with it. And
+so it’d be interesting to see how that goes. And if anybody
+listening is into visualization tools and wants to pick the
+right one for their job, there’s a great report – it’s called the
+
+Show Notes: http://www.superdatascience.com/25
+
+20
+
+	  
+
+Gartner Report, it comes out every year around February.
+And what you need to google is just google the “Gartner
+magic quadrant for BI (Business Intelligence).” They’ve like
+set up this quadrant on the Y axis, I think, you have
+completeness of vision, and then on the X axis you have
+the—I forgot. I think it’s like what they have on offer—what
+kind of functionality they have on offer in that tool, and then
+they plot out all these different visualization tools. So it’s
+really cool to observe that. So that’s very interesting, that we
+went into a bit of visualization.
+So tell us how your PhD is going. You mentioned before the
+podcast that you just started your PhD. What is your PhD
+going to be about?
+Kimberly:
+
+My PhD is in biomedical informatics, and I’m looking to
+concentrate in public health informatics. And given the fact
+that I’m very happily working with HIV and AIDS individuals
+in terms of quality improvement type projects, I’m looking to
+have a long-term career using informatics tools to improve
+the lives of people who are HIV-positive and have AIDS. So
+I’m hoping to focus my dissertation and my coursework in
+public health informatics. So that’s the concentration I’m
+actually looking to as a PhD student at Rutgers University.
+
+Kirill:
+
+Okay, gotcha. And if you can disclose this, what are some of
+the ways that you look into that you can improve the lives of
+people that are HIV-positive?
+
+Kimberly:
+
+So, again, there is a significant health disparity with who is
+HIV-positive in this country, and it unfortunately tends to
+fall
+disproportionately
+on
+poor
+communities
+and
+communities of colour. So what I’m hoping to do by using
+advanced techniques in informatics is to be able to impart
+some changes both at the clinical level and the community
+
+Show Notes: http://www.superdatascience.com/25
+
+21
+
+	  
+
+level which will allow us to address some of these disparities
+and improve the lives of people who are HIV-positive and
+who are looking to seek proper care for their HIV with the
+ultimate goal of preventing the progression to AIDS. I’ve been
+an AIDS counsellor when I was an undergraduate student,
+so that’s how I first got exposed to working with the HIV and
+AIDS community. So I kind of moved away from it a little bit
+and then have come back to it and have been very happy to
+be back, being able to apply some of this new technology in
+the field of HIV and AIDS.
+Kirill:
+
+Okay, gotcha. I apologize for my ignorance on this topic, but
+could you explain how is HIV different to AIDS? You’ve
+mentioned that HIV progresses to AIDS. What is the main
+difference between the two?
+
+Kimberly:
+
+So, individuals who are HIV-positive, it means that they
+have shown a reaction to the virus which has been linked to
+AIDS. AIDS is the more advanced form of the disease and
+unfortunately it can be lethal for many individuals. Until the
+advent of AZT, HIV was pretty much a death sentence. But
+now thanks to the discovery of a lot of new drugs and drug
+cocktails, people who are HIV-positive are now able to live—
+as long as they take their medication – they’re able to live
+lives that are comparable to people with other types of
+chronic illnesses like diabetes.
+So the big idea now is to keep the viral load of people who
+are HIV-positive at an undetectable level. It does not mean
+that they cannot transmit the disease, it just means that
+there is no detectable level of virus being actively replicated
+in their bodies. So that’s the condition again, that people are
+able to live long, healthy, extended lives as long as they are
+compliant with their physician’s orders in terms of taking
+
+Show Notes: http://www.superdatascience.com/25
+
+22
+
+	  
+
+their medications. So it’s a very different picture than when
+AIDS first came on the scene, in the 80s I guess it was.
+Initially it started off as a death sentence and now it’s
+treated just like any other chronic condition, like being
+diabetic.
+Kirill:
+
+Okay, so basically if somebody discovers this early on, then
+they have a much higher chance of treating it properly and
+still living a very healthy, an interesting and good life while
+they take that medication. Is that correct?
+
+Kimberly:
+
+Exactly. So initially what happens with HIV is when a person
+is first exposed, the literature seems to indicate that that’s
+the period when the person is most highly infectious. And a
+lot of times, when people are in that highly infectious stage,
+they are not aware that they’re HIV-positive. So that’s why
+it’s critical for people who engage in activities which put
+them at higher risk, like being IV drug users or having
+intimate relations with people who are IV drug users, that
+they regularly get HIV tests so they can stay on top of what
+their HIV status is. It’s a significant portion of people in this
+country which are believed to be HIV-positive and unaware
+of their status. So those are also another group of people
+that many in the HIV and AIDS community are trying to
+target with programs that allow for free HIV testing with the
+goal and with the idea that if we can catch people early,
+particularly in the infectious process, then we can prevent
+the spread of the disease in the community.
+
+Kirill:
+
+Alright, thank you very much for that explanation. I
+definitely learned quite a few new things from there. And I
+must say it’s very noble of you to choose to do your PhD in
+this area and actually dedicate a large portion of your life to
+helping people that are suffering from this disease. And
+
+Show Notes: http://www.superdatascience.com/25
+
+23
+
+	  
+
+speaking of your PhD, I wanted to ask you this question.
+Based on what you’ve already done in your previous roles or
+in this role previously, and the way you see your PhD
+coming together, the way you’re thinking about structuring
+it, what role do you think data will play in your PhD? I
+understand you’re still at the very start of your PhD, but at
+the same time, looking forward, how do you think you will
+use data in your PhD? Do you have any plans for that?
+Kimberly:
+
+I absolutely have plans. And again, I kind of very deliberately
+started putting this plan together over a period of years of
+meeting with different people in the field and figuring out
+ways to create something that would be both a personal and
+professional interest. There hasn’t been a large application,
+from what I’ve been able to gather in the literature, of using
+data science to specifically address health disparities. So
+that’s one of the ways that I hope to develop my career in the
+future, to use this information that I’m able to have access
+to, de-identified of course, turn that data into valuable
+information and use that information to make quality
+improvements in the lives of people who are HIV-positive. It
+seems like it should be a logical application of the use of
+data science because it’s using every other industry,
+obviously.
+And now I think that the public health field is starting to
+come around to some of the advantages that this data that
+we already gather lots of information on can be used to
+basically decrease disease burden in our communities and
+improve overall public health. So that’s a pretty good
+synopsis of what I’m hoping to do with my work in health
+data science in the field as it applies to public health
+informatics.
+
+Show Notes: http://www.superdatascience.com/25
+
+24
+
+	  
+
+Kirill:
+
+Fantastic. That sounds like a huge challenge and we wish
+you the best of luck with that. I think that can make a very
+large positive impact on many communities, not just in the
+U.S. but that research could be extrapolated to other
+countries as well. And speaking of that, do you actually work
+internationally? Have you done any collaborations or
+something like that in terms of international impact?
+
+Kimberly:
+
+Actually, I haven’t done any. I’m not currently participating
+on any international type projects but obviously, because
+the HIV burden is also pretty heavy in the continent of
+Africa—as you mentioned before, a lot of the knowledge that
+we’re able to gain from the application of data science to
+public health and HIV and AIDS incidence can be applied
+internationally in places like Africa. And so while I’m not
+currently involved in anything on the international level,
+there’s absolutely no reason to think that some of the
+programmatic changes that we can make or create here
+based on some of the analysis that I and others are doing
+can certainly be applied to other places where there is a high
+HIV and AIDS incidence.
+
+Kirill:
+
+Yeah, totally. I think it will be an interesting PhD that you’ve
+set up for yourself because it combines both data science
+and something that you’re very passionate about. So I’m
+very excited for you going there. And speaking of
+accomplishments and using data, what would you say has
+been your biggest win that you’ve had recently using data
+science? Again, if you can share that with us. So something
+that you’re proud of, something that you were able to use
+data for to do differently and to create something unique.
+
+Kimberly:
+
+Again, because we’re in the process of writing up a
+manuscript, I can’t go into too much detail about it. I forget
+
+Show Notes: http://www.superdatascience.com/25
+
+25
+
+	  
+
+what the phrase is when someone beats you to the punch in
+terms of publishing, but yeah. So I’ve been very pleased that
+basically we’ve been able to analyse this data and we have
+some very important stories to tell in terms of those barriers
+to care that disproportionately affect poor minority
+communities. So, again, I can’t speak in too much detail
+about it but I hope that information published—again, it’s
+something that, because of the nature of what we do, it
+won’t just be applicable to the Dallas Family Access Network
+where I’m currently working with UT Southwestern, but it
+could be applied to any area of the country where there are
+high HIV and AIDS burdens in the community. Again, I can’t
+give too specific detail right now, but I’m very pleased with
+some of the results that we’ve been able to generate thus far
+and I’m looking forward to 2017 when hopefully all this hard
+work will come to fruition.
+Kirill:
+
+Yeah, gotcha. And is it going to be a publication that people
+can just read on the Internet?
+
+Kimberly:
+
+Absolutely. Obviously, I will provide a link to it on my
+LinkedIn profile after it’s accepted for publication. And I’m
+actually looking forward to participating in the International
+AIDS Society meeting in Paris. That’s a dream, to go there
+and hopefully be able to present this research to a larger
+international community. That’s my top goal for next year,
+but there’s obviously some other AIDS organizations and
+meetings that are going to be held next year that would also
+be a wonderful addition to my background in HIV and AIDS
+research. So, yeah, 2017 is looking to be a big year for our
+group.
+
+Kirill:
+
+Fantastic. Yeah, and Tableau will help you with that
+presentation and hopefully we can get a link of that and put
+
+Show Notes: http://www.superdatascience.com/25
+
+26
+
+	  
+
+it on our show notes as well so people who are interested,
+who are listening to this later in 2017, can get a glimpse of
+what you’ve been up to and what results you’ve come up
+with.
+Kimberly:
+
+Absolutely.
+
+Kirill:
+
+Wonderful! So we’ve got some rapid fire questions here
+leading up to the end of the show. What would you say is the
+biggest challenge you’ve ever faced as a data scientist?
+
+Kimberly:
+
+I would say just breaking into the field. Coming from a
+bench science background, it was extremely difficult to
+convince various individuals and HR departments that I did
+have the skillset that would be required to succeed in data
+science. And I would say the most important personal
+characteristic you need to succeed in the field would be
+tenacity. You have to be willing to start over, go back to the
+drawing board, reanalyse, analyse. So coming from a bench
+science research background, I had those skills, but
+convincing people to give me a shot when I didn’t have the
+formal training was quite challenging. So that was a large
+part of why I knew I had to go back to school, because it’s
+getting to be pretty competitive, and a lot of the
+opportunities are open to people with computer science
+backgrounds, which are helpful, but in the field of health
+data science, if you don’t have some sort of background,
+either in the biological sciences or in the medical sciences,
+you’re at a pretty significant disadvantage. And so I was able
+to parlay my interest in data science into an area which
+would allow me to use my background and then be
+something that I could build on for the future. So I’m very
+excited about how that eventually turned out for me. Again,
+it was challenging breaking into the field.
+
+Show Notes: http://www.superdatascience.com/25
+
+27
+
+	  
+
+Kirill:
+
+Gotcha. And what would your advice be for somebody who is
+trying to break into the field who is also coming—was the
+term that you used “bench science”?
+
+Kimberly:
+
+Yes, bench. That means I was in a laboratory.
+
+Kirill:
+
+Oh, gotcha. So what advice would you have for somebody
+coming from a bench science background trying to break it
+into the field of data science? Like you had to convince
+people to give you a shot. What would you recommend them
+to do to get to where they want to?
+
+Kimberly:
+
+I would recommend that they take advantage of any number
+of big free courses that are available – specifically yours. I
+would start with yours, although again, some folks
+recommend others. Whatever works for you, I guess, is fine.
+The idea is that you can get into it virtually for free; all you
+need is an Internet connection and a computer.
+So I would first maybe take a year, start with the
+programming course and then work your way from there. I
+call it trial by fire. The first programming course I actually
+took was upon the recommendation of a family member
+who’s a software engineer, and he suggested I take Java.
+And I thought, “What does Java have to do with anything?”
+But what it actually was, it taught me how to think like a
+computer scientist which is, you know, a big part of being a
+successful data scientist.
+And although I don’t think you have to be a computer
+scientist to be a data scientist obviously, being able to think
+along the lines of a programmer has repeatedly proved to be
+one of the smartest things I ever did. Because it made every
+other language I got exposed to that much easier. Again, my
+recommendation would be, take about a year, start with the
+
+Show Notes: http://www.superdatascience.com/25
+
+28
+
+	  
+
+programming course – I would not suggest R – something
+like C++, just so that you can get used to some of the
+syntaxes used in programming, and the way of thinking and
+looking at problems, and then build from there. That would
+be my suggestion.
+Kirill:
+
+Gotcha. Great advice. Thank you very much. Next question
+is very interesting: What is your one most favourite thing
+about being a data scientist or being able to apply data in
+your day-to-day role?
+
+Kimberly:
+
+This one is really easy. One of the things that’s particularly
+frustrating about being a bench scientist is that it can take
+anywhere from years to decades to see something you’re
+working on, an idea you have come to fruition. One of the
+great things about data science is that with a couple of
+manipulations you can tell quite easily whether or not you
+need to make, in my example, program changes or you need
+to target this community versus another for HIV/AIDS
+testing. Data science allows you in a relatively short amount
+of time to get answers to questions. And I actually like that
+part about it, as opposed to waiting months, years, decades
+to answer a question. So that’s the part about it that I enjoy
+the most.
+And that it’s never the same thing every day. That’s the
+other part about it, that on the outside looking in it may
+appear to be mundane, but it actually isn’t. You may go in
+thinking you’re going to do this set of analysis and then find
+that you need to tweak some of your variables or something
+like that. So I think the fact that it can be different every day
+and that you can get an answer to a question in a relatively
+reasonable amount of time is a large part of what I enjoy
+about data science.
+
+Show Notes: http://www.superdatascience.com/25
+
+29
+
+	  
+
+Kirill:
+
+Fantastic. Very insightful. And I totally agree with you that
+it’s very fast and it’s also very interesting in terms of it
+changes all the time. And the big question: So, from where
+you are—and I think your answer to that is actually going to
+be very valuable to lots of our listeners because you’re in a
+very different space, you’re in biology or in medicine, and
+very few of our guests are operating in that space. So the
+question is: From where you are, and from what you’ve seen
+about data science, where do you think this field is going?
+So, what do you think is coming for the world in terms of
+data science and specifically in your profession? And what
+would you say listeners need to prepare for to look out for
+the future so that they can build their careers in that space
+or just be prepared for what’s coming in terms of data and
+medicine?
+
+Kimberly:
+
+So, I think one of the bigger, more significant applications of
+data science in terms of medicine is that information that is
+collected about you on the data side can be used for
+anything from collecting genomic data that can be used to
+determine which drugs will better treat your cancer, or
+coming from HIV, what areas of the county should we be
+looking for to see the next outbreak of a certain disease. So I
+think in medicine, the sky is the limit in terms of how useful
+it can be. And ultimately, with the goal of saving people’s
+lives and improving people’s lives who are dealing with
+diseases which can many times be fatal. So that’s the
+biggest thing that I see data science being able to be used in
+the medical space, is that it has an overall goal of improving
+care.
+I think one of the challenges to data science being applied
+heavily in the field of medicine is that oftentimes people are
+
+Show Notes: http://www.superdatascience.com/25
+
+30
+
+	  
+
+reluctant to change, and that there is a big learning curve
+with it. I’m seeing that a lot with the implementation of
+various EMRs in hospital settings, that there is a learning
+curve involved with learning how to properly use an EMR or
+EHR to document information in a chart for a patient, but I
+think that the overall goal of saving lives and decreasing
+health care costs makes it a challenge that’s worth people in
+that profession and in that space meeting. So I guess that’s
+my comment about medicine and data science. I think the
+sky is the limit. I think ultimately it will improve the health
+of people and that will ultimately drive costs down. At least
+that’s the hope.
+Kirill:
+
+Yeah, I totally agree with you. Data science can definitely
+help with all those areas. And what you mentioned now just
+sparked an idea in my mind. I’d really like to get your
+opinion on this. What do you think of what’s going on with
+data science and the genome and genetics basically? I think
+it’s like $1,000 you pay and then you get your whole genome
+code and basically they can predict what diseases that you
+might have as you age and what diseases you’re most
+susceptible to. What’s your opinion on that?
+
+Kimberly:
+
+I think my biggest concern about some of the information
+that can be gathered about individuals genomically has to
+do with the ethics of how that information is used. One of
+my biggest concerns with that in and of itself is that
+insurance companies could use it to charge you different
+rates for health care insurance. We need to be thinking
+about some of the ethical implications of some of these
+technologies before they become a problem. I think that we
+tend to—to use the country slang—tend to run after the cow
+after it’s already left the barn. I think that’s how it goes.
+
+Show Notes: http://www.superdatascience.com/25
+
+31
+
+	  
+
+So I think that there probably needs to be some concurrent
+conversations held about, “Okay, so we have this
+information. We know this person is genetically predisposed
+to developing Alzheimer’s. How are we going to use this
+information to help people and not to charge them more for
+their health care insurance?” That’s the thing I worry about.
+That the ethical questions around some of the information
+that we’re gathering are not being answered or even
+addressed. And I think it could really be huge.
+On the other hand, I think that that information could be
+useful to people to know, again, what types of drugs might
+be better suited based on what their genomic liver profiles
+shows, things of that nature. So I think we have to be
+careful to address some of these ethical and legal concerns
+before we get too far ahead of ourselves in the science.
+Kirill:
+
+So, like, on a community basis, it’s the ethics that are a bit
+concerning that need to be addressed. But on an individual
+basis, like just for an individual person or somebody
+listening to this podcast, you think it’s not a hoax. If they
+have the finances to do this and they’re interested, then they
+can go and just get this genome done and you think that can
+add value to their lives.
+
+Kimberly:
+
+Absolutely. The only thing I would caution is that you speak
+maybe to a genetic counsellor because you may find out
+things you might not want to know. You might not want to
+know that you’re going to be bald by the time you’re thirty.
+That could be problematic for some folks. Obviously, I’m
+being facetious with that example, but I would certainly
+caution the ethics and also some counselling if you know
+that you have a genetic predisposition to certain serious
+medical conditions, you’ll certainly want to seek a genetic
+
+Show Notes: http://www.superdatascience.com/25
+
+32
+
+	  
+
+counsellor to get their take on what the results mean and
+what they would mean for your life.
+Kirill:
+
+Yeah, fantastic. I actually want to do one of those. I don’t
+think they offer them in Australia, so the next time I’m in the
+U.S. I’ll get one of those done. It sounds very interesting to
+find that out. That’s good advice, as well, to get a counsellor
+so you’re not just reading these results on your own and
+getting all depressed. You actually have somebody guiding
+you through this and helping you acknowledge what you’re
+seeing in that paper.
+
+Kimberly:
+
+Exactly.
+
+Kirill:
+
+Okay. Thank you so much for coming on the show. It’s been
+a very unique episode, speaking of data science and health.
+And if any of our listeners would like to follow your career or
+learn more about your PhD and read your research papers,
+what would you say the best way or ways is to contact you
+or just follow you?
+
+Kimberly:
+
+So, I’m actually on LinkedIn. I pretty much accept
+invitations from all positive people, especially in data
+science. It’s been a really interesting way to connect with
+different people and how they’ve applied the field of data
+science to their individual careers. I’m also on Twitter,
+having recently found it and it has now become somewhat of
+an obsession, at the Twitter handle @DataKimist to combine
+my love of data and my name, a take on my name, I’m also
+formally trained as a chemist – shout-out to UNC Chapel
+Hill. Yeah, so that’s where I can be found. Either on
+LinkedIn – Kimberly Deas, or I’m on Twitter @DataKimist.
+
+Kirill:
+
+Wonderful. We’ll include those in the show notes. And for all
+of you out there who use Twitter, definitely follow Kimberly
+
+Show Notes: http://www.superdatascience.com/25
+
+33
+
+	  
+
+on @DataKimist. I’m sure you’re up for some very interesting
+and insightful shares that she’ll be doing. And one final
+question I have for you today, Kimberly: What is your one
+favourite book that you can recommend to our listeners that
+will help them become better at data science?
+Kimberly:
+
+You know, I thought about this question a lot. I found the
+O’Reilly series of books on R programming and Python to be
+extremely helpful. When I was initially going into the field, or
+contemplating, the series of books – “Bioinformatics for
+Dummies,” “Python for Dummies,” “C++ for Dummies” –
+those were initially very helpful. I think that the thing about
+data science and data analytics is that there’s not any one
+book, or at least I haven’t found one, that kind of
+encompasses everything, because it can on a certainly level
+be a very broad field. But in terms of how I got into it and
+books that I found useful, breaking it down into the
+language that I could understand, I would definitely say the
+O’Reilly books and the series that are written for dummies.
+
+Kirill:
+
+Gotcha. So we’ve got the O’Reilly series on R programming
+and Python programming and the series “…for Dummies”
+books on different programming languages such as C, C++,
+and so on. Thank you so much, Kimberly, for coming on the
+show. It’s been a great pleasure having you on and I’ve
+definitely learned a lot from the insights that you’ve shared.
+
+Kimberly:
+
+Great. Thank you for having me. And thank you for being a
+fantastic instructor in R and Tableau.
+(background music plays)
+
+Kirill:
+
+Thank you. It’s my pleasure. Bye.
+
+Kimberly:
+
+Bye.
+
+Show Notes: http://www.superdatascience.com/25
+
+34
+
+	  
+
+Kirill:
+
+So there you have it. I hope you enjoyed the today’s show.
+And personally, my favourite part was when we talked about
+where the field of medicine is going hand in hand with the
+field of data science. I always find it very exciting to talk
+about how medicine is evolving, how rapidly it’s evolving and
+where it’s going. And that discussion about genomes and
+how data science is used to generally help people better
+understand what diseases they might be susceptible to,
+what medicine might be more efficient for them, I think
+that’s a very exciting space. I think that’s a future of us as a
+human race and it’s always interesting to get people’s
+opinions on it, especially when people are actually in that
+field. So I really enjoyed that part of the discussion, and I
+hope you did too.
+I hope you enjoyed lots of takeaways from today’s episode.
+And if you’d like to get the show notes and links to all the
+resources from this episode, then head on over to
+www.superdatascience.com/25 and there you’ll find the
+transcript, links to resources and also links to Kimberly’s
+social media where you can go ahead and follow her and find
+out how her career evolves in the future. So make sure to
+connect with Kimberly. And finally, if you’re listening to this
+podcast on iTunes, I’d really appreciate if you could click
+that button and rate this podcast and give us an amount of
+stars that you think we deserve. That would be great help for
+us. And on that note, I can’t wait to see you next time. Until
+then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/25
+
+35
+
+

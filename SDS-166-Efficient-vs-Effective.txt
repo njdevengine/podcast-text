@@ -1,0 +1,61 @@
+SDS PODCAST
+EPISODE 166
+FIVE MINUTE
+FRIDAY:
+EFFICIENT VS EFFECTIVE
+
+Show Notes: http://www.superdatascience.com/166
+
+1
+
+This is FiveMinuteFriday, and today we're talking about efficiency and
+effectiveness.
+So, those two terms, right? Efficient and effective. What do they mean?
+What are they all about? And, what's the difference? Right? We've all heard
+people use these terms and sometimes even interchangeably. Sometimes
+people will say, "You have to be efficient." Sometimes people say, "You have
+to be effective."
+Well, today we're gonna quickly demystify these two. Efficiency is about ...
+Let's start with effect. Effectiveness is about doing the right thing. Achieving
+the right goal. Going towards the right result. Whereas efficiency is about
+doing the thing right. Is about doing ... Being very productive. Being very ...
+Having low costs. Having high returns of investment and things like that.
+So that's what efficiency is all about and that's what effectiveness is all
+about.
+And so my question to you today is, what do you think is more important?
+Is it more important to be efficient or effective? If you could choose one, just
+one, which one would you choose? Being effective or being efficient?
+Quick answer? Probably being effective if you think about it. Because if
+you're just efficient, right, you're doing the thing right. Your costs are low.
+Your return on investment is high and things like that. But ultimately
+you're achieving the wrong goal. You're not effective, then what's the point?
+You're gonna be very efficient in doing the wrong thing.
+But if you're effective, even if you're not efficient but still if you're effective,
+at least you're doing the right thing. You might have high costs. You might
+be doing it slow. You might be not taking the optimal route. But at least
+you're going in the right direction.
+So when people say ... They'll say to me, for instance, "You have to be
+efficient," and say to themselves, "I have to be very efficient." Efficient,
+efficient, efficient. First question I ask myself is, "Are you being effective?
+Show Notes: http://www.superdatascience.com/166
+
+2
+
+Are you actually doing the right thing? Is your goal set out correctly?" And
+that's what I encourage you to do as well.
+Think about it in this way. Do you first think, "Am I effective?" Or when
+you're talking to someone, I would suggest advising them to be effective and
+then only efficient. I actually saw recently an interesting table, an
+interesting diagram, that puts an intersection of these things, effective and
+ineffective versus efficient and inefficient. Very interesting, very insightful.
+So I will share that on the SuperDataScience page.
+And yeah, something to think about this weekend. The sun is out. Hope
+you have a lovely weekend and see for yourself next week, where are you
+being efficient? Where are you being effective? Where are you being both?
+See you next time. And until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/166
+
+3
+
+

@@ -1,0 +1,195 @@
+SDS PODCAST
+EPISODE 158
+FIVE MINUTE
+FRIDAY:
+RAPID PLANNING
+METHOD
+
+Show Notes: http://www.superdatascience.com/158
+
+1
+
+This is FiveMinuteFriday, episode number 158, the Rapid Planning Method.
+Welcome to the Super Data Science podcast, ladies and gentlemen. If you're
+new, welcome, welcome, welcome. If you've been with us for a while, then
+welcome back. Today, I wanted to say that it's that time of the year again.
+It's May, and Tony Robbins is bringing Date with Destiny to Australia. If
+you've been with the podcast for over a year, you'll know that last May, in
+2017, I went to Date with Destiny in Gold Coast and had an amazing time.
+It was a fantastic event. Six days of super intense work, of super intense
+self-discovery, self-exploration, 10-12 to sometimes 14 hours per day,
+sometimes we were finishing past midnight. I'm going this year again. Very,
+very much looking forward to it. If you're going to be there, then stop by,
+say hi.
+Today's podcast is about something that Tony Robbins teaches. This is
+about the Rapid Planning Method. I totally understand that not everybody
+can be at a Date with Destiny event, whether it's location, time, finance.
+There's many reasons why one of these might not be accessible. However,
+what I wanted to point out is that just recently, I discovered for myself the
+Tony Robbins Breakthrough app. This is an app where you can get a lot of
+the things that Tony Robbins teaches at his events and through his books
+and other ways. You can get them on an app. It's available on the App
+Store, so for Apple, and it's available for Android on Google Play. The best
+part is that I've already learned quite a few things from there and I haven't
+paid a cent. You can get the app, and there's a lot of free content there that
+you can learn if you don't want to purchase any courses, which are quite
+expenses. Let's be honest, they're in the hundreds or thousands of dollars
+sometimes.
+But even if you don't want to purchase them, there's a lot of free content
+that you can already pick up some things from. Today, I wanted to give you
+an example of one of those things that I learned from this app that we're
+actually deploying to the whole business of Super Data Science. Everybody
+or the whole team in Super Data Science is focusing or has been focusing in
+Show Notes: http://www.superdatascience.com/158
+
+2
+
+this month of May on learning this specific technique because it is so
+powerful. Here we go. The technique is called or the method is called the
+Rapid Planning Method, or the RPM. What it's all about is about how you go
+about setting your goals, whether it's for the day, the week, the month, the
+year, and how you go about achieving them. It's a method that will enable
+you to get things done, to get things done better, faster, more efficiently,
+and have fun and meaning in your life along the way.
+That's what I really love about it, all those things combined, and its
+simplicity as well. Again, the abbreviation is RPM, Rapid Planning Method.
+But, the abbreviation can also be used to help remember what the method
+is all about, how to break down the method, what the steps in the method
+are. There are three steps. The first step is the R, which is result, right? A
+lot of the time, when we create our to-do lists, we focus on the actions.
+Have a meeting with so and so, or read this book, or go here, or work on
+this project, or spend some time writing this, or write this for three hours,
+or something like that. A lot of the time, we get caught up thinking of the
+actions. But, this method teaches you about looking at it in a different way.
+It teaches you to think about the results, about what outcome do you
+actually want from this project or from this activity or from this meeting.
+If you think about it that way, it's a completely different story. For instance,
+instead of saying, "Have a meeting with Michael," you say, "Meet with
+Michael and get clarity on x, y, and z," or, "Decide this," or, "Decide that."
+Or, for instance, instead of saying, "Work on the website design," you will
+say, "Have a completed website design by 5:00 PM Thursday." That's the
+final outcome that you actually want, that's what you're aiming for. It
+doesn't matter how you get there. The actions, they can change. There's lots
+of different ways to get to the destination. You need to write down the
+destination that you're looking for, that you're aiming to get to as your
+outcome. That's the R. It stands for result. The next one is probably the
+most important one. It's the purpose.
+Show Notes: http://www.superdatascience.com/158
+
+3
+
+P stands for purpose. What does that mean? Well, you need a purpose for
+doing something. If you're doing something, like, say you're creating a
+design for a website, or for instance, let's say in data science. You're
+creating a model. Have this model created. Your result is have this model,
+have the logistic model ready and tested by Thursday, 5:00 PM. That's
+great. That's a great result. But, what's the purpose behind that? Is there a
+purpose? If nobody is ever going to use that model, if nobody is ever going
+to get benefit from it, or you're not going to learn anything in the process, or
+you're not going to impact anybody's life, if you just create a model for the
+sake of creating a model and there's no purpose to it, then you're not going
+to be driven to do it. As soon as challenges come up, you're going to say to
+yourself, "Well, this is not important anyway. Nobody cares. I'm not learning
+anything. Nobody is going to use this model. It's not going to impact
+anybody." You're going to drop it or procrastinate. You're not going to find
+the power to go through it.
+The purpose is what gets you through, keeps you pushing when times are
+tough, when the challenges come up. In this case, for instance, let's say
+you're creating a model so that your business can serve your customers
+better. Your purpose would be so that our customers get amazing, fantastic
+service. Or, for instance, the purpose could be that you're training, you're
+just practicing, you're learning. You could say, "So that I learn how to
+create logistic regression models very well," or, "I become very proficient at
+logistic regression models and empower my career." What you will feel
+through these two examples that I gave is that the purpose has to be
+emotional, right? A lot of the time, people get caught up, and we saw this in
+our business as well. People get caught up in writing the purpose as the
+next step, so create a logistic regression model so that we can deploy it, and
+so on. That's just the next step. That's mechanical.
+
+Show Notes: http://www.superdatascience.com/158
+
+4
+
+The purpose has to be, what is the end benefit for the world, for you, for
+others, for friends, for anything? What's the final benefit that you envision
+with this project? It has to be something that's emotional, that will trigger a
+fire in your heart when you read it. That is what's going to push you
+forward. The first one, the result, is the what. The P, the purpose, is the
+why, right. Why are we doing this in the first place? What's the point of
+this? In fact, the purpose is actually 80% of your success. If you have a
+great purpose, that you know why you're doing it, then that's going to push
+you to find ways how to do it. This brings us to the third and final step, is
+the M, which stands for Massive Action Plan, or in short, MAP. Tony
+Robbins abbreviates it to MAP as well.
+The Massive Action Plan is what actions do you need to get there? It's the
+how. You have the what, you have the why, and finally, you get to the how.
+As you can see, the how is at the end. A lot of the time, we get caught up in
+creating to-do lists that are all about the how, have a meeting, do this and
+that, and spend time on this, read this book, and so on. But, in the RPM
+method, the how is actually at the very end. It's the least important part.
+Because if you have a great result that you're aiming for, clear result, the
+point of the result has to be very, very clear. For instance, Tony Robbins
+gives this example, lose some weight is not a clear enough result because it
+doesn't have a deadline and it doesn't have how much the weight you want
+to lose. Well, you lost one pound, there you go, you're done, you lost some
+weight. What about lose 15 pounds by 30th of July? That's a very clear
+result. Or make more money. Are you making an extra dollar? There you
+go, that's done.
+Again, it doesn't have a deadline, doesn't have clarity around it. How much
+more money? Or, how about earn an extra $10000 by 1st of August? That's
+much clearer. Your result has to be clear, your purpose has to be
+something meaningful and something emotional, something that's going to
+push you forward, something that's going to inspire you. Then, finally, your
+how, your action. Well, once you have those first two, your brain will figure
+Show Notes: http://www.superdatascience.com/158
+
+5
+
+out ways to come up with actions. You will have the flexibility, the room to
+explore different ways. There's lots of ways to getting to one goal as we
+discussed. There's not just one way to get to that goal that you want, right.
+As long as you have a goal and you have that fuel, which is the emotion
+which is fueling your power to get there, to get forward, to go and keep
+pushing through challenging times, you will find ways to get there.
+That's why the Massive Action Plan is just like 20% of your success. 80% is
+the purpose, 20% is the how you get there. A lot of the time, we get
+confused and we focus too much on how we get there. That really limits our
+scope, that limits our vision, and we're focused on doing this one thing. We
+think that the only way to, I don't know, to building this logistic regression
+model is to perform x, y, and z steps that we've predefined ourselves. But if
+you set yourself that goal and a purpose, then you'll find many different
+ways to get there and then you can pick the fastest and most efficient one.
+That's the Rapid Planning Method in a nutshell. That was a very quick
+explanation for the sake of this FiveMinuteFriday. You can learn more
+about it in the free content over the Breakthrough app, which I highly
+recommend.
+Even if you don't want to get the Breakthrough app, that's totally cool as
+well because this method is available on YouTube. There's a YouTube video.
+There's a couple. But, when you search for Rapid Planning Method Tony
+Robbins, look for the one that's not eight minutes, but the one that's 15
+minutes. The eight minutes is like, I don't know why they cut it in half.
+That's just a short version or it's just cut version. Find the one that's 15
+minutes long or about 15 or 17 minutes long. That's the one that you want.
+He explains the same thing that I just described in his own words, and
+much more in detail, and much more emotional, and you'll feel the power of
+it.
+Once again, this is ... I found it an extremely powerful method for myself.
+I'm learning now how to think differently, how to use this method to allow
+Show Notes: http://www.superdatascience.com/158
+
+6
+
+my brain to think in terms of results rather than actions, and all of the
+Super Data Science team, which is like 20 people or almost 20 people, we
+are all focusing on that as well. We are all focusing on thinking of results,
+purpose, and Massive Action Plan. Hope you enjoyed this. I am sure if you
+adopt it in your career, it will skyrocket everything you do and how you get
+things done. I look forward to seeing you back here next time. Until then,
+happy analyzing.
+
+Show Notes: http://www.superdatascience.com/158
+
+7
+
+

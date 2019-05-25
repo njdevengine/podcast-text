@@ -1,0 +1,258 @@
+SDS PODCAST
+EPISODE 148
+FIVE MINUTE
+FRIDAY:
+THE TROLLEY
+PROBLEM
+
+Show Notes: http://www.superdatascience.com/148
+
+1
+
+This is Five Minute Friday episode number 144, two things to remember
+and two things to forget.
+Welcome back to the Super Data Science podcast, and today I've got a
+concept, a phrase that really resonated with me, and I would like to share it
+with you. So, I was listening to a different podcast, I was listening to Lewis
+Howe School of Greatness podcast, episode number 608. If you haven't
+heard Lewis Howes podcast School of Greatness, I highly recommend check
+it out, you can start off at this episode, 608.
+It's with Jay Shetty. Jay is a guy from London who went and lived as a
+monk in India for three years, and then came back, and now he's teaching
+people the things that he learned. Mostly through videos, so you may have
+seen his videos on Facebook or YouTube, they go viral, they get like 50
+million views. So you may have actually already seen a couple of his lessons
+that he's shared.
+And in this podcast, there's lots and lots of valuable things that they
+discussed, and lots of valuable knowledge that he shared, especially
+wisdom from his time as being a monk. But one thing that really resonated
+with me, and I remember I was walking onto the tarmac, off the plane onto
+the tarmac, and for me, when something resonates with me, when it really
+sticks in my mind, I can remember the location where I was, it's just how
+my brain works. And I can clearly remember that I was getting off the
+plane, and walking onto the tarmac to get to the bus that takes you away
+from the plane.
+And I heard him say this, so here we go. What Jay said, and what he
+learned, one of the things he learned as a monk is two things to remember
+and two things to forget. So let's go through this, the two things to
+remembers are always remember the bad you've done to others, and the
+good others have done to you. So, again, always remember the bad you've
+done to others, and the good others have done to you.
+Show Notes: http://www.superdatascience.com/148
+
+2
+
+And he explains it this way, that by remembering the bad you've done to
+others, you will always feel grounded and humble, and you'll never let your
+ego get over you. So as soon as you start thinking how amazing I am, or
+how great I am, and how I'm achieving success, or I'm doing so many great
+things, all it takes is to remember what bad things, what have you done
+that's bad, and you've done it to others in your past. When you were
+younger, or years ago, or months ago. And we all have moments we're not
+proud of, we all have moment which we might even be embarrassed by.
+And so keeping those in your memory actually helps you to control your
+ego, to always realize that we're all not perfect, that we all make mistakes.
+That we all need to work on ourselves constantly to become better and
+better, there's no stopping with that. And it really keeps our ego under
+control, or helps keep your ego under control.
+And the other one is to remember the good things that others have done to
+you, and by remembering the good things others have done to you, you're
+always going to feel grateful. So those are the two things to remember.
+Now, the two things to forget, forget the good things you've done to others,
+and forget the bad things others have done to you. So again, forget the good
+things you've done to others, and forget the bad things others have done to
+you. And the reason for that is if you don't forget, like if you keep thinking
+about the good things that you've done to others, then you will get fixated
+on that for too long, and again, your ego is going to grow from that. So if
+you just keep remembering how you helped that old lady cross the street, or
+how you donated $200 to charity, or whatever it was, if you just keep
+remembering that all the time and fixating on that, that's just going to
+perpetuate that feeling, and it's going to enable your ego to keep growing all
+the time, and you don't want that.
+So, once you've done a good thing, there's no need to constantly be proud of
+it and remember it all the time. It's okay to forget that. And forget the bad
+things others have done to you. Why should you forget that? Well, he also
+Show Notes: http://www.superdatascience.com/148
+
+3
+
+explains it in a way that you don't have to necessarily become their best
+friend after that, but the reason for that is that if you keep thinking about
+the bad things others have done to you, and you fixate on that, you're just
+going to drain your energy forever. You're not going to be able to look
+forward, not going to be able to live life in the present, and move on with
+your life, you're just going to constantly lose energy because of something
+that happened in your past. And sometimes it's necessary to forget those
+things.
+So there we go, that's two things to remember and two things to forget.
+Always remember the bad things, the bad you've done to others and the
+good others have done to you. And forget the good things you've done to
+others and the bad things others have done to you.
+Something to ponder on this weekend, once again, it's from the Lewis
+Howes podcast, episode 608, make sure to check it out if you're interested
+to learn more of Jay Shetty's teachings and wisdom. And I hope you have a
+fantastic weekend ahead and you've got some plans, or even if you don't, I
+hope you have a quiet one, and have some rest.
+I look forward to seeing you back here next time, until then, happy
+analyzing. This is Five Minute Friday episode number 148, The Trolley
+Problem. Welcome back to the Super Data Science podcast. Today we're
+going to have an interesting, and at the same time, controversial
+discussion. You probably have heard that you need to surround yourself
+with amazing people, with interesting people that you want to be like, learn
+from, and therefore you will grow. I try to do that in my own life, and one of
+these amazing people in my life introduced me to something that is very
+exciting, and it's called the Radiolab podcast. It's a podcast which you can
+find on iTunes, and I'm assuming that since you're listening to this podcast,
+you are interested in podcasts, so definitely check it out.
+Radiolab is a high-production show that does research into current topics,
+or any kind of different topics that are interesting, that are exciting, and
+Show Notes: http://www.superdatascience.com/148
+
+4
+
+they produce them with very high quality, great audio, great audio effects,
+lots of guests, lots of different comments from different people that are cut
+into the episodes. The research is very deep, so so far I've listened to two
+episodes. One was about gun control and that one was an hour long, and
+they went through the whole history of the second amendment, how it only
+actually started being interpreted as it is now in the 2000s. This whole
+interpretation actually started in 2008, as I believe, after a case in
+Washington. Before that, there was something happening in 2001, and then
+they went to the history from the 1960s, so it was a really cool episode.
+Today, I listened to an episode called ... What was it called? Let me quickly
+have a look, Driverless Dilemma. The episode was called Driverless
+Dilemma. What they were talking about is what I wanted to share today. I'm
+only going to share a snippet of what I learned. If you want to learn the full
+story and all the research, like they talk to an MRI scientist and research
+the human brain on this subject, then check out Radiolab. But let's get
+started. We're going to talk about the driverless dilemma. Actually, we're
+going to talk about the trolley problem, which is part of the driverless
+dilemma.
+The trolley problem goes like this. You are standing on a trolley, which is
+going down some train tracks. Along those train tracks, ahead of you, there
+are five workers working on the track. They're facing away from the trolley,
+they cannot see you coming, and they cannot hear the trolley, and you
+cannot yell out to them. If you do nothing while on this trolley, then what'll
+happen is that all five workers will die. On the other hand, it so happens
+that on the trolley near you, there's a lever, and if you pull that lever, then
+the trolley will divert onto some side tracks where there's only one worker,
+and that worker will die.
+In this case, your choice is A) do nothing and five people will die, or B) pull
+the lever and one person will die. Question is, what will you choose? Think
+about it for a second and just have your answer with you. I really wonder
+Show Notes: http://www.superdatascience.com/148
+
+5
+
+what you selected, because when the guys from Radiolab asked this
+question from, I think it was random people on the street, 90% of the
+people said they would pull the lever. They would kill one person instead of
+killing five. They basically would pull the lever, kill one, instead of do
+nothing and kill five.
+Then, we go to part two. Now imagine you're standing above the train
+tracks. You're standing on a bridge that goes over the train tracks, and you
+can see the trolley approaching, and it's going to, as soon as it passes the
+bridge, on the other side, it will kill ... passes under the bridge, it will kill
+those five same workers. The only thing you can do now is, again, the two
+things you can do, you can do nothing, version A like last time, and it will
+kill the five workers, or version B, there's a ... You notice that there's a large
+man standing near you, a large person standing near you on the bridge,
+and what you can do is you can push the large person off the bridge onto
+the tracks. He will die, but he will stop the trolley and therefore save the
+other five people. The question is will you do A, nothing, and let five people
+die, or will you do B, push the large person off the bridge onto the tracks,
+and thereby stop the trolley and kill that one person, but save the five?
+What's your instinctive response here? Let me guess, probably you're going
+to say no, you're not going to push the person. Why can I guess that? It's
+because when the guys from Radiolab did the same survey, but with this
+question, most people, 90% of the people said that they wouldn't kill the
+person, because in this case it really feels like murder. It feels like you're
+murdering a person, even though you're trying to save five. Very
+controversial topic, very controversial question. Good thing that it's just
+theoretical. It's just theoretical, we're never actually faced with a choice like
+that in life. This is something that we'll just contemplate about in the trolley
+problem.
+But the thing is, why it's now become current, is because of the
+proliferation of self-driving cars. Self-driving cars are starting to pop up.
+Show Notes: http://www.superdatascience.com/148
+
+6
+
+There are already self-driving Ubers which you can take. By 2021, certain
+companies in Germany are going to release self-driving cars for sale to the
+public, so you can actually ... You'll be able to own self-driving cars, might
+even happen sooner with other automobile manufacturers or companies in
+the US. This is the future we're going into. Self-driving cars are going to
+have to have pre-programmed algorithms that will allow them to make
+choices like that.
+For instance, if there's people on the road, pedestrians on the road, if
+there's five pedestrians on the road. Let's think about this theoretically.
+Again, they gave this example in the Radiolab episode. There's five
+pedestrians on the road, and there's a self-driving car coming towards
+them. Should the car kill the five pedestrians, or should it run into a
+concrete wall, and thereby kill the passenger of the car? Those are the only
+two options it has. The circumstances are such that there's nothing else it
+can do, and it can only decide between the two. How does it decide? What is
+the correct decision? Most people answer to that question that it should
+sacrifice the person inside the car. It should sacrifice the passenger in order
+to save five people. Sacrifice one life in order to save five. But then, when
+those same people are asked will you buy a car like that? Will you buy a car
+that is pre-programmed to intentionally kill you in order to save more lives
+than just one, most people said no. Most people said they won't buy a car
+like that.
+Now, we have a question of morality, and also how are these companies
+going to be perceived by the public? Are people going to actually buy the
+cars? Are they going to be perceived as moral or amoral, and so on? All of
+this ties in very intricately into the question of ethics in data science,
+machine learning, and artificial intelligence, because these questions, they
+need to somehow be addressed in advance. They cannot be left up to some
+programmers who are creating these algorithms to decide this on the spot.
+These things have to be thought through not just at a company level, they
+should be thought at a national level, or even a global level.
+Show Notes: http://www.superdatascience.com/148
+
+7
+
+For instance, Germany's one of the first countries that has passed a law, as
+I understood from the podcast, that they've passed a law that addresses the
+issue of discrimination, that autonomous vehicles should not discriminate
+between people on any basis. They should not discriminate based on
+gender, on race, on age, on social status, on income, or on anything like
+that. Yes, that is indeed a possibility that, for instance, self-driving cars
+could discriminate potentially even on things like income level of a person,
+because eventually they'll be able to communicate with each other. They'll
+have so much data about us that they will know who's sitting in Car A,
+who's sitting in Car B, and potentially they could make these decisions
+based on who has a more affluence status in the socium, or who is younger,
+or who has a ... Maybe somebody has a terminal illness, and those might
+not be ethical things. While there's no right or wrong answer right now, that
+we can think of, these are things to keep in mind and to consider, and this
+is where the world is going. Self-driving cars, they're coming into our lives
+very rapidly, and these are questions that we will need to be addressing.
+There's something to ponder on, something philosophical to think about.
+Maybe a topic starter for you for this weekend, if you're going to be chatting
+to some friends, or going to an event, social gathering, or something like
+that. See how people react to the trolley problem, or the driverless dilemma.
+Of course, if you're interested to learn more, highly recommend the
+Radiolab podcast. This was Driverless Dilemma, which was released on 27
+September, 2017. The episode is 42 minutes long. Highly recommend
+checking it out if you're interested to learn more, and understand not only
+philosophically what's happening, and what the dilemma is, but actually
+from a neurological perspective, what happens in the brain, because they
+talk to a scientist who's put people into an MRI machine and studied their
+brain when they were answering these questions. Plus, there's some more
+interesting questions that are discussed in the show.
+All right. Hope you enjoyed this short excurse into the world of
+philosophical debates and autonomous vehicles that are going to be more
+Show Notes: http://www.superdatascience.com/148
+
+8
+
+and more current in years to come, and I look forward to seeing you back
+here next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/148
+
+9
+
+

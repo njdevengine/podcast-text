@@ -1,0 +1,128 @@
+SDS PODCAST
+EPISODE 170
+FIVE MINUTE
+FRIDAY:
+A BUMPY RIDE
+
+Show Notes: http://www.superdatascience.com/170
+
+1
+
+Hello and welcome back to the Super Data Science podcast. This is five
+minute Friday and today the topic is a bumpy ride.
+Just recently, I was flying on a plane from one island on the [commerce
+00:00:16] to another and it was one of those tiny little things with a lot of
+people jam packed into it. By the way, if you're watching this in video
+version on YouTube, we're going to throw in some clips from this
+experience, so you can get a feel for what it's like getting onto that plane
+and lifting off, and flying, what the scenery is like and just get a feeling of
+what it's like to be in one of those things.
+The thing is, it's a tiny little plane. It's very quick because the distance isn't
+that far. It takes off, around 15 minutes later, it already lands, and it's just
+how people get around there so getting from one island to the other ...
+There's four islands in total. Very commonly they use planes for that.
+The thing is, while it's very exciting and the scenery's great, it's a really fun
+ride, at the same time, because it's a small plane, it experiences quite a bit
+of turbulence so it is kind of like a real life rollercoaster, and that ties in
+quite well with today's topic which is a bumpy ride.
+I decrypt this topic, lets talk a bit about what we've already mentioned
+before and that is the importance of mentorship. We've had ... I made a
+Friday episode about mentors and you have actually met two of my mentors
+already, so you've met Richard Hopkins. He was on one of the earlier
+episodes of this podcast, and he was also [inaudible 00:01:28] last year and
+you have also met with Vitaly Dolgov who was on one of the more recent
+episodes of the show and will be coming to Data Science Go this year, so
+you'll get to meet him in person there.
+Those are my mentors but in addition to mentors, sometimes you can also
+have coaches. So what is a coach? A coach is a person like a mentor but
+you pay for their advice. You pay for their tips and guidance. I also have a
+coach. I just started this engagement. I started having a coach like a year
+Show Notes: http://www.superdatascience.com/170
+
+2
+
+ago. I wasn't happy with the program so I stopped that, and now I restarted
+it again with a new coach about a couple months ago, and I'm very happy
+with the advice, tips and guidance that he's providing me. We meet up for
+about 30 minutes, several times a month and all these tips are very, very
+valuable and help me direct whether it's my business, personal life,
+professional, other areas of life, in the right direction.
+Why am I bringing this up? First of all, I wanted to share what coaching is
+all about and that it is quite important. It's another way of getting guidance
+like in sports you can have a coach. Why not have one in life? The other
+thing is that content for this [inaudible 00:02:50] or the idea behind this
+episode actually comes from my coach, and we were discussing once, like a
+few weeks ago, the how to plan your days and weeks, and specifically
+talking about setting goals for a day, and setting goals for a week, and my
+philosophy has always been that alright, so if I set my goals for every single
+day of the coming week ... Let's say it's Sunday. I set my goals for every
+single day. Now I don't do that all too often, but when I really want to plan
+out my week, I will set my goals for every single day of the week, and I
+thought, okay. If every single days going to be successful, then by
+definition, my week is going to be successful.
+But he challenged me on that and said, "Hey. What about if one of your
+days is not successful? For instance, Tuesday is not a successful day. It's a
+bad day because you were stuck in a traffic jam, you had a cold, or you
+couldn't get to things you wanted to because something else was more
+important or got in the way, what happens then?" Well, when you think
+about what happens then, that throws your whole day off. You're upset at
+the end of the day, or you're not feeling as accomplished at the end of the
+day and that might give you a bad mood the next day, and also those things
+that you planned for Tuesday might be important, probably are very
+important, and they're going to trickle into Wednesday but you already have
+your own goals for Wednesday and that's going to compound and you might
+Show Notes: http://www.superdatascience.com/170
+
+3
+
+even have a bad Wednesday because of that, and then it's going to
+compound into Thursday and so on.
+So that can be a risky situation, and so that is where he said, it's actually
+more important to set your goals for the week first and then set your daily
+goals. Why is that? Well, because that way, you see the bigger picture. You
+see what's, lets say, top three things you want to accomplish by the end of
+the week and then you can slot them into different days, you can add other
+things, but you'll have the bigger picture in mind so in some places, you
+might leave buffer, so you know where things might go wrong, or you might
+just not jam pack too many things, that way if things just fly over into a
+new day or you have to reshuffle them, you will have that availability. You
+will have that time to accommodate.
+Also, if something goes wrong in a day ... And this is the key. What he said
+is that, if something goes wrong in a day, you still know that you can
+accomplish it, you can catch up on the following day or you have three
+more days to catch up on that and overall the week is going to be great, and
+so, and this is the key, what he said, from all this, is that you can have a
+bad day, but you can't have a bad week.
+I know in theory, that's not true. You probably can have a whole bad week
+but it's much, much harder to have a bad week, than a bad day. So let's
+rephrase that. You can have a bad day, but it's very unlikely that you're
+going to have a bad week, and if you keep that in mind, then all of sudden,
+things change. Right? Rather than be stressed about not getting things
+done in any given single day, you know that you have a whole week to get
+things done and it is very unlikely that you're going to be stuck in a traffic
+jam five days in a row. If that's the case, then maybe, it's time to look into
+how you get to work and back, or the specific timeline of your days, but it's
+unlikely that things will come up that will disrupt your schedule every
+single day, and that way, you know that you, even though if one day it goes
+Show Notes: http://www.superdatascience.com/170
+
+4
+
+off a bit, you're not going to be upset, and it's not going to throw away your
+whole week because you know you'll be able to get up to speed with that.
+So that's my tip from my coach for you today. When you're planning out
+your next week this weekend, or maybe you do that on a Monday, when
+you're planning out your next week, think of that. So rather than planning
+out every single day, if you have that habit, try to think, alright. What am I
+going to accomplish this week? What are the top three things that I'm going
+to accomplish by the end of the week and once you have those, then, dive
+deeper and put them into every single day when you're going to work on
+each one of those.
+Hopefully that's going to help you out and I can't wait to see you back here
+next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/170
+
+5
+
+

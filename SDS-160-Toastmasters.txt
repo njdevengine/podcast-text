@@ -1,0 +1,156 @@
+SDS PODCAST
+EPISODE 160
+FIVE MINUTE
+FRIDAY:
+TOASTMASTERS
+
+Show Notes: http://www.superdatascience.com/160
+
+1
+
+This is FiveMinuteFriday, Episode number 160, Toastmasters.
+Welcome back to the Super Data Science Podcast, ladies and gentlemen.
+Today I wanted to share an exciting and cool experience with you that I
+had. I would love for you to experience as well. I'm in Bali right now, and a
+couple of weeks ago, I was at the Dojo, which is a co-working space in
+Canggu. By the way, Dojo is my favorite co-working space in the world. I
+was very impressed by what it's like and how it feels inside, so if you're ever
+in Bali, check it out. The internet there is amazing. Super fast.
+Nevertheless, what this is all about is not just about the Dojo. It's about a
+random event that happened to me there.
+When I was at the Dojo, literally the day I got there was a Tuesday. I saw an
+ad, an internal ad that they had or like an announcement that on that
+night, they had Toastmasters. I hadn't heard about Toastmasters before,
+that it's like an organization or events where people get together and
+practice their public speaking. I had never attended one, so I was very
+excited to try it out, and I signed up. It was so much fun. It was so cool.
+What Toastmasters is all about is people get together, and there's
+facilitators of this. This is kind of like a workshop or mini event for 10, 20,
+maybe more people. In our case, it was about 20 people. There's a facilitator
+or a couple of facilitators that introduce the event, and then there's a few
+prepared speakers who've prepared beforehand. They go out. They have like
+go on stage or in front of the group. They have some time to speak, so there
+was three speakers in our case. They have about five minutes each to speak
+about a certain topic that they've prepared. Then there's evaluators, people
+in the audience who have been selected as judges, and they're evaluating
+their coherency of speech, the words that they use, how fast they're talking,
+how they're engaging the audience, how much time they're using, and
+things like that. Then they will give them feedback at the end. That's the
+first part, those talks.
+Show Notes: http://www.superdatascience.com/160
+
+2
+
+Then we have the feedback for the talks. I think it was in that order. Then
+at the end, or after that half of the Toastmasters event, what you have is
+everybody in the audience gets a chance to ... Not everybody, but people
+who have either put their hand up or got in on the list beforehand, about
+five or seven people ... In our case it was seven people ... got a chance to
+actually get on stage and practice their public speaking. The difference here
+is that if you're in the audience and you didn't prepare in advance, you
+don't know what question you'll get. So the facilitator has a topic. In our
+case, the topic was spring, because spring is coming, and they're talking
+about different things.
+Then as they explain, as they just have this little speech of their own, the
+facilitator, at certain points will be like, "Let's talk about positive energy."
+Then somebody from the list or somebody who puts their hand up gets on
+stage, and you have between one minute and two minutes to talk, to come
+up with a random talk to answer a question. The questions vary quite a lot.
+They're very interesting. For instance, the question I got was what if you
+could have a positive news channel? A lot of the news in the world right
+now is negative. What if you could have a news channel that is positive
+24/7? What would you broadcast there? Bam. You have to go. You have to
+think of something on your feet, and you have to describe it and explain it
+in front of 20 people and just talk confidently. Make sure your speech is
+coherent, and so on.
+Some other questions, some other examples, for instance. One lady got a
+question. They put her in a situation where she is adamant, she is
+convinced that you have to put the toilet paper on that toilet paper rack in
+the way that the toilet paper goes down away from the wall. So it's not kind
+of like you're not pulling it from underneath the toilet paper. It's coming ...
+The flap is coming over the top. You need to convince the audience that
+that's the right way to do it, rather than putting it the other way.
+
+Show Notes: http://www.superdatascience.com/160
+
+3
+
+It's a ridiculous argument, but she had to come up with just even absurd
+statements just to practice her public speaking and standing on her feet
+and delivering a speech. Even if it didn't make total sense, at least it
+delivered the point.
+Then we've got, for instance, if you had a party to celebrate spring, who
+would you invite? Cupcakes versus muffins? Are cupcakes and muffins the
+same thing? Why is it better to see the glass half full rather than seeing it
+half empty? Those are just some examples of questions. Questions can
+vary. It can be absolutely random, but the point is to get out of your
+comfort zone. For me, I was sitting there. I was actually quite nervous. I
+was waiting for my turn, and then bam, I got called and had to get out
+there. As soon as you're out there, it's a bit different. You step over that
+threshold. Well, for me it was like that. It might be different for other
+people. In any case, it puts you out of your comfort zone and helps you
+practice public speaking.
+The good thing about Toastmasters is it's not just a Bali thing or Canggu
+thing. They actually ... It's a club that's over 90 years old. They were
+established in 1924. They have 352,000 members worldwide. By the way,
+you don't have to be a member of Toastmasters. I didn't become a member
+of Toastmasters. I just attended that event, and nobody asked me to sign
+up for a membership. I'm not sure how it would be in other parts of the
+world, but in this case, I didn't have to become a member. They have
+16,400 clubs in 141 countries. How crazy is that? The likelihood of there
+being a club in your country is very high, and the chance that it's in your
+city is also pretty high, especially if you're living in a big city or a city where
+... Yeah. Basically, a big city or even a midsize city. There's probably a
+Toastmasters. So you can jump on their website, toastmasters.org, and
+they actually have a club locator app so you can just search for location. It
+will tell you what clubs are there.
+
+Show Notes: http://www.superdatascience.com/160
+
+4
+
+I highly recommend, really highly recommend checking it out. We've talked
+a lot about meet ups and attending data science meet ups. Those are great
+to practice your data sense skills and meet people and network and so on
+and maybe even present. But you won't always have the chance to present
+at a data science meet up, because they don't have that many people
+presenting, usually. It's usually one or two, maybe three people at a time,
+and then more people in the audience, whereas Toastmasters is geared
+towards honing in your presentation skills.
+We've talked about this many, many times, that presentation is the fifth
+step. Presentation of your results is the fifth step in the data science project
+life cycle. It is extremely important. In fact, those data scientists that are
+communicators, that are the bridge between the data and the decision
+makers, the business decision makers, those people who need to
+understand those insights, those are the most valued data scientists in
+business, in industry, and wherever you go. That's the most, probably the
+most valuable skill. So crunching numbers, creating visuals, running
+algorithms, that's very important, but being able to communicate your
+insights and present them and engage your audience, super important.
+The thing is, whether you are confident in your presentation skills or not,
+Toastmasters is a great way to refine them, to learn something new, to
+practice, to get out of your comfort zone, to get out there and just to have
+fun. It was such a fun night. I had a great time being there, meeting people.
+Everybody is so friendly. That's the other thing you should ... Even though
+there are people who are judges for the first three presenters who prepared
+their speeches, in reality, nobody is judging anybody. They're just giving
+feedback. They're just helping people, each other, improve, and everybody is
+having a great time. So you won't feel judged. You won't feel that you are
+under the microscope or anything. Just go there and have a great time.
+
+Show Notes: http://www.superdatascience.com/160
+
+5
+
+There you go. That's Toastmasters. Highly encouraged to check it out.
+There's probably one in your city. If not, then when you go traveling, maybe
+you can line that up for yourself to visit one of those, or when you're visiting
+your family and friends somewhere else. On that note, I hope you enjoyed
+today's podcast. I really hope you'll check out Toastmasters, and I'll see you
+next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/160
+
+6
+
+

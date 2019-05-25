@@ -1,0 +1,229 @@
+SDS PODCAST
+EPISODE 190
+FIVE MINUTE
+FRIDAY:
+SEE YOU IN SAN
+DIEGO
+
+http://www.superdatascience.com/190
+
+This is episode number 190 See You in San Diego.
+Hello, and welcome back to the Super Data Science Podcast. Very excited to
+have you on board. As you know, I very highly appreciate and value
+honesty, so I'm gonna be extremely transparent with you guys. This episode
+is about Data Science Go, about our event which we are running in San
+Diego for the second time this year. It's happening October 12, 13, 14.
+We're gonna talk about some very interesting things. We're gonna talk
+about the speakers, the different learning tracks that we have, some of the
+content that's there, and why I personally think that you should come and
+what value you will get out of this event.
+Having said that, if you definitely think that there's no way on planet Earth
+that you're going to attend Data Science Go, then I don't wanna waste your
+time. Probably skip this episode. I'll see you back here on the podcast in
+our next episode.
+On the other hand, if there's a chance that you're coming to Data Science
+Go ... if you're still on the fence, if you're thinking about attending the
+conference, or if you just wanna learn what are some of the most exciting
+topics or exciting people that you could potentially meet at Data Science
+Go, or you maybe can follow them on LinkedIn and other places and learn
+about these topics other places ... then stick around and let's dive straight
+into it. I'll walk you through what we are creating for you in October this
+year.
+All right, so let's get started. We'll talk about the learning tracks. Right
+away, let's get that part sorted and then we'll move on to the speakers and
+the content.
+In terms of the learning tracks, we've got three learning tracks. They're
+called the beginner, the practitioner, and leader. They are specifically
+designed for you to have a personalized experience at the event. The thing
+http://www.superdatascience.com/190
+
+is, we have a main room and then we have a breakout room. Last year, we
+just had one room. This year, we have a main room and a breakout room
+because we're growing and we want to have more speakers, we want to
+create an opportunity for you to pick where you want to go.
+These learning tracks, they are ready designed in a way that you can just
+look at the learning track and see where it [commands 00:02:17] for you to
+know which room to be in, so that you can get the most out of this event.
+The learning track will give you that recommendation based on where you
+are in your career or in your role, in terms of data science. The three tracks
+that we have are the beginner track is designed for data scientists who are
+starting out. This might be your first year as a data scientist or, you might
+be looking to get a job in data science, you might be looking to see what
+kind of potential career you might have, you might be transitioning from a
+different field ... you might be coming from business intelligence or
+reporting or you might be coming from development as a developer ... into
+data science. You want to change your career, but at the same time,
+leverage your existing experience.
+Or, you might be just coming fresh out of university and you've heard that
+this is an amazing, exciting field and you want to come into this field. Also,
+last year, we had some people who came from absolutely unrelated fields,
+but have also heard about data science and they want to come in to data
+science. They want to leverage this field.
+That is the beginner path. In that case, the beginner path is for you.
+The practitioner path, or learning track, is for those of you who are already
+experienced data scientists, already practicing data science. For instance,
+you already have one, two, three, five, even maybe more years of experience
+in data science roles. It's hard to have more than 10 because the field has
+only been around for that long. However many years experience you have in
+data science, you already know how your career is shaping up, you know
+http://www.superdatascience.com/190
+
+where you want to go, but at the same time, you wanna learn some new
+skills, some new techniques, meet some new people, get some exciting tools
+that you might be able to commence in your career and really propel the
+value that you add to your work that way.
+That's what the practitioner path is all about.
+Finally, the leader path, that is a path for business executives,
+entrepreneurs, directors, people who are looking to build a data science
+team, people who are looking to improve their data science teams, and so
+on.
+That is the leader path and we also notice that there was quite some
+demand last year in that space. That's why we've created the leader path.
+There you go. You can see that whether you're a beginner, an experienced
+data scientist, or a data science leader, we've got an exciting track prepared
+for you.
+Now, with having said that in mind, let's look at some of the exciting
+speakers that are coming to Data Science Go. We've got, for instance, Tarry
+Singh, who is CEO and founder of DeepKapha.ai. An influencer and
+thought leader in the space of data science and he's flying all the way from
+Europe to come to Data Science Go. Also, Nadieh Bremer, who's a renown
+data visualization designer. She's got a website visualcinnamon.com. She's
+coming to Data Science Go, as well from Europe. Ben Taylor's coming from
+Utah. He's the Chief AI Officer at ZIFF, Inc. He's coming to Data Science Go
+for the second time. Also, you may have seen his very popular post on
+LinkedIn, which is Data Scientist Type E. If you haven't, highly recommend
+reading it. It changed my life, back in the day.
+We've also got three more influencers in the space of data science. You may
+have heard these names. Eric Weber, Randy Lao, Favio Vazquez ... All
+coming together in one room to be here at Data Science Go. They're all
+http://www.superdatascience.com/190
+
+doing talks and we'll talk about this in a second. But, if you follow them, if
+you've heard of them, this is your opportunity to meet them and network
+with them and get to know them better and in person.
+Plus, we've got lots of other speakers as well. People flying in from all over
+the world, from Italy, Germany, lots of speakers from the U.S. We've also
+got Matt Dancho coming. Sinan Ozdemir coming, along with [Hadelin
+00:06:18] are doing special workshops, which come just before the event on
+the Friday, which you can also find out about on our website
+datasciencego.com. Of course, I'm going to be doing a talk.
+I also wanted to mention Pablos Holman, who is our keynote speaker.
+Pablos joined our conference just recently, like a couple months ago. We
+added Pablos to the event and here's some interesting facts. Pablos Holman
+is a hacker, inventor, entrepreneur, and technology futurist. His Ted Talks
+have over 20 million views and he is a senior inventor at his lab of 150
+scientists and engineers. He's worked on projects such as a brain surgery
+shoot down mosquitoes which was part of an impact invention effort to
+eradicate malaria with Bill Gates. He's worked on spaceships, [inaudible
+00:07:14] SPC, artificial intelligence agent systems, and many more exciting
+projects.
+As you can tell, this is a very forward thinking person. He is coming to Data
+Science Go to tell us where the world of data, technology, artificial
+intelligence is going. What we can expect from the future and what we
+should look forward to. Personally, I am very excited about getting to his
+talk and, as with all the other speakers, it doesn't mean you just sit at the
+talk and that's all the value that you'll get. Of course you can network with
+everybody from Randy Lao to Eric Weber to Ben Taylor to Pablos Holman.
+There's no limits during the breaks, which we have incorporated. We've
+incorporated a lunch on Saturday, on Sunday. We've incorporated a
+networking event on Friday evening. There's a Data Bash on Saturday
+http://www.superdatascience.com/190
+
+evening, which you'll find out what it is when you actually get there on
+Saturday. All of these breaks, you can actually network and that's what this
+event is all about ... for you to expand your network in the space of data
+science.
+Those are our speakers. Let's quickly talk about some of the talks.
+Depending on which learning track you're in, you will be going to different
+talks. Let's start with beginning learning track. We've got definitely a lot of
+exciting talks here. For instance, Ben Taylor is speaking about Beyond The
+Job: Leaving An AI Legacy. We've got Randy Lao talking about Data Science
+For All: Master The Fundamentals. Favio Vazquez is talking about
+Becoming A Data Scientist: From Taking a Course to Transforming a
+Business With your Knowledge.
+Those are just some examples. There's definitely lots of talks. If you're a
+beginner, you will go away from here super inspired, super motivated. You
+will know exactly how exactly you wanna structure your career or in which
+direction you want to go.
+Next, we've got the practitioner learning track. This one's interesting
+because we actually heard from some of you guys that you would like more
+practitioner talks. You want more technical talks at Data Science Go. That
+is something that you guys asked for and I want to make sure you are
+aware that we heard you, we listened, and we are adding new technical
+talks. Here's a couple of examples of the ones that we already have. More
+are to come. For instance, we've got a talk by Neelabh Pant, which is
+Machine Learning and Deep Learning Methods for Geo-Spatial Analytics.
+We've got a talk by Dan Shiebler, Bigger Problems than Big Data: Ten
+Serious Machine Learning Issues that Nobody Talks About. We've got a talk
+with Matt Dancho, Data Science For Business With Applications In R and
+H2O. Those are just some of the examples of the technical talks that we'll
+
+http://www.superdatascience.com/190
+
+have at Data Science Go. Check out the agenda for more. More updates are
+coming very shortly.
+Finally, we've got the leader learning pathway. Which is, once again, for
+business owners, entrepreneurs, executive directors to learn more about
+data science and how to leverage it in their businesses and how to build
+data science teams and things like that. In this space, we've got some
+exciting talks. We've got Josey Parks talking about Man and Machine: The
+Intersection Between Data and Business. What else ... We've got Vitaly
+Dolgov, who is my own mentor who's flying in from Australia, talking about
+Unleashing Potential: Real-Life Case Studies From A Seasoned Business
+Turnaround Consultant. Highly recommend, especially for business
+owners. Vitaly's a very experienced consultant and has lots of stories to tell,
+experiences to share. Then, we've got Francesco Corea talking about the
+Convergence of AI and Blockchain.
+Once again, those are just some of the examples. We've also got discussion
+panels that you can attend and other talks that will be relevant to your
+learning track.
+On that note, also wanted to mention that we have 21 speakers confirmed.
+We have two more slots, or we had two more slots available. Plus, we've
+opened up two new slots yesterday just because of how cool we wanna
+make this event. How much value we want to add to you guys. We're going
+to fill those slots with very exciting talks, so you are going to walk away
+completely transformed and with lots of knowledge in how you can apply
+these things in your career.
+As you can see, it's an event packed with value. We've got a special discount
+running right now, which is only going to be available until the 13th of
+September. That is next week, Thursday. So, make sure to sign up before
+then. It's 50% off. After that, price goes up. If there's any chance at all that
+you can come, you have to jump on it. This even will transform your career.
+http://www.superdatascience.com/190
+
+Whatever walk of life you are in, in terms of data science. We have a special
+discount for students because we know your budget is tight. Check on the
+website. We've got some information about that.
+Also, if you're coming as a group, there's a special form that you can fill in
+to purchase your tickets at a group price. Finally, we have a document that
+will help convince your boss to send you to the conference. This was quite a
+popular way to get to Data Science Go last year and so we want to help you
+out. You don't necessarily have to pay for yourself. Your company might
+send you to Data Science Go because it will transform your career so much.
+If you're already a practicing data scientist ... If you already are working in
+a business ... then, talk to your boss and maybe they will send you to Data
+Science Go. We have a document to help you out on the website. You
+should just have a look for the document called Convince Your Boss to
+Send You to DS Go.
+There we go. That's what this is event is all about. Make sure to check it
+out. It's at www.datasciencego.com. If you can't make it, personally, for
+whatever reason, then share it with somebody who might be able to attend
+and will be excited about all these things that they're going to learn ... all
+this information that they're going to go through. Really appreciate you help
+us spread the word and help impact as many people as we can.
+Once again, as mentioned, we have 400 people attending this year, so it'll
+be a fantastic opportunity for you to network and meet new people.
+On that note, thank you so much for being here today with me. I hope you
+enjoyed this episode. As you can see, we are building something super
+exciting and I was very privileged to be able to share that with you today. I
+also hope that you will take action and sign up for Data Science Go
+hopefully before Thursday next week so that you can take advantage of the
+discount.
+http://www.superdatascience.com/190
+
+Once again, the website is www.datasciencego.com and I look forward to
+seeing you in San Diego.
+
+http://www.superdatascience.com/190
+
+

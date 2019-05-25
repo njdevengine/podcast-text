@@ -1,0 +1,1688 @@
+	  
+
+SDS PODCAST
+EPISODE 23
+WITH
+SAM FLEGAL
+
+Show Notes: http://www.superdatascience.com/23
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 23, with Marketing Expert Sam
+Flegal.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello and welcome to the SuperDataScience podcast. Today
+we've got a very cool episode, and if you're in marketing, or
+you deal with marketing data in any way, shape, or form,
+then listen up, because you're in for a treat. Today we've got
+Sam Flegal joining us, who is the marketing manager for
+Ontraport. Now Ontraport is a company that provides
+business automation software to small businesses and
+entrepreneurs, and it's a huge company located in Santa
+Barbara, California. And as you can imagine, they deal with
+data all the time.
+So Sam is in the space of marketing, and he actually
+analyzes a lot of marketing data on a daily basis. And in this
+podcast, we're going to talk about a lot of interesting
+techniques that uses. So we'll talk about setting up data
+points, we'll talk about cutting down your data instead of
+analyzing everything and trying to boil the ocean. We'll talk
+about how he manages a team of people working in the
+space of analyzing data for marketing. We'll talk about how
+he goes about reporting data, how he creates these cool
+infographics to help management understand data much
+
+Show Notes: http://www.superdatascience.com/23
+
+2
+
+	  
+
+better, which I found really, really cool. And also, Sam will
+share a lot of different hacks, tools, and tips that he uses.
+Plus, Sam's been at Ontraport for many years now, and he
+will tell us, he will reveal how his career progressed through
+the years. So if you are looking for a career in marketing and
+data, then this will be a very, very valuable discussion for
+you as well.
+So we've got a very dynamic podcast filled with value all
+around coming up. And I can't wait for you to get started. So
+without further ado, I bring to you Sam Flegal of Ontraport.
+(background music plays)
+Hello everybody, welcome to the SuperDataScience podcast.
+Today with me on the show I have Sam Flegal, who is a
+marketing expert at Ontraport. Sam, how are you today?
+Sam:
+
+I'm doing great. How are you?
+
+Kirill:
+
+I'm good as well, thank you. Where are you calling in from?
+
+Sam:
+
+I'm calling in from Santa Barbara, California.
+
+Kirill:
+
+Wow, that is far away! So for those of us who don't know, I'm
+in Brisbane, Australia. I actually was in Santa Barbara
+earlier this year, and it's a 12 hour flight to LA. So well away
+from here. How is everything going there in Santa Barbara?
+
+Sam:
+
+You know, things are good. It's winter here, which means
+that it's just barely not boiling hot all the time. So that's
+kinda nice. I get to wear a sweater once in a while, you
+know. Which is rare for me, but!
+
+Kirill:
+
+Yeah, yeah, I can imagine. And climate there is very, very
+interesting. Well, I know about the -- when I was in Santa
+Barbara, I liked the nature. So you've got the mountains on
+
+Show Notes: http://www.superdatascience.com/23
+
+3
+
+	  
+
+one side, and the beautiful ocean right there. So it's
+something you don't even get in LA. But would you say the
+climate is a bit softer than the rest of California?
+Sam:
+
+Oh, yeah. I mean, I’m complaining about it but the truth is
+it’s like a perfect 72 degrees here all the time. Most people
+love it. I just so happen to like colder weather so I don’t
+really get a lot of that but, you know, that’s personal
+preference.
+
+Kirill:
+
+Yeah, totally. So just a quick brief description of how we
+know each other for our listeners. Sam works for a company
+called Ontraport, which is a fantastic company in the space
+of business automation, so if there’s any entrepreneurs
+listening out there, then definitely check them out. They
+provide something much more powerful than just a way to
+build your email list and maintain your email list. They
+provide a whole database and lots of automation tools. I was
+doing a lot of training with Ontraport this whole year. I was
+in Santa Barbara like over four times. Throughout my
+journey with Ontraport, I’ve met a lot of people that worked
+there, fantastic people, and Sam is actually the marketing
+manager. He uses a lot of data in his decision making, so
+that’s what we’re going to be talking about today. So just
+quickly to get us all up to speed, Sam, what exactly do you
+do as a marketing manager at Ontraport?
+
+Sam:
+
+Yeah, so as a marketing manager here, what that essentially
+means is I take credit for everything else my team does. I put
+data into pretty graphs so that executives know why they’re
+paying me. That’s essentially what I do. (Laughs) In more
+serious terms, though, what I actually do is I manage a team
+of about eight people, which make up our marketing team.
+Together, we’re responsible for all of the marketing efforts of
+
+Show Notes: http://www.superdatascience.com/23
+
+4
+
+	  
+
+the company. So that includes things like email marketing
+funnels, advertising, e-book, you know, lead generation
+stuff, and sort of everything in-between. We write all this
+stuff, we publish all this stuff, and then me specifically—we
+report on the stuff and prove whether or not it’s making us
+money essentially. So that’s sort of what the team does and
+then on an individual basis, I make sure everyone is aligned
+around our goals, which is pretty easy to do because our
+executives are pretty transparent about that, as I’m sure you
+know because you’ve met Landon and Lena. So that’s one of
+my jobs. And then I’m ultimately responsible for the
+reporting side of everything. I take the results of all of our
+campaigns; like I said, I put them into pretty graphs and I
+then send them to Landon and Lena, our president and
+CEO, to tell me whether or not we should keep doing them.
+Kirill:
+
+Okay, gotcha. Wow, it sounds like a very involved role. You
+work on both sides. You’re working with a team of people,
+putting it together, and talking to executives. So you’re kind
+of like the bridge between the analytics and the findings and
+the people that make business decisions. Would you agree
+that that’s an accurate description?
+
+Sam:
+
+Yeah, I mean, I think that’s actually why I was put into this
+role, is to be sort of that bridge between our executive team
+and the marketing team, essentially. Back in the day when
+we were a lot smaller, you know, I was actually the seventh
+employee here at Ontraport. And when we were that small,
+I’d talk to Landon, our CEO, every single day about what we
+wanted to do and what was relevant at the time. But as
+we’ve grown, you know, we’re like a hundred people now, not
+everyone gets to have that voice from Landon and Lena
+about where we’re going and what we’re doing. So that’s a
+
+Show Notes: http://www.superdatascience.com/23
+
+5
+
+	  
+
+big part of my job. But here at Ontraport, one of our
+philosophies is that we do have working managers. What
+essentially that means is I spend about half my time doing
+the role of marketing and analytics and running data and all
+that stuff, and half of my time managing people and helping
+them in their careers and to be successful in their own jobs.
+Kirill:
+
+Wow, that’s very interesting. So yeah, I remember Lena
+talking about that in one of our training sessions. Yeah, it
+must be quite hard, because you have to spend at least
+about a good hour per week with every one of the people
+working on your team. What does that leave you? Like, four
+full days of work that you can actually put in yourself.
+
+Sam:
+
+(Laughs) It’s actually a lot less than that. And I hope Lena
+doesn’t listen to this, because she might construe this as me
+complaining, but the truth is—like you alluded to there—we
+do one-on-one meetings with all of our team members. So I
+sit down with my ad buyer Ben, I sit down with my assistant
+marketing manager Megan, one-on-one every single week.
+Then they have a tool we use, 15Five—I know it’s data
+science and analytics, but if anybody listening to this is
+doing management stuff, check out 15Five. It’s an app that
+allows people to fill out these like weekly reports that let
+executives as well as managers know if they’re happy, what
+roadblocks they have, things like that. So I also review all
+those every week. We have manager meetings, we have peer
+groups. I mean, there’s a ton of stuff that we do to help
+nurture our people around here.
+And to be completely honest with you, it’s probably the part
+of my job that I take the most seriously. Which is odd,
+considering I’m responsible for the growth of the company as
+well, but I think that Landon and Lena would agree that
+
+Show Notes: http://www.superdatascience.com/23
+
+6
+
+	  
+
+nurturing our people to do their best work is more
+important.
+Kirill:
+
+Okay. Yeah, I totally agree with that. Those listening out
+there, in my view personally, Ontraport is the model as a
+business to copy and model the way you actually run your
+business. They’ve got everything down pat; you know, the
+operation side of things, the way employees grow, the way
+these 15Fives are implemented and even schedules,
+employee schedules. Is it just in the engineering team, or is
+it in your team as well, where you have like one hour per day
+where there’s like absolute silence where nobody’s allowed
+to—?
+
+Sam:
+
+That’s actually the whole company. Everywhere in the
+company, except for our support team because they have to
+be on the phones helping clients.
+
+Kirill:
+
+(Laughs) Naturally.
+
+Sam:
+
+But everywhere in the company, we actually have 3 hours a
+day: we have an hour and a half in the morning and an hour
+and a half in the afternoon where we have time set aside for
+sort of like company improvement projects. So what we
+found in our early days was that when you get bogged down
+in sort of the day-to-day work—me, for example, as a
+marketing guy and as an analytics guy, I could easily spend
+all day every single day just running numbers on our
+campaigns. You know, digesting that data, making strategic
+pivots based on the data and letting the executives know
+what’s going on.
+But if I do that all day every day, then we don’t move forward
+as a company. We don’t get projects done like introducing
+new features or marketing a new—like, we released
+
+Show Notes: http://www.superdatascience.com/23
+
+7
+
+	  
+
+Ontrapages, which is like a little brother product to
+Ontraport. And if we don’t make time for that kind of work,
+then it doesn’t happen. So we actually set aside three hours
+a day for every single employee to work on that kind of stuff.
+Kirill:
+
+Yeah, totally. And I know from my own experience that you
+can get bogged down in this “business as usual” type of stuff
+and completely forget about business growth. So it’s a very
+innovative approach to telling everybody, “Hey, guys, we
+can’t talk for three hours a day. Just get the work done.”
+And it works, right? Ontraport is growing exponentially.
+
+Sam:
+
+Yeah, yeah. We’ve been very fortunate. But the timeblock—
+we call it timeblock—but the timeblock schedule of those
+hours with no communication, just work on these big
+projects has been really great. Another thing that’s sort of a
+hidden benefit, and I’m sorry, I know we’ve talked a lot
+about management and operations, which is not the point
+here—and you can edit all this out, if you want—but one of
+the big benefits, one of the sort of hidden benefits of that
+system is that you find opportunities to empower your
+people to take on big projects as project leaders. So currently
+my team has two big projects we’re working on, and one of
+them is being led by one of our copywriters, and the other
+one is being led by our assistant marketing manager. And
+this is the first time for both of them leading a big wholeteam project. So it’s a great opportunity, a great learning
+experience for them to take on these big projects and learn
+project management and learn delegation and learn all of
+these skills that they’re going to need in order to advance
+their careers, whether it be here or anywhere else.
+
+Kirill:
+
+Yeah, I totally agree. Alright, so thank you for that overview.
+We’re going to now proceed to the data side of things to not
+
+Show Notes: http://www.superdatascience.com/23
+
+8
+
+	  
+
+disappoint our listeners. Alright, so tell us a little bit about
+data in your role. How do you use data as the marketing
+manager? Oh and the way I got to invite you on the podcast
+was I talked to Rochelle, because she does a lot of the
+product side of things, and I was asking her if maybe she
+wanted to come on the podcast, maybe she knew somebody,
+and she was like right away, “Sam is your man. You should
+go talk to Sam. He’s the man to talk to about data.” So tell
+us why everybody thinks you’re the person to talk to about
+data at Ontraport.
+Sam:
+
+Why people think I’m the data guy?
+
+Kirill:
+
+Yeah.
+
+Sam:
+
+(Laughs) So I will tell you just sort of upfront here, my data
+experience in my day-to-day work with data almost
+exclusively occurs on the marketing side of our business.
+The reason I say that is there’s obviously a huge amount of
+value in data science and analytics on the user side of
+things, like analysing how our customers are using our
+application because we are a software company, and I don’t
+have a lot of insight into that. So I’m just going to preface
+this whole thing by saying that.
+But for the marketing side of things, which is what I do do, it
+kind of goes without saying, but the truth is if you don’t
+know your numbers you don’t know anything when it comes
+to marketing. If I’m spending $100 on a marketing campaign
+and I don’t have any data on the backend of that campaign
+on how well it performed—and mind you, I’m talking about
+realistic data, not just like, “Oh, look it got this many clicks
+on Facebook or whatever,” but real data to drive our
+business forward—if I don’t know the results of that
+
+Show Notes: http://www.superdatascience.com/23
+
+9
+
+	  
+
+campaign, I have no idea if we should do it again, or if we
+should turn that $100 into $200. And that’s the part that
+I’m ultimately responsible for.
+Kirill:
+
+Okay, gotcha. That’s a good comment, that user data is not
+what you work with. You’re specifically focused on the
+marketing data. As I imagine, the way current modern
+marketing works, you’d be like bombarded with data from all
+over the place. Where are these data elements coming from
+that you analyse?
+
+Sam:
+
+Yeah, so we have a bunch of different tools and sort of entry
+ports for our data. I guess to say that I don’t run data on our
+users is partially true and partially false. The reason I say
+it’s partially true is because I don’t actually look at or use
+data about our clients, about our Ontraport clients all that
+often unless it’s presented to me and I’m asked to do
+something with it. But I do do a lot of data on our leads and
+on people who haven’t quite converted into a customer yet.
+So we have a lead management tool called Ontraport. It’s
+pretty awesome.
+
+Kirill:
+
+(Laughs) Fantastic! Love the plug. Yeah, awesome.
+
+Sam:
+
+(Laughs) Yeah, that’s where a lot of our data starts. So I
+have a lot of data on our leads and our lead health and our
+lead scoring and things like that. It all comes from our own
+application. I mean, yeah, obviously I’m going to plug
+Ontraport, but the truth is I’m sure that most entrepreneurs
+and business owners listening to this podcast have some
+tool that they’re using, whether it be CRM or autoresponders or whatever, that provides them that data. So
+that’s a big chunk of data that I look out on a daily basis.
+
+Show Notes: http://www.superdatascience.com/23
+
+10
+
+	  
+
+In addition to that, I would say that next largest section of
+data that I look at is going to be from our advertising efforts.
+We do a lot of advertising on things like Facebook, Google
+AdWords, you know, re-targeting around the web. And I
+have a lot of different dashboards and data points coming at
+me from those platforms because really, that’s where we’re
+actually putting the money on the line. So I spend a lot of
+time with that data because I need to make sure that if I’m
+going to spend $1,000 on this advertising campaign, that I’m
+getting the backend that I need in order to justify that cost.
+So I spend a lot of time with advertising data.
+And finally, the last big one that I look at a lot is going to be
+site engagement stuff. You know, this may be very basic for
+your podcast, but I do spend a lot of time in Google Analytics
+looking at how much time our people are spending on our
+pages, what they’re clicking on. We do some heat-mapping,
+you know, we look at that kind of stuff as well. So those are
+some of the three big buckets that I spend most of my time
+on.
+Kirill:
+
+Okay, gotcha. So then the natural question would be from
+there, since you’ve got all these different sources of data—
+you’ve got the Ontraport system, which is very cool that
+Ontraport uses their own system in their business. That’s a
+great way to lead by example. And then you’ve got Google
+Analytics, you’ve got these heat maps, you’ve got all these
+sources of data. So the natural question from there is, how
+do you go about connecting this data? How do you go about
+joining these different datasets, understanding how to
+combine them into something that you can actually use?
+
+Sam:
+
+Yeah, so that is actually a great question because that was—
+not to jump off track here for a second, but that was
+
+Show Notes: http://www.superdatascience.com/23
+
+11
+
+	  
+
+probably one of the biggest lessons I learned when I first got
+the role that I have now. My first entry into marketing here
+at Ontraport—because I wasn’t hired as a marketing guy, I
+was hired in 2009 to be support rep. That was 7 years ago
+now. So through the years I’ve grown into the marketing
+team, but my first role on the marketing team was actually
+data analyst. And if I’m going to be completely honest, the
+first thing I did as the new data analyst for Ontraport was
+Google “What does data analyst do?” (Laughs) “What do data
+analysts do? What is data analysis?” Things like that, right?
+So one of the things I learned very quickly, one of the biggest
+challenges that I had to learn was how take all the data from
+all of the different sources and put it into one place that’s
+actually digestible, that’s actually usable. Because you’re
+absolutely right when you sort of alluded to here that you
+can get bogged down so easily and so quickly in
+overanalysing one element of your data, and that’s a huge
+mistake. Anyway, that’s sort of a preamble to set up that
+what I’ve done is looked at things that our software can do
+because we do have reporting metrics, obviously. Otherwise
+we wouldn’t be a piece of software worth owning. So we use
+our own software for as much as I can. Anything that I can’t
+use my own software for, I find myself using something like
+Wicked Reports, if you’re familiar with them. I use them for a
+lot of our sort of first click engagement reporting metrics.
+And what that does is it allows me to sort of take all those
+data points—because we’re talking about hundreds and
+hundreds of data points—and condense them down into
+what actually matters and then get streamlined reporting
+based on that. So Wicked Reports is a tool that we’ve just
+begun using that we’re really happy with.
+Show Notes: http://www.superdatascience.com/23
+
+12
+
+	  
+
+But even if you’re not interested in Wicked Reports, one
+thing that we did very early on is we used UTM Variables,
+which are Google’s proprietary sort of tracking variables, and
+we slapped that on everything because what that allowed us
+to do was follow our efforts from not just “Did they convert
+on this ad or not?” but all the way through to “Did they ever
+purchase something from us? If so, how long were they a
+customer?” Things like that, right? Because that’s the data
+you don’t really think about and that’s the data that really
+matters. So what we would do is set ourselves up on the
+frontend with Wicked Reports, with UTM Variables, to be
+able to track that stuff all the way through. Then we created
+dashboards and metrics that help us track that kind of data.
+So to answer your question—I know I’m sort of like rambling
+here—but to go back to the original question of like how do
+you take all that data and turn it into something usable, the
+answer is I got rid of most of it as quickly as humanly
+possible because there was too much of it and I knew that if
+I showed Landon or Lena like a hundred pieces of data at
+the same time, it was not going to be useful. So the first
+thing I did was ditch as much of it as I could based on my
+actual objective.
+Kirill:
+
+Gotcha. Very interesting. So kind of like get rid of all the
+stuff that you’re not going to be using and then start from a
+fresh page. Okay. And I really liked your comments as well
+about setting up these data points. So this is a very
+important part that a lot of businesses miss. They try to
+analyse data but they haven’t set themselves up for success.
+They don’t have the right data points. And I hope that our
+listeners will take this to heart. Like, you might have
+inherently some data points that already exist. Like, you
+might be measuring—alright, so you can tell how many
+
+Show Notes: http://www.superdatascience.com/23
+
+13
+
+	  
+
+people purchase because you can see how much money
+came in. Or you can tell how many people visited your
+website because you have Google Analytics telling you that.
+But then to measure the journey of the customer through
+your website, seeing where they actually go from page to
+page, where they fall off, where they don’t click a button or
+which buttons actually get more clicks than others and so
+on. That doesn’t just come out of nowhere. You’ve got to set
+yourself up for that. You’ve got to put those data points in
+place. One of the examples that you mentioned—or two—
+was UTM Variables, which is Google’s proprietary thing, and
+Wicked Reports.
+So tell us a bit more about Wicked Reports. Oh, by the way,
+guys, everybody listening to this, Ontrapalooza – great
+conference! I’m going to make this plug for you guys. Like, I
+was at Ontrapalooza this year. It’s a marketing conference in
+Santa Barbara. So if you live somewhere in California, it
+should be a no-brainer to go to Ontrapalooza. It’s usually in
+October. And it’s going to be the 6th one in 2017. If I flew in
+for Ontrapalooza from Australia—literally, I was in Santa
+Barbara for 4 days just for that and it was the best
+conference I ever attended.
+Sam:
+
+Oh, thanks, man. That’s awesome.
+
+Kirill:
+
+And you did a lot of the organizing there, right?
+Unfortunately I didn’t get to your presentations. There were
+so many people presenting at the same time. But yeah, the
+organization of that event was just incredible and the guest
+speakers that you had were also fantastic. And one of them
+was, I think, the founder of Wicked Reports. Is that right?
+
+Show Notes: http://www.superdatascience.com/23
+
+14
+
+	  
+
+Sam:
+
+Yeah. I’m not sure if he was the founder or one of the
+founders or whatever his role was, but he’s a higher-up over
+there at Wicked Reports, yeah.
+
+Kirill:
+
+Yeah. Again, I didn’t make it to that presentation. I was
+listening to Basic Bananas presenting on the customer
+journey or something. (Laughs) But what would you say
+about Wicked Reports? Like you said, you just started using
+it. And how does it compare to Google Analytics?
+
+Sam:
+
+Yeah, you know, the simple—and I’m sure that if Andy—we
+talk to a guy over there named Andy. If he listens to this,
+he’ll probably want to slap me for missing huge selling
+points on the software. But the truth is for us it was actually
+a very simple choice to start checking them out because
+UTM Variables, if you’re not familiar—just a real quick
+summary of what they are—essentially what they are are
+variables that you add onto the end of a URL, and that
+information is then scraped by your whatever form of
+technology you’re using. Again, we’re using Ontraport. It will
+scrape that information and pop it into the contact record of
+the person who opted it. And what that does is it allows us
+to sort of track, “Okay, cool, so we know they came from this
+particular ad and this particular campaign,” and then we
+can tell if they purchased and stuff like that, which I was
+talking about earlier.
+What Wicked Reports does is a little different. It allows us to
+not only track where they came from the first time because—
+and I should go back and mention, UTM Variables, I don’t
+know about everyone’s software, but for Ontraport it doesn’t
+overwrite. So if they opt-in from one ad, for an e-book or
+something like this, and they get all that data popped into
+their contact record from the UTM Variables, if they click on
+
+Show Notes: http://www.superdatascience.com/23
+
+15
+
+	  
+
+another ad a week later and opt-in from something else, it
+will not update those fields because UTM Variables are
+supposed to be original source. So those fields are stuck.
+But what that doesn’t tell me as the marketing guy is,
+“Okay, cool, yeah, he downloaded our e-book on email
+marketing or whatever. But then he downloaded an e-book
+on landing page optimization and actually ended up buying
+the next day from that.” And that’s a very interesting thing
+to know. And Wicked Reports allows you to sort of take that
+UTM Variable tracking because it’s very similar in the way it
+works, but it allows you to check based on first click, so that
+would be similar to UTM Variables, you know, the original
+source, as well as the last click before conversion. So that
+was a big selling point for us to check them out and try it
+out.
+Kirill:
+
+Okay. Fantastic! That would be a real game changer to
+actually see what indeed triggers the customers’ final
+decision rather than what just brings them to your business.
+
+Sam:
+
+Yeah, and that’s what it’s all about. And I know that was
+sort of a brief overview, but one of the areas that UTM
+Variables kind of fails at is—okay, great, I have an
+advertisement out there and I’m sure some of your
+customers are probably in our advertising group so they may
+have seen our ads for an e-book or whatever on an
+entrepreneurial topic. So they click on that, they fill up a
+form—great, that locks in to UTM Variables. I know that I
+generated a lead from that campaign. That’s awesome.
+The problem is now we’re going to start sending out emails.
+We’re going to start nurturing them towards a purchase.
+We’re going to start teaching them stuff, we’re going to start
+pitching them stuff, whatever. And if they click on one of
+
+Show Notes: http://www.superdatascience.com/23
+
+16
+
+	  
+
+those emails and make a purchase, UTM Variables aren’t
+going to help me, right? Because sure, the UTM Variables
+and that e-book is what got them into our funnel in the first
+place, but which email in my funnel was the one that got
+them to purchase? And that’s a different conversation, right?
+And that’s something that Wicked Reports does really well.
+Kirill:
+
+Fantastic. And at this point, this is where I like to mention
+that we’re not just talking about this as like evil marketers
+sitting here wearing our evil hats. All of this creates for a
+better customer experience as well, right?
+
+Sam:
+
+Of course.
+
+Kirill:
+
+On one hand you get to sell the product. But on the other
+hand, if you know from which email the customer
+purchased, like in this example, then you can follow up with
+the right content and give them the best experience after
+purchase. You know, that is what Ontraport, for example, is
+all about. It’s not about just selling and that’s it. It’s about
+having a great customer experience. You guys are going to
+have like a customer success team or something like that,
+right?
+
+Sam:
+
+Yeah. Yeah, we have a whole team of people dedicated to
+helping new Ontraport customers sort of set up their
+accounts and make sure that they’re good to go. Because
+like you said, sure, I’m the marketing guy and my job is to
+be harsh about data and tell Landon and Lena, “Hey, guys,
+this ad works and we’re getting a ton of conversions,” which
+is kind of the opposite of touchy-feely. That said, we have
+tons of people here at Ontraport whose job it is to make
+people feel great and to have a really good customer
+experience and that’s the backend. You absolutely have to
+
+Show Notes: http://www.superdatascience.com/23
+
+17
+
+	  
+
+have that part. Because if all you’re worried about is
+conversion rates on all your emails, then you’re going to end
+up with emails that are spammy, and weird, and no one
+likes them. And that’s where you end up in that sort of evil
+marketing corner that you’re talking about.
+Kirill:
+
+Yeah, exactly. Exactly. So, we know where you get the data
+from. We know how you go about putting it together. Alright,
+now you have the data. What do you do with it?
+
+Sam:
+
+So what I do with it is a couple of things. The first thing I do
+is I analyze the data for my own purposes. And what I mean
+by that is the first thing I do with any set of data is I spend
+some time looking at it and sort of reflecting on it. I use my
+own brain and my own knowledge of what we’re trying to
+accomplish and I determine, based on my opinion, is this
+successful or not, what could be better, where are we failing,
+and things like that. And I do this with sort of raw data.
+So I take all the data, I throw it into a big spreadsheet, or
+whatever it is I’m looking at, and I start to analyse it myself.
+I’m taking notes; I’m doing whatever I’ve got to do. Then
+what I do once I sort of made my conclusion about it is I will
+inform the team, sort of what’s going on and we’ll all look
+over the numbers together so that we can pivot if we need to,
+or we can take advantage of something that maybe they
+didn’t find in their first impressions of the data. So if there’s
+like some sort of a hidden gem like, “Oh, hey, guys, this is
+working really well. Let’s focus on this,” that kind of stuff,
+then finally I take that data and I turn it into something
+digestible for people who aren’t on my team. So, one big
+spreadsheet with like hundreds and hundreds of numbers
+on it is not digestible. I know I’ve talked about it a couple of
+times. I apologize.
+
+Show Notes: http://www.superdatascience.com/23
+
+18
+
+	  
+
+Kirill:
+
+(Laughs) Whoa! You got me scared for a second. I thought
+you were going to say that’s what you create, that one big
+spreadsheet.
+
+Sam:
+
+No, no, no, no. That’s what I start with. That’s what I like
+but that’s my job, is to like that, right? (Laughs) But I take
+that spreadsheet with the God-awful number of numbers on
+it and actually one thing I do is I bought—there’s a web app
+called Infogram. I think it’s like “Infogr.am.” It’s like 5 bucks
+a month or something like that, but what it does is it allows
+you to pop data in in like a spreadsheet format and then it
+will make like infographics out of it. So I actually do that
+with our data. I take the relevant numbers that I think prove
+whatever point it is that I’m trying to make. I throw it into
+something like that and then that’s what I send off to my
+boss, to the president and the CEO, so that they know where
+their business is headed. Now, if it was just me, I may not do
+that because I don’t mind the big spreadsheets, but that’s
+one thing that I do with it almost every time. So any time
+there’s like a big funnel—actually, I may do it later today. Me
+and Lena just tested a big funnel last week. I have all the
+numbers, I’ve crunched all the numbers, I’ve looked at all
+the data, I’m going to take the relevant information, put
+them into one of those Infogram infographics, and that’s
+what I’m going to bring to our meeting later to show her on a
+screen.
+
+Kirill:
+
+Oh, fantastic! That’s a very efficient way of showing data.
+Because a lot of the time, data scientists either present these
+huge spreadsheets or they spend hours and hours and
+hours trying to create a visualization or trying to come up
+with a way to present this data. And you’ve just come up—or
+
+Show Notes: http://www.superdatascience.com/23
+
+19
+
+	  
+
+you’re using a very quick way. What was it, infogr.am? Is
+that right?
+Sam:
+
+Yeah, I think it’s infogr.am. I’m pretty sure that’s the
+website. But if you just google “infogram” you’ll find it. But
+yeah, that was the thing. I did exactly what you’re talking
+about. My first time showing data, you know, when I was the
+data analyst googling how to do my job, I would show giant
+spreadsheets. And very quickly, I would look around the
+room, and I would notice that nobody was paying attention
+20 minutes in. Because it’s just—it’s unbearable. If you
+don’t know what you’re looking at, it’s not usable.
+So then I tried making visualizations like you’re talking
+about. I would spend a lot of time in Excel or Google sheets
+trying to make these graphs and it was just taking way too
+long. So my new problem was like, yeah, I was getting cool
+visualization, but I was spending way too much time doing
+it. So this thing, you know, it costs us almost nothing, and I
+think they even have a free version. So if you don’t care
+about their branding on your stuff or whatever, there is a
+free version. So I think I even used the free version. But I
+found that what I would do is they just have spreadsheets.
+That’s where they get the data to present these graphs. So I
+would just copy and paste entire sections of my
+spreadsheets into this thing and it would spit out really
+pretty visualizations that are interactive, you can mouse
+over all the points to see the exact numbers and all that
+kind of fancy stuff. And I just made it a lot easier on myself.
+
+Kirill:
+
+Wow, man, you just got me excited about that. I’m going to
+check it out after this podcast. That’s fantastic.
+
+Show Notes: http://www.superdatascience.com/23
+
+20
+
+	  
+
+Sam:
+
+Yeah, you should. Honestly, I think it’s like $5 or $10 a
+month but what it saves the company in my time is well
+worth that amount of money.
+
+Kirill:
+
+Totally. And when you’re like presenting internally, within
+the company, not like as a consultant to your client, but
+internally, you don’t have to go that extra mile of making it
+look absolutely fantastic. You just want efficient
+presentation, right? Something that’s not raw numbers but
+something that is very visual. And if it looks like the colours
+are not ideal or the interactivity is not ideal or something
+like that, nobody cares about that as long as you get the
+point across, right?
+
+Sam:
+
+Right. And also, they all have the context. I think that’s one
+thing for consultants, and if you do have any consultants
+listening, I want to make it clear: I wouldn’t recommend
+Infogram for like your next big presentation to a business.
+(Laughs) You should absolutely do the homework and get
+the really impressive presentations, spend the time. But like
+you’re saying, for internal presentations, they know the
+context. They know what the campaign was, they know what
+we were trying to accomplish. They know what a CTR is.
+They know what a CPC is. I don’t have to explain all of this
+information on different slides or whatever. I just need to
+show them the graph with the numbers on the graph that
+tell them whether or not it’s working and that’s it. And the
+fewer slides, the better. Really! Or the fewer infographics I
+have to use, the better. Like I said, the first thing—and I’m
+sure there are people who are much more educated in this
+arena than I am listening who are probably very angry with
+me—but the first thing that I do with any amount of data is I
+get rid of as much of it as I possibly can. I have to find the
+
+Show Notes: http://www.superdatascience.com/23
+
+21
+
+	  
+
+numbers that matter the most, what is our objective, are we
+achieving that objective, and I work from there.
+Kirill:
+
+Yeah, gotcha. That was a very good overview of presenting, of
+actually being that bridge between the analytics and the
+stakeholder. So I’m sure that a lot of our listeners will get
+some takeaways from there. And the next thing I wanted to
+talk to you about is like—rewind a little bit back. So you’re
+doing the analytics. You’ve got the data, you’re doing the
+analytics. But before you present, what techniques do you
+use? What are the most common techniques you use in your
+analytics when you’re working with marketing data?
+
+Sam:
+
+I’ll tell you the big one. The big one that I use, and this was
+something that—again, I know I’ve said this a couple of
+times but I want to make it very, very clear. I have no formal
+education in this, so I learned a lot as I went. I was put into
+a role that I was absolutely not qualified to do, and I sort of
+learned along the way. And one of the big lessons I learned,
+in addition to how people simplify data and all that stuff,
+was this concept of statistical significance. And especially in
+marketing, where you do a lot of testing and a lot of split
+testing and A/B testing and multivariate testing and blahblah-blah-blah, it’s so, so, so important that you know
+whether or not your results are statistically significant.
+And what I mean by that is, if you’re not familiar with the
+term, basically, very smart mathematicians out there in the
+world have developed these equations that will tell you how
+confident you can be in the results that you’re seeing, and
+more importantly in the difference in those results. So let’s
+take an example. Let’s say I have two ads running on the
+same thing, and the only difference is the image on those
+two ads. I’ve got a Version 1 and a Version 2. If I have a
+
+Show Notes: http://www.superdatascience.com/23
+
+22
+
+	  
+
+higher click-through rate on Version 1 than I have on
+Version 2, initially your thought would be, “Great, Version 1
+wins. Let’s kill Version 2 and keep moving forward with
+Version 1.”
+The problem is you can’t be sure on a smaller scale if that
+will continue to be the case, that Version 1 will continue to
+win. So let’s put some more context on that example. Let’s
+say that those ads have only been shown to 200 people
+each. Your likelihood of those numbers repeating and it not
+being just chance is pretty low. So you have to know
+whether or not you can move forward confidently knowing
+that those results will hold. So that was a big one that I
+learned very, very early on.
+And then to answer your question more specifically, what
+techniques and tools do I use, I use a calculator to tell me
+whether or not my results are significant. I don’t present
+anything to the executives or to even my team unless we
+have significant results. Because what’s the point, right? If I
+show the CEO—going back to our earlier example—if I show
+him the results of Version 1 and Version 2, he’s probably
+going to tell me to turn off Version 2 because Version 1 is
+winning but boy, that could be wrong. They call that a false
+positive. You have to make sure that your numbers are
+correct. So the calculator that I use—I used ones that I just
+found on Google or whatever for a long time, but the
+challenge that I ran into with those was that they only
+allowed, most of them at least – I know you said you found
+one, before we started recording you were telling me about
+one. I had never found one, but they only allowed you to
+compare two things. So 1 vs. 2 or A vs. B.
+
+Show Notes: http://www.superdatascience.com/23
+
+23
+
+	  
+
+The problem I was having was—like I said, a lot of what we
+do with advertising and, you know—we’ll launch 25 ads just
+to test, copy and image and whatever, but they all go to the
+same place. So what I have do is very quickly run statistical
+significance calculations on all 25 of those ads. And the
+problem with the 1 to 2 comparison, because I’m sure some
+of you are like, “Okay, just fill the thing out 10 times, 2 ads
+at time. That’s 20 times. It’s not that big of a deal.” The
+problem is what I didn’t realize—and again, I learned as I
+went—but one thing that I learned very quickly is it’s not 1
+to 2, 3 to 4, 5 to 6. It’s 1 to 2, 1 to 3, 1 to 4, 1 to 5 – all the
+way through. And then 2 to 3, 2 to 4, 2 to 5. I mean, there’s
+hundreds and hundreds of comparisons. And we used to do
+it by hand and it took us hours and hours and hours.
+So I put together a Google Doc, it’s called the Stat
+Significance Calculator. And I basically just took the
+formulas that I found online on how to generate these kinds
+of numbers, slapped it into a spreadsheet, put some styling
+on it and made is as simple as I could to save us time.
+Before we started recording I gave you a link to it—I don’t
+know where you’re going to put it—but you guys are
+welcome to make copies of this. I made a copy of it, then I
+made it public. So you guys can have this. Just go to the
+link, copy it and then it’ll copy it to your Google Drive and
+you can use it. But this thing saves me tons and tons and
+tons of time every single day.
+Kirill:
+
+Yeah, thank you so much for that. Sam did share his tool
+with us and we’re going to put it on the show notes so make
+sure to check that out and download it. And if this is
+something that Ontraport use in their business, and you
+either have a business or you’re in marketing, then this is
+
+Show Notes: http://www.superdatascience.com/23
+
+24
+
+	  
+
+something you should be using as well. So thank you so
+much for sharing that.
+Sam:
+
+No problem. And the one thing I will mention—sort of the
+two things I will mention. The great thing about this
+calculator is—and I want to make this very clear, I did not
+invent Statistical Significance. I take no credit whatsoever. I
+just found the equation online and put it into an easy-to-use
+template. So, you know, all the credit goes to everyone else.
+But anyway, one of the things that’s beautiful about this
+calculator is it takes a lot of the emotion out of the equation,
+so you no longer have to say, “Here are the results,” and
+then have an argument about what they mean. This thing
+will help you make your determination about what’s winning
+and what’s not, emotions aside. The other thing I will
+mention really quickly, because if you are familiar with this
+concept, you’re probably familiar with the idea that you
+should run on a confidence level of about 90-95% confidence
+that your results will continue, you know, significance. We
+believe that as well. That said, the calculator that I have
+developed here is running on an 80% confidence, so if you
+want to tweak that, you can dive into the formulas and find
+how to up that. But it is running on 80% so just know that. I
+feel like I should put a disclaimer on here. (Laughs)
+
+Kirill:
+
+Yeah, totally. And I’ll add a disclaimer as well. Our listeners,
+if you guys decide to download this tool, then just know that
+you’re doing it at your own risk. Ontraport do use this tool,
+but Sam and Ontraport have no liability for this tool, so just
+double-check everything that you’re using and make sure
+you’re comfortable with this tool before you proceed to
+actually base your business decisions on it.
+
+Show Notes: http://www.superdatascience.com/23
+
+25
+
+	  
+
+Sam:
+
+Yes, definitely do that. In fact, I would recommend just to
+take that one step further. I would recommend that you do
+this action manually a couple of times just to familiarize
+yourself with how this even works and then start using an
+automated tool like this. That’s sort of a philosophy we have
+around here. Ironically, we’re an automation company, but
+we always try to do something manually first and then we
+automate it. So if something breaks or if you’re questioning
+whether or not this thing is actually working, you can go
+double-check your math and do it yourself. So I highly,
+highly recommend that. And like you said, I take no
+responsibility because this is way above my head. I’m not
+even entirely sure how it works, to be completely honest with
+you. (Laughs) I just know that that’s what I read so I threw it
+in a doc.
+
+Kirill:
+
+Okay. Thank you so much. So that was a great overview of
+statistical significance and I cannot stress enough how many
+times, how often it happens that marketers, and even people
+not in marketing, underestimate the importance of statistical
+significance. Just imagine that like, pretty much all of the
+drugs that you get from the pharmacy, they have undergone
+tests. And all those tests—they’re like either A/B tests,
+you’ve probably heard the terms “control group” and
+“placebo effect”, where somebody gets a placebo pill and
+somebody gets a normal pill. And all of that says, “Well,
+guess what? Statistical significance is also used to prove
+that drugs are working and things like that.” So it’s a very,
+very important concept and Sam gave a very good outline of
+what it is and how it works and why it’s important to run
+those tests before you present your results. So I can’t add
+anything to it except for just make sure to use statistical
+significance and keep it in mind in your analytics. Moving on
+
+Show Notes: http://www.superdatascience.com/23
+
+26
+
+	  
+
+from techniques—we’ve talked about presenting, we’ve
+talked about techniques, we’ve talked about the way you get
+data, how you put it together.
+The next thing I want to talk about is quite interesting
+because you mentioned a couple of times that you don’t
+have any formal education in this space. Actually, I’m going
+to share a little surprise. You probably didn’t know this, I
+found your video from Ontraport, the careers video. (Laughs)
+Sam:
+
+Oh God. (Laughs)
+
+Kirill:
+
+On YouTube. So if anybody wants to see Sam when he was a
+bit younger, just go to YouTube and find that video. But
+basically, there the main thing related to data that you
+mention is that you type really fast, which is a great example
+for a lot of our listeners. So the question is, how do you go
+from not having any formal education in the space of data,
+and just typing really fast, to being a marketing expert and
+leading a team of eight people in data science presenting
+business decisions or things that drive business decisions to
+the president and the CEO of a company. What has been
+your journey and what have been like the main points that
+you can outline to us in that journey?
+
+Sam:
+
+Okay. Well, I guess to start, you know, I think it helps a lot
+that I grew up with an interest in technology and software
+and in this kind of stuff. To be completely honest with you,
+my hobbies and my interests are all entirely nerdy. So I just
+happen to enjoy this kind of work, which I think is a big part
+of why I’m successful at it.
+But as far as my journey goes, you know, like I mentioned
+earlier, I was hired in 2009 as the seventh employee and I
+was hired to be a support rep, so to answer the phones and
+
+Show Notes: http://www.superdatascience.com/23
+
+27
+
+	  
+
+help clients. And that was great because our business serves
+businesses. Our clients are business owners, so when I was
+helping clients, I was getting a really good indoctrination and
+a really good education on how business is done in the real
+world, how people are setting up their businesses, how
+people are setting up their tools like Ontraport to automate
+their businesses and run their businesses. So that was
+really a great starting point, was just learning how business
+is done, learning what lead magnets, learning what landing
+pages are, learning what an email funnel is, things like that.
+So I spent a couple of years learning that kind of stuff.
+Then the next step for me here at Ontraport was I moved on
+to our services team with Rochelle, who I know you’ve
+mentioned you met, and me and Rochelle built our services
+team. And what that was at the time was you could call in
+and pay us and we would build stuff for you in your
+Ontraport account to run your business. So that was great
+because that gave me the opportunity to hear Rochelle
+interact with people—who was much more knowledgeable at
+the time than I was—about how marketing works and how
+business works. So I was able to listen to her, get a good
+education from her and then I would take people’s
+businesses and their strategies and I would help them
+implement them. So now I’ve got some general business
+knowledge and some hands-on building systems and
+processes knowledge, which was great.
+From there, once we sort of built the services team out, I was
+actually very fortunate and I was able to help—I don’t know
+if I can say their names or not, so I’m just not going to—but
+we had three or four big, big clients that needed help with
+product launches. And they needed help with marketing and
+Show Notes: http://www.superdatascience.com/23
+
+28
+
+	  
+
+with actually carrying out their launch. Let me rephrase
+that. They didn’t need help with marketing. These people are
+obviously very successful. I know they know how to market.
+But they needed my help with implementing their marketing
+and the tracking, the reporting metrics on the Ontraport
+side so that they can tell whether or not it was working.
+And that was great. That was probably the best education I
+got because I got to see how were the big boys doing
+marketing, how were the big boys reporting on that
+marketing. So I was actually a part of, a very integral part of,
+multiple launches that did well over a million dollars in
+sales. And that was great. That was probably the tipping
+point for me.
+After that, I was given the opportunity to help market our
+own brand. So yeah, that’s sort of my journey, I guess. But it
+was a little more than that. I spent a lot of time on nights
+and weekends—especially after I got the first data analyst
+job, like I said—I spent a lot of time on nights and weekends
+reading blogs and googling and reading books and just
+anything I could put my hands on to try to become educated
+and it set myself up for success.
+Because, you know, while we’re sitting here and we’re
+talking about it on a podcast and it’s fun to pretend like I’m
+the king of the mountain or whatever, and I know what I’m
+doing, the truth is at the time I just wanted a successful
+career. I just wanted to be successful in my own career
+personally. I wanted to get promotions, I wanted to get raises
+and I wanted to be valuable to the company so I applied my
+learning to that field. You know, that’s what I did.
+
+Show Notes: http://www.superdatascience.com/23
+
+29
+
+	  
+
+Kirill:
+
+Yeah. That’s a great journey that you’ve had and learning
+through experience, you’ve had some fantastic opportunities.
+Also, it’s a big challenge to stand up to something that you
+don’t know at all, especially like going into million dollar
+projects or million dollar launches and assist with that.
+That’s a big thing to do. And it’s great to hear that you went
+through all of that and successfully came out on the other
+side.
+
+Sam:
+
+Well, that is one thing. It’s a great opportunity. And again, I
+don’t want to derail us and talk about people management,
+but it just so happens to be something that I’m learning
+myself, and I want to impart on your people because I’m
+sure you have people who are business owners themselves
+maybe looking to hire people. But the truth is, you know,
+one of the biggest things I learned about being an effective
+employee, and especially because I know I saw in your notes
+before we hopped on the call here that it sounded like some
+of the people who listen are looking to get careers going in
+this field.
+
+Kirill:
+
+(Laughs) More like 80% of the people.
+
+Sam:
+
+Okay, great. That’s actually great, because I will tell you the
+one bit of advice that I give to all of my people as I hire new
+people and whatever is, “Never say no to a challenge.” And I
+know that that sounds like something that you put on a
+motivational poster and stick up on the calendar or whatever
+but the truth is, one thing that led to my success in this
+field and really all of my team’s success and anyone I know
+who is successful is—you know, when we were a lot smaller,
+Landon would come out of his office and he’d say, “Hey, I
+need someone to do a project,” and my hand was always the
+first one up. You have to learn by doing.
+
+Show Notes: http://www.superdatascience.com/23
+
+30
+
+	  
+
+Reading the books, reading the blog posts, listening to this
+podcast – while it’s a great first step, it will not replace the
+experience of actually doing something and putting your
+money on the line and putting your reputation on the line.
+Because when your back is against the wall, that’s when you
+do the most learning, right? When I had a phone call with
+one of our clients and he said, “Hey, man, this launch is
+about to go off. I’m expecting millions and millions of dollars.
+Are you sure this thing works?” That was a—I had to make
+sure that it is, right? I didn’t have the option of just like,
+“Well, I read it in the book, so I’ll put that in my memory and
+hopefully work on it one day.” Do the work. Do the actual
+work and that’s the best advice I can give anybody looking
+for a career in this field or really any field.
+Kirill:
+
+Yeah. Fantastic. That is exactly the question I was about to
+ask, what advice you can give, and that’s a perfect answer.
+
+Sam:
+
+Oh, great. There you go. (Laughs)
+
+Kirill:
+
+Never say no to a challenge. There you go. Especially in data
+science.
+
+Sam:
+
+Never say no to a challenge. And, you know, the other
+thing—and this is something that I’m working with people
+on my team—the other thing, especially with analytics and
+with marketing, is you are going to find yourself in a
+situation where you do not know the answer more often
+than not, if you’re coming from an non-educated perspective
+like I am. You know, if Landon asks me for something
+tomorrow that I don’t know the answer to, I don’t have the
+option of saying, “Sorry, man. I don’t know.” I have to then
+go figure it out. And that’s something that I feel like a lot of
+people think they’re really good at but may actually not be
+
+Show Notes: http://www.superdatascience.com/23
+
+31
+
+	  
+
+great at. You have to be willing to do the research, learn how
+to do things on the fly as you run into challenges.
+I know a lot of people in our engineering team who became
+engineers and developers by just doing exactly that. They
+would come up with a concept. They’d be like, “Hey, I want
+to make an app that does this.” And then they’d be like,
+“Okay, well, what’s the first thing I need to know?” And they
+would google it, and then they would do that, and then they
+would google the next thing and they would google the next
+thing and sure enough, after months and months of hard
+work and research, they had something that worked. And
+then you’re able to retain all that information and build on
+it. So, yeah, don’t turn down any projects and be willing to
+be unstoppable, which is actually one of our values painted
+on the wall here. Be unstoppable. Learn the thing that you
+need to learn in order to do the job.
+Kirill:
+
+Thank you. Very inspiring. Just some great advice, and
+hopefully everybody takes it to heart. And my next question
+is what is—like, building on top of that, it’s a very inspiring
+and passionate thing to not say no to a challenge, and
+especially in data science, and figure things out. What would
+you say is your most favourite thing about being a data
+scientist?
+
+Sam:
+
+Oh, man. My most favourite thing about being in data
+science or working in analytics? I will tell you one of my
+favourite things was it really taught me how to deal with
+being wrong, which is something that I don’t think many
+people are good at, myself included. You know, we all tend to
+think that we’re right 99% of the time, and nothing will set
+you straight, as far as being wrong about something, like
+data will.
+
+Show Notes: http://www.superdatascience.com/23
+
+32
+
+	  
+
+I spent a lot of time when I first started doing this job—a lot
+of time coming up with really great ideas, fleshing them out
+perfectly, executing them only to find out that I was 100%
+incorrect and it was a total failure. And it’s weird to say that
+that’s my favourite part, but it actually is. Because only in
+marketing—well, that’s probably not fair—but marketing
+especially is one area of business, or life in general, where
+you have the tools and the ability to prove a theory without a
+doubt, especially if you use statistical significance, but
+without a doubt, you know whether or not something works.
+There is no ambiguity, there is no emotion, there’s no
+arguing. It’s just, “Did it work? Yes or no?” And that is so
+powerful, to be able to say, “This was the strategy we tried. It
+didn’t work. Where do we go from here?” I love that part.
+That’s probably my favourite part.
+Kirill:
+
+Fantastic. Great. Great overview. So moving on to kind of
+like the overall view of where you’re sitting and from what
+you know about data. It was interesting how you corrected
+the question for the previous one where I said, “What’s your
+most favourite thing about being a data scientist?” and you
+said, “Being in data science or working analytics,” which is
+fair because your title probably isn’t directly data science,
+but the stuff you do is on a data science level.
+And hence my next question is, from what you see about the
+world and what you’ve already experienced with data in your
+role and in your life, where do you think the field of data
+science and just data analytics is going? What do you think
+our listeners should prepare for in the future to be ready for
+a career in data?
+
+Sam:
+
+That’s a great question. I think that—and maybe my opinion
+is a little biased here because I work for a software company
+
+Show Notes: http://www.superdatascience.com/23
+
+33
+
+	  
+
+that provides data, but I think that software nowadays,
+especially in the business and marketing space, which is the
+space that I work in primarily, every bit of software that you
+could possibly get for your business and for marketing is
+going to include data analysis or metrics dashboards, or
+whatever their version of that is, in their tool. And what
+anyone who’s listening here can do to elevate beyond that,
+because what that’s going to do is a lot of people are going to
+think, “Okay, cool, I’ve got the data. Why would I hire a data
+scientist? Why would I hire a data analyst when I have a tool
+that tells me what I need to know?”
+But what I’m finding in my research and in using tools and
+in our own product development is that there is a whole
+another level to data science and to analytics and into
+metrics that will not be covered by basic software solutions.
+And the best thing that you can do as an aspiring data
+scientist is learn what the difference is, learn what they’re
+not providing. And by the way—little spoiler alert—most of
+them aren’t providing statistical significance, at least not yet,
+so that’s a great way to start. I mean, I know that our tool
+and none of our competitors’ tools do, so that’s a great place
+to start if you’re trying to prove value as a data and
+marketing analyst.
+But learn the difference, right? Learn the difference between
+the basic data that they’re providing and the data that you
+can provide as someone trained in this field, and that is how
+you become invaluable to a company, is being able to take
+the data that they provide and take it to the next level and
+provide extra value to your employer or to your own
+business or whatever.
+
+Show Notes: http://www.superdatascience.com/23
+
+34
+
+	  
+
+Kirill:
+
+Fantastic! That is a great summary. So, basically look into
+things that do not come pre-packaged with the solutions
+that are offered on the market place or in the target
+company that you want to have a career in. Or maybe you
+already have a career in that company and just look around
+and see what else you can add to enhance that data and
+those decisions that are being made.
+
+Sam:
+
+Well, I’ll tell you right now, especially because you said like
+80% of your audience are people looking for jobs in this
+field. I’ve got a meeting with Lena in like an hour or
+whatever, and if I go in there and she fires me, the very first
+thing I’m going to do is I’m going to find software companies
+or whatever field I want to work in, and I’m probably going to
+try to apply as a marketing person and as a data person.
+What I’m going to do is I’m going to check out their websites,
+I’m going to dig around in the source code of their websites,
+find what tools they’re using, and then do some research on
+what data and metrics those tools are providing, and then
+I’m going to take it a step further and that’s what I’m going
+to bring in my interview. To be completely honest, that’s
+exactly what I’m going to do.
+
+Kirill:
+
+Fantastic! Well, let’s hope Lena doesn’t fire you. (Laughs)
+
+Sam:
+
+Yeah, let’s hope. (Laughs)
+
+Kirill:
+
+Yeah, that is a great tip. Yeah, there you go. If somebody
+listening to this podcast specifically wants to get into data
+science and marketing, that is golden advice. Just go to the
+website of a company that you have an interview with, rightclick on the website in Chrome, select “view source code”
+and go through their source code and find out what tools
+
+Show Notes: http://www.superdatascience.com/23
+
+35
+
+	  
+
+they use for their marketing and see how you can add value.
+I bet nobody else in the interview is going to do that.
+Sam:
+
+Nobody else is going to. And in fact, I’ll even give you a tool
+that helps a lot with that. There’s a website called
+builtwith.com. If you check that out, you pop in the URL of
+any page, you can see what technologies they’re using so
+that makes it even easier for you. So that’s what I would do.
+I think they charge for something but you can do that
+searching stuff for free. So I would do that. In fact, I know a
+consultant of ours—we certify people to be consultants for
+our product—and I know a consultant of ours, I was just
+talking with him the other week, and he was telling me that
+this is actually how he built his business. He would go to the
+website builtwith.com, find businesses in his area that were
+using Ontraport, or using a competitor of Ontraport, and
+then put together like a pitch and then e-mail them and say
+like, “Hey, this is what you’re using. This is where you’re
+going wrong. This is what I can help you do. What do you
+think?” And he built a very successful business doing that.
+So if I was looking for a job, that’s the first thing I would do.
+Yeah.
+
+Kirill:
+
+Fantastic! Thank you very much. Builtwith.com – guys,
+check it out. All right, thank you, Sam. We’re nearing the
+end. It was a great pleasure having you on board on this
+podcast. Going forward, how can our listeners contact you,
+follow you or find you on the Internet so they can learn more
+about your career?
+
+Sam:
+
+Boy, that’s a good question. And it’s funny, ironically for a
+marketing guy, I don’t really use social media all that much.
+I mean, I have a Facebook page. You’re welcome to find me
+on Facebook and add me, but I don’t post anything
+
+Show Notes: http://www.superdatascience.com/23
+
+36
+
+	  
+
+insightful about data. I just talk about video games and
+comic books and stuff. So that might not be helpful. If you
+do have any questions or you are interested in what I’m up
+to, I do write for our blog which you can find on our website
+or just go to ontraport.com/blog. I occasionally will write a
+blog post there. I’m actually working on one right now. So I
+will talk about marketing and analytics and stuff like that on
+there. And if you have any questions about anything, my email address is sam@ontraport.com. Feel free to e-mail me.
+Don’t get mad at me if I don’t respond right away because I
+actually do have a job that I have to do, but I’m happy to
+share whatever I know.
+Kirill:
+
+Fantastic! Thank you very much. And we’ll share those links
+on the show notes, including the blog post, so hopefully by
+the time this podcast is out your blog post will be ready and
+we’ll get people checking it out. And one final question: What
+would you say is your one favourite book that you can
+recommend to our listeners for them to become more data
+savvy or just improve their life in general?
+
+Sam:
+
+So I actually have a couple different answers to this
+question. The book answer, the real tangible book answer
+would be a book called “Predictive Analytics: The Power to
+Predict Who Will Click, Buy, Lie, or Die.” It’s written by Eric
+Siegel. You can find it on Amazon or whatever. That’s a great
+book. So I love that. It’s kind of an introductory book to the
+concept of predictive analytics, which is what I deal with a
+lot. So I encourage you to check that out if you’re looking for
+a book.
+That said, I love reading blog posts. That’s what I spend a lot
+of my time reading. I love Kissmetrics blog. If you’re not
+familiar with them, I think it’s just kissmetrics.com. They’ve
+
+Show Notes: http://www.superdatascience.com/23
+
+37
+
+	  
+
+got a great blog for data and analytics and stuff like that. I
+don’t actually use their tool, so I can’t speak to the quality of
+the tool, but I know their blog is great. So check out their
+blog.
+And then I have a really niche one, but I would just be doing
+you a disservice if I didn’t tell you. If you’re doing Facebook
+ads, if you’re into Facebook ads and you’re running numbers
+on Facebook ads specifically, check out a guy named Jon
+Loomer – that’s J-O-N-L-O-O-M-E-R, and his website is just
+jonloomer.com. The guy has a killer blog, great advice on
+how to run numbers on that stuff and how to improve your
+Facebook ad campaigns based on data. I highly, highly
+recommend that. I spend a lot of time reading that guy’s
+blog. So those are sort of three sources that I like a lot.
+Kirill:
+
+Fantastic! Thank you. So I’ll just summarize those. We’ve got
+“Predictive Analytics: The Power to Predict Who Will Click,
+Buy, Lie, or Die”. I forgot the author’s name but we’ll put
+that in the show notes.
+
+Sam:
+
+Eric Siegel.
+
+Kirill:
+
+Eric Siegel. We’ve got Kissmetrics. That’s by Neil Patel, right?
+
+Sam:
+
+I think so. Yeah, I think it’s him and another guy, but yeah.
+
+Kirill:
+
+Okay. So the blog Kissmetrics, and we’ve got another blog –
+jonloomer.com. So check those out if you want to propel
+your career in data science in marketing. Thank you very
+much, Sam, for coming on the show. It was a great pleasure
+to have you.
+
+Sam:
+
+Thank you so much for having me. It’s an honour. This is
+my first podcast appearance. (Laughs)
+
+Show Notes: http://www.superdatascience.com/23
+
+38
+
+	  
+
+Kirill:
+
+All right. So we’ll definitely share everything with our
+listeners. Get ready to be bombarded with e-mails and
+contact requests.
+
+Sam:
+
+(Laughs) Yeah, I know. I kind of realized after I said that that
+maybe I shouldn’t have given my email but screw it.
+(Laughs)
+
+Kirill:
+
+All right. Take care, my friend. Thank you so much.
+
+Sam:
+
+Okay. Thank you so much.
+
+Kirill:
+
+So there you have it. I hope you enjoyed today’s show. And
+my personal favourite part was when Sam discussed how he
+goes about taking data that he gets, which is lots and lots of
+data, and only leaving the data that is indeed necessary for
+his analysis. So to speak, cutting down the data. And part of
+that is of course setting up the data points in advance so
+that he only gets the relevant data. But even when he gets a
+lot more irrelevant data, he knows how to go about cutting it
+down. So that’s a very important skill to have, preparing the
+right data for your analysis so you don’t get overwhelmed
+and lost in all that data.
+And of course, it was so great of Sam to share his tool which
+he uses for testing for statistical significance. We’ve got that
+tool prepared for you so if you want to download it, come on
+over to www.superdatascience.com/23. You can get it there
+plus you can get the show notes and the transcript for this
+episode and all of the links to all of the resources and
+materials mentioned here. So we extend a huge thank you to
+Sam for being on the show and to Ontraport.
+And finally, if you’re a small business owner or a fellow
+entrepreneur, I highly recommend for you to check out
+
+Show Notes: http://www.superdatascience.com/23
+
+39
+
+	  
+
+Ontraport. They can really make your life much easier with
+their business automation software. So head on over to
+www.ontraport.com and check out what they have there to
+offer you. And on that note we’re going to wrap up today’s
+episode. I can’t wait to see you next time. And until then,
+happy analyzing.
+
+Show Notes: http://www.superdatascience.com/23
+
+40
+
+

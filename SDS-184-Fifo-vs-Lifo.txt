@@ -1,0 +1,199 @@
+SDS PODCAST
+EPISODE 184
+FIVE MINUTE
+FRIDAY:
+FIFO VS LIFO
+
+Show Notes: http://www.superdatascience.com/184
+
+1
+
+This is Five Minute Friday, episode number 184, FIFO versus LIFO.
+Hello and welcome back to the Super Data Science Podcast, ladies and
+gentlemen. Today, we've got a bit of a nerdy episode. I'll admit this one's
+quite nerdy. What is it about?
+Sometimes we talk about the importance of domain knowledge in data
+science. That is true. Domain knowledge is extremely important. The
+technical aspects of our roles as data scientists and the skills are extremely
+transferrable. The algorithms that you are applying one day at a
+pharmaceutical company, you might be applying at a railway operations
+company and then, another day, you might be applying it at a space
+agency, and another day you might applying at a bank.
+Those components of our roles are transferrable. We are lucky that way,
+that we can very quickly adapt to the environment. But that adaptation
+actually requires some effort, and that effort is to acquire the domain
+knowledge. And domain knowledge is what are the specifics of the
+pharmaceutical industry? What are the specifics of a railway company or
+the railway industry? What are the specifics of the space industry? And
+what are the specifics of the bank that you're working for now?
+And so in order to acquire this domain knowledge, I've developed some tips
+and tricks and hacks over the years, and today I want to share one of them
+with you, and this one is called the FIFO versus LIFO. So what does it
+stand for? Well, if you are a programmer, like a hard core programmer, and
+you've worked with Assembler before, then you will know what I'm talking
+about. FIFO stands for First In, First Out. LIFO stands for Last In, First
+Out. And also, you will probably know what I'm talking about if you are an
+accountant, because this is important in accounting, as well.
+And so what are these two concepts and why are they important? Well,
+these concepts are related to how things or items or assets or data is
+processed, or how it is dealt with in a process. And the names speak for
+Show Notes: http://www.superdatascience.com/184
+
+2
+
+themselves. First In, First Out means that if you have an element, whether
+it's some data or it's a physical asset. It might be a burger. It might be a
+car. It might be a person standing in queue. Basically, FIFO means an
+element that came first or entered a system first will be the first one to leave
+it. They leave in that order. So if you have elements A, B, C, and they
+entered in that order, A, B, C, then they will leave in that order, A, B, C.
+And we'll have a couple examples just now.
+But before that, LIFO stands for the opposite, Last In, First Out. So if
+elements entered in the order A, B, C, they will leave in the order C, B, A.
+So let's have a look at a couple examples to make this a bit clearer, and
+then we'll understand how this is actually valuable in understanding
+domain knowledge and data science.
+So examples of FIFO. Another word for FIFO is queue. And this is why. So
+for instance, people queuing up to buy movie tickets, that is an example of
+FIFO in action, because the first person in the queue will be the first person
+to get the ticket and will be the first person out the queue. The last person
+in the queue will be the last person to get their ticket and will be the last
+person out the queue. So hence, first in, first out.
+Another example is warehousing of perishable items. So if, for instance, you
+have a grocery store that is warehousing bread, the truck comes and loads
+the bread. The bread that comes in first, or the batch that comes in first ...
+Let's say that there's a batch that came in first, Batch A, then two hours
+later or a day later, Batch B came in, and then Batch C came in another
+day later, well, Batch A is gonna be the first one out. Batch B is the second
+one out. Batch C is the third one out. Same thing goes for medicine. If
+medicine has been warehoused, they use a FIFO system to get it out of the
+warehouse, because it's perishable.
+If they're using the opposite, a LIFO system, so Last In, First Out, then
+they've got a problem, because the medicine that came in first is gonna stay
+Show Notes: http://www.superdatascience.com/184
+
+3
+
+around for a very long time, and it's gonna expire. So that's not necessarily
+gonna work, in that case.
+So you can see the domain knowledge coming in. So if you're in a grocery
+store or you're in a movie business or you're working as a data scientist for
+a medical company, a pharmaceutical company, you already can see the
+value of this.
+All right, what's another example? Another example is a phone answering
+queue. If you're on the phone to a bank and they've got support
+representatives answering the phone, then again, it's first in, first out,
+because if it was the other way, then the person who called first would be
+on the phone forever. Another example is cars being loaded onto a twosided ferry, or cars using a two-sided ferry. So a two-sided ferry is one of
+those that you have in Europe, that are crossing these rivers all the time.
+I'm sure there is in other parts of the world, as well. I was just recently on
+one myself. You enter on one side. Then your car goes to the end. Then it
+crosses the river and then the opposite side opens and then you drive out.
+So in those cases, usually the cars that come in first are let out first.
+Whereas, if it's a ferry with one side, like a long distance ferry that goes on
+for 10 hours, usually they only have one entrance. So the cars get in. They
+get packed, and so basically, the cars that come in last are blocking the
+cars that came in first, so therefore, the cars that came in last will go out
+first. So that's a LIFO system. So you can see, even in ferries, there can be
+two types of approaches, FIFO versus LIFO.
+So that brings us to LIFO. LIFO is Last In, First Out. We already had that
+example with the ferries. So let's have a look at a couple more. And by the
+way, another way of saying LIFO is STACK, because when you stack things
+up, like you stack up books onto a table, the first book that you stacked
+will be at the bottom. You cannot pick it out first, because the whole thing
+will tumble. So you have to pick up the top book first, so the book that you
+put in last. So a stack of books will be a LIFO example.
+Show Notes: http://www.superdatascience.com/184
+
+4
+
+Another example of LIFO is cement bags. So when you're warehousing the
+cement bags, you're gonna be stacking them on top, and because it's not a
+perishable item, it's okay to keep the bottom bags stacked for ages, for
+years, perhaps. I'm not an expert in cement, but I don't think anything
+would happen negative, especially if the humidity is fine and sunlight is not
+getting in. The bottom bag of cement can lie around forever, so there, they
+would use a LIFO stacking system, where they would pick up the bag of
+cement that was put on last, because otherwise, it would be inefficient.
+They're heavy bags and to turn this whole thing over and create a queue
+out of cement bags might be an inefficient use of space.
+Another one is plates requiring washing at a restaurant. So if you stack up
+plates requiring washing, you're obviously gonna wash the one that you put
+on last. You're gonna wash it first, LIFO. Another one is plates being loaded
+into a plate dispenser. You know those plate dispensers, those balancey
+things that we all like to play around with at restaurants or at buffet
+tables? So the plates that was put in last will be picked out first.
+An in tray for an office worker. So if somebody's working at an office and
+they still have an in tray, instead of an email ... I don't think those are
+popular any more, but nevertheless, if you have an in tray, and people put
+items into your in tray, you're gonna pick up the one that was put in last,
+first.
+And you can really see, as you're getting a sense for these examples,
+industry examples, you can really see. This one, for example, is specifically
+valuable, because if you're seeing inefficiencies in data processing or some
+process in a business, it could be related to somebody's in tray, just
+because they're getting overcrowded with items and they're picking up the
+last ones first, and therefore, the ones that should have gone first, or the
+ones that were given to them earlier, are being delayed. So there you go.
+There's an inefficiency right there.
+Show Notes: http://www.superdatascience.com/184
+
+5
+
+Another one is you packing your travel bag. When you're going to travel,
+you pack your bag. Think about it. The items that you put at the top are
+the items that went into the bag last, but they're the ones that are gonna
+come out first.
+So typically, when the entrance and the exit is the same, then you're gonna
+have a LIFO method. When there's an entrance and a separate exit, then
+you got a FIFO. That's one way to think about it. Another way to think
+about it is queue versus stack. There's lots of ways to think about it.
+And so we just rambled through probably 10 different industry examples,
+and you might think to yourself, "Well, some of them are useful. Some of
+them, you can't really do anything about. That's just the way things work,
+perishable items this way, cement this way or that way." And in many
+cases, it's true. In many cases, it's just the natural way of things.
+But what I'm suggesting here is if you get into the habit of picking up on
+these things throughout the day, throughout the course of your week, and
+just seeing, "Okay, I'm standing waiting for my burger or for my food. Is
+that FIFO or LIFO? I'm picking up this plate. I'm packing my bag. What is
+FIFO? What is LIFO?"
+Once you get into the habit of doing these things in our day to day world, in
+these trivial cases, you will get a sense for it, how to do it in your business,
+how to quickly pick up on these things, how to even notice them. A lot of
+data scientists don't pay attention to this, and they go through
+understanding a business and a business process, and they don't really
+notice, "Is this FIFO or is this LIFO?" And they don't see the implications
+that that has. And the opportunities that that might yield, or the
+consequences it has on the way data is coming in and out of these
+processes, or the way that data is being handled, the way that data is
+actually being generated and collected.
+
+Show Notes: http://www.superdatascience.com/184
+
+6
+
+And so I think it's important to at least be aware of these, and ideally, pay
+attention to them, and therefore get value out of these concepts and
+understand your industry, your domain knowledge quicker, and grasp
+those little details that are intrinsic characteristics, that other data
+scientists might have not picked up on, or you wouldn't have otherwise
+picked up on.
+So on that note, I hope you enjoyed this podcast and this little excursion
+into the nerdy world of data science, or I would say even domain knowledge
+in data science, and hopefully, this was a helpful tip for you. And if it was,
+my challenge for you this weekend would be to try and observe your day to
+day and see where you can pick up on FIFO and LIFO and see how many
+examples you can pick up in just one weekend.
+And hopefully, that will help train your mind to continue doing that next
+week, and then throughout the month. And just picking up on these little
+details and then seeing what that means for your understanding of your
+business and how that can enhance it.
+On that note, thank you so much for being here today, and I look forward to
+seeing you back here next time. Until then, happy analyzing!
+
+Show Notes: http://www.superdatascience.com/184
+
+7
+
+

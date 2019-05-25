@@ -1,0 +1,376 @@
+SDS PODCAST
+EPISODE 194
+FIVE MINUTE
+FRIDAY:
+HELPING THE WORLD
+THROUGH VEGANISM AND
+DATA SCIENCE
+
+http://www.superdatascience.com/194
+
+This is episode number 194, Why I Became Vegan. Welcome back to Super
+Data Science Podcast. Ladies and gentlemen, boys and girls, super excited
+to have you back on the show and today we've got a very interesting and
+fun story on how and why I became vegan.
+Now, before we dive into it, I wanted to kick us off with a disclaimer. This
+episode is provided for informational and entertainment purposes only.
+Please do not take any of its content as health or other source of
+professional or health care advice or nutritional advice. Everybody's
+different. Everybody's needs for food, nutrition, and health needs are
+different so make sure to consult with a health practitioner and also the
+contents of this episode are just my story, how things happen for me, and
+my interpretation of things.
+Now, having said that, let's get to the story. So, make sure you're
+comfortable and let's see how everything unraveled.
+So, the chronology of events was as follows. Last year, I posted an episode
+on why I became vegetarian and described all the benefits I'm seeing, the
+boost in energy, how I'm feeling and things like that. That was after a year
+of being vegetarian. And the reason for that is I don't like to just share
+comments, or posts, or podcast episodes about something that I'm just
+experimenting with. That's why you waited a year to make sure that I am
+seeing the benefits, I'm able to maintain consistently and see good results
+and that's when I decided to share my story.
+Actually it was really cool to see all the feedback I got. Many of you posted.
+Many of you said amazing comments and shared your stories with me so I
+got some very interesting feedback from you guys. So, thank you very much
+to those of you who posted and gave me some comments on that. Then, I
+was vegetarian for a bit longer. In total, I was vegetarian for one and a half
+years and then in September last year, Adlan and I, after going to a couple
+of Vegan restaurants and really enjoying them, but then in September last
+http://www.superdatascience.com/194
+
+year we wanted to dig into this topic further and so we found a
+documentary about veganism and decided to watch it. And the
+documentary is called What the Health. It's actually quite recent. It was
+produced in 2017. Very well made, very cinematic. It goes into detail on
+[inaudible 00:02:35] I think it's from the creator of Cowspiracy. The same
+person that filmed Cowspiracy created What the Health. Amazing, highly
+recommend to everybody. Even if you're not planning on becoming vegan, it
+is just incredibly made and really opens your eyes to some things. It dives
+into three topics on why veganism is actually good for you. It dives into the
+health aspects, how that affects your health, how affects the environment,
+and how that helps animals. So, there's three main reasons for going down
+this path.
+So we watched it and literally, watched in the evening, the next day or
+within a couple of days we became vegan. That's it. No negotiation. Straight
+there. To be honest, I have to clarify here that we do have our own cheat
+days or our own ways that we mix things up. We're not 100% vegan all the
+time. Most of the time, like 95% of the time we're vegan. I will sometimes
+eat fish like maybe once a month occasionally or if there's fresh fish around
+then I'll eat it more frequently. Whereas Adlan has his own system where
+he's 95% of the time vegan but then 5% of the month he will just eat
+anything and that's kind of his own way of structuring diet. That's why I
+said of the start that these are our interpretations and everybody's unique
+and different and you will find your own path if you look for going down this
+way.
+Yeah, but apart from that, we decided that this is the best options for our
+health, became vegan. Now, it's been a year, so Adlan and I, so you've heard
+that right, not just me but both of us. Adlan and I and Adlan, those of you
+don't know is my business partner, he's also the co-instructor on the
+machine learning A to Zed and deep learning AI to Zed blockchain, and
+most of our major flagship courses.
+http://www.superdatascience.com/194
+
+So, both Adlan and I have been vegan for a year now. Of course, these are
+our own interpretation of this diet. Yeah, so, that's how it happened. We're
+very excited about it. We're continuing doing that. So, let's talk about a few
+things.
+So, first of all, not just vegan. Well, I can't speak for Adlan here but for
+myself I'm not just me again, but the diet I follow is called a whole food
+plant-based diet. If any of you are interested, a great doctor on this topic is
+Dr. John McDougall. He's got a few books and one of them is called The
+Starch Solution. I haven't personally read it but I've seen some of his other
+works and he's got a website, got some interesting recipes. He's also in ...
+and he's in one of the documentaries. I'm not sure if he's in What The
+Health, I think he's in Forks Over Knives or something like that, but a very
+interesting person.
+It's not just about being vegan it's actually about following a whole food
+plant-based diet. So, no processed food, minimum emulsifiers, minimum
+other types of like colorings, other ingredients. You know whenever you see
+in the ingredients you see something starting with an E, E like 234 or
+something like that, all those things, not necessary for your body, actually
+do damage to your body. So, that's the type of diet, whole food plant-based.
+Another thing is my mom is vegan, I'm just checking my notes here, which
+is really cool. What I would say is that you ... in the movie they say that you
+experience health benefits within like two weeks after starting this whole
+food plant-based diet and it's true. Within two weeks felt lighter, haven't felt
+... very rarely I feel bloated now or very rarely I feel heavy in my stomach,
+always full of energy, all those stories that you don't get enough iron, you
+don't get enough protein if you don't eat meat, that's all nonsense.
+If you do your research, if you plan your food, if you watch what you eat,
+you can get everything from a purely whole food plant-based diet and
+there's a beautiful app for that which is free. It's called Cronometer, C-R-Ohttp://www.superdatascience.com/194
+
+N-O-M-E-T-E-R so no H in that word. Cronometer, you can download it,
+you can put in what you ate like cup of rice and it'll tell you exactly what
+you got. Fibers, carbs, how much and so on and it'll compare it to how
+much you're burning per day, really, really cool thing. If anybody's
+interested in that. Basically you can get everything from a whole food plantbased except for one thing. There's one vitamin you can not get and that is
+vitamin B12.
+So vitamin B12 you can not get from a fully vegan diet and to be clear here,
+so some people might say that, "Well that is because you need to eat animal
+products, you see B12 isn't contained in plants and so on so we have to eat
+animal products." Well actually, no. Actually B12 is generated by this
+bacteria that lives on in the forests, I think it's bacteria it might be
+something like micro organisms that live on leaves especially towards the
+ground and where it's dirty. Basically where there's dirt, where there's some
+manure or some other stuff and through that natural process that micro
+organism generates this vitamin and then cows and other animals eat the
+grass and then they have that B12 in them and that's why you can get it
+with meat and other animal products.
+But, the reason why we can't get it from plants is because we no longer live
+in forests, we no longer eat leaves or pick stuff off the grass and we don't
+have access to that, everything is you know, comes from farms where
+everything's sterilized and your fruits and vegetables there they don't
+contain that B12 anymore so that's the reason, to the best of my knowledge
+why we don't get B12 from a whole food plant-based diet and that's why
+B12 you take a supplement. I take a supplements like a little spray once a
+week or several times a month is enough. You just need a tiny amount of
+B12 but it's important that you get it.
+So that's that, and then everything else you can balance out, you can just
+make sure by observing things you're eating and checking them, for
+http://www.superdatascience.com/194
+
+instance on Cronometer that you are getting the right amino acids, the right
+carbs, the right fats and so on.
+So, what are some of the benefits of being vegan? Well, definitely as
+discussed the health benefits like a lot of energy, a lot of strength. In fact
+some of the strongest people on Earth are vegan. Some of like pro athletes
+and that what I like about this movie is that at the end they give you
+examples of people like body builders and other types of athletes like
+marathon runners and so on who are vegan and they're totally fine. So, lot's
+of health benefits, clarity of mind, focus and things like that. Of course,
+enviornmental aspects are very important as well, by not eating meat you're
+helping save the planet. Statistics are pretty crazy like to produce one
+burger, it takes about something like 50 liters of water in order to produce
+one burger because of like, the cows drink the water and then the crops
+require water and so on. So it's pretty crazy.
+Also, most of the ... and I mentioned this in my other episode, most of gas
+in the greenhouse effect that is causing over heating, global warming on the
+planet doesn't actually come from factories and cars and airplanes as you'd
+think. Those all account for about like less than 50% but more than 50%
+like 51 or 52% of these gases that are causing the problem, and the main
+one is methane, that comes from cows, from their digestive system because
+eat grass and the way they digest it it produce methane, goes into the
+atmosphere and that's where most of it's coming from. I think, as far as I
+remember, several football fields. I think it's 40 football fields, 40 like
+stadiums of Amazon Rainforest are cut down every minute in the Amazon
+Rainforest. So 40 stadiums of trees are cut down every minute in the
+Amazon Rainforest and most of it goes for either soy production, which is in
+most cases used to feed cows and livestock or it is used for the livestock
+grazing pastures. That is also pretty insane.
+
+http://www.superdatascience.com/194
+
+There's like ... I think there's like a billion cows on the planet right now and
+that's also ... like then are numbers are enormous and all of that is
+affecting our planet in terms of environment, in terms of the oceans, in
+terms of trees and so on and so by being a vegan, by eating just plantbased products you're really reducing your enviornmental footprint and
+helping this planet survive.
+Then the other benefit is of course animals, right? So animals are extremely
+mistreated and it's your way of just taking care of them by choosing not to
+eat animal products. Again, I'm not advocating for everybody to become
+vegan and things like that, just my story and how I feel about this. Why I
+feel this, like the power to go through because it is sometimes difficult like
+for instance after becoming vegetarian for one and a half years and then
+vegan for a year I don't miss ... I don't miss meat anymore. When I look at
+meat it does nothing for me. Most of the time it just feels strange and a bit
+disgusting even, but I do miss cheese. I really miss cheese and the reason
+for that is that when you eat cheese, it goes into your system and then it
+triggers, kind of affects your brain the same way that morphine affects your
+brain.
+So basically, not as strong, but same type of chemical reactions, something
+that happens in your brain and the effect is similar to morphine. Basically
+it's addictive, right? So, whether you like it or of course if you don't like it,
+you don't like it, but if you like it it's not just because you like the taste and
+maybe you know it like ... it's a taste that you develop over time. It's
+actually because you are getting addicted to it, and it's really hard to let it
+go and that's probably the reason why I still miss cheese, that I really think
+about it a lot and ... but like, you know I've been ... it's been pretty, pretty
+crazy but I've been pretty diligent with this. In the past year I think I tried
+one slice of cheese, that's pretty much it because I know, you know like
+other things like fish for instance and stuff, I know it's easier to control
+http://www.superdatascience.com/194
+
+whereas with cheese it's addictive so I'd rather just stay away from it, kind
+of cold turkey approach.
+Another thing I wanted to say is that this wasn't my first attempt at
+becoming vegan. I tried way back, back when I was still at Deloitte I tried
+twice because I had a roommate, his names Chris and he was vegan then, I
+think he's vegan again now. He had his own type of diet so I tried ... he
+inspired me, basically and so it's always good to do like with friends or
+roommates and stuff and so he inspired me to try. I tried it but it didn't
+work for me and his diet involved a lot of smoothies and juices and stuff
+and for me, once I tried it the first time, the second time I became really ill.
+I became sick like I don't know, three, four times a month. I remember
+being sick six, seven times in the space of like three months. Just with like
+flu and then I get better and then flu again and colds and stuff like that and
+I just didn't understand what was happening and he kept telling me that,
+"Hey man, you gotta wait, it's like your toxins coming out of your body, it's
+gonna happen," and so on, so on, so on.
+At the time I didn't really understand what he meant but now after doing all
+this research and doing that 10 day fast I did in Bali and other
+understanding how all this works I can see what's happening and what is
+happening is when you eat processed food, when you eat meat, when you
+eat things that contain emulsifiers and you know just other unnatural stuff,
+toxins, basically toxins that come into your body. A lot of those ... or even
+like you know, toxins that come out of the air because of the cars driving
+around. It's just like whatever toxins are around, when they get into your
+body, a lot of the time ... like I won't ... don't quote me on whether it's 100%
+of the time or whether it's 10% of the time, not sure but a lot of the time
+they are actually not water soluble, they are fat soluble. What that means is
+that they can not be removed from your body with just water. You can
+drink as much water as you want but they're there, they can only be ... they
+can only attach themselves to fat so when something's fat soluble it's kind
+http://www.superdatascience.com/194
+
+of like ... you know if you have water and you drop a drop of fat on it, like
+oil or something then it doesn't defuse in the water it just stays there.
+So, a similar illustration so fat soluble toxins that can only be taken away,
+taken out of your body with fat and so what your body does is when there's
+excess amount of toxins that can not just naturally go through your system
+like through your liver or whichever way they go out of your body. What it
+does is it creates fat to store those toxins because it knows okay, I can
+capture those toxins with fat and put them away so they don't affect me, so
+they don't ruin the digestion or the organs and they don't affect the body in
+general. And so, that way your body creates fat and stores away toxins so
+not only does your body create fat when you over eat and things like that
+but it's a protective mechanism to capture toxins and put them away. Then
+what happens once you go vegan, like cold turkey from eating meat five
+times or three times a day, seven days a week, when you jump to being
+vegan is that your body has so much of these toxins, of this fat because it's
+been getting excess toxins all the time so it's been putting them away,
+putting them away, putting them away.
+Now, you jump to vegan and all the sudden has this opportunity to clean
+up it starts burning that fat because you're probably not eating as much or
+eating enough, getting enough ... like you need to watch how much you eat
+when you're vegan to get enough nutrition. I eat a lot. And so especially
+when you start being vegan your body starts fixing itself up, it might burn
+the excess fat and as soon as it starts burning excess fat all these toxins
+start coming out and where so they go? They go into your bloodstream.
+They go through your whole body to get out but in the process they're ...
+inevitably before they get out they're going to cause some harm to you and
+that is why your immune system drops, you become sick and a lot of people
+take that as a sign that no veganism is not for me or vegetarianism is not
+for me, like I got sick so many times, definitely not for me.
+http://www.superdatascience.com/194
+
+But the reality is your body is going through this healing process and hence
+you're becoming sick, not because the food is making you sick. So, that's
+that. Some things you should be careful of and therefore again, don't take
+this as health advise but my view is that if I was talking to a friend I
+wouldn't recommend to go straight into being vegan from meat eating to
+vegan right away. I might be, like I'm probably not in line, not consistent
+with other or like I'm not ... a lot of other professionals in this space or
+vegans will not agree with me but that's my view. All those people just say
+just go straight vegan, my view is I would rather go slowly. Maybe cut out ...
+a lot of us eat meat three times a day. Breakfast is bacon, lunch is like a
+sausage, dinner is a steak and things like that and it happens most days a
+week.
+What I would do is I would cut out ... and I've recommend this to one of my
+friends, you cut out meat on two days out of the seven, preferably in a row
+like Friday, Saturday or something like or Tuesday, Wednesday. Just pick
+those two days and you don't eat animal products. Not just meat, meat,
+cheese, eggs, all that stuff, dairy. You don't eat all that stuff for two days
+and so you see how you go. Maybe one day to start with and then two days,
+three days. Gradual, gradual transition and again, everybody's different. My
+point is maybe for many people doing it gradually can be easier
+psychologically and actually maybe it can be not as shocking to the system
+in terms of the health aspect.
+While we're talking about dairy, just now I mentioned dairy, what I wanted
+to say on that as well is that dairy, there's been plenty of studies to show
+that dairy ... like milk and stuff, you know how we all hear that milk helps
+stronger bones because it has calcium? Well actually that's not true.
+There's been quite a few studies and two that I've heard of that have proven
+that milk actually makes your bones weaker and why is that? Well because
+milk is an acidic environment, is an acidic substance and when you drink it
+what happens is your body needs to neutralize that acidity. Yes it gets
+http://www.superdatascience.com/194
+
+calcium out of the milk but it needs to leech more calcium out of your
+bones and in order to neutralize that acidity so therefore, your bones
+become weaker.
+There was like, one of the studies was about, I think it was about women
+and the study was over several ... actually quite a long study I think it was
+like over a decade and they studied two groups of women. One group who
+were drinking milk, another group who weren't drinking milk and they were
+looking at hip fractures and there were way more hip fractures. There were
+statistically significant larger number of hip fractures among women who
+were indeed drinking milk. So, you know, there's something.
+All of these numbers, quotes are all available in any of those
+documentaries. If you want to watch one then the one I mentioned at the
+start of this, What the Health. Great place to start, please get some more
+information on this topic.
+One more thing I wanted to say, very important as well. To keep your body
+alkaline, to keep your body more alkaline we mentioned, or you'll hear this
+in an upcoming episode where we talk to Carl Massey, author of The
+Guidebook To Happiness he'll be in one of the upcoming episodes and we'll
+talk about this there, about water. You need to keep your body alkaline
+because when you're actually born, when a baby is born it is alkaline,
+mostly alkaline. So PH 7.0 is middle, medium ground. Below that I think
+it's acidic, right? So PH below 7 is acidic and above 7 is alkaline. And so
+let's have a look, yeah, zero is totally acidic and 14 is completely alkaline.
+Your body is slightly alkaline, should be slightly alkaline, 7.35 and 7.45.
+Basically when a baby is born it's more alkaline as it grows, as it eats more
+meat and more milk and all other acidic things it becomes less alkaline and
+more acidic and guess what? Cancer, it thrives in acidic environments. It
+can not survive in alkaline environments, it thrives in acidic environments
+and that's why meat, in fact what is it? I think either bacon or eggs by the
+http://www.superdatascience.com/194
+
+World Health Organizations have been classified the same level of
+cancerogen, or something that causes cancer, as cigarettes. Right on the
+same level, how crazy is that? That is how dangerous these things are for
+your body if you eat them over a prolonged period of time.
+Yeah so, as you grow up, as a baby grows up it's body becomes more and
+more acidic and that's where cancer can thrive so it's important to first of
+all drink water to make sure you're hydrating enough. That's kind of
+separate, that's just like you need water to clean your body and drink. I
+drink at least two liters per day and that's before lunch. Before lunch I
+drink at least two liters of water. Probably throughout the course of the day
+between three and four. But in terms of PH ... what's it called? Vegetables
+and whole food plant-based diet it helps bring up your PH so it helps make
+your body more alkaline because you're consuming ... instead of consuming
+meat you're consuming vegetables and green leafy vegetables and things
+like that so you can look that up and you'll see that most of these things
+that are green and vegetables, they're usually alkaline and they help your
+body become more alkaline which is good for you.
+You know I think, I think that's all that I wanted to mention here. I hope
+you enjoyed this episode, it was quite a long one, coming close to 30
+minutes now. But I found it important. I was looking forward to sharing
+this episode for a year now. As you can imagine I was so excited after a
+month, after two months, three months. I remember counting down the
+time, and it was at some point it was six months, eight months, ten
+months. I was really looking forward to sharing this with you guys but I
+specifically waited for a whole year and yeah, I'm enjoying it. If you're
+interested then definitely consult with your health practitioner, do your own
+research and stuff like that but for me it works. I feel lots of energy, feel
+clarity of mind, focus, and things like that.
+
+http://www.superdatascience.com/194
+
+One negative I will mention is that if I do eat meat now, or chicken, if I just
+try it, I did that by accident. I think when I was still vegetarian. It's hard for
+your body to handle it, so just look out for that. If you're gonna go down
+this path you gotta make sure that you can sustain it or you can continue
+with it because if you then try to eat meat again, it will be difficult. It can be
+difficult, that's what it's like for me so I just wanted to put that out there as
+a heads up. It's the price you pay I guess. But other than that, very happy
+with this choice, very excited about it. Gonna keep doing it. Yeah, let me
+know if any questions, hope you enjoy the episodes, throw in your
+comments here. I'll read them all, i'llsee what you guys have to say, what
+kind of diets you guys are following. Very interesting, I think it's important
+because we use our brains so much in the workplace, as data scientists,
+analysts it's very important for us to be in the right state of mind, have the
+right energy and focus to perform our work and jobs and do whatever we
+need to do.
+And on that note, thanks so much to everybody who supported me on this
+journey, to everybody who's inspired me to be vegan, vegetarian, and to
+explore these paths. I'm very excited about everything here, so thank you so
+much everybody and thank you for being on the show here today. Hope this
+episode was useful and I look forward to seeing you back here next time.
+Until then, happy analyzing.
+
+http://www.superdatascience.com/194
+
+

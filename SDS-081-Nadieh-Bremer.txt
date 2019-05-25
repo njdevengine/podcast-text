@@ -1,0 +1,1472 @@
+	  
+
+SDS PODCAST
+EPISODE 81
+WITH
+NADIEH BREMER
+
+Show Notes: http://www.superdatascience.com/81
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 81 with Data Visualisation Designer
+Nadieh Bremer.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Welcome back, everybody, to the SuperDataScience podcast.
+I've got a very, very exciting guest on the show, Nadieh
+Bremer is a person who I've been a fan of for a long time.
+She is the creator of the website visualcinnamon.com. If you
+haven't seen it, you have to see it. It's got some of the most
+beautiful visualisations there. And before we continue, I
+wanted to quickly say that this podcast is one of those rare
+podcasts where it's also available in video, so if you are
+around your computer, then I suggest you check it out,
+check out the video recording for this podcast at
+www.superdatascience.com/81, and there you'll Nadieh and
+you'll get inspired by her and you'll see how we're talking
+about all of these things, the same things as in the podcast,
+exactly the same, but with video. At the same time, if you're
+listening in your car, or on a run, or a jog, I totally
+understand. That's totally cool. Keep listening. You'll get
+exactly the same insights and then maybe some day you can
+check out the video as well, or just have a look at parts of
+our conversations there.
+
+Show Notes: http://www.superdatascience.com/81
+
+2
+
+	  
+
+And so, back to the podcast. What are we going to talk
+about? We're going to talk about visualisation. How
+visualisation is super important in today's world, how it tells
+stories in data science, and what tips and hacks you can
+apply to your data visualisations.
+So stay tuned. You will get lots of tips and insights. You'll
+also get some insights on freelance work and shifting
+careers. It's a very exciting podcast. I can't wait for you to
+check it out. And without further ado, I bring to you Nadieh
+Bremer, a freelance data visualisation designer.
+(background music plays)
+Welcome everybody to the SuperDataScience podcast. I've
+got a very exciting guest, of whom I've been a long term fan,
+Nadieh Bremer, on the show. Nadieh, welcome.
+Nadieh:
+
+Thank you. Thank you for having me.
+
+Kirill:
+
+So where are you calling in from?
+
+Nadieh:
+
+I'm calling in from a really tiny town outside of Amsterdam
+in the Netherlands.
+
+Kirill:
+
+Ok. Wow. I've been to Amsterdam, and as we discussed, you
+have a lot of pigeons in that city. Do you have a lot in that
+little town as well?
+
+Nadieh:
+
+No, no, no. Our town is in the green. So I look out and I see
+cows and horses and sheep. But I hardly ever see pigeons.
+Which I am thankful for!
+
+Kirill:
+
+Cool. But yeah, thanks for coming on the show, and
+probably nobody knows the story except for me and Nadieh,
+because I have just told her about it, that the first time I
+encountered her work was when I was looking for a self-
+
+Show Notes: http://www.superdatascience.com/81
+
+3
+
+	  
+
+organising map implementation in an open source software,
+and you have a fantastic implementation in R which you
+showcase on your website. Unfortunately, you couldn't share
+the code because it was while you were working at Deloitte
+in the Netherlands, but nevertheless, that was very inspiring
+to me. And ever since I've followed your work. So tell us what
+exactly is it that you do?
+Nadieh:
+
+I visualise data. So I make insights become visible to people
+in a way that's like converting numbers to actual visual
+encodings. And I do that either to inform people – it's always
+to inform people. But I also try to make it visually engaging,
+so that you are also drawn into it and want to investigate
+actually insights that can be found.
+
+Kirill:
+
+Ok, ok. That's really cool. And like I would probably take it
+to the next level. You come up with very innovative and
+creative ways -- like I had a look at your website, and just
+some of your recent ones, like the one you did for Google
+Labs, or the one on the butterflies? What was it called? The
+Marble Butterflies?
+
+Nadieh:
+
+Yeah, exactly.
+
+Kirill:
+
+Fantastic. It doesn't even look like real data. Is that real data
+you used for The Marble Butterflies?
+
+Nadieh:
+
+It's real data. I manually gathered data on butterfly species,
+and colours and wingspans, and that is what's guiding this
+visualisation of marble butterflies is I'm relying on a dataset
+of about 90 different butterfly species.
+
+Kirill:
+
+Wow. And how does the visualisation move across the
+canvas, is it random movement?
+
+Show Notes: http://www.superdatascience.com/81
+
+4
+
+	  
+
+Nadieh:
+
+It is random, yes. So the idea is that every animation frame
+in the browser, a butterfly is created and it sort of flitters
+across the screen, and that is sort of randomly generated,
+which way they are going to go. So the colour, the size, and
+the look of the path is defined by data. But then the actual
+path across the screen is more just random, and at some
+point it tries to go up, and at some point it might go into a
+turn, or a different turn.	   And then lots and lots of those
+butterflies over on top of each other create this sort of filled
+canvas with lines and such.
+
+Kirill:
+
+That’s so cool. And how long did that take to create?
+
+Nadieh:
+
+That was actually pretty easy because I wasn’t really trying
+to make data insightful. It was just “We have data. Let’s
+make it look in a way that’s mesmerizing to watch.” That one
+took me about 20 hours from start to finish, but that was
+actually pretty fast for my typical personal projects.
+
+Kirill:
+
+Okay. But that was mesmerizing. I’m just looking at it, it’s
+hypnotizing and maybe even calming with some people.
+What about the Breathing Earth? I think that’s one of the
+latest ones that is featured on your website, even though
+you created it last year. How long did that take?
+
+Nadieh:
+
+It was actually created in April of this year. It took about 80
+hours to create, and that was mostly because I wanted to
+learn some new tools to visualize things online. I was
+typically using d3, but that one has a limit on the number of
+objects that you can visualize and this time I had 50,000
+circles representing the Earth throughout the year in terms
+of how green different patches of the Earth are. I had to
+learn Pixi and WebGL and these kinds of other tools and
+that took a lot of time, figuring that out. That was the bulk
+of that. And learning how to deal with satellite data was
+
+Show Notes: http://www.superdatascience.com/81
+
+5
+
+	  
+
+something that was also new to me, so figuring out how to
+use that in R and get out the data that I needed for my
+visualization.
+Kirill:
+
+Okay. That’s cool. So that one was created with R?
+
+Nadieh:
+
+The data was prepared with R, but the visualization was
+eventually created with a combination of a little bit of d3 and
+a lot of Pixi and regl.
+
+Kirill:
+
+That’s interesting. I know d3 is an online thing, it uses
+JavaScript in the background. What about Pixi and regl? Are
+they also online or did you have to pull them with d3?
+
+Nadieh:
+
+No, they’re sort of similar in that sense that they’re both in
+the browser so you both code them in JavaScript. But
+Pixi.js, there’s sort of this idea that makes it easier for you to
+work with WebGL because WebGL is very low level, it can be
+quite a challenge to actually code and program in that, and
+Pixi.js has these APIs that you can more easily do certain
+things. So it’s still JavaScript, but you’re really working on
+the GPU of your laptop or PC to actually make it visible,
+which means you have much more power and can visualize
+many more objects at the same time.
+
+Kirill:
+
+That’s fantastic. I love how we just went from you’re an
+artist, and you’re very creative, and you work with butterflies
+to you talking about GPUs and how technical you can get in
+all these things. That’s so cool. So there we go, real data
+science in action. Let’s take a step back. Let’s see how you
+came to this place, because this is a podcast about careers
+and how to inspire, inspiring people to take on different
+journeys in the space of data science. How did you start?
+What did you study at university and where did you go from
+there?
+
+Show Notes: http://www.superdatascience.com/81
+
+6
+
+	  
+
+Nadieh:
+
+I studied astronomy. I really loved it. I’m still fascinated by
+everything astronomical and all those things, but I knew at
+the end of my Master’s that I didn’t want to continue on to
+do a PhD because I really hated writing papers. So there’s no
+standard way to go from astronomy into something that isn’t
+astronomy. So I looked at a lot of things, and eventually
+ended up at a consultancy branch of Deloitte. They were just
+starting up an analytics department within their business
+intelligence department and that really intrigued me, the
+idea of still trying to dig through data to find insights, but no
+longer about stars and simulations and about new galaxies,
+but about what people buy. It still intrigued me to find the
+insights.
+So that’s how I started there. I was working as a data
+scientist, but the first two or three months, it was mostly
+learning, machine learning, because it was so new in the
+Netherlands then, that I didn’t have it officially during my
+astronomy years. Eventually, I came to understand that
+some of the things that I was using had a proper name in
+machine learning, but I didn’t know it at the time, so I was
+really going through all kinds of papers learning about
+support vector machines and linear regressions and these
+kinds of things.
+I was doing that in the next three or four years, just mostly
+data science, but as consultants, we were always external at
+our clients, which means we had often had to present back
+to our clients what we were finding with PowerPoint, and
+that often implied making some sort of visualization of our
+data and our findings. And then slowly through that, I
+discovered at some point that I was spending more hours
+creating a good and understanding visualization than I was
+
+Show Notes: http://www.superdatascience.com/81
+
+7
+
+	  
+
+having fun in getting 1% extra accuracy in my predictive
+model. In the last year before I started my third year at
+Deloitte, I completely switched focus from data science to
+learning data visualization more and more and becoming the
+expert within our department on that.
+Kirill:
+
+Interesting. Was it the case that others, after they did their
+insights, they’d come to you to create the visualizations?
+
+Naideh:
+
+Well, in the final year it was a bit of a blend. I was still doing
+a lot of data science because it really depends on what the
+managers can sell, and I had 40 hours to fill, so I still did
+data science, but I was giving advice to other people on how
+they might visualize something and then some of the bigger
+visualization jobs I would take on, but I would still be
+involved in the data munging and the analysis in some part.
+In our team we would have a division, but I still feel that to
+make a really good visualization, you need to understand
+your data, and the best way to understand your data is to
+have some sort of feeling with it that you might get through
+cleaning it and analysing it.
+
+Kirill:
+
+Okay. That’s a very interesting link. You mentioned that you
+enjoy personally more the visualization part than the
+modelling, and also that it’s important to do both in a way,
+at least to some extent, to understand the data better when
+you get to the visualization. What would you say is most
+important from the perspective of the client? Or it doesn’t
+have to be a client. If you’re working in an organization from
+the perspective of your boss, or the manager, or the CEO, or
+the company even, how would you rank the modelling
+versus the visualization? Which one is more important or
+less important? How do they go hand in hand?
+
+Show Notes: http://www.superdatascience.com/81
+
+8
+
+	  
+
+Nadieh:
+
+That’s a tough one. I mean, they’re so dependent on each
+other. I have found, though, sadly in a way, that people
+could have spent 3 months on creating a fantastic algorithm
+that does wonderful things, but if they cannot get the output
+across to their audience, usually to our less technical
+clients, then that was all for nothing, because they wouldn’t
+use it, they wouldn’t implement it, and it would just sort of
+fall by the wayside. And then you might make a simple but
+very effective visualization of that in just a few hours and
+that could sort of switch the tides around it completely
+because suddenly a client could understand “Oh, that’s
+what you’re doing. That’s what I’m seeing and that’s what
+it’s used for.” I’ve seen that happen, but I feel that a
+visualization needs the fundament of the data and the
+insights and the algorithm to create something in the first
+place. I mean, an algorithm can exist without a visualization,
+but a visualization might not exist without data preparation
+or the algorithm. I think an algorithm can really benefit from
+a good understanding of how to visualize it.
+
+Kirill:
+
+Okay, gotcha. But at the same time, I would probably say
+that there’s a limit to how much you should spend on an
+algorithm, right? You know the 80/20 rule. You make an
+algorithm with 90% accuracy, or you could get it to 91%
+accuracy and spend extra week on it, or you can take that
+week and spend it on the visualization, and I think that will
+be more beneficial. So it’s that kind trade off.
+
+Nadieh:
+
+Yes, I completely agree with you.
+
+Kirill:
+
+Yeah, in terms of time. Okay, cool. So, you worked at
+Deloitte, and I also worked at Deloitte, and it’s really cool
+because I found out about your visualization just after I left
+Deloitte, about your sums algorithm and about your
+
+Show Notes: http://www.superdatascience.com/81
+
+9
+
+	  
+
+website. By the way, those who don’t know, the website is
+visualcinnamon.com and we’ll mention the links at the end,
+but if somebody is watching on their computer and wants to
+look around, they can find it there. Let’s talk about Deloitte
+for a second. What were the best things that you took away
+from Deloitte? Did you enjoy your time at Deloitte, and if you
+did, why?
+Nadieh:
+
+Oh, yeah, I fully enjoyed my time at Deloitte. I very much
+enjoyed the clients that we were working for, the different
+kinds of challenges that we were facing. It was always
+challenging in a way that we were doing something new, or
+had to figure out our own way, or dive into maybe some new
+algorithm that we hadn’t used before but seemed interesting
+to use here. And I also very much enjoyed my colleagues,
+who were just as crazy about analytics as I was. And just the
+fact that I also very much enjoyed the diversity of being a
+consultant, so that you actually see a completely different
+client every few weeks, or every few months and you have to
+become an expert in their field of work in no time at all. And
+then you only have a certain number of weeks or months to
+do something, so you’re working towards something that has
+— the deadline is always looming in a way, which makes you
+— as a team, I felt you come together more quickly.
+The teams change, every new project I was with different
+people, so I really liked all of that diversity and just the
+things that we were working on. It was from retail companies
+to fast food companies to insurance companies, it was all
+over the place. I guess I also enjoyed the fact that when I
+said I wanted to do data visualization, that they were
+supportive of that and they were trying to find and sell
+visualization-oriented data analytics kind of projects.
+
+Show Notes: http://www.superdatascience.com/81
+
+10
+
+	  
+
+Kirill:
+
+I totally agree. And I also like that you learn a lot through all
+these engagements. You have to go through different tools,
+you have to go through different methodologies and explore
+new things that you can’t even find anywhere else and come
+up with your own new ways. It really develops that side of
+your creative thinking and ability to think on your feet and
+get these answers quickly. And if it doesn’t work, move on,
+get the next one, move on and then finally find some way to
+quickly get this thing up.
+
+Nadieh:
+
+Exactly.
+
+Kirill:
+
+Yeah. It was fun time. For me it was like going to university
+for the third time. (Laughs) That was cool. Okay, so you
+spent 4 years at Deloitte. That’s quite a lot. I heard that the
+maximum churn that they experience, Deloitte and other big
+consulting firms, they experience like 5 years and people
+usually leave after that. So did you leave because you burnt
+out, or did you leave because you had other things that
+interested you?
+
+Nadieh:
+
+It was a combination of things. I was having a good time, but
+also the typical path upwards within a consultancy is the
+expectation that you want to become a partner, you want to
+rise quickly, become a manager of sales stuff. That wasn’t
+driving me. I just wanted to have fun at my job, and I
+wanted to become more of a specialist and a generalist. I
+wanted to help people, but I didn’t want to be a people
+manager, I wanted to be teaching others what I had learned
+on a technical aspect. And I definitely didn’t want to do
+sales.
+So at some point I was at the level right below manager and I
+was coming up to become manager and I felt that was
+probably not where I wanted to go, but I also didn’t want to
+
+Show Notes: http://www.superdatascience.com/81
+
+11
+
+	  
+
+stay at the level below manager in that sense that I would be
+earning to go up, but because I was having a good time at
+the place where I was and I wanted to stay there. But there
+was no other way to show the appreciation that — it’s quite
+difficult to explain it in a way. I felt like I would have—
+Kirill:
+
+Their only way to show their appreciation for your work was
+to promote you, but that’s contrary to what you want. You
+wanted to stay in a technical—
+
+Nadieh:
+
+Yeah, in a way. But I didn’t want people that did want to
+become manager pass me by in a way even though we were
+both equally appreciated. It was on my mind. But then I was
+contacted by Adyen, they were looking for a data analyst and
+I told them I wasn’t interested in that, but I was interested if
+they needed a full-time data visualization designer. They
+thought about it and they were like, “Yeah, actually we could
+really use that as well.” So then I came there and there was
+a great vibe and I was also interested, after 4 years of
+Deloitte, how would it be actually working at one place for a
+long period of time that you could really dig into that data.
+This felt like a really good place to try that out and after 4
+years it felt like, “Yeah, maybe I should move on and try
+something else.”
+
+Kirill:
+
+Okay, fantastic. And what does this company Adyen do?
+
+Nadieh:
+
+Adyen is a fintech company, financial technology. They
+handle payments. So if you take a ride through Uber, or buy
+something from the App Store, or get your clothes at Nike,
+and you pay for that, it’s actually Adyen that handles the
+payments. They make sure that they sort of get your data
+and they process it in the right way, they check for all kinds
+of risk and fraud settings. If that bank’s computers are not
+working, they try a different kind of route to make sure that
+
+Show Notes: http://www.superdatascience.com/81
+
+12
+
+	  
+
+it eventually ends up with the bank and ends up at other
+side at Nike or Uber. So they process payments in that sense
+so that the companies who sell products or services don’t
+have to worry about that.
+Kirill:
+
+Okay. So kind of like Stripe for credit cards?
+
+Nadieh:
+
+It’s exactly like Stripe in that sense, yeah. Adyen does more
+payment methods though, I think.
+
+Kirill:
+
+Okay, that’s interesting. So what was your role at Adyen?
+
+Nadieh:
+
+Anything that had to do with data visualization. I’ve made a
+lot of dashboards really from start, trying to figure out what
+we need to visualize, to designing it, to testing it, building it,
+to testing it some more, to making better visuals for
+marketing slides, to making internal tools such as an
+organizational chart, or we had these big screen where you
+could sort of see how things are going throughout the day,
+things for that. So it was anything where data visualization
+was involved, I could be helping that out or I could be
+leading that.
+
+Kirill:
+
+Okay, interesting. Can you share some of the tools that you
+used predominantly in your work at Adyen?
+
+Nadieh:
+
+Yeah. For sketching, pen and paper. (Laughs) I always start
+with just pen and paper because it’s so easy to just draw
+whatever you want and you don’t have to be an artist for
+data visualization – it’s just squares and curves and circles.
+But afterwards, I would typically go to Sketch or Illustrator
+to make some mock-ups to show it to other people. And then
+often to d3 — the dashboards were built in d3 and lots of
+other things as well. For the marketing slides, though, it was
+often a combination of R combined with Illustrator for final
+touch-ups.
+
+Show Notes: http://www.superdatascience.com/81
+
+13
+
+	  
+
+Kirill:
+
+Okay, very interesting, so R and d3. We’ll get to the tools in
+a second. How long did you spend at Adyen, how many
+years?
+
+Nadieh:
+
+I was there full time for a year, and then part time for
+another 6 months. So a year and a half.
+
+Kirill:
+
+And now just recently you moved to doing your own thing,
+completely independent, by yourself. Congratulations on
+that.
+
+Nadieh:
+
+Thank you.
+
+Kirill:
+
+How do you feel?
+
+Nadieh:
+
+I feel super happy being able to do this because it’s exactly
+what I was looking for. Now I can choose my own jobs that
+seem interesting and work with clients that I’ve never
+dreamed of working with, like Google, for example. It’s been
+fantastic already.
+
+Kirill:
+
+That’s so cool. A lot of our listeners would love to be
+independent freelancers just like you, maybe not just in the
+space of data visualization, but more inside of analytics or
+modelling or AI or anything. Can you tell us a bit more about
+that step? Was it a hard step to make, and how did you
+prepare for it? You mentioned that you were part-time for six
+months. How did you prepare yourself on one hand from a
+professional side that you will have work to do and you will
+have clients to work with, and on another hand from an
+emotional side, to take this leap and to go on your own?
+
+Nadieh:
+
+It’s a little bit twofold in that way. I’m very risk averse. I’ve
+been thinking about freelancing for a long period, but I
+always felt like I can’t handle the fact that I don’t have
+exactly that amount on my bank statement at a certain
+
+Show Notes: http://www.superdatascience.com/81
+
+14
+
+	  
+
+point in time. The first thing came when I was on vacation
+last November, and Shirley, a dear friend of mine who’s also
+data viz designer, we were both approached by Google to do
+a project for them. I was full-time employed, so I couldn’t,
+but I felt like I just don’t want to miss that opportunity and
+work for Google.
+So I just decided that I want to try and start the freelancing
+thing. And what I had in mind was to do it part-time, so I
+talked a lot with Adyen, and eventually came to a decision
+where I would stay on three days in the week with Adyen,
+and then two days I would do my own thing. That would give
+me enough time to pick up Google for the first three months
+and then continue doing Adyen, and that would still give
+some income, enough income that I could pay my rent and
+get through it and such, even if after Google nothing came
+anymore.
+That at least for me financially gave that enough time
+because then I could sort of in those three months that I was
+doing a thing for Google, I could also mention and promote
+myself as a freelancer and see if I could get other jobs for the
+months afterwards. That was actually going so well that five
+or six months later — I wasn’t doing administration well
+enough, so I was looking at how many hours have I sold and
+I saw that if I was going to do everything, I would be
+completely full-time from July onwards and I’m like, “Yeah,
+that’s not possible. I only have two days, so…” And then I
+thought, “Well, now I should be able to handle full-time,” so
+I quit at Adyen and I started full-time because I had that
+sort of insurance that at least for the first two or three
+months after July I would be able to fill enough time to get
+enough cash flow, to get that financial security feeling back.
+Show Notes: http://www.superdatascience.com/81
+
+15
+
+	  
+
+But on the other hand, something that also had to do with it
+is that I — when I had this sort of stroke of lightning, I was
+like, “Oh, maybe I’m more visualization than data scientist,”
+I started a website where I shared all of my personal projects
+and tutorials like the ones that you read on R and sum
+because I really wanted to teach other people the things that
+I had learned, but I also wanted to share what I created to
+get input back, like “Does this work?” or “Is it a bad
+visualization?” And I’ve been doing that for the past two or
+three years just because I was so enthusiastic about
+visualization, and that has helped me — I didn’t know that
+at the start, but it has helped me to get a presence in the
+field of data visualization, and that helps me get clients now.
+So I didn’t start it with the idea that I would become a
+freelancer three years later, but right now, I’m so benefitting
+from the fact that I started that blog three years ago. Also
+because I used to get e-mails now and then from people
+asking me if they could hire me and I would have to say no,
+but now I can say yes.
+Kirill:
+
+Yeah, that’s totally cool. I was just about to ask that. How
+did Google find out about you? Probably through your blog,
+is that right?
+
+Nadieh:
+
+Yes. Both through my blog and the fact that I’m doing a
+personal project with that friend, Shirley Wu, called
+DataSketches, and they picked up on that as well, that
+combination.
+
+Kirill:
+
+That’s a very important step for those out there wondering,
+“Oh, yes, if I get contacted by Google, then of course I’ll
+become a freelancer.” Well, you know, to be contacted by
+Google, or by any other company, you need to be visible and
+you need to have a name for yourself out there. So if you
+
+Show Notes: http://www.superdatascience.com/81
+
+16
+
+	  
+
+don’t have a blog, first step is start a blog. Have a LinkedIn,
+start a blog, we’ve talked about this on other podcasts and
+you can listen to those, but definitely having a presence and
+showing not only your skills, but also as you just mentioned,
+your passion for a certain area, even without the thought of
+how this is going to benefit you in the future, how you’re
+going to monetize this. Because a lot of people start blogging
+and think, “How am I going to put advertising on it? How am
+I going to make money off of it?” No, you just do it because
+you’re passionate about it.
+And I really appreciate what you said, that you wanted to
+share and educate, you wanted to share with the world and
+educate people so that they could do the same things that
+you’re doing and empower them. That’s very powerful to
+showcase to others, so whether you want to get a full-time
+job with a great company, or you want to do freelancing,
+that’s always going to tell people about your strengths and
+what exactly you’re interested in, what you’re good at, and
+that will always be a good case for you when you’re bidding
+for these projects or looking for jobs. Yeah, that’s a great way
+of doing it and it really worked out well for you, so that’s
+very exciting.
+Nadieh:
+
+Yeah.
+
+Kirill:
+
+Okay. So, you’ve started this freelance career. How does it
+feel? Does it feel different? Does it feel more stressful or less
+stressful than working inside a company? From my own
+experience, on one hand, you get the illusion of freedom of
+time, but on the other hand you tend to take so much on,
+you’re working so much. But again, on the other hand, it
+doesn’t really feel like work because you’re having so much
+fun. How is it for you?
+
+Show Notes: http://www.superdatascience.com/81
+
+17
+
+	  
+
+Nadieh:
+
+It’s also a combination of things. I read some books when I
+started freelancing on how many hours should I sell and I
+try to stick to that, but sometimes something really amazing
+comes by and I go, “Okay, I’ll take that on as well.” But it’s
+true, the fact that you can choose or at least can have a say
+over the projects that you take on, it’s typically a more fun
+project than you might get if your manager tells you to do
+something. And sometimes, if I sit and think about it, I
+might be daunted by a big project that’s coming up now and
+I have to lead a few people and I’m like, “Oh, my God, that’s
+so much responsibility.” But then I just stop thinking about
+that and write down my to-do’s and follow them. It’s no use
+to linger on these things but just focus on the tasks and the
+fun parts.
+Until now it’s been going okay. I have no difficulty with
+picking up some hours in the evening or over the weekend.
+And if it’s sunny outside I might take a long lunch, over an
+hour and a half, instead of just half an hour. But I pick that
+up at some other points. I have to admit, though, I don’t
+have super-much experience because I’ve only been full-time
+for like a month and a few days, but at least until now, I’ve
+been able to manage it.
+
+Kirill:
+
+Yeah, that’s fantastic. All right, how about we talk about
+some visualization? Obviously you have all this experience
+about visualization. What are some of the advice that you
+can give to our listeners on visualization? Let’s start
+somewhere and then we’ll go from there and see what tips
+and hacks we can go into and things like that.
+
+Nadieh:
+
+I think the most important thing seems so obvious, but is
+forgotten more often than you may think and that is to know
+your goal at the start. So even if you have data, you need to
+
+Show Notes: http://www.superdatascience.com/81
+
+18
+
+	  
+
+have a question that this data or the visualization needs to
+answer. What should people learn when they are looking at
+a visualization of this data? Make sure that you have that
+clear, actually write it down. I mean, you may think you
+know it in your mind, but if you can’t make a full sentence
+on the paper, then you don’t quite have it yet. Or maybe
+there’s a goal. Maybe they should be convinced or maybe
+they should take action, but make sure that you know what
+you want to get out of the visualization beforehand.
+And then another tip is that maybe you should just try to
+broaden your mind in that sense. There’s more than just
+lines and pies and bars out there. There are so many
+different ways that you can visualize data these days, just
+look up Sankey diagram, which is an amazing visualization
+to show flows. And there are so many more visuals. I mean,
+you can’t put data into a bar chart or a line chart and think
+that it will solve everything and show all kinds of insights.
+Each kind of dataset combined with a question has visual
+forms that work better and that work less well.
+And it’s good if you just take some time to think about if
+your visual form that you have in mind is actually going to
+show the insights or answer the question that you have in
+mind. Don’t just put it into the standard options that your
+tool gives them, but try and see what the broad scope of
+options is and think about all of them and choose which one
+of those will work best in that sense.
+And the rest is more on the design front, the typical things,
+like try never to use pie charts, don’t make the non-data
+parts stand out, no black axes, very dimmed down,
+gridlines, these kinds of things, make the data stand out.
+Use annotations; if something is interesting about data, call
+Show Notes: http://www.superdatascience.com/81
+
+19
+
+	  
+
+it out, make a circle and say, “Oh, my God, look what’s
+happening here.” And don’t have a title that says ‘X versus
+Y,’ but say the conclusion, “The stock prices have been going
+up until blah-blah happened.” Don’t underestimate the use
+of text to help people understand the visualization.
+Kirill:
+
+Okay. That’s some great tips. So just to recap: have the
+question or the goal already, broaden your mind, so use
+other diagrams, like Sankey diagram, for instance, and then
+some design tips like avoid pie charts, dim the axis, add
+annotations. What would you say about colours? I’ve noticed
+you’ve used lots of different combinations of colours
+depending on the visualization and the mood you want to
+convey. Would you say colours are important? And how do
+you pick colours for your visualization?
+
+Nadieh:
+
+Yeah, colours in data visualization are very important
+because often they can actually convey data as well.
+Because if you want to distinguish different categories,
+different countries, it’s best to give them different colours. Or
+if you want to say something goes from low to high, you can
+say that’s like light blue from dark blue. So there are many
+ways you can make that, because people can see that easily,
+they can interpret that easily by using colours where light is
+low and darker is higher or more.
+But they also have a lot of challenges, because you might
+have 220 countries and we can’t distinguish 220 different
+colours, it’s more like 8 different colours – that’s typically the
+absolute max that you can have in different colours. So
+there are always these challenges with colours as well, even
+though they are very powerful, and they can also help the
+mood indeed, should it be playful or more subdued, for the
+data itself. Or this visualization I made about Earth – green,
+
+Show Notes: http://www.superdatascience.com/81
+
+20
+
+	  
+
+of course, made perfect sense; whereas for a visualization I
+made about translations and words, it felt more like a grey
+“books” kind of scheme might work, and other times it could
+be more in a tasteful rainbow kind of scheme.
+Kirill:
+
+Okay, so colour is quite important. We’ve talked about some
+design elements. What are some of your favourite
+visualization charts or types of visualizations?
+
+Nadieh:
+
+Ooh, that’s difficult. I especially like the visualizations where
+the chart is in a way unique, where the chart has been
+custom-built to show that particular dataset. I have a lot of
+Pinterest boards where I save all of my favourite
+visualizations that I often refer to.
+
+Kirill:
+
+Will you be able to share them at the end of the podcast?
+
+Nadieh:
+
+Yeah, definitely.
+
+Kirill:
+
+Cool.
+
+Nadieh:
+
+Anybody can see them. There’s one called ‘Poppy Fields,’ it’s
+a visualization about all the conflicts that have happened
+across the Earth over the past 100-ish years, when it
+started, when it ended, how long it lasted, the number of
+people that perished, in which continent it took place, and it
+looks like a field of poppies. So it’s very visually appealing
+and there is so much information that you can gather from
+it by actually looking at it for any certain amount of time,
+but it’s also easy to interpret. It’s that wonderful
+combination of many layers of detail combined with intuitive
+visualization. That’s always difficult.
+
+Kirill:
+
+Okay. This is actually the next thing I wanted to ask you.
+How do you go about the trade-off between having a lot of
+information but then too much in your visualization, versus
+
+Show Notes: http://www.superdatascience.com/81
+
+21
+
+	  
+
+having a smaller visualization, or a nicer looking
+visualization, but less information on it? How do you go
+about that?
+Nadieh:
+
+I always find that one difficult. I don’t have a formula for
+that, though it has to do with looking at each case and
+deciding if adding an extra layer of detail would really add to
+these stories that people would be able to find, or if it’s just
+an extra level but it can’t really be connected to any of the
+other variables that are already present, so it wouldn’t be a
+1+1=3 kind of thing, but it’s just something extra and it sort
+of stands alone. If it really lets people see the complexity of
+the underlying data more, then I’m all for including that.
+But it is also thinking about how busy is my visualization
+already and do I think I can add something more? That’s
+really just a personal choice that I make and then try and
+ask other people if that is working or not and if I should take
+it out. Sometimes I succeed, and also sometimes I fail, and it
+doesn’t work and it’s too much and people are like, “I have
+no idea what I’m supposed to get from this.”
+
+Kirill:
+
+Okay. So you do ask other people’s opinion before you
+deliver the final result?
+
+Nadieh:
+
+Yeah, I often share the final result secretly with some people
+and they give me some feedback and I incorporate it if I can
+before I share it out in the world.
+
+Kirill:
+
+Yeah, I think that’s important. When I was creating the
+course on R-programming, I encountered ggplot2, and the
+grammar of graphics, and I actually studied the grammar of
+graphics quite a bit and I was very fascinated by the layered
+approach that you have in the data, then you have some
+geometries, you have some aesthetics and so on. What are
+
+Show Notes: http://www.superdatascience.com/81
+
+22
+
+	  
+
+your thoughts on that? Do you follow that type of grammar
+of graphics approach, or do you have some other view on
+how to create your visualization?
+Nadieh:
+
+I really use ggplot a lot and I quite enjoy it, although I have
+to admit I’ve never read the grammar of graphics. I know
+what it’s about, I like parts of it, but still I feel that for the
+sort of more creative approach that I try to take, I’m not too
+constrained by it. I feel that it has a good set of things to
+handle. It’s something if you don’t otherwise have your own
+thing, then it’s a good way to follow. But if you at some point
+want to break out, you know, know the rules and know
+when to break them, in a way, that’s sort of how I feel with
+those. It’s a good handhold, but I don’t want to be
+constrained by it.
+
+Kirill:
+
+Yeah, totally. And just to be clear, I haven’t read grammar of
+graphics either. I’m just like you, I just studied little bits and
+pieces. I think so as well, that for certain applications, more
+kind of standardized approaches can be useful, but for more
+creative stuff that you do, maybe there’s other ways.
+Okay, how about we talk a little bit about the tools now?
+We’ve mentioned a couple, we’ve talked about d3 and
+actually, when I was at Deloitte, funnily enough, I played
+around with d3, we even had a little competition inside our
+data analytics division on creating d3 visuals, which is really
+cool. You mentioned d3 and R. Before we move onto those,
+have you ever used Tableau?
+
+Nadieh:
+
+Yes, I’ve used Tableau and I’ve used QlikView as well.
+
+Kirill:
+
+Okay. What did you think about Tableau and QlikView? d3
+and R are more advanced ways that you get into
+
+Show Notes: http://www.superdatascience.com/81
+
+23
+
+	  
+
+visualization, as I can imagine. Do you think Tableau is a
+good visualization tool?
+Nadieh:
+
+I think it is a good visualization tool. I have to admit that I
+don’t use them anymore, but I can explain why. I feel that
+especially for exploratory visualizations, Tableau works
+really well because it’s so easy to just drag things through
+everywhere and get different views of the data. The reason
+why I’m not using it anymore is because your options are
+limited. I mean, I’ve seen people hack wonderful things
+together, but in essence you have a collection of x
+visualizations that you can use, and I typically want
+something that is slightly different or completely different
+from the default and to make those — even the small
+adjustments in Tableau, or especially QlikView, can be quite
+a chore and that’s what eventually drove me to d3, which is
+very low level, but it gives you — you’re more constrained by
+your imagination and the browsers themselves than the tool.
+
+Kirill:
+
+Yeah. And your blog is a testament to that. When people
+check out Visual Cinnamon, they will see that you’ve created
+some incredible things. I wouldn’t even imagine that you’re
+going to have something like that in a browser just working
+— it’s crazy. It sometimes feels like it’s drawn on a paper,
+but then it starts moving and you’re like, “Whoa! It’s really
+cool.” So, d3 – what is d3? Why is it a visualization tool?
+Why is it popular?
+
+Nadieh:
+
+d3 is a JavaScript library. It works in the browser together
+with HTML and CSS. It’s a way to bind data to your
+elements on the screen and that’s typically SVGs – scalable
+vector graphics, which is typically if you make something in
+Adobe Illustrator, you will make some things in vectors. If
+you make them 15 times as big, they’re still perfectly sharp,
+
+Show Notes: http://www.superdatascience.com/81
+
+24
+
+	  
+
+not pixelated. That’s the same way with SVGs – you don’t
+draw them, it’s more that you create shapes that, if you were
+to look under the hood, you would see paths and more
+things that look like math than anything that looks like an
+image.
+Anyway, d3 is a way to bind data to these elements. So, I
+could say that I want to create 10 rectangles because my
+data is 10 elements long and I want to have the width of my
+rectangles depend on the data that is bound to them, so the
+first rectangle will get the data of the first row and the
+second rectangle will get the data of the second row and so
+on. So really, that is what d3 in its base does. It has a lot of
+things to make scaling easy, to make colours or lots of other
+things that are built around it that make it easier to sort of
+handle and draw these shapes eventually.
+But it’s low level so you have to build up your own axes, you
+have to place the points on the screen and all these things.
+So it’s all these separate handles, I feel it’s like Lego, you
+just have all of these separate things and you pick what you
+need and make your own visualization. And then if you want
+to, you can take things completely outside of d3, put it as
+JavaScript and then put it on there as well if that gives the
+result that you’re looking for. That is in a way how you can
+be creative with the visualization.
+Kirill:
+
+That’s really cool. And how long would you say it would take
+somebody to pick up d3 on a very basic level?
+
+Nadieh:
+
+Personally, when I first saw d3, my last HTML/CSS
+experience was 10 years before that when I made my own
+Neopets site, so it’s been mostly a way that was gone. It took
+me about a week of twiddling about and everything before I
+had my first interactive scatterplot where stuff happened if
+
+Show Notes: http://www.superdatascience.com/81
+
+25
+
+	  
+
+you moused over a circle because I had to learn JavaScript
+and sort of relearn HTML and CSS.
+And after that, it still took me about a year on and off,
+sometimes doing something with d3 in my free time before I
+got to the point where I could use it during my job as well,
+which then sort of accelerated afterwards and I could do it
+more on my job, learn more, do more advanced stuff at my
+job, learn even more and so on. I would say it’s a steep
+curve, but for me it was definitely worth it.
+Kirill:
+
+Yeah, that’s really cool. I can attest to that. When I was
+learning d3, also just for fun, it took me I think 2 weeks
+before I had quite an interesting visualization of — I know
+you said don’t use pie charts, but I had pie charts. (Laughs)
+It was clickable and it was a visualization of — what I did
+was I took everybody in department at Deloitte and
+visualized what projects they worked on and what their
+skills are and you could click and come up with information.
+What I can say about d3 is that it’s—first of all, it’s very
+inspiring when you see all these visualizations like Nadieh’s
+visualizations or Mike Bostock at mb.blocks.org or
+something like that, he’s got some fantastic visualizations. I
+think he was originally the person that wrote d3. So it’s very
+inspiring, and also at the same time it’s very logical. It looks
+complicated that it’s HTML and it’s JavaScript, but it’s
+actually like coding and the code is nested inside itself, like,
+new lines of code are nested within them because if you have
+a visual element and then you have another visual element
+inside it, then that would be nested inside it. So it’s very
+logical, it’s very easy to pick up if you’re logically minded. In
+my view, that makes it very fast to learn.
+
+Show Notes: http://www.superdatascience.com/81
+
+26
+
+	  
+
+Of course, to get to some very cool visualizations, very
+creative visualizations like Nadieh is doing, you need some
+time and you need a lot of practice. But to get some very
+basic ones like pie charts, scatterplots and so, just a couple
+of weeks of dabbling around in d3 can get you there.
+Nadieh:
+
+That is definitely true. And yeah, you said that Blocks is d3’s
+version of CodePen, so that’s bl.ocks.org, but there’s also
+blockbuilder.org, where you can sort of code within the
+browser, which is really interesting. But yeah, it’s quite easy
+to just pick an example from somebody else, put in your own
+data and try and figure out how to make it work with your
+data and then make some adjustments to that.
+
+Kirill:
+
+Yeah. And then you find this one thing where the colour
+goes transparent and you’re like “What is going on?” I’ve had
+this so many times. One part of the visualization for some
+reason is just not working like everything else — it’s different
+to an algorithm because you can actually see when
+something is wrong. If everything is right, then everything
+will look right. It’s good in a way, but it’s also so frustrating
+when you can’t find that one little problem in your code.
+
+Nadieh:
+
+Yeah. I’ve had it so many times where at some point I was
+convinced my computer was being irrational and it wasn’t
+me. Of course, it was somewhere in my code.
+
+Kirill:
+
+Yeah, that’s always the case. Okay, thank you for that
+overview of d3, I think that’s powerful. And what I wanted to
+talk about now is you’re also a speaker, this is your fifth or
+sixth podcast or something like that, and it’s not only
+podcasts, you go to conferences and you speak at
+conferences. Tell us a bit more about that because that ties
+in with — I’ve seen one of your speeches on YouTube where
+you go back to astronomy, and then you go into visualization
+
+Show Notes: http://www.superdatascience.com/81
+
+27
+
+	  
+
+and then you combine the two, astronomy and visualization,
+in that presentation.
+Just about presentation – it ties in with visualization,
+because once you have the visualization, you need to
+present it. What would you say about that? How do you
+prepare visualizations in a way that when you’re actually
+presenting them to a client, that not only can they make
+sense on their own, but that you can add value through
+speaking about the visualization, actually being there and
+talking about it?
+Nadieh:
+
+I feel that I do typically, if I create something for a client, I
+create something where they wouldn’t need me to have to
+look at it or use it or get insights from it. So, typically, if I do
+the design part of a visualization for a client, I have these
+screenshots of all my designs and the inspiration that led me
+to those designs, and I really talk through it like a
+PowerPoint slide in that sense. And then we talk about the
+different designs and what might work and which won’t
+work and where do we actually want to build some of this
+out into an actual working data viz.
+But for a final data visualization, I’ve often had touch points
+with the client before that, before the final part, because you
+want to make sure that they are still happy with it, the way
+it’s going halfway as well, you know, is this going in the right
+direction, so it’s not the first time they’ve seen it and they
+sort of know how to understand it as well. So the final point
+where I’m presenting it back, face to face to the client, is
+typically more of an official thing, but unofficially it’s not the
+most important part of it in a way, because of these touch
+points throughout the weeks leading up to that.
+
+Show Notes: http://www.superdatascience.com/81
+
+28
+
+	  
+
+But in my presentations that I do for conferences, it’s
+slightly different because then the people haven’t seen it
+before. And there what I do is I make my presentations in
+reveal.js, so my presentations are a collection of websites,
+HTMLs, and that makes me actually incorporate the
+interactive visualization on a slide in a way, because a lot of
+my visualizations are interactive, and I can make
+screenshots of that, I can make movies of that, but it’s not
+the same as actually interacting with it while I’m speaking
+about it.
+So, during a presentation, I will make sure that I have
+access to the interactive visualization where I make stuff
+happen, so I can make steps happen where if I click on
+‘next,’ some part of visualization might change or highlight
+certain parts that I’m speaking about at that point or have
+an animation running so that when I’m talking about it,
+people are seeing it happening on the screen. So for the final
+portions, it takes a lot of time to build my presentations,
+typically 40 minutes of presentation takes me about a
+month and a half of evenings and weekends, too, to code
+out, but it’s been worth it in the end because I see that it
+works a lot better than just PowerPoint slides with
+screenshots and movies, to have these fully functioning
+visuals that do stuff during a presentation.
+Kirill:
+
+Wow, that’s really cool. Yeah, it would be very interesting to
+see one of your presentations. I think there’s a few of them
+floating around online. And I’d like to touch on what you
+mentioned for the corporate presentations. That is a very
+good technique when, you know, sometimes I like to leave it
+as a surprise, and then at the very end show the client and
+then you’re like, “Oh, they hate it, something is wrong,” so
+
+Show Notes: http://www.superdatascience.com/81
+
+29
+
+	  
+
+it’s a very good technique to work with them and show them
+the intermediate steps and work with them on the designs
+and get their confirmation throughout the way so that when
+the final day comes, you present and it’s actually something
+that they have actually been working towards. So if they
+don’t like it, then they’re kind of saying that they don’t like
+what they’ve been working on and they’re not going to say
+that, right?
+Nadieh:
+
+No.
+
+Kirill:
+
+They’re obviously going to like that. So it’s a great way.
+Thanks for sharing that. And wrapping up our podcast,
+because this has been a very quick hour, it just flew, what
+are some of your final tips for those looking to get into the
+space of data science and be like you, do what you do?
+
+Nadieh:
+
+I’m definitely not the first person to say this, but I feel like
+the best way is to be driven by passion, but also to do a lot.
+So the best way to learn is to either apply your own
+algorithms or create your own visualizations, and every time
+you do that, you learn something new that you can take on
+to your next project and then get it more and more
+advanced. But also share your enthusiasm to people so that
+they notice that. Even if you can do something very well, but
+you don’t like it, try not to mention it, so that people won’t
+actually know they can use you for that.
+I used to be able to do SAS, but I hated it, so I never
+mentioned it to anyone. In that sense, people knew where to
+find me for the things I was promoting myself for. But you
+need to be able to do it. It might take more time. Probably, if
+you really want to get to it, you might have to put in more
+time that you can do at your work and you have to do
+personal projects as well to get at the front of data science to
+
+Show Notes: http://www.superdatascience.com/81
+
+30
+
+	  
+
+work with those algorithms that you might not be able to
+work with at work. You need to get a handle on it with
+personal projects in that sense. So that would be my advice.
+Kirill:
+
+Fantastic. Thanks for sharing. So, guys, let your passion
+drive you and show what you want to work on and don’t be
+afraid to spend your personal time on these things that you
+love to get even better. Thanks a lot of coming on the show,
+Nadieh. What’s the best way for our listeners to contact you
+and follow your career and see some of your amazing
+visualizations?
+
+Nadieh:
+
+I’m very active on Twitter, that’s just my first and last name
+together, @NadiehBremer, because the data viz scene really
+lives on Twitter. So if you want to know what people are
+working on, work in progress or final results, you can follow
+me there. And I have a website, visualcinnamon.com. Again,
+because I don’t expect people to spell my name correctly, so I
+thought at least my website should be an easy name. That’s
+where I share all of my finished projects and all of my blogs
+and tutorials and new presentations. I’m scattered around
+the web, but those two are definitely the most important
+ones.
+
+Kirill:
+
+Okay. Are you active on LinkedIn?
+
+Nadieh:
+
+Yes, as nbremer. I’m also on Twitter @NadiehBremer and
+also on Instagram @NadiehBremer.
+
+Kirill:
+
+Gotcha. Okay, we’ll share all of those in the show notes,
+definitely. And one last question for you: What is a book that
+you can recommend to our listeners to help them become
+better at data science and visualization?
+
+Nadieh:
+
+Let me grab it. I have a whole collection of data viz books,
+but I think anybody starting should start with this book,
+
+Show Notes: http://www.superdatascience.com/81
+
+31
+
+	  
+
+“The Functional Art” by Alberto Cairo. I like it a lot. It’s one
+of the first books I read as well because it is so diverse. It
+looks at both the psychology behind seeing, which I find
+super fascinating, to figuring out this question that you need
+to have and how that can affect your eventual visual state.
+He shows a few horrible ones that he turns into good ones
+by looking at them in different ways. He has been a graphics
+editor at several newspapers, so he shows a lot of results.
+And finally he has interviews with people in the field that I
+admire a lot, so it’s very interesting to read about how each
+of them, in their own ways, handles the visualization of data.
+I really like it because it’s very introductory, but also very
+diverse and complete in that way.
+Kirill:
+
+Fantastic. Thank you a lot for sharing that – “The Functional
+Art” by Alberto Cairo. So there you go, guys, that was Nadieh
+Bremer. Make sure to follow her on Twitter, we’ll include the
+links in the show notes. And once again, thank you so
+much, Nadieh, for coming on the show.
+
+Nadieh:
+
+No problem. Thank you again for having me.
+
+Kirill:
+
+So there we go. Thanks, guys, for listening to this podcast.
+I’m so excited to have shared Nadieh’s story with you. I hope
+you enjoyed the insights that she shared. Personally, my
+favourite was just the general sentiment, the general energy
+that Nadieh conveys about her work, about visualization,
+how excited she is. If you were watching the video version of
+this podcast, you would see how her eyes light up when
+she’s talking about data visualization and some aspects of
+her work.
+So it’s very inspiring, very encouraging to see people who are
+so passionate about the work they do. And, of course,
+
+Show Notes: http://www.superdatascience.com/81
+
+32
+
+	  
+
+Nadieh’s whole story is very inspiring, how she didn’t give up
+on her passion, how she decided what is her passion, what
+she’s good at, what she wants to do. And even when a job
+opportunity came along for a data analyst, she said that she
+would prefer to be a data visualization designer and she
+created that job opportunity for herself.
+So that’s a story to get inspired by and, of course, reach out
+to Nadieh, follow her on Twitter, make sure to find her and
+follow all of her new updated visualizations, also check out
+visualcinnamon.com, there are some amazing, fantastic
+visualizations there, and you can get all the links to Nadieh’s
+profiles on LinkedIn, Twitter and her website and more at
+www.superdatascience.com/81. There you can also get the
+show notes and the video for this episode.
+And if you enjoyed this podcast, we’d really appreciate if you
+could leave a rating or review on iTunes, it would really help
+us spread the word into the world and get more people
+inspired about data science. And on that note, I look forward
+to seeing you next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/81
+
+33
+
+

@@ -1,0 +1,125 @@
+	  
+
+SDS PODCAST
+EPISODE 26
+FIVE MINUTE
+FRIDAY:
+SWEAT EVERY DAY
+
+Show Notes: http://www.superdatascience.com/26
+
+1
+
+	  
+
+Kirill:
+
+This is Five Minute Friday episode number 26, Sweat Every
+Day.
+I've already mentioned previously on the podcast Lewis
+Howes and his School of Greatness and his podcast. Well, I
+was browsing around Lewis's website a couple of months ago
+and I came across this very interesting notion which I
+wanted to share with you today. So the notion is about
+sweating every day. So basically, doing some form of exercise
+to release sweat and to do that on a consistent basis,
+practically daily. And why is that a good idea? Well the first
+thing that came to my mind is because as data scientists
+and analysts, we focus a lot on developing our brains, our
+minds, our capacity to process data and think, and all these
+skills on the computer, and we're constantly in front of our
+monitors and even though we're developing that part of our
+body very, very well, sometimes we may forget about the rest
+of our body. And we might end up sitting in front of a
+computer for days in a row and not really go outside, not
+really go to the gym or do any sports, and it's very easy to
+neglect and forget your body.
+And so, while on one hand you might be advancing in your
+career and achieving great results at work, at the same time,
+your health is experiencing detriment. So a good way to keep
+track of that is to every day, at the end of the day, ask
+yourself, "Did I sweat today? Did I do something that made
+me sweat?" And that way, it's a good rule of thumb that
+"Yes, if I did, that means I'm not forgetting about my body.
+And if I did forget to sweat, and I forgot to do some exercise,
+then tomorrow I have to get onto it." And eventually with
+time, you'll probably come to a routine where you will be
+
+Show Notes: http://www.superdatascience.com/26
+
+2
+
+	  
+
+sweating every day and doing something, and you'll actually
+be enjoying it.
+And this also led me to do some additional research, what
+are the medical benefits of sweat? What are the actual
+physiological benefits of sweating every day? Well, there's
+actually so many benefits and good, positive side effects of
+sweating. And here's a couple. For example, sweating
+releases endorphins, which make pain go away. So if you
+have some chronic pain, or you just hurt yourself
+somewhere, or some kind of pain, sweating and exercise
+might help with that because it releases endorphins.
+Sweating also controls mood swings, and it helps your brain
+to be happier. You know how before going to the gym you
+might be cranky, and then afterwards, you're all pumped up
+and you're all excited about life? That's exactly what's going
+on.
+Also, sweating fights kidney stones. So you know sometimes
+when people might develop kidney stones? Well, sweating
+means you're doing exercise, and it means you're drinking
+more liquids, means that you're flushing your kidneys more
+and that helps prevent kidney stones. Also, there's heaps
+more benefits. For instance, sweat releases antimicrobial
+peptides onto your skin and helps fight things like colds and
+other infections, helps release pollutants and toxins out of
+your body, and it also even helps heal wounds, there's
+something to do with stem cells there, but I'm not a doctor,
+I'm not going to go into detail on that.
+But out of all of those, my favourite one is probably that
+sweat helps regulate your body temperature. Meaning,
+obviously when you're sweating and you're exercising, your
+body temperature goes up, so if you're doing it at some time
+Show Notes: http://www.superdatascience.com/26
+
+3
+
+	  
+
+during the day or in the morning, you get pumped up for the
+day and your body temperature goes up. But what that also
+means, and this is something I learned from another
+podcast, something else I was listening to, is that on the flip
+side, 12 hours from there, when night time comes, your
+body temperature will drop lower. So if during the day your
+body temperature went up higher than normal, then during
+the night it will drop lower than it normally does. And that is
+the key to a good night's sleep. So if you don't exercise and
+your body temperature is pretty consistent throughout the
+day, then it doesn't drop that much during the night. But if
+you make it, force it, to go up during the day through
+exercise and sweating, then during the night it will drop
+lower so it's like a sine wave, or a cosine wave, something
+like that. It fluctuates up and down, and the volatility of that
+fluctuation down is higher when the volatility of the
+fluctuation up is higher. We're talking mathematical terms.
+But basically, that means you'll sleep better. And if you
+sleep better, you can work better, you can learn better, your
+mind has a better rest.
+So those are the benefits of sweating every day. I challenge
+you to start thinking about that this weekend. At the end of
+Saturday, look back and ask yourself, did you sweat? At the
+end of Sunday, ask yourself the same thing, and maybe
+you'll get into the habit of that and that might help you lead
+a better and healthier lifestyle.
+Thank you so much for being on this show. I love you so
+much. Can't wait to see you next time. And until then,
+happy analyzing.
+
+Show Notes: http://www.superdatascience.com/26
+
+4
+
+

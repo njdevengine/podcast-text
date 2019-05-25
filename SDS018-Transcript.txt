@@ -1,0 +1,1391 @@
+	  
+
+SDS PODCAST
+EPISODE 18
+WITH
+JEN UNDERWOOD
+
+Show Notes: http://www.superdatascience.com/18
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 18, with Analytics Industry Expert
+Jen Underwood.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Happy new year everybody and welcome to 2017! Isn't this
+the most exciting year ever? We've got so much going on, the
+world is dynamically moving into the space of data, digital,
+data-driven technologies, and it's just so exciting. I can't
+wait to see what will happen this year in all those spaces.
+And moreover, on that note, we've got a super special guest
+today. Jen Underwood is an industry expert in the space of
+analytics. She has over 20 years of experience, and what we
+talked about today is specifically that. We talked about the
+trends in technology and data for 2017. So Jen, as she says,
+constantly keeps a pulse on the analytics industry and is up
+to date with all of the technology trends of everything that's
+going on. And moreover, she's got a consulting business in
+the space, she does all sorts of different work around
+analytics and data science, she's also got a blog on data
+science. So this is a person that is definitely on the cutting
+edge of technology.
+So in this podcast, you'll find out quite a lot. We talked
+about six megatrends that are currently happening in the
+space of technology, and at first you'll get an overview of
+
+Show Notes: http://www.superdatascience.com/18
+
+2
+
+	  
+
+what they are, and then we will dive deep into each one of
+them and I'm sure you will pick up a lot of new and valuable
+insights. Personally, I learned so much from this podcast. So
+I'm super excited and can't wait for you to listen to this
+session. Without further ado, I bring to you Jen Underwood,
+Analytics Industry Expert.
+(background music plays)
+Hello everybody, and welcome to the SuperDataScience
+podcast. Today with me on the show, I've got a very special
+guest, Jen Underwood, who is an Analytics Expert with
+years of experience. Hi Jen, how are you going today?
+Jen:
+
+I am doing great.
+
+Kirill:
+
+So tell us a little bit where you're calling from.
+
+Jen:
+
+I am calling from hot Tampa, Florida, in the United States.
+
+Kirill:
+
+Yeah, it's still very hot? We talked before about this.
+
+Jen:
+
+It is! And it's supposedly winter, but I think it was -- and I
+don't know the Celsius conversion off the top of my head -but 85 Fahrenheit.
+
+Kirill:
+
+Wow, that's -- I don't know the conversion as well, but that
+sounds pretty hot. So yeah. It's funny, because I was in the
+US earlier this year, and even not remembering the
+conversion, you like switch over to Fahrenheit there, and
+then you're like, ok, that's hot, or that's a bit cold, but yeah,
+85 sounds pretty hot.
+
+Jen:
+
+It is hot, yeah.
+
+Kirill:
+
+Alright, so it's great to have you on the show, and just for
+our listeners, could you tell us a little bit about what you
+do?
+
+Show Notes: http://www.superdatascience.com/18
+
+3
+
+	  
+
+Jen:
+
+Oh, ok, great. So I've been in the industry a little over 20
+years, it's going to be 21 years this coming May, when I
+graduated.
+
+Kirill:
+
+Congratulations, that's a huge number.
+
+Jen:
+
+You know, it is. And essentially, a lot of it's driven by
+passion. I knew I loved data, and it's taken me into different
+directions that I really enjoyed. So I started off
+implementing, meaning building, data solutions. Did that for
+about 15 years, and then I moved into more of designing
+solutions. So I designed solutions on the product team at
+Microsoft, but also helped them go to market from the
+technology, speaking technically to buyers. And now I'm
+what's considered an industry analyst, and I also do some
+market research, and I still have that creative spirit in me,
+so I'm doing some marketing as well. I always play with
+data, so the market research, as soon as I get the data and
+I'm crunching it, but essentially it's been a really different
+and unique path, but yeah, almost 21 years of this
+craziness! Yeah!
+
+Kirill:
+
+That's crazy, yeah. And right now, your LinkedIn is very
+impressive. You've been in so many different companies, so
+many different roles, and all sides of analytics! It feels like
+you’ve covered everything. And right now you have your own
+company. Is that right?
+
+Jen:
+
+Yes. And the beginning of my career wasn’t planned at all to
+move around much, but my husband was in the military
+and we were forced to move every 18 months. I felt like I was
+a permanent temporary employee. And at the time I
+remember thinking, “Oh, this is really scary and challenging
+and I’m always interviewing,” but then at the end of the day,
+it really allowed me to have many different experiences, and
+
+Show Notes: http://www.superdatascience.com/18
+
+4
+
+	  
+
+see all sorts of different ways that people structured their
+architectures or their reporting systems and play with
+different tools along the way. So from an ADD perspective –
+Attention Deficit Disorder, which I probably do have but I
+just joke about it – I like to learn so much that I think it was
+really a neat lifestyle.
+And now I have my own company, I don’t think I will ever go
+back. I like to set my own direction and pick and choose per
+se the types of things that I want to work on, and I go after
+it. So instead of when you’re consulting and you get
+assigned a project or maybe you’re stuck in the same thing
+for a long, long time, now it’s like “Nope, I don’t want that
+situation. What is it that I really want to do?” and then I’m
+going to hunt down some group that does that and see if
+they’ll let me work on that.
+Kirill:
+
+Yeah, gotcha. So your company is like a consulting firm for
+analytics. Is that correct?
+
+Jen:
+
+Well, it’s interesting. It’s a mix. I would say it’s mostly
+market and product research at this time, where I’m helping
+vendors design products, understand the market. I do a lot
+of hands-on testing of these tools, which is really fun, and
+saying “I like these features. I don’t like these features. It’s
+missing these things that I would really need as somebody
+that loves data,” or I’d say “This is really not the flow of how
+I’d be looking at it. I really need to have the script at this
+point, or the output at this point, looking this particular
+way.” And that’s been really fun. I also help people write
+content and communicate effectively with other people that
+love data, because a lot of times when you look at some of
+the content that’s coming your way, it’s just fluff, or it’s
+meaningless and it’s just not effectively communicating with
+
+Show Notes: http://www.superdatascience.com/18
+
+5
+
+	  
+
+you. And I’ve really been enjoying that aspect as well. So it’s
+a mix of product and market research, and also a little bit of
+writing.
+Kirill:
+
+Okay, yeah. And you have a personal blog as well, where I
+notice you have lots of very interesting posts on the subject.
+
+Jen:
+
+That is my passion project. I don’t think people realize how
+much time that crazy blog takes. I would say easily each
+post is probably a full day. They usually start around 11:00
+p.m. or midnight, and then 4:00 or 5:00 in the morning I’ll
+finish up. And I always think “Oh, it’s just going to take 2
+hours,” and then it always takes about 6 or 7 hours to really
+create a good post. But for me, that’s my creative outlet, or
+that’s my creative spirit, that gets to shine. Because a lot of
+times in projects you may not have that ability to be creative
+or to get that side of the project. So it is my hobby.
+
+Kirill:
+
+Yeah, I understand. It’s completely up to you, right, what
+you choose to write about, what you want to cover off in the
+next topic and so on?
+
+Jen:
+
+Yes. And call things out in the industry. I think the biggest
+thing that I’m seeing right now is the media is a bit corrupt.
+I’m going to be open with saying that. They’re telling one side
+of the story on a lot of different things. The vendors certainly
+aren’t going to tell you everything that you need to know to
+evaluate solutions. So a lot of times, I’ll elevate topics that I
+think are really important for folks to realize. They may not
+realize it because they don’t have the technical background.
+Or just topics that are fascinating. A lot of times I’m
+predicting trends, so I see different trends in the industry.
+My most popular blog this year was “BI Wars”. It was a “Star
+Wars” themed—again, really creative, different --you’re
+probably not going to see that in any normal tech journal!
+
+Show Notes: http://www.superdatascience.com/18
+
+6
+
+	  
+
+But it was real stats, it was real information, and I’ll be
+darned if a month later, some of what I said came true,
+which has been really interesting. I didn’t think it would
+happen that fast. It’s also an outlet for me to call out
+vendors or to just keep the world honest with data.
+Kirill:
+
+Yeah, that’s totally great, and I’ll definitely check out that
+“BI Wars”. That sounds like fun. And I’m glad you mentioned
+that you’re excited about predicting the trends, because that
+is exactly the reason why I reached out to you to invite you
+on this podcast. I would like to talk about the industry
+trends. Or actually, to be fair, I knew there was lots of stuff
+you could talk about, but during our conversation via email, you mentioned that this is something that you’re very
+passionate about, and I’m super excited to talk about the
+trends, especially leading into 2017. This year is kicking off,
+and we want to know what’s happening, what’s going to be
+happening in the world of tech, and the world of data, in
+2017, so I’d love to start that conversation. Could you maybe
+outline for us the main industry trends, and then we’ll dive
+deeper into each one of them?
+
+Jen:
+
+Okay, so there’s a few that are what I would call
+“megatrends”. You’ll hear a lot about this. And the core
+theme around them is this concept of digital business
+transformation, and digital business transformation
+incorporates a few different types of movements that you’re
+seeing.
+The cloud and the whole concept of cloud computing has
+really proved to be very compelling, and we are finally seeing
+the fears of trusting the cloud, moving to the cloud. The laws
+in different areas of the world are changing. The government,
+different types of agencies that historically prevented sharing
+
+Show Notes: http://www.superdatascience.com/18
+
+7
+
+	  
+
+of data and whatnot – all of these are contributing to a bit
+more cloud adoption. So we’re seeing that shift happen a
+little bit more quickly now. Amazon just had their big event
+and shared where those were. Gartner had an event this
+year and shared how far. And it was fascinating to me, in
+Gartner’s presentation, that 49%, almost half of CRMs were
+in the cloud. I went “Wow! That’s a lot.” So that’s one of the
+big pieces.
+The other thing we’re seeing is intelligent analytics and
+that’s fantastic for this audience and myself included, and
+that’s taking things like the whole concepts of cognitive
+analytics, artificial intelligence, deep learning, predictive
+analytics, and prescriptive analytics that for years, I was
+hoping folks would get there. That’s finally starting to
+become key as data is seen as digital gold, and it’s the data
+and the information that you can extract out of data that’s
+really the game changer in this. Where everybody is pretty
+much equal in this cloud world, that’s really the
+differentiating—you know, analytics being at the core of that
+transformation. And when we do these, or when I give some
+of these sessions live, I show a video of the computer and it’s
+a robot that’s so humanistic that if she didn’t have this little
+patch showing it was a computer – her name is Sophia – it’s
+scary how realistic the machines are becoming. I’m not a scifi movie watcher, but honestly, I feel like we’re a few years
+away from the sci-fi world of “Is that a human or is that a
+computer?” Because on the phone, you can’t tell if it were
+Sophia answering the phone. And these chatbots that you’re
+working with, the Watson chatbots and whatnot, they’re so
+realistic and you wouldn’t know. So that’s really getting to be
+quite interesting.
+
+Show Notes: http://www.superdatascience.com/18
+
+8
+
+	  
+
+We have what’s called the Internet of Things finally taking
+explosion. There has been a very interesting research around
+things will certainly be more than people in this world, and
+in fact they are already. So it’s these smart things and all
+the digital signals that they’re sending, and this whole
+Internet of Things becoming its own kind of entity and
+creature to navigate in what I would call—there’s this other
+piece of physical and virtual world, and that’s the area that
+I’m honestly most excited about, and it’s more just because I
+think—that thing was really called “third world”? What was
+that world, that there’s another like alternate world, or
+something? And folks would tool around and they would
+have other identities and whatnot. In this physical and
+virtual world, this is where you’re taking augmented reality
+and virtual reality, and you’re able to see and experience as
+if you’re right there.
+And even with data I’m seeing it, being able to immerse
+yourself and dive into charts, look at them in all different
+directions and experience it. There’s a bit of simulator
+sickness that you experience when you start to experience
+data this way, or even some of the other types of virtual
+reality viewers. But it’s fascinating to see maybe different
+types of applications of these technologies from health care
+to helping people simulate real world situations to even just
+experiencing. I have a friend that’s disabled, and I showed
+her the Google Cardboard glasses with virtual reality and the
+Discovery Channel, and being able to experience going
+through a jungle that she never would have the opportunity
+to do otherwise. And jumping around and looking 360, it’s
+really cool. So those are what I would call the top trends.
+And we can certainly dig down deeper into lots of the other
+little ones that might be easier for folks to grasp.
+Show Notes: http://www.superdatascience.com/18
+
+9
+
+	  
+
+Kirill:
+
+Thank you very much. That’s a great overview. Yeah, I’d
+definitely like to talk more about just that example of the
+virtual reality that you just mentioned. I totally agree on
+that. I myself just tried out the HTC Vive recently, and it
+feels so real. You’re climbing Mt. Everest, or you’re shooting
+a crossbow, or a bow and arrow. It’s insane how realistic it
+feels.
+
+Jen:
+
+Yeah, it’s really cool. We just went—and I’ve had the Google
+one for a while, it’s very low cost. We bought the Oculus Rift,
+I believe is what it’s called. It was on sale, so we got that. It’s
+just a whole new way to experience watching and just
+interacting with entertainment that I’m certainly not used to
+because I’m not a gamer. Oh, that’s actually a good point. So
+gaming and this gaming industry is really influencing tech.
+And that is kind of fun and cool, but it’s also—you know, it’s
+just getting really interesting.
+
+Kirill:
+
+Yeah, totally. But it doesn’t always have to be gaming, right?
+With those virtual reality tools, for instance, with HTC Vive,
+you can just switch on your desktop and actually create a
+virtual workspace and work on your actual projects but in a
+virtual workspace. How crazy is that?
+
+Jen:
+
+Oh, that’s neat. Yeah. So one of the solutions that I was
+looking at earlier this year, I think it was called Datascape.
+They’re based out of London. And there are certainly other
+ones coming for the data analytics space, of being able to
+analyse your data in virtual reality. So, that’s been a really
+fascinating area that I’ve been looking at. But yeah,
+definitely not gaming. Where I’m seeing the most potential
+adoption, or we’re seeing it already, is early retail, new retail
+experiences being able to experience the product in 3D or
+imagine yourself in this cool car. Yeah, that industry is
+
+Show Notes: http://www.superdatascience.com/18
+
+10
+
+	  
+
+certainly jumping on it, but we’ve also seen—my sister is in
+healthcare, and she’s been doing what she calls sims, or
+simulators, for a long, long time. Certainly IBM Watson is
+kind of dominating that space right now. But all these
+different applications of training folks to getting a chance to
+see and experience, to entertain, and just looking at things
+from a whole new perspective of reinventing.
+Kirill:
+
+Yeah, totally. There’s massive opportunities for application of
+these things. Okay, so just to sum up your trends, and then
+we’ll go into them, so our listeners can follow along, we’ve
+got digital business transformation, we’ve got cloud
+computing, intelligent analytics, smart machines, Internet of
+Things and physical plus virtual world. By the way, if
+anybody listening to this is not in their car, because a lot of
+our listeners listen to our podcast on their way to work, you
+can google and look for Jen’s presentations on SlideShare
+and maybe as we go through these, you’ll be able to get
+some additional information from the slides that you’ll find.
+All right, digital business transformation – could you tell us
+a bit more about that? What does that mean? What does
+that imply?
+
+Jen:
+
+So the digital business transformation, and I have a session
+on this specific one – I have a blog jenunderwood.com and
+events – there’s a recording as well and there’s also a blog
+that details what digital business transformation means,
+because it seems really generic when you listen to it. But
+when I start to dig into it I think it will begin to make sense.
+A great example, and a lot of times I like to use examples, is
+if you think about Uber in the concept of sharing resources
+that already exist, or some of these new business models
+that are very different than historical business models, but
+
+Show Notes: http://www.superdatascience.com/18
+
+11
+
+	  
+
+they’re relying on technology at the core and just changing
+the way that the customer experiences the solution or the
+provider. In this case it’s signing up to get a cab – in this
+case it’s an Uber. All sorts of different approaches to it. So
+it’s reinventing a business to a digital model and looking at
+what we would call “the customer journey”, and the
+customer journey being, you know, historically maybe you
+would go on a website and order a cab; or you might call a
+cab from a phone number, and then there’s a certain queue
+of cars that would be available, and they’d send it out, and
+tickets and orders. Well, Uber completely reinvented that
+and said, “Well, just through this little app on your phone,
+wherever you’re at, we can then send it to folks that will be
+nearby. All these cars are idle. You don’t have to then
+purchase.” I think in New York City I’d heard the last rate for
+being a cabbie was something like $500,000. That’s like
+buying a home. So it’s a mortgage to be able to be a taxi
+driver. Being an Uber driver, you just get to download the
+app—I think you apply, go through a background check, and
+you’re good to go. I mean, it’s really removing that barrier to
+entry, using technology to more effectively reach that
+audience and just altering the system. But the key is what
+we’re seeing happen in that space, is that whole concept of
+looking at the customer journey, what pieces can be digitized
+and automated or changed to be more flexible and leverage
+some of the assets that we already have? Those are some of
+the commonalities.
+Kirill:
+
+Okay, gotcha. So take businesses or ways of doing things
+that existed previously and are not really aligned with where
+the world is going, and change them to get them up to
+speed. A great example with Uber. Same thing with Airbnb –
+don’t build hotels, use existing assets.
+
+Show Notes: http://www.superdatascience.com/18
+
+12
+
+	  
+
+Jen:
+
+Yeah, exactly. Amazon is disrupting retail.
+
+Kirill:
+
+Totally. We can keep going, right? Facebook doesn’t produce
+any content, but it’s the biggest content marketing platform
+in the world and so on. Alibaba also changes the way that
+you can start a business and take an idea from inception to
+actually bringing products to your customers very quickly.
+Yeah, that’s definitely something that we’ve been seeing. So
+you think this trend will just become even stronger in 2017?
+
+Jen:
+
+I do.
+
+Kirill:
+
+Okay, beautiful. All right, so we should look out for more
+companies like that. And if anybody has ideas for companies
+and how to change things, it’s definitely worth looking into.
+Next one was cloud computing, and you mentioned an
+interesting statistic that 49% of CRMs are already in the
+cloud. That’s a huge number. That’s like half of customer
+relationship management systems. Is that across all of the
+ones that exist in the world, or is that across a sample of
+some certain industry that you’re looking at?
+
+Jen:
+
+So, in I believe it was October or November—no, it was
+October – of this year, Gartner has an annual conference
+with the C-level executives in Orlando, Florida. And this year
+they talked about the stats on the Gartner audience and
+most of the Gartner surveys and audience and customers –
+those are large corporations. I would say you are not going
+to see a lot of the smaller ones. So when you talk about
+what’s the sample survey that they used, it’s their
+customers. And here are some stats from that, because I
+thought it was really interesting. The 2016 annual spend –
+and I do have a blog on this, by the way, it was October
+19th, that’s when it was – 49% of the sales in CRM were
+
+Show Notes: http://www.superdatascience.com/18
+
+13
+
+	  
+
+already in the cloud. The next biggest one was marketing at
+27%, some digital commerce, which makes sense. What isn’t
+quite in the cloud yet are things like manufacturing
+operations, so those are still computers probably in a
+warehouse somewhere. And what’s kind of in-between both
+of those at 20% is HR systems and procurement systems.
+Kirill:
+
+Okay, a very interesting stat. So slowly we are seeing things
+moving to the cloud. And by “cloud,” we obviously mean just
+“off premises”. We mean data storage, like whether it’s on—
+for example, if somebody’s using Dropbox, that’s an example
+of your data being on the cloud. It’s not on your personal
+computer, you don’t carry it around with you all the time.
+It’s in the cloud and you can access it from other different
+locations. So just to kind of sum up for our listeners, what
+would you say are some of the advantages and
+disadvantages of the cloud? Like, why is it taking so long to
+take off?
+
+Jen:
+
+This is really interesting, and I have some recent experiences
+with this. The benefits of cloud are the ability to rapidly
+deploy innovation—so even historically, when I was a
+product manager at Microsoft, in the past it would be every
+5 years we might release an update, or then it became every
+3 years. Then we were really excited and it would be one
+year. And the solution there was a cloud-based solution
+from Microsoft that I was on the product team for last year.
+We were releasing almost once a day.
+
+Kirill:
+
+No way.
+
+Jen:
+
+And Amazon said the same thing. They were having over a
+thousand releases in 350—how many days of the year are
+there?
+
+Show Notes: http://www.superdatascience.com/18
+
+14
+
+	  
+
+Kirill:
+
+365 days.
+
+Jen:
+
+Yeah, exactly. So it’s more than one per day! And I thought,
+“This is just staggering!” It’s so compelling. And the other
+thing that was really interesting, and we’ve certainly seen it,
+and what cloud allows you to do is what Salesforce did to
+Siebel. So Siebel was on PRIM. They were the leaders in
+CRM. And this is for older folks. Older folks may get this but
+the younger ones may not. But basically Siebel was the CRM
+system and the one, the leader. Well, Salesforce came in the
+cloud, and they innovated very, very quickly and far
+surpassed them. So when you think about some of the ease
+– so some of the benefits as the speed of innovation, and I’ve
+personally experienced it – and now when people come to me
+and they have only on PRIM, I warn them that they can
+easily very, very quickly get surpassed from an innovative
+standpoint if they don’t have a cloud-based solution. I was
+anti-cloud maybe 2-3 years ago until I experienced it myself.
+
+Kirill:
+
+Oh, really?
+
+Jen:
+
+Yeah, and the reason why—there’s an important reason
+why, and Gartner confirmed this as well. It’s very hard to
+estimate the challenge of cost, you know, how much is this
+really going to cost me? And Gartner confirmed that really
+it’s very, very difficult, and there’s a lot of surprise bills that
+people are not prepared for. And when I think about, “Boy, it
+was just nice to buy this packaged software,” and the
+customers that I would work with, they would have a
+database maybe for 10-12 years where like, “Oh, gosh, you
+really need to upgrade every once in a while.” But hey, it
+works. We don’t need to fix it. So this model of constantly
+paying—you’re paying a lot more for cloud, you really are. So
+the downfall is certainly that.
+
+Show Notes: http://www.superdatascience.com/18
+
+15
+
+	  
+
+And right now what I’m seeing, at least in some of the early
+adopters of cloud, is these shocking bills. There’s a customer
+in Tampa, I can’t say who they are. They just laid off 40
+people because they had a $2 million over [indecipherable
+27:16] bill that they weren’t expecting. And I’m like “Oh, my
+gosh!” You really need to be prepared and proactively very,
+very closely monitor your cloud costs because it will alter
+your business. And that’s what we’re seeing is folks having
+to adjust their whole business model. We’re seeing
+companies like ClickTech saying “We need to reinvent
+ourselves for cloud now.” So they went from being a public
+company to a private company to give them the chance to
+restructure and reorganize their business. So there’s a
+couple of downfalls you need to be ready for. The good part
+is it’s easy and you get a lot of new features very quickly.
+Kirill:
+
+Yeah, and that’s some very interesting insights to the
+company going from public to private just to get ready for
+the cloud. And with your comment that it costs much more
+to be on the cloud I will agree and disagree. On one hand, it
+probably does when you go to something like Amazon, like
+when they have this EC type of billing system, where they’re
+just billing you per hour or per minute and so on. It can
+really accumulate very quickly. And it is an expensive thing,
+because you’re paying for a premium, for the service, the
+security, the updates, that agility, the speed. It’s something
+that they understand, these providers, that they can charge
+for that premium.
+But at the same time, imagine a huge company with 6,000
+employees that has servers, and then all of a sudden they
+need to upgrade. They have to spend like $20 million just to
+upgrade the servers. It’s a one-off huge cost. Even though
+
+Show Notes: http://www.superdatascience.com/18
+
+16
+
+	  
+
+cloud might cost a lot over a long term, so every month
+you’re paying huge bills, if you manage it properly and it’s
+predictable, it’s manageable. But when you don’t have any
+costs for 5 years and then you have to upgrade for $20
+million, that’s a huge cost in one year, and that can really
+sink companies sometimes.
+Jen:
+
+That’s interesting you say that, because I remember when
+one of the cloud data warehouses came out. My peers in the
+network that build a lot of data warehouses, they were
+ecstatic, and the reason why is—and you see a lot of
+excitement around these cloud data warehouses—well, one
+of the reasons was because then they can take all the money
+that you would spend in the hardware, and now put that
+toward services. And that’s how my friends make a living, is
+by selling their data warehouse building services, and
+they’re like “Oh, we have more money to spend! So this is
+great!” Yes, you absolutely have a point there, and it was
+confirmed even by the reactions of my peers.
+
+Kirill:
+
+Yeah, all right. Well, thank you very much. That was a great
+dive into cloud computing. Oh, I just wanted to mention this
+very funny thing I learned recently about cloud. We
+constantly think about cloud as this celestial thing, like “up
+in the cloud”. But actually when you think about it, the
+cloud – what is that – that’s just somewhere in a server,
+somewhere far away, but how does information travel across
+continents? It travels by cables—
+
+Jen:
+
+In the ocean.
+
+Kirill:
+
+In the ocean. So the cloud is under water, if you think about
+it.
+
+Show Notes: http://www.superdatascience.com/18
+
+17
+
+	  
+
+Jen:
+
+Yes, it’s absolutely true. And some of the servers are in the
+ocean to be cooled by the ocean, which is—I have some
+mixed feelings on that because I’m an environment lover.
+Yeah, I’m not sure if I love that or not, but yeah, there’s even
+servers in the ocean too.
+
+Kirill:
+
+That’s great. Do you have a blog post about that?
+
+Jen:
+
+I don’t.
+
+Kirill:
+
+You should write a blog post about that! That is so fun.
+
+Jen:
+
+Yeah, that’s a fun concept to talk about, the cloud being
+under the ocean. Because the ocean is very mysterious to – I
+mean, even really, to the scientific community. They’re
+constantly finding new creatures and new things in the
+ocean.
+
+Kirill:
+
+One day they’ll find some servers there.
+
+Jen:
+
+It could be a fun theme. If I do, I’m going to definitely send
+you that link.
+
+Kirill:
+
+Okay, sounds good. All right, moving on to the next one:
+Intelligent Analytics. And here you mentioned that finally –
+you’ve been hoping that the world moves to this for quite
+some time now, and finally we’re moving to machine
+learning, not necessarily artificial intelligence, that’s the next
+one. So machine learning, different modelling techniques,
+and really upskilling the way we use data, because data is
+the digital gold of this era. What else can you add to that,
+and where do you think this trend is going in the next year?
+Or in 2017?
+
+Jen:
+
+So, the Intelligent Analytics is a fun area to see evolve.
+Essentially we’re moving from the maturity level of analytics,
+of historical reporting, and now we’re beginning to see more
+
+Show Notes: http://www.superdatascience.com/18
+
+18
+
+	  
+
+forecasting and predicting, but the technology again is
+moving so fast that various vendors in the space are
+automating the predictions, and going through all the
+combinations of variables that historically someone might do
+by hand, and look for the correlations, or they’d look for the
+variables for data science, the most information gain, if that
+means things to folks on the line. And looking for those
+interesting patterns within the data, and transforming
+variables to find what I would call the art and science of data
+prep.
+Well you have vendors right now that are automating those
+processes and automatically creating predictive models and
+showing you the results, and not just predictive but also
+prescriptive, making recommendations of what to do based
+on the scenario that you have. Now, these are things
+historically—you know, you only had a few people maybe in
+an organization, a large organization, that could do it, we’re
+really talking about 1-2% of the population that’s able to do
+prescriptive analytics, that even understands what
+optimization and simulation even means. That’s a very rare
+skillset to find. But we’re seeing some of that being
+automated.
+There’s a lot of scepticism that I have around that, and so do
+some other folks. There is some good and some bad. The
+good is that some of the dirty work is being automated, and
+you’re getting some instant things. When you run some of
+these automated insights, you’ll within a minute or two see
+some of the things that may have taken you much longer to
+find, if you were to find it. It’s unbiased, it’s going to run
+across everything, so you may not realize that you have a
+data science bias when you’re applying it, but
+Show Notes: http://www.superdatascience.com/18
+
+19
+
+	  
+
+subconsciously you might. So you’re removing the bias in
+the analytics.
+One of the fears that I have with this is it’s garbage
+in/garbage out. A lot of times the predictive model needs to
+really reflect the business process you’re trying to predict,
+and you may not know all the variables in that process
+where it’s very iterative in nature. And one of the examples I
+had was for an insurance company. We’re trying to predict
+churn of their reps that come in to sell because it’s very
+expensive for this company to train them and then find out
+they weren’t a good fit from the get-go. So what we were
+doing was creating a model. The first iteration of the model
+says “Don’t hire anyone from New York City.” That was the
+output! So we take it as the techies to the business, and the
+subject matter expert says, “Well, that makes sense. There
+was a law that changed.” We went “Oh, we never thought to
+include the regulatory laws for that in the model.” So it’s
+things like that where I say, “You know what? I just don’t
+think every single thing can get automated, and we do need
+to be aware of the limitations of these tools.” But to a naïve
+or an uneducated buyer, “Oh, I could see somebody that
+really does data science. What’s taking you so long? What’s
+the problem? I just saw them pick the easy button. You
+should have an answer to me by now.” So I’m hoping that we
+don’t have a bunch of bad decisions, and we don’t have
+missed expectations or unrealistic expectations for folks that
+really do the true art and science of data science.
+Kirill:
+
+Yeah, gotcha. And I totally agree. Even though machine
+learning and all these new modelling techniques are picking
+up, there is still a gap that only humans for now can fill in,
+where you’ve got to apply that domain knowledge, you’ve got
+
+Show Notes: http://www.superdatascience.com/18
+
+20
+
+	  
+
+to apply that creativity, you’ve got to do that. There’s some
+research that you cannot get from the data. You go and sit
+down with people working in the business and you find out
+insights like this, you know, that there’s been a legislation
+change and that’s something that’s not part of the input for
+the machine learning algorithm, and therefore it’s only a
+human that could have adjusted that. But with time,
+probably 10 years down the track, machines will be doing
+everything, I think, but for now—
+Jen:
+
+It is scary, yeah.
+
+Kirill:
+
+Yeah. For now, I totally agree that people should have
+realistic expectations. That if they want a great model,
+something that’s really working, it does take some time and
+some creativity to come up with something like that. All
+right, so that’s Intelligent Analytics.
+And next one was Smart Machines. And here you talked
+about robots and machines like, for example, IBM Watson
+and so on, that sometimes you can’t even distinguish
+whether it’s human or it’s a machine. So what is your
+prediction for the space of robotics and robots and them
+integrating with our roles? Do you think it’s going to start in
+2017?
+
+Jen:
+
+Well, I think it’s already happened, and it’s happened in
+different parts of the world faster than at least it has in the
+United States. If I look at Asia and countries like Japan and
+China, they’ve had robots already. We do see them in the
+United States as well, in things like warehouses for picking
+and bagging and tagging inventory type systems. But what
+we’re seeing happen in Asia right now are robots that can
+bring you food service when you order food service from a
+hotel. When you come into a store, you can interact with
+
+Show Notes: http://www.superdatascience.com/18
+
+21
+
+	  
+
+them and ask them what is the type of—I think it was
+Nescafe that was using this – again, retail getting creative
+with experimenting early with technology.
+And experimenting, by the way, is a theme that I’m seeing in
+a lot of digital transformation, and a lot of playing with some
+of these technologies to figure out what works and what
+doesn’t, and the whole concept of “let’s experiment and fail
+fast” and just try new and different things. It’s actually being
+rewarded more so now where it used to—when I began my
+career, you didn’t really want to take risks too often. A lot of
+people were afraid to do that. And now risk-taking is almost
+encouraged because we’re trying new things on the bleeding
+edge. But going back to Nescafe, they experimented with I
+think it was Pepper the Robot in different stores to help
+consumers direct them to the coffee they might like. So
+certainly we’re seeing a lot more of that. It’s the cost of
+these, making these computers and these robots. In Silicon
+Valley I’ve certainly seen a few running around in parking
+lots, to try and share with people how far it’s come. But the
+cost is still too prohibitive for it to get adopted widespread
+right now. But I do see that we’ll see more, and probably
+more from larger organizations.
+Kirill:
+
+All right. Yeah, I totally agree with that. Thank you so much
+for the overview. And my natural question here is something
+that I’ve also been pondering myself, is what will happen in
+the world when these robots start replacing a lot of the
+manual labour that we have. So when people start losing
+jobs to robots – like even a coffeehouse is starting to use a
+robot, or a hotel is starting to use a robot to deliver food and
+room service, what will happen when mass population starts
+losing jobs to robots? What is your prediction for that?
+
+Show Notes: http://www.superdatascience.com/18
+
+22
+
+	  
+
+Jen:
+
+Well, it’s certainly scary for the next generation. I have to say
+I love to be positive about certain things, and in this case I
+can say I’m uncomfortable with the answers in some of the
+things that I see propaganda-wise in the media. So I’m
+hearing a lot about universal base income that I never heard
+about even 3 or 4 months ago really being pushed in the
+media today as jobs are being offshored, or there’s different
+types of trends with this automation. I think there will be a
+lot less jobs. The estimates are there will be 60%
+unemployment. And it’s being sold to the population right
+now in the media as “Well, this is an opportunity to live
+more and to enjoy yourself.” And it might be. You know, I’m
+a workaholic and I don’t know what to do sometimes on my
+time off but yes, I would love to do more with animals and
+nature. You only live once, and certainly looking at a
+computer screen every single day of your life is certainly not
+healthy. So I think there is going to be a balance that yes,
+we’re going to enjoy our lives more, so on the good part.
+The bad part is our systems for mortgages and for loans and
+for different types of things need to change with this and
+need to adjust with these changes. The other thing then, I
+think, is looking at different types of employment, so I think
+what we’ll see is a renaissance of trades where it was the
+Oxford Martin School – I believe they might be in England –
+did a study on the probability of computerization and what
+jobs would and would not be around. And the types of jobs
+that would be around – they have an online calculator, it’s
+quite fun – essentially, the types of jobs if you have to crawl
+in small spaces, or interact and negotiate with people, if you
+have to care for people, those types of jobs will be around.
+The types of things that won’t be around are services jobs
+that we’ve really—you know, we went from being
+
+Show Notes: http://www.superdatascience.com/18
+
+23
+
+	  
+
+manufacturing to service, so this is the fourth revolution,
+the fourth industrial revolution, this whole digital
+transformation.
+The World Economic Forum is another really good site to
+track what are the trends and what are policy makers
+around the world doing about this problem to help with this
+employment. Because now what we’re seeing is the services
+jobs going away. What jobs are left? So health care, taking
+care of people, negotiating… I think there’s going to be a
+whole different type of job. And when I say a “renaissance of
+trades”, you know, being able to build bridges might be
+really cool again, or doing things that require that person to
+be onsite and to deal with location issues because it’s hard
+to get a computer in certain types of scenarios to crawl
+under a house or to go into certain locations. Those types of
+things may be new. So we’re really heading into a bit of an
+unknown altogether really, all of us are.
+Kirill:
+
+Yeah, totally. Like you say, very scary and exciting at the
+same time, so hopefully our policy makers and governments
+can keep up with the technology and make sure that it’s for
+the best of everybody at the end of the day.
+
+Jen:
+
+Well we are seeing already in the artificial intelligence space
+the largest companies getting together and saying “We need
+to have some ethics in data science.” And I believe that just
+happened maybe a month or two ago. So we are seeing folks
+certainly talking about these issues, which is good. At least
+they’re not hiding from them. They’re addressing them,
+they’re bringing it out into the open to have conversations.
+It’s a matter of being aware of what’s happening. So you can
+only plan so far in advance, but it is certainly something to
+
+Show Notes: http://www.superdatascience.com/18
+
+24
+
+	  
+
+be aware of. So if you’re going for a law degree or something,
+the lawyer jobs may not be around so just be aware of that.
+Kirill:
+
+Okay. And can you elaborate a little bit more with this ethics
+in data science, what did they talk about in that conference?
+
+Jen:
+
+So, essentially what’s happening right now is the concept of
+— and you’re going to hear a lot about this as we talk about
+trends and what you’re going to hear about in the next few
+years. This has really started to surface with Salesforce,
+Marc Benioff, being upset about the LinkedIn purchase by
+Microsoft, and the control of the data because the data is
+key. And that’s why you see all these apps for free. It’s the
+data. So we’re going to see a lot more about “When you give
+your data away, did you agree?” So, I certainly did not agree
+to give my career information to whoever bought – it was
+Microsoft in this case – I didn’t agree to do that, maybe I’m
+uncomfortable with that. It’s, “What rights do you have with
+the data itself?” Facebook has lots of controversial uses of
+the data, as probably does Twitter and some of these other
+accounts as well. So things on how are we using the data,
+what rights are being given away, do you understand the
+privacy laws? Is it being, I think, on the policy level — and I
+felt this was really interesting recently: the White House in
+the United States has a paper on bias in data science and
+ethics in data science, and in their case they’re saying when
+you look at setting credit scores or making loan approvals
+and these types of things, making sure the data is not
+biased towards one specific demographic or another one,
+and making sure it’s really balanced and not skewed
+essentially. So there’s a lot of different angles of it, but it’s
+finally being discussed.
+
+Show Notes: http://www.superdatascience.com/18
+
+25
+
+	  
+
+Kirill:
+
+Yeah, very interesting questions are being raised. And it’s
+totally a new space that’s emerging as a consequence of how
+quickly and in which direction the world has been
+developing in terms of data science, so it would be
+interesting to hear more and see what comes out of those
+conversations. All right, now we’ve got two more trends left,
+so Internet of Things is our fifth trend. What is the Internet
+of Things and what are your predictions for 2017?
+
+Jen:
+
+So when I think about the Internet of Things, I think about
+all these little sensors that we have sending data, and it can
+be something as simple as it would be a sensor on a package
+that might be being shipped and you can tell immediately
+where it is and where it’s at in the shipping process. It might
+be a sensor on a vehicle saying that you’re speeding being
+sent to your insurance company. It might be a machine
+somewhere. I think one of the most fun gadgets is one of the
+Amazon buttons that you can program yourself and just
+click the button or you’re even [indecipherable 46:43] up
+with voice, being able to talk and order things.
+So you have things sending information for you, or finding
+information for you. And the amount of data that things
+generate is beyond exponential. It’s just ridiculously huge.
+So there’s new architectures being designed that can just
+ingest and handle, and a lot of times it’s very periodic heavy
+loads. So think about maybe when you have a massive sale
+on—in the United States, at least, it’s the day after
+Thanksgiving we call it “Black Friday”. And then there’s
+“Cyber Monday”. And there’s massive loads of folks grabbing
+those great deal while they last. So your architecture needs
+to be very flexible and just bring in data in its raw format
+and just be able to ingest it. It’s called “ingestion.”
+
+Show Notes: http://www.superdatascience.com/18
+
+26
+
+	  
+
+And it’s a very different design pattern from when I started
+in the industry and we would literally ask for requirements
+and we would design how the data would come in. So we
+might bring it in and store it somewhere, but then we would
+be very picky about what we might take and pick out and
+put into a data warehouse format to use. It’s very different
+now, it’s just “get it all in there”. And then we have really
+cool technologies. Amazon just announced Athena, that you
+can just query the raw data in S3 as is, and schema-on-read
+– just read it and query it and interact with it. No modelling,
+no database. I’m like, “Holy smokes!” No ETL at all, no data
+prep. I’m like, “Wow! This is crazy.” So it’s really getting
+interesting, the design patterns. The design pattern changes,
+just the way data moves changes and this concept of things
+and being monitored everywhere is also quite interesting.
+Kirill:
+
+Yeah, totally. Okay, and you think that this trend will only
+strengthen in the coming year? You said “beyond
+exponential”, so we should expect even more data, even
+more—what are the three V’s of big data? Velocity, variety
+and volume, right? So you should expect that to just
+increase in 2017.
+
+Jen:
+
+I do. And we’re seeing that, even with the consumer. I
+literally have like a Raspberry Pi gadget in here, and you’ve
+got people that are monitoring their garden. When they
+travel—they’re travelling consultants that monitor their
+garden with a Raspberry Pi. I always wanted one of those
+easy buttons so I thought “Well, that’s neat. I just want to
+play with it. I just want to be able to have my own button
+where I push a button and all these cool things happen with
+it.” So the technology is also being distributed to consumers
+quite easily so it’s accessible.
+
+Show Notes: http://www.superdatascience.com/18
+
+27
+
+	  
+
+Kirill:
+
+All right, thank you for that, and we’ve got one more to go:
+the physical plus virtual world and all this VR augmented
+reality. Very exciting things! Where do you think that’s going
+in 2017?
+
+Jen:
+
+So I see that first and foremost coming to a lot of folks when
+Santa comes this year. I’m serious. So what I see is a lot
+more folks playing, they get their viewers—the viewers are
+less expensive. They used to be $600. We got ours this year
+for $70. So it’s really very realistic with pricing now. The
+Google Cardboard was $20. What I think is now we have
+enough content in the library where you’ll see the
+consumers this year enjoying it, playing it, looking for it –
+we’ll probably see a lot more marketing at the retail, the
+National Retail Federation. I would expect to see more
+displays and more ways to attract from a marketing
+perspective and awareness perspective these campaigns with
+VR to experience their products in new and different ways.
+I also expect health care analytics. And I was surprised – I
+did some market research in this area recently – just how
+pervasive it was in my particular network of analytics
+professionals. And what we’ll see there is the ability to use
+virtual technology in different industries like health care,
+like working with neural electrical equipment or different
+types of very difficult situations that you want to be able to
+do. It’s called simulations today – to simulate that
+environment. So I would expect to see much more there.
+I’m not sure how much we’ll see in data. I certainly am very
+optimistic that some of the solutions will come to play. What
+I can see so far in the data visualization space is I’ve seen
+some fun demos of experiencing the stock markets, and it
+felt like you were on a rollercoaster literally. It was really
+
+Show Notes: http://www.superdatascience.com/18
+
+28
+
+	  
+
+neat and it’s fun, but it’s hard to synthesize because the
+general user, or the general audience, is not used to
+experiencing data by riding on a rollercoaster. And I looked
+at another one. It was the Salesforce example with Oculus
+Rift and I said “I don’t know what on Earth I’m looking at,
+what’s good and what’s bad?” So there’s a lot of learning.
+What I think we’ll see more of is, if anything,
+experimentation, also folks learning how to design user
+experiences so you don’t get sick, because we’re seeing that
+happen already in the mainstream space, and we’ll just see
+a lot of fun campaigns really this year.
+Kirill:
+
+Yeah, sounds exciting. And for those out there listening,
+definitely pick up one of these devices, especially if they’re
+now cost effective, you know, $20, $50, just like I do it
+sometimes. Even though I don’t think I’m interested in
+something, some piece of technology, if I can afford it, I will
+still purchase it just because I want to experiment with it
+and just to be on that technological trend, to know where
+the world is going, because that might give me some ideas. I
+might come up with a business idea or I might come up with
+an application idea out of it. Like Jen said, experimentation
+is an important part of innovation. And especially around
+this festive season, why not pick up one of those devices and
+see what ideas you can come up with.
+All right, wonderful. Thank you very much for going through
+all those six trends. I’m sure there was a lot of value. I
+myself learned a lot from all of these examples and from all
+your valuable experience and I’m sure our listeners will too.
+Coming to the end of this podcast, I’d like to ask you to
+share some ways our listeners can contact you and get in
+touch with you and maybe follow you or maybe even connect
+
+Show Notes: http://www.superdatascience.com/18
+
+29
+
+	  
+
+with you over the different social media and different
+resources that you have. What would you say are some of
+the best ways to get in touch with you?
+Jen:
+
+Well, thanks for asking and thanks for having me on the
+show today. The best way to contact me is I have a website,
+jenunderwood.com. It’s my blog. There’s contact links on
+that blog so that you can fill out a form and just reach out to
+me. And I do get those and I usually answer fairly quickly
+most of the inquiries that do come in. If you want to follow
+me, I have a profile on LinkedIn. Google+ —I have a profile
+there as well. And on Twitter. I’m very active on Twitter. My –
+I guess you call it “tag name” or something – is @idigdata. So
+it’s an easy one.
+
+Kirill:
+
+Gotcha. Yeah, I can attest to that. Jen is very active on
+Twitter. Some very interesting insights being shared there,
+so definitely, if anything, definitely follow Jen on Twitter,
+@idigdata, and get the latest and greatest of the technology
+updates. One more question I have for you today, Jen, is
+what would you say is your one favourite book that you can
+recommend to our listeners that will help them become
+better data scientists?
+
+Jen:
+
+It is my all-time favourite. It’s an oldie but a goodie, is the
+Dorian Pyle “Data Preparation for Data Mining” book.
+
+Kirill:
+
+And what do you like about the book?
+
+Jen:
+
+It really goes into what I would call the art and science of
+preparing data, and that’s the magic sauce in a model, is
+how you would transform the variables. You know,
+sometimes even finding a pattern that wouldn’t even
+necessarily—maybe it’s the null values or it’s the records
+that weren’t filled out. That’s a variable. It helps you think
+
+Show Notes: http://www.superdatascience.com/18
+
+30
+
+	  
+
+about how to look at data a little bit differently for predictive
+modelling in general. So it teaches you how to think and
+approach data prep. Things like the skew and the bias I
+talked about that you won’t realise maybe that you have in
+your sampling techniques. It’s really a classic that’s taught
+in most – or at least used to be taught – in the universities, I
+don’t know if it still is, but it’s probably one of the best ones
+that taught me just the magic and how important that piece
+of the process is.
+Kirill:
+
+Fantastic! That’s some great advice, and I totally agree. Data
+preparation and the way you think about your data, about
+your data problem and about how you’re going to tackle it
+are very important. So go ahead and check out that book:
+“Data Preparation for Data Mining” by Dorian Pyle. Thank
+you very much, Jen. It was a pleasure having you on the
+podcast and I’m sure so many people are going to pick up so
+many valuable insights from what you have shared today.
+
+Jen:
+
+Thank you for having me.
+(background music plays)
+
+Kirill:
+
+So there you have it. How exciting was that! So many
+different technological trends and each one of them has so
+much substance to it. It was so interesting talking about
+this with Jen. I definitely picked up so much from this
+podcast myself. Probably the biggest insight for me was the
+thing that we talked about in digital transformation when
+Jen mentioned that it’s about reinventing businesses to a
+digital model and she gave an example of Uber, we talked a
+bit about Airbnb and all these businesses that are doing
+same things that used to be done before, but they’re doing it
+differently. They’re doing them digitally, they’re disrupting
+their spaces. You know, I’ve always thought about these
+
+Show Notes: http://www.superdatascience.com/18
+
+31
+
+	  
+
+things and I’ve known—everybody knows about Uber and
+Airbnb and all those companies and the way they operate,
+but I’ve never thought of it that way, that they’re actually
+doing something that used to be done a lot of the time
+before. It’s something that’s been around for a very, very
+long time, they just changed the way it’s done. They didn’t
+invent something new to be done. You know, hotels have
+been around for ages, and the taxi industry has been around
+for ages as well. They’ve just invented a new approach to the
+old problem. So it’s just a different way of thinking that I
+think I’m going to be a bit more open to now, or I’m actually
+going to encourage myself to think about things I see around
+myself in that way. But at the same time, everything on this
+podcast was super valuable, and I’m sure you’ve had lots of
+different takeaways and I could probably make a huge list of
+the things that I’m going to take away from this show.
+I hope you enjoyed it, and if you did then you can find the
+show notes at www.superdatascience.com/18 because this
+was episode number 18, and there you’ll find the transcript
+for the episode, any resources that we mentioned, including
+a link to the book that Jen mentioned. Also you’ll find the
+links to where you can contact Jen such as LinkedIn,
+Twitter, her personal blog, her company website – there’s a
+lot of links to remember here, so definitely check out that
+page. And I highly recommend that you do follow Jen on
+Twitter. Her handle is @idigdata. The insights that she’s
+sharing are invaluable and they’re sometimes funny and
+they’re sometimes exciting and they’re always about
+technology, they always will help you keep up-to-date. And
+on that note, thank you so much for joining us today. I look
+forward to seeing you next time. Until then, happy
+analyzing.
+Show Notes: http://www.superdatascience.com/18
+
+32
+
+

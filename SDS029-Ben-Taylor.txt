@@ -1,0 +1,1492 @@
+	  
+
+SDS PODCAST
+EPISODE 29
+WITH
+BEN TAYLOR
+
+Show Notes: http://www.superdatascience.com/29
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 29, with Chief Data Scientist Ben
+Taylor.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello everybody and welcome to the SuperDataScience
+podcast. I hope you're having an amazing day and today
+we've got an incredible guest. Today we've got one of the
+most inspiring thought leaders in the space of data science,
+Ben Taylor. Now Ben is a speaker, so you might have seen or
+heard him at a conference, and also Ben is an author of
+multiple very insightful, very profound and even sometimes
+philosophical articles on the topic of data science on
+LinkedIn.
+So what you need to know about Ben is that he started off
+as a chemical engineer and he's done a lot of great work in
+that space, he even has a patent in nanophysics. Then he
+moved on to being a quant in a trading firm, where he
+applied data science methods and worked with GPUs,
+Hadoop, and so on for the purposes of trading financial
+securities. And then he moved on with his career, and now
+he is redefining recruiting via artificial intelligence. And the
+things that he's doing there are just incredible, but you'll
+hear from the podcast how they use video recognition to
+assess a candidate's performance during an interview and
+
+Show Notes: http://www.superdatascience.com/29
+
+2
+
+	  
+
+really speed up the recruiting process for so many firms. It's
+incredible how machine learning algorithms can be used to
+redefine even something like recruiting.
+In this podcast, you will learn lots of valuable insights, Ben
+will give us a crash course into deep learning, and give you
+an intuitive understanding of deep learning and why it is
+superior to other types of machine learning algorithms.
+Ben will also give you some tips on how to become an Aclass data scientist and what you can do to improve your
+career, and much, much more. Does that sound exciting? I
+bet you can't wait to get started, so without further ado, I
+bring to you Ben Taylor, Chief Data Scientist of HireVue.
+(background music plays)
+Hello everybody, and welcome to the SuperDataScience
+podcast. I've got a super special guest, I've got Ben Taylor
+here on the line from Utah. I've been a big fan of Ben's for a
+very long time, and finally I've gotten him onto the podcast.
+Hi Ben, how are you today?
+Ben:
+
+Good. Thanks for having me, I'm excited to be here.
+
+Kirill:
+
+I'm super excited about this opportunity. I've been following
+your posts on LinkedIn and just your career for over a year
+now, and you were a very big inspiration for me, and so if
+people haven't heard of Ben, Ben is a huge thought leader in
+the space of data science. He's got some great articles, you
+may have read his Data Scientist Type E article, very, very
+interesting, very inspiring. And today, probably we'll get
+started off – well actually, just before the call, we were
+talking about Ben's background. As I told Ben, I wish I had
+recorded all of that during our interview, because that was
+
+Show Notes: http://www.superdatascience.com/29
+
+3
+
+	  
+
+the first time we met. But if you don't mind, Ben, could you
+please walk us through a bit of your background again. How
+did you get started into data science, and how did you end
+up in the position you're in now?
+Ben:
+
+Yeah. So I think for most people who have been professional
+data scientists for the last five years and longer, they had no
+formal programs before. And so a lot of their backgrounds
+are very mixed. They come from physics, biostats, chemical
+engineering, anywhere really. It doesn't matter what their
+background is. And for me, it was chemical engineering.
+So I studied chemical engineering because it was a good
+technical route that could still allow me to go into medical
+school if I wanted to become a doctor. So for people that
+don't know what chemical engineers do, their typical jobs
+might be something like designing a chemical process for a
+petroleum refinery, or a lot of these semiconductor plants,
+like Nvidia and Intel and Micron, they hire chemical
+engineers as well because it's a chemical process.
+So I did that for my undergrad, and I was really lucky,
+because during my undergrad, I had my first real exposure
+to some serious machine learning programming. It was a
+numerical methods class, and it was an introduction class,
+but our teacher exposed us to the base introductions that
+you would expect, but we also learned things like simulated
+annealing, and generic algorithms that I would not expect to
+learn in an entry level class like that. So that teacher did me
+a huge favour to kind of inspire me on this concept of your
+computers working for you while you're away, or while
+you're sleeping. So I just love the idea that my computer at
+home, or my cluster at home, could be doing significant
+work 24/7.
+
+Show Notes: http://www.superdatascience.com/29
+
+4
+
+	  
+
+And so for all of my engineering projects, I always brought in
+a machine learning component, or a machine vision
+component, even if it was a huge stretch. And a lot of the
+times it was. And in some cases, it even frustrated my
+chemical engineering professors because they saw the stuff I
+was doing as being kind of too far away from the core
+discipline. One example of that is I went and did a – we all
+did internships our junior year I think, that's the year before
+you graduate, and a lot of the other students went and did
+distillation columns, and worked for chemical processing
+plants. And I went and worked for the Desert Research
+Institute doing satellite image processing, where we'd pull in
+satellite data and we'd predict algae content in the ocean by
+combining multiple satellite image sets. And it involves a lot
+of programming and image processing, where they felt like
+that had absolutely nothing to do with chemical engineering.
+But I enjoyed that, and I went and for my Masters, I moved
+from Reno, Nevada, to Utah and I was studying gold
+nanoparticle arrays, and for people that aren't familiar with
+those, they're exciting because they can be used for single
+antigen detection, so if there's a single virus or a single
+cancer cell, right now with today's methods, you can't detect
+it. It needs to be significant. But with these gold
+nanoparticle arrays, they're so sensitive they can literally
+respond to a single antigen. So a single virus could be
+detected, or a single cancer cell. And for all of my Masters
+work, since I had a strong programming background, I
+ended up doing all the machine segmentation, image
+processing, on these same images, scanning electron
+microscopy images, from those gold nanoparticle rays.
+
+Show Notes: http://www.superdatascience.com/29
+
+5
+
+	  
+
+And then I went and got my first real job working for Intel
+and Micron in their main NAND flash producing plant. So for
+the Intel SSDs, all of their NAND flash memory comes from
+this plant that I worked at. So I worked there for 5 years
+doing process control and yield prediction, still chemical
+engineering things, but kind of had a statistical side to it.
+But the big breakthrough for me that I am grateful for, but
+I'll never doing again, I had an opportunity to go and work
+for a hedge fund as a quant. And a quant is slang for a
+quantitative analyst. And the interesting thing about quants
+is quants really are data scientists, and they've existed long
+before data science was a thing. So quants have been
+around for the last 20 or 30 years. And what a quant does is
+they can program really well, and they also understand
+ridiculous amounts of math because they do algorithmic
+trading. So they write programs that trade stock
+automatically. And the majority of all stock trades now are
+automated.
+So this hedge fund, it was focused on trading on the news,
+so using sentiment. So all of the news articles, blogs,
+anything that could affect price for the top 1500 stocks in
+the US, they were analyzed in real time and stock decisions
+were made at this hedge fund. The interesting thing about
+the hedge fund, we built a 600 GPU cluster in house, and
+that was 4 years ago, and even today, that would be very
+ambitious, and 4 years ago, that was ridiculous. But we did
+it. We succeeded. We built it and it would do over 10 million
+5 year back tests per day. It allowed us to do a lot of
+optimization.
+And then I went back. So if you could see my face, or if
+you've seen a recent photo of me, I'm getting some grey in
+Show Notes: http://www.superdatascience.com/29
+
+6
+
+	  
+
+my chin. And the joke is all of that came from the hedge
+fund. I did get literally – within a few months, my wife
+noticed that "Man, you're getting a lot of grey quickly!" And
+the reason for that was, that working in a hedge fund, if
+you've talked to people that have, or if you have yourself, it
+can be very stressful, and there's a lot of money to be made,
+the people you work with are extremely talented, very smart
+people, in some cases abrasive, and when I would go into
+work, I would feel like I was going into a fight. Sometimes
+work, you kind of had that heightened sense of – it's hard to
+explain. Just the feeling you get before you have a
+confrontation. Imagine having that first thing when you
+come into work and it lasting all day, and then just that's
+your life. That's how you work. And that's not really a work
+environment that I could – I learned a lot, but after a year, I
+went back to Intel Micron. And then after a year, I realised I
+wasn't happy there because I wasn't feeling challenged.
+And there was a startup called HireVue, they were backed by
+Sequoia Capital, they were looking to bring on machine
+learning, and so I joined them three years ago, and I helped
+to build out their data science team, their IP, and their
+machine learning component. Real quick, what HireVue does
+is they do digital interviewing, so we're all familiar with –
+everyone listening has had to interview, we've had to get a
+job. So we've gone – a traditional job will be, you submit a
+resume, someone calls you back, and maybe do an on-site
+interview, or a phone screen interview. Then that leads to an
+on-site, and then you get a job. Where with HireVue, they do
+interviewing right on your iPhone or your laptop. So you can
+go straight to interview. So for HireVue, for all of our data
+science openings that we have, anyone can go straight to
+interview. Where they do the full coding assessment, they do
+Show Notes: http://www.superdatascience.com/29
+
+7
+
+	  
+
+the interview, and then we've had candidates come through
+that process where I would feel comfortable giving them a
+job just from that. Typically we will do a live interview after
+that. But the interview process saves employers a lot of time,
+and half of the Fortune 100 companies use us. So that's
+Chase, Goldman Sachs, Unilever, Red Bull, IBM. A lot of
+huge people use us to do their hiring. And then the other
+thing I’m doing right now is I’m also the Chief Data Officer
+for a new startup called Ziff, and it’s a deep learning startup.
+So I’m doing both of them simultaneously.
+Kirill:
+
+That’s really cool. And yeah, it’s very interesting, what you
+mentioned about the hiring process. Could you give us a bit
+more detail about what we talked about earlier, the way you
+use machine learning and artificial intelligence in the hiring
+process? I thought that was just fantastic and phenomenal.
+
+Ben:
+
+Yeah. So one of the things I like about HR is everyone can
+relate to it, but it’s also extremely personal. So if you’re
+building models to predict yield on a wafer or which
+marketing lead to follow up with or something like that, it’s
+not really impacting anyone’s life in a big way. But if you’re
+writing algorithms that predict if you should get a job or not,
+it’s a personal thing and it could have a good influence on
+people and it can also have a negative influence.
+So when I first joined I saw a lot of value in all of these
+digital video recordings that were saved in the cloud and
+what we ended up doing is we enabled machine learning on
+the video interview itself. So, from a 20-minute interview, we
+predict whether or not you should get the job. And what that
+allows is it allows for companies with really high volume to
+interview in the thousands or tens of thousands. We even
+have some companies that interview hundreds of thousands
+
+Show Notes: http://www.superdatascience.com/29
+
+8
+
+	  
+
+of interviews a year. They now have an ability to bring the
+top talent up to the top of the queue and react to them very
+quickly and in some cases advance them on through the
+hiring process.
+We think we’re starting to see opportunities now where they
+could be hired just using the machine learning from the
+video. And the features that we use—we use voice detect, so
+using deep learning we transcribe the interview to get all the
+content, so all of your language can be used to make a
+decision. And then we also use micro expressions.
+There’s an old show called “Lie to Me” – Paul Ekman, that
+person is actually a real person. We got to see him in San
+Francisco. He’s an expert on facial micro expressions and
+deciding what they mean. So the computer will actually
+measure micro expressions during the video, so that can
+pick up on a lot of the soft competencies that are missing on
+a resume or even on a phone screen. And all of that is
+brought together in a holistic model that makes a prediction.
+Kirill:
+
+Yeah. And you said you can do a much better job than a
+human can.
+
+Ben:
+
+Yeah. So, the fun thing about that point is, I’ve gone to
+different conferences to speak on this topic and show results
+and talk about case studies and stuff. And initially there’s a
+lot of disbelief because I don’t know if the technology needed
+seems like it would be intimidating or something that we’re
+not ready for in 2017. I don’t know why people hesitate that
+this is a possibility because I think it seems pretty obvious
+that of course this would work and it would work well.
+But the point I’d like to make is humans set the bar so low
+when it comes to hiring and recruiting that it was actually
+
+Show Notes: http://www.superdatascience.com/29
+
+9
+
+	  
+
+trivial for the computer to step over it. And for people who
+aren’t familiar with recruiting, if you think about it, there is
+a huge luck component for everyone. If you want to get a job
+at Google, if you want to get a job somewhere else,
+depending on their process for bringing people on board,
+there is a luck component where if you talk to this recruiter
+versus that recruiter, you may or may not get through. The
+other thing that humans usually have is there is a similarity
+bias. I’m more likely to hire someone more similar to myself
+than I am to hire someone who’s a polar opposite. And then
+the biggest fault of humans is we can’t compete with a
+computer. And this is just true in general, it’s not just
+hiring. So, machine learning versus the human – the human
+in a lot of cases has a very difficult time competing with just
+observation count.
+So a human might experience five hires, ten hires, a
+hundred hires in their lifetime, but a computer can
+comprehend 100,000. And then the other job against the
+human mindset would be even if they were looking at the
+exact same dataset, they both have access to 100 hires, the
+human will overweight and underweight experiences
+unfairly. The example of that would be community college.
+Let’s say I’m interviewing a data scientist or an engineer.
+They go to this particular community college. They come and
+interview and they are a complete train wreck. Not only are
+they a train wreck, they’re dishonest, they are the worst
+interview I’ve seen all year. So I will take that information
+and the next time I get someone coming from that
+community college, I already have a bias against them and
+they may not even get an interview now.
+
+Show Notes: http://www.superdatascience.com/29
+
+10
+
+	  
+
+When we talk about it we realize that that is totally unfair.
+But humans do that all the time and they do it on the
+flipside where there’s an Ivy League bias. So if you went to
+Stanford or Harvard, you may get an unfair Ivy League bias
+that would suggest that you’re better than you really are. A
+computer is much less likely to do that. A computer is not
+going to say, because you had one idiot from this college or
+one genius, that that is meaningful. If you get enough, it will
+begin to realize that, but it won’t overreact.
+Kirill:
+
+Yeah. And also, humans probably tend to have a recency
+bias that if you had one really crappy interview just recently
+and then you have a moderate one next, the moderate one
+compared to the most recent one looks like an amazing
+person but in the overall sample it might be just a moderate
+interview.
+
+Ben:
+
+Yeah. It’s amazing to me, when you look at some of these
+companies and how they do their hiring and recruiting, how
+terrible they are. My first interview—I didn’t know if I was
+going to go to graduate school, so I interviewed at a
+nanobattery technology company, some nano-lithium
+battery company, and I had six interviews that day. So I
+interviewed with one manager, went to interview with
+another manager and another manager. So not only did they
+waste my entire day, I wasted—if you look at the man hours
+and the opportunity costs, that was six people, and there
+was a ton of redundancy in the questioning. They all asked
+me very similar questions. And the very first person I talked
+to, I made a technical mistake in the interview and they
+corrected me and they told me what the answer was and in
+the very next interview, they asked me the same technical
+question and of course I got it right. And in the third
+
+Show Notes: http://www.superdatascience.com/29
+
+11
+
+	  
+
+interview, they asked me the same type of question and of
+course I got it right. The problem with that is they have
+different experiences with me where now, when they sync up
+that evening after I’ve left, half the room could think I’m an
+idiot and the other half of the room thinks I’m exceptional.
+So I ended up getting a job offer from them which I turned
+down and I went to graduate school. But just that process is
+such a mess, and it’s actually more common than you think
+with respected companies where one candidate will interview
+multiple times rather than having a structured interview
+that’s done once.
+Kirill:
+
+Yeah, that’s really cool. And it sounds awesome, this whole
+idea of interviewing through machine learning. And as I
+imagine, the company you’re working for – HireVue – is
+pioneering this space, and you in particular are creating all
+these algorithms and right now they’re available to big
+companies who hire thousands and thousands of people.
+But when do you think this kind of concept is going to
+become democratized, that it’s going to be available to
+anybody, to any small firm, or to any startup to apply your
+algorithms or approach you guys to assist them in the
+process of hiring. Do you think that will happen any time
+soon?
+
+Ben:
+
+For HireVue specific as a company, they really are the
+enterprise choice in their space. So they kind of cater toward
+that size of a company. But for smaller companies, there are
+so many machine learning solutions that are creeping into
+HR right now, whether they’re doing resume predictive
+modelling or audio only. There’s a lot of companies that do
+these predictive assessments where you answer 50 or 100
+questions and they predict outcomes from that. They can
+
+Show Notes: http://www.superdatascience.com/29
+
+12
+
+	  
+
+even accept open-ended responses. So it doesn’t matter how
+big the company is, there are definitely machine learning
+solutions that can help the current process. A resume model
+is probably the simplest one, assuming that they have
+enough volume to find this correlation. The volume definitely
+helps. I think it’s the future. I would be very surprised if my
+children, who are under 7, I’d be very surprised if they’re
+interviewing with humans when they are adults because of
+the benefits that come from what a computer can see.
+Kirill:
+
+Yeah, fantastic. That’s very, very solid view of the future. All
+right, what about your second startup? You mentioned Ziff,
+where you’re doing some deep learning. Can you tell us a bit
+more about that?
+
+Ben:
+
+There’s always a side project going on with me. There always
+has been and that’s changed depending on the year and
+what’s going on. But with this Ziff, I’m diverting a lot of time
+into it now and I’ve got a great co-founder who’s also—I see
+him as being a rock star data scientist who has a lot more
+business experience than I do. His name is David Gonzalez.
+So what we’re doing is we’re trying to lower the barrier to
+entry as low as possible. And when you look at these bigger
+offerings, Google has a predictive Cloud option, Microsoft
+does, Amazon does, IBM does. One of the issues that we’re
+seeing -- these companies are fantastic. They all have their
+own strengths. Microsoft is exceptional when it comes to
+integrations. They can integrate with Excel and all these
+different databases. It’s a very nice move if you’re a Microsoft
+[indecipherable 21:52] to kind of bring these solutions in.
+IBM have been doing a lot of good for the data science
+community with Watson and the marketing, getting the
+message out. A lot more people are familiar with data
+
+Show Notes: http://www.superdatascience.com/29
+
+13
+
+	  
+
+science and machine learning because of IBM and because
+of some of these wins that Watson has had. Personally I
+really enjoy Amazon. I feel like they do a good job with the
+documentation. Google is a popular favourite, but they do
+some things well and they struggle with other things and I
+feel like their machine learning offering is something that
+they have struggled with historically but I think they’re
+improving with that.
+So with Ziff, we’re trying to make this much more accessible.
+If you want to build a predictive model on images, we don’t
+feel like you need to read pages of documentation and you
+don’t need to spend minutes trying to figure out how you’d
+go about doing this. All you need to do is you need to have a
+.zip or .tar file with image folders or something on the Cloud
+and you just point our products to it and you get a
+predictive model that’s world class and you can immediately
+be calling that in your JavaScript application or your website
+or your app. So with our current customers that we have,
+they’re focused on deep learning applications around image
+recognition, image search, and image ranking. But we also
+have prospects that we’re talking to right now that are more
+interested in our text offering where we have some text
+models. So the ambitions of the company—I think a year
+from now we’d like to have one of the largest marketplaces of
+pre-trained models.
+So, IBM, Microsoft and Google have pre-trained models. I
+think even Amazon has some coming online now where if
+you want to predict age or gender or whether or not an
+image is safe for work, those are available to you know, but
+they actually don’t have a lot of models. They probably have
+less than 10 when it comes to image classification, but we
+Show Notes: http://www.superdatascience.com/29
+
+14
+
+	  
+
+really want to blow that up with the marketplace. So I’m
+really excited about that. That’s what I’m working on now,
+but I’m still actively involved with HireVue and working with
+their team and their roadmap.
+Kirill:
+
+Very nice. So you guys are going to be looking for funding, or
+are you just going to be doing it all on your own?
+
+Ben:
+
+It’s interesting because we have talked to VCs, we do have
+funding opportunities, but it’s always kind of a dance
+between you and the VCs on do you want to take the
+evaluation that they’re willing to give you, or do you want to
+hold out for the evaluation that you want. Luckily for us,
+right now we have enough revenue coming in that we don’t
+need funding at the moment, but funding of course leads to
+some great things that would help us like bringing some key
+players on board sooner. So I think the plan right now is
+hopefully soon during the next couple of weeks you’ll start
+seeing some press releases on this new company. And
+depending on the traction that we can get in the next six
+months, then we’ll probably raise it a round then.
+But it’s interesting, because transitioning from a wonderful
+company like HireVue and working on more of a full-time
+data science startup, there’s definitely some major changes
+that happen. One of those changes are, when I’m working on
+Ziff stuff, being your own boss can be challenging. The
+challenge there is — a company like HireVue, they’re big
+enough and they’re a solid enough company that they can
+afford a few mistakes and a few pitfalls. And for people doing
+machine learning application development, you’ll definitely
+run into a lot of those. You might go down a tangent that
+ends up being a dead end. And when you’re doing a startup
+
+Show Notes: http://www.superdatascience.com/29
+
+15
+
+	  
+
+and burning resources, you really can’t afford to work on
+something that’s not critical to work on.
+So, a lot of times in data science we like to work on fun
+projects, exciting projects. You might have ten projects on
+your list and one of them is actually really enjoyable. And at
+HireVue we have those options. We have some really fun
+projects. We did one where we predicted coding ability. As
+you wrote the code, we predicted whether or not you’d pass
+the coding assessment. And we showed that we were able to
+predict that you were going to pass the coding assessment
+before you’d even completed a third of your coding. So we
+can already tell you’re a really good programmer once we see
+a few lines of code. We don’t need you to finish the whole
+assessment. Projects like that are so much fun, and whether
+or not they end up in the product is not the main point. It’s
+the fact that you did it and it was fun and you were kind of
+exploring. Managing a startup is a lot more stressful
+because every day is critical and you can’t work on
+something that’s not absolutely tied to revenue in the near
+future. It’s definitely a learning process, but we’ll see where
+it goes during the next year.
+Kirill:
+
+Yeah. Probably some more grey hairs coming out from your
+beard.
+
+Ben:
+
+Yeah, but hopefully I’ll be the one causing those rather than
+getting F-bombed by some Manhattan-style hedge fund
+manager.
+
+Kirill:
+
+Gotcha. And quite a few of our listeners actually have ideas
+about startups in the space of data science and about
+creating their own business or product or service in this
+space, in machine learning, data science, artificial
+
+Show Notes: http://www.superdatascience.com/29
+
+16
+
+	  
+
+intelligence. What would your one biggest piece of advice be
+for these people?
+Ben:
+
+The biggest piece of advice would be that it’s a really hot
+space right now, so for you to go and get funding, a lot of
+VCs are actively thinking of partitioning funds towards
+machine learning and AI. So you kind of have a green light
+there to get in and pitch this, but the thing that we were
+surprised about is the VCs actually know a lot less than you
+hope they do when it comes to AI.
+One example, during one of our pitches we were referencing
+IBM Watson and some of these other offerings, and the VCs
+that we were pitching to, they had no idea what IBM Watson
+actually did. I think most of the public is probably that way,
+but I think there’s an assumption if you’re a VC and you’re
+investing in these tech companies, that you must know in
+detail what these different offerings do and they don’t. So, I
+think for people that are interested in pitching their own
+startup, it’s easier if you find a niche topic. So if you’re going
+to do like pattern prediction or lead prediction, if you find a
+very niche topic and you can build a platform around that,
+something that’s tangible that the VCs can see, that is
+better.
+And then the more you can dumb it down to something—
+because really, some of the VCs that you’re pitching to,
+they’ve only invested in like SaaS startups. You might be
+their first AI startup, so you can’t expect them to know what
+deep learning is or why your solution is useful. It doesn’t
+matter if it’s your own startup, but I would go and work for a
+startup. So if it’s your own, great, but if not, go find a local
+startup. You’ll learn so much more because you have to
+wear a lot of different hats and you get a lot of
+
+Show Notes: http://www.superdatascience.com/29
+
+17
+
+	  
+
+responsibilities and you do a lot of jobs. You might be on
+more customer calls than you would be, so that was a great
+thing for me with HireVue. I was able to be on a lot of
+customer calls and interact on the business side. Where
+some data science positions you may not get that. So I’m a
+huge fan of encouraging people to go work for a startup
+rather than going for maximum job security with a bigger
+company.
+Kirill:
+
+Great. Great advice! Thank you so much. And while we’re on
+the topic of Ziff, would you mind giving us a quick crash
+course into deep learning? I noticed you changed your
+LinkedIn profile description as Ben Taylor [DeepLearning]. It
+obviously shows that you have a huge focus in that area.
+And deep learning is indeed a very growing part of machine
+learning. Some companies just prefer to do deep learning
+than any other aspect of machine learning because they
+believe that that is more efficient and it can yield even better
+results. So, if you don’t mind, could you give us a quick
+introduction to deep learning the way you see it, please?
+
+Ben:
+
+Yeah. So, this is definitely very confusing to people who
+aren’t in our space. So the way I explain it to executives and
+managers who are not data scientists, because they get
+confused, is deep learning machine learning is different than
+what’s going on. So the thing that I tell them is data
+scientists have a really fancy tool chest in a garage. We have
+drills, we have hammers, we have all these interesting things
+that allow us to build some really cool workflow models that
+provide a lot of value.
+Deep learning is a brand new tool that was introduced. It
+didn’t really become used in the market until around 2014
+and after that. A lot of companies don’t have this tool. They
+
+Show Notes: http://www.superdatascience.com/29
+
+18
+
+	  
+
+don’t know how to use it and they don’t have access to it.
+But for the ones that do, this tool is so good it is able to beat
+all classical approaches before it. Those classical examples
+will fall into a lot of unstructured data examples, so text,
+image classification, audio classification, video classification,
+any type of sequential sequence, deep learning will typically
+do much better than a classical approach like a Bayesian
+model, bag-of-words.
+I can give you some concrete numbers on that. A very
+popular dataset within machine learning is this MNIST
+handwritten digit set. So what it is is it’s numbers from 0-9,
+it’s 28 by 28 pixels, it’s a black and white image. You can
+literally look at these in Excel, if you wanted to. You could
+treat it like a table. I’ve got 28 columns and 28 rows, and
+where the number is sloppily drawn, there are some
+numbers that are larger than zero. And that dataset has
+60,000 images and you can build a predictive model that
+when you see a new image you will predict what it is – is this
+a 2, is it 7?
+A lot of classical algorithms do this really well. So you can
+use a Bayesian method, you can use the Random Forest,
+you could use [indecipherable 32:13] regression, logistic
+regression, support vector machine. You name your
+favourite classical supervised machine learning algorithm,
+you can build a predictive model and you’ll be surprised. It’ll
+get higher than 80% accuracy and if you’re predicting 10
+classes, that’s pretty good since random would be a 10%
+accuracy.
+So they’ll do well but the best you could do—let’s say you’re
+a genius when it comes to these algorithms. You know them
+really well and you do all this optimization. The best you
+Show Notes: http://www.superdatascience.com/29
+
+19
+
+	  
+
+could probably do would be 95-96% accuracy. You won’t be
+able to go above that. Like, I’d be very impressed if you could
+go above that with classical methods. With the simplest deep
+learning model, you can get above 98% accuracy and for
+people that know deep learning well, you can get up to
+99.7% accuracy.
+And another key difference with deep learning is deep
+learning does something that is very significant. It does its
+own feature engineering, where with HireVue when we’re
+building these predictive models, there’s a lot of human
+expertise that will go into that. We think this is important in
+an interview, or we think this is important in a wafer when it
+comes to predicting yield. Deep learning takes care of all the
+feature engineering.
+The other thing I like to tell people is deep learning does
+what you do every day. So you walk downstairs into your
+kitchen and you open up your utensil drawer and you’re
+going to grab a fork, how on earth did you grab a fork?
+That’s pretty complicated. How did you find the fork? How
+did you differentiate the fork from the spoon? And if you look
+at what your brain is doing, it’s building what I call a feature
+ensemble. You’re looking at the ends of the fork, you’re
+looking at the handle. So you have some micro features and
+macro features and you kind of have this sloppy soup of
+features that you’ve used to decide that that’s a fork and
+you’re going to grab it. Deep learning does the same thing. It
+does a hierarchical feature approach where it can have
+micro features and macro features but instead of discovering
+nine features that you found for the fork, it might discover a
+thousand. Or something much more significant that a
+human can’t compete with. It’s a longer answer, but I’m so
+Show Notes: http://www.superdatascience.com/29
+
+20
+
+	  
+
+excited about machine learning, about deep learning, I feel
+like the applications are endless. Deep learning is going to
+be a major contributor. And that’s a big disappointment for
+me, when I engage with new students and people looking to
+get hired and they’re not familiar with deep learning. So I
+think that’s definitely a requirement.
+Kirill:
+
+That’s really good. Thank you for that very intuitive
+explanation of deep learning. It really backs the thinking
+that deep learning can substitute any other type of machine
+learning, and it probably will in the years to come. Could
+you comment a little bit on the most well-known types of
+deep learning, specifically ANN, CNN and RNN? What do
+they mean and what are the differences between them?
+
+Ben:
+
+Yeah, even though deep learning is surprisingly simple when
+people understand convolutional networks, there are lots of
+different types of deep networks that are used. The most
+basic one that I would use to introduce people to would be
+CNN. It stands for convolutional neural net. We used
+convolutions at the hedge fund for performance, but before
+that I really wasn’t that familiar with convolution. And a lot
+of data scientists who were just kind of exiting their
+programs, they’re not familiar with it unless they studied
+deep learning.
+So a nice way to introduce the convolution would be to think
+of it as filter. So if I have a one-dimensional stock signal and
+it’s very, very messy—maybe you’re trading Forex so it’s
+Euro/USD. It’s going up, it’s going down, it’s going up, it’s
+going down, it’s all over the place. A very popular trading
+thing to do with that signal is to smooth it. And to smooth it
+I would do a simple moving average where I’d have a window
+of ten numbers or a hundred numbers where I’m sliding it
+
+Show Notes: http://www.superdatascience.com/29
+
+21
+
+	  
+
+along and I’m doing this moving average. It’s interesting, the
+fastest possible way that I could do that moving average is
+not using matrix math. It’s actually a convolution. So, if I do
+a convolution, that is the fastest way that I can do that
+moving average. But it can also do more things than a
+moving average.
+It can find like a head and shoulders signal where it’s
+oscillating up and up and I get a shoulder and I get a head.
+And then the second shoulder is just below the head. That’s
+a classical signal for a pivot point where you might want to
+short the stock or sell it and that’s a really complicated
+signal to have. So if you went to some new students and you
+said, “Hey, I need you to write a computer program that will
+detect a head and shoulders signal for me,” the problem is
+sometimes the head can be skinny and sometimes the
+shoulders can be large. Sometimes there can be spaces and
+sometimes there can be like a second shoulder that’s not
+really a shoulder and there’s noise. So that would be a
+project for them to design an algorithm that would tell me if
+there’s a head and shoulders signal.
+But with convolutions you can actually just solve for the
+numbers in the convolution and it will detect that. And
+convolutions on their own, they’re a pretty complicated topic
+to just discuss through audio without some type of
+visualization. There are some really good YouTube tutorials.
+I’d look up “convolutional nets”. The other way I like to think
+about a convolutional net is think of it as a river. So, you’re
+up in the mountains and you find this nice laminar flow
+stream, it’s very calm, you can talk, you know, it’s not
+making a lot of noise. That is the top of a convolutional net.
+So I’ll throw an image into that stream. I can explain what’s
+Show Notes: http://www.superdatascience.com/29
+
+22
+
+	  
+
+happening to the image, it’s not very complicated. But as
+that image moves down through the convolutional net, it
+becomes extremely complicated where I have filters that are
+literally creating new images and then those images are
+becoming multidimensional and then they’re reacting on
+themselves downstream and then I have different feature
+sizes where at the bottom of the net it’s like a raging rapid.
+It’s very complex. There’s a lot going on and there’s a lot I
+can do with it.
+So, you mentioned the other ones. You have LSTM – longshort-term memory. So, if you have a sequence that you’re
+trying to remember, and a lot of times that can be language,
+there are some really fun examples where they’ll actually
+have the computer auto-complete Shakespeare or maybe
+auto-complete a meme or something. And then you have
+other complicated nets for speech. There’s one called
+bidirectional recurrent neural nets where—speech is
+complicated, because if I say a phrase and you need to
+understand that I said, “The cat is fat,” so if I say that but
+you’re not sure that I said, “The cat is fat” or “The hat is fat,”
+you’re going to decide that the cat is fat because “The hat is
+fat” doesn’t make sense. And the reason that doesn’t make
+sense is because you’re actually using a very impressive
+language model to decide that a hat can’t be fat. So therefore
+I must have said that the cat is fat.
+And to do that is complicated because not only am I using
+words in the past to make that decision, I’m also using
+words in the future. Based on how the sentence completed,
+I’m using the word “fat” in the future, and I’m using all of
+that to make a decision on what that word is that was
+unclear, it was hard for me to hear. Bidirectional recurrent
+Show Notes: http://www.superdatascience.com/29
+
+23
+
+	  
+
+neural nets do the same thing. They use information in the
+past and information in the future to decide what letter was
+spoken at that moment in time and those are some of my
+favourite nets right now, are the CTC bidirectional recurrent
+neural nets. I think Baidu gets a lot of credit for bringing
+their attention out. A lot of times with recurrent neural nets,
+you’re using them for some type of temporal sequence, some
+ordering. With convolutional neural nets you’re using them
+for spatial information on an image and you can even use
+them for audio. So, for audio, sometimes we’ll do like a
+spectrogram, so if I want to detect if you said a single word—
+like, think of a command. I want to talk to my house and I
+want to say, “Lights off” or “Lights on,” it’s a single
+command. I could do that with a convolutional net on a
+spectrogram. So the audio clip would go through a
+spectrogram and become an image. I apologize if—
+Kirill:
+
+No, no, that was great.
+
+Ben:
+
+If this is confusing, please take a look at some of the
+convolutional net or deep learning introductions. I even have
+a video where it goes through some examples in code. I can
+shoot you a link.
+
+Kirill:
+
+Yes, please. We’ll add it to the show notes. That’s awesome.
+And that example, I love your intuitive explanations. They
+really help kind of understand, not necessarily in-depth how
+the algorithm works, because of course they’re much more
+complex than that, but just to understand in which direction
+people should start thinking to better grasp these things.
+And the example about “The cat is fat,” sometimes in life we
+have these situations where somebody is saying something
+and you’re having a conversation and you nod along and you
+kind of pretend you understood something, but it actually
+
+Show Notes: http://www.superdatascience.com/29
+
+24
+
+	  
+
+takes you 5 or 10 more seconds for your brain to process
+what they said because you didn’t hear it that well, and then
+based on what they said further down, or even just if you
+give your brain some time, you’re like, “Oh, that’s what they
+said!” Your example reminded me of that. I wanted to ask
+you this question: Is it true—because you’ve done chemistry
+and you’re in artificial intelligence and machine learning
+now—is it true that electric circuits are one million times
+faster than biochemical ones so that machines, given the
+same level of intellect, would think a million times faster
+than a human?
+Ben:
+
+I think we’ll get to that point. The other thing that you’re
+dealing with is bandwidth. So, if you think about some of
+these GPUs, they are capable of 11 teraflops in a single GPU
+now, and there’s a really cool graphic that shows when are
+we going to surpass a human’s ability. So this is interesting.
+When it just comes to how many operations per second can
+you do, a computer will definitely surpass a human in the
+short term. So, we’ll have neural nets in the next 3-4 years
+that will have more neural connections than our own brains.
+There are some tasks that computers can do exceptionally
+well. With image classification, the humans have already
+lost.
+And I’ve had some flak for this, but I’m a huge believer in
+some well-known respected disciplines and jobs just going
+away in the future. I feel like the radiologist and the
+pathologist who in the past have been really respected—you
+know, my kid has a tumour and we go in and we look at a
+CT scan or an MRI and this wonderful radiologist with so
+much experience is looking at this and they’re making a
+decision. I’m to the point now that in the near future, I’d
+
+Show Notes: http://www.superdatascience.com/29
+
+25
+
+	  
+
+actually be upset about that. I would be angry why do I not
+have deep learning that is comprehending a million images
+to decide what disorder I have. There’s a lot of people that
+die on a regular basis because the physicians are unable to
+diagnose these really rare disorders because they personally
+have not seen it, but a collection of physicians have seen it.
+So machine learning will be great at that.
+Kirill:
+
+That also reminds me of—they just released an app recently
+which you can download on your iPhone or Android and just
+take a picture of your skin where you think this looks weird
+and it’ll tell you if it’s a cancer cell or not, if it’s a cancer spot
+on your skin or not, and they actually tested it against 18
+other doctors who look at your skin, dermatologists, and it
+did as well as they did. So you can already get that on your
+iPhones and Android devices.
+
+Ben:
+
+Yeah. I love that. I think that’s great. So there are some
+things that computers can do really well. The thing that
+computers still struggle with are some of the long-term
+strategy planning. The ones that I’m really excited about
+right now—we’re going to do a demo this year with some
+computer games for Ziff. Deep nets can play games like
+“Doom”, these first person shooter games where they’re
+walking around, and the deep net, they’re controlling in real
+time what the player should be doing as far as navigation
+and shooting and things like that. And the deep net can do it
+better than a human. And the other example we’re seeing is
+with some of these drones flying. A drone flying through a
+mountain trail—they’ve already shown that these deep nets
+can predict where to go. They’re able to do it because they’re
+training on a short-term reward. So if I’m playing a game
+and I shoot someone in the game I get some short-term
+
+Show Notes: http://www.superdatascience.com/29
+
+26
+
+	  
+
+reward. Or if I’m flying a drone and I crash or I don’t crash,
+the short-term reward is very clear.
+But if I’m playing a strategy game where I don’t get a reward
+until the end of the game, or I’ve gone through some fantasy
+level or something—“Starcraft” is the one that DeepMind is
+focusing on right now. Those are very hard. They’re very
+challenging. So the idea of drones flying around for the
+military and doing short-term actions, whether they’re
+surveiling a region or they’re taking out someone carrying an
+AK-47 who’s not allowed to be carrying an AK-47, those
+types of actions are very simple. Computers will do those
+exceptionally well at faster frame rates than humans ever
+could. But when it comes to making long-term strategy
+planning decisions that’s still quite hard for computers.
+Kirill:
+
+But we’ll get there eventually, right?
+
+Ben:
+
+Yeah, we’ll get to Skynet soon enough.
+
+Kirill:
+
+(Laughs) And that’s my next question. You’re very
+knowledgeable on the topic of deep learning and artificial
+intelligence in general. There’s this futurist in the U.S. I’m
+sure you’ve heard of, Ray Kurzweil. And he’s got all these
+predictions about when and how and where we will get to
+with machine learning and artificial intelligence. And he’s
+predicting that by 2030 we will have amazing things. Like,
+we’re going to have nanorobots in our blood stream looking
+after us, making sure we’re not sick, we’re going to have selfdriving cars and everything is going to be connected, the car
+is going to redirect you to the hospital at the first sign of a
+possible heart attack, and so on. But also he predicts that
+somewhere around 2050 and onwards, AI is going to be so
+dominant and so strong that it’s going to start making
+
+Show Notes: http://www.superdatascience.com/29
+
+27
+
+	  
+
+decisions for itself, it’s going to start thinking of where the
+world should be going and it’s going to start disregarding us
+or even eliminating us. What do you think of this whole AI
+revolution topic? What are your views on this subject?
+Ben:
+
+Yeah, I think that people that know me well tease me that
+I’m already an insider with the robot empire just because I’m
+such an advocate for accelerating. I don’t think humans
+should be taking the gas off. I think they should be dumping
+the gasoline on the fire and make this reality happen sooner.
+This is getting up to 2040, to that type of ideal scenario. And
+the interesting thing about this is this will happen whether
+people want it or not, and the reason is because of the good
+that people will see, the good in the security that they’ll see
+upfront.
+An example will be driverless cars. You know, so many
+people die because of people driving. You have drunk
+drivers, you have people that fall asleep, people texting on
+their phones. In our own cities and counties, we have
+fatalities on a regular basis from human mistakes from
+driving. So, self-driving cars, that seems like a clear win. In
+medicine there are so many applications to save lives beyond
+what medical researchers have been capable of in the past.
+The one that I like, in the U.S. there’s been a lot of heated
+debate between this “Black Lives Matter” movement, so
+“Black Lives Matter” versus “White Lives Matter”. Being on
+the machine learning side, the way I see it is people are
+missing the point and the point is that humans will always
+be bad when it comes to making split second decisions that
+affect their lives. So, if you’re a police officer and you’re
+called at 2:00 in the morning and someone says, “There’s a
+kid in this park that has a gun,” and getting back to that
+
+Show Notes: http://www.superdatascience.com/29
+
+28
+
+	  
+
+limited experience, based on that you had a very negative
+experience with this particular minority, and you go to the
+park at night and you’re on the edge, you could be shot like
+your partner was 2 years ago, and this kid has an airsoft
+gun or they have a toy or they don’t even have a gun and
+they’re just walking around in a hoodie and you shoot
+them—these things happened way too many times.
+So you have this “Black Lives Matter” movement, you have
+the “White Lives Matter” counter-movement or “All Lives
+Matter” counter-movement, and what I think is people need
+to realize that humans will struggle with this, there’s not
+enough training. There’s no amount of training that will fix
+this. But the thing that will fix this is—imagine this
+scenario: You get the call at night, the police officer shows
+up. He doesn’t even get out of his car and a small drone
+detaches off of his car, flies over this individual and does a
+threat assessment. The technology exists now, using deep
+learning, where you could do a threat assessment better
+than they could have in the middle of the day if they were
+not stressed and they took a few minutes. So the drone will
+do a better threat assessment. The police officer doesn’t
+care. They’re eating dinner in their car and the drone comes
+back and tells them that there’s no threat and then they
+leave.
+So the police will appreciate it. For the minorities that have
+been negatively impacted, they will appreciate it. So the idea
+of AI security for the police, I see that as being a huge
+benefit, but I think that begins to scare people because if
+there’s a mass shooter—like, you know, in your country and
+my country we’ve had mass shooters—if there’s a rogue
+human there, I can promise you that in the future we will
+Show Notes: http://www.superdatascience.com/29
+
+29
+
+	  
+
+have humans that decide they want to kill a lot of people
+and we can’t prevent that from happening. It’s kind of that
+outlier thing. Like, most of the humans in the world are
+great. We love them, they’re fantastic, but you’re going to
+have an outlier and how much damage can that outlier do.
+But with machine learning, if you have a drone that
+determines that someone is shooting someone on a campus,
+you probably want that drone to do something about it. You
+probably want them to incapacitate the person. You know,
+you’re going to start to cross all of these ethical lines of
+“What do we feel comfortable with?” You know, you could
+easily have a drone where, as soon as someone fires a shot,
+within two minutes they’re incapacitated, whether it’s lethal
+or non-lethal. So do we feel okay with that? I think it’s
+fascinating. I’m just going to wait and see. Let’s see what
+comes in the future, but I’m a big advocate on saving lives
+and improving. But I think you will see riots in the future
+against AI around job loss. In the U.S. we’ll have over 3
+million professional drivers that are out of work and
+unqualified for other jobs because of AI, and you’ll have lots
+of other industries that suffer as well.
+Kirill:
+
+Yeah. It’s very interesting how Uber introduced all these cars
+and now has all these drivers and within a few years they’re
+going to replace them with driverless cars. So they created
+an industry, created a lot of jobs, and now it’s all going to
+get replaced. I agree that there will be a lot of benefits
+coming from artificial intelligence. But I was watching a TED
+talk recently, it was by Sam Harris, “Can we build AI without
+losing control over it”. Have you seen that one?
+
+Ben:
+
+I haven’t seen that one, but it sounds fascinating.
+
+Show Notes: http://www.superdatascience.com/29
+
+30
+
+	  
+
+Kirill:
+
+It’s pretty cool. The way he describes it is—so, we’re creating
+AI and we want to improve our lives and so on, but as an
+inevitable by-product, we’re going to create this super
+intelligence that’s going to be smarter than us and it’s going
+to think way quicker than us and so on. We don’t know what
+it’s going to want to do with us on this planet and how it’s
+going to react to humans being here. It’s going to come here
+around 50 years from now.
+One really interesting comparison he says is, a lot of people
+understand this, a lot of people appreciate the concept and
+we’re just kind of waiting to see what happens when this AI
+does come. And he says, what if we got a signal from an
+extra-terrestrial species that simply said, “Humans, get
+prepared. We’re coming in 50 years’ time?” Obviously we’d
+start doing some preparations, we’d build defences or come
+up with some sort of strategies on how to deal with aliens
+and so on. Here we are creating this alien ourselves. It’s
+coming. We know, based on Moore’s Law and other
+predictive mechanisms, we know that it’s coming in about
+50 years from now, but nobody is doing anything about it.
+Does that concern you at all?
+
+Ben:
+
+No, not really, because even for the most advanced AI that
+we have now, and even for the future AIs, like the AI 50
+years from now, there is always a concept of an objective or
+a goal. There is always a mission and the mission is defined
+by the humans. So the joke on the AI side is the mission will
+be human safety and prosperity. Like, that is the goal of AI
+and that is hard-coded into the kernel. A lot of these AI
+movies, they talk about scope creep where the kernel has
+been rewritten and it’s able to jump out of that objective. So
+
+Show Notes: http://www.superdatascience.com/29
+
+31
+
+	  
+
+the computer is really a slave to whatever the human wants
+as long as the objective is well-defined.
+And I’m probably embarrassed to admit this, but I’ll admit it
+anyway—one of my favourite quotes or taglines that I’ve had
+in the past was, “the proudest moment of my career will be
+when the AI kills me because of an objective that I’ve
+overlooked.” So the joke around there is, I love AI, I want to
+design it but—I think in “I, Robot” the robots eventually kill
+the scientist and when they kill the scientist, what they’ve
+done is—the scientist is the AI expert and he’s defined the
+objective and the rules but the AI has figured out a way to
+satisfy his objective. Really, the AI is thinking of something
+that you didn’t think of, so if you kind of extend that joke, it
+would be that if I tell the AI that all I want is for my wife to
+be happy and then the AI realizes that in order for that to
+happen it must kill me, it has outsmarted me. It’s something
+that I never saw coming because I felt like that was not a
+possibility.
+We already see this with computer games where the AI will
+begin to cheat. So if you have AI playing a computer game, if
+there is a way for the AI to cheat, and they’re seeing this
+with Mario and a few different things where the AI is able to
+jump on the corners of boxes and things that a human
+would never do. But the AI has figured out that it can do it
+and it gets an advantage. So just like that, the AI has this
+insatiable appetite to satisfy this objective. It’s really the
+fault of AI. So AI will cheat if it means they can satisfy this
+objective better.
+Kirill:
+
+Yeah, because it doesn’t really care about the rules unless
+you tell it that it can’t cheat.
+
+Show Notes: http://www.superdatascience.com/29
+
+32
+
+	  
+
+Ben:
+
+Yeah, you have to define all the rules. So, if drones need to
+get a faster response time to a gunshot victim and the drone
+realizes it can fly through a window and break the window, it
+will do that, but you might say, “Wait, hold on. I didn’t want
+you to break through all the windows on campus to go get
+this perp.” Like, I do but I don’t. You really have to define the
+rules well or it will surprise you.
+
+Kirill:
+
+Okay, gotcha. Wow, that was a crazy discussion. I really
+enjoyed that. Thank you very much for coming on the show.
+This brings us to the end. I would love to continue going but
+maybe we can have you on some other time when your
+startup is full throttle and you can share some more
+insights. How can our listeners follow you and contact you
+and get to know you better if they would like to know more
+about your career?
+
+Ben:
+
+Yeah, so LinkedIn is probably the best, so “Ben Taylor Data”
+and they can find me on LinkedIn. I am on Twitter. I’m not
+very good at Twitter so if they do send me a message on
+Twitter, maybe in a few months I’ll get around to responding.
+Yeah, so they reach out to me on LinkedIn. I do get a lot of
+requests for mentoring and for job help or getting a job, and
+so sometimes it’s hard to respond to all of those. I’m more
+likely to respond if I know that they’re not asking a question
+that’s already mentioned. For my blog post, if you read my
+blog post and there’s something that’s not addressed, please
+let me know, whoever you are, and send me a message and
+I’ll try to respond to you. If there’s something that’s not
+addressed in my blog post I’d be happy to write it up or
+discuss it with them. But if you’re asking me, “How do I get
+a job as a data scientist?” and that is something that’s
+
+Show Notes: http://www.superdatascience.com/29
+
+33
+
+	  
+
+heavily discussed in all of my blog posts and I’m less likely
+to respond. Yeah, I try to respond to people when I can.
+Kirill:
+
+Yeah. And a quick heads up for our listeners, Ben won’t
+admit it but most likely it is an AI responding to you
+anyway, so don’t keep your hopes up. (Laughs) Seriously, in
+terms of articles, I highly recommend the “Data Scientist
+Type-E” article by Ben. You can find it on LinkedIn or just
+search, google “Data Scientist Type-E” and we’ll also include
+it in the show notes. It’s a fantastic article. It completely
+changed my career and my perspective on data science in
+my life. So thank you so much, Ben, for that. I became a
+huge fan right away after reading that article. Another good
+one is, “Why Working Hard…”—what’s the correct name
+there?
+
+Ben:
+
+“Why Working Hard Won’t Make You a Data Scientist.”
+
+Kirill:
+
+Yeah, great article as well. I really liked how you described a
+good tip for people, a silver bullet for people to become great
+data scientists is like, get your favourite Python libraries or
+R libraries and dig into them, find all the code and make
+corrections and submit those corrections. One of my friends
+actually did the same for Linux. He found a bug in Linux
+and submitted the correction, they accepted it and he put it
+on his resume and got a job with Microsoft.
+
+Ben:
+
+Oh, yeah, that stuff can be huge. I did have some pushback
+from a researcher in Switzerland that was pretty frustrated
+that I encourage people to do that. The reason he was
+frustrated is because, yeah, if you’re digging into code for an
+FFT or support vector machine, like the real guts of it, you’re
+not going to get any value out of that. You’re definitely not
+going to do anything to improve it. But I’m thinking more
+
+Show Notes: http://www.superdatascience.com/29
+
+34
+
+	  
+
+about the high level stuff like pipelines and Pandas, like
+Pandas Get Dummies. Dig into that stuff and understand it
+at a high level but I don’t expect you to be digging through
+an FFT details. There’s definitely value there, but don’t get
+bogged down on anything that you think is too complicated.
+Just the high level will definitely offer a lot of value. Yeah,
+thank you so much for thinking of me and inviting me on
+the podcast. Hopefully it’s useful.
+Kirill:
+
+Yeah, definitely useful. It’s a great pleasure to have you. And
+one final question. What is your one favourite book which
+you can recommend to our listeners to help them become
+better at data science?
+
+Ben:
+
+This will be an unusual book recommendation, I think,
+because it’s not a data science book. But one of my favourite
+books is “The Lean Startup” by Eric Ries. The reason I love
+it, and I think a lot of data scientists can benefit from it, is it
+is so important for us to fail quickly and a lot of us struggle
+with that. So, a lot of data scientists, they’ll get a problem
+and they’ll immediately start spinning up something that is
+much more complicated than they should. Really, the thing
+you need to decide is, “What’s the fastest way for me to fail
+at this particular problem?” And the reason that’s a benefit
+is because it’s also the fastest way for you to decide if it’s
+worth your time.
+So, if you’re spending a week or two to decide if this
+sophisticated approach is important, then I see that as being
+a waste of your time. But if you can decide in an hour that
+this is useful, then by all means do that. The other thing I’ll
+tell people is, even though you have much more
+sophisticated tools and methods out there, you can get 80%
+of your value with the Bayesian method or logistic
+
+Show Notes: http://www.superdatascience.com/29
+
+35
+
+	  
+
+regression, so please do that. You can do that very, very
+quickly. And if you’re dealing with a custom dataset that’s
+very messy and it requires a lot of custom munging, just run
+it through Pandas Get Dummies, which is a very quick autotokenizer or munger, just to see if there’s value there.
+Because if you can see that there’s any value, that can
+motivate you to do something more complicated. But
+definitely don’t start with deep learning LSTMs. I’m a huge
+fan of Eric Ries’ idea that you fake an MVP or just do
+everything you can to fail quickly or get customer feedback.
+This has happened at HireVue. We’ve built some very
+complex things using Siamese nets, like top-notch
+technology, and then it turns out that it was more of a
+curiosity for the customer but there weren’t real dollars tied
+to it, and so that thing kind of died on the vine. Thinking of
+what the customer wants can be different than what the
+data scientist wants. So the better that users can think of
+what the customers want, the better off they’ll be at whether
+it’s their own job or their own startup.
+Kirill:
+
+Gotcha. Thank you so much. “The Lean Startup” by Eric
+Ries. It sounds like a great book for data scientists to save
+some time and really understand what the best approach is
+very quickly. So thank you again so much. I really
+appreciate you coming on the show. I’m sure so many people
+will pick up so much value from here and hopefully they will
+learn even more from your articles and the future ones that
+you’re going to write as well. Thank you so much for
+everything you’re doing.
+
+Ben:
+
+Yeah. Thank you. Thanks for having me.
+
+Kirill:
+
+So there we go. That was Ben Taylor, Chief Data Scientist at
+HireVue. I hope you enjoyed this podcast. As you can tell,
+
+Show Notes: http://www.superdatascience.com/29
+
+36
+
+	  
+
+Ben has so much knowledge and value that he can share.
+This podcast could go on for hours and hours and hours,
+but hopefully we were able to convey some of those very
+powerful insights that will help you understand a bit more
+about deep learning and what it actually is and how it can fit
+into your career and into your startup or into your
+organization and into your role that you’re performing right
+now.
+And also, Ben shared some great tips all around, including
+on how to build up your career. My favourite part was when
+Ben described and drew those numbers on how deep
+learning is so superior to other machine learning algorithms.
+For instance, when you take the MNIST dataset with the
+hand-drawn digits, with a neural machine learning
+algorithm, any one of your choices, you can probably get an
+accuracy up to 95%, or if you’re very good and you try really
+hard, up to 98%, but with a simple deep learning algorithm
+you can get an accuracy of 99.7%. That’s just crazy. I think
+that’s a really good example of how deep learning is superior
+and it’s something for you guys to think about.
+So that brings us to the end of today’s podcast. Please have
+a look at Ben’s articles on LinkedIn. I highly recommend
+them. They can really change your perception of your own
+career and how further you can develop your skills in the
+space of data science. You can also get the show notes for
+today’s episode at www.superdatascience.com/29. There
+you’ll get the transcript, all of the resources and links
+mentioned in today’s session, and also a URL to follow Ben
+on LinkedIn or Twitter. And finally, if you enjoyed today’s
+conversation and you’d like more episodes like this, then you
+can subscribe to the show on iTunes, it’s the Super Data
+Show Notes: http://www.superdatascience.com/29
+
+37
+
+	  
+
+Science podcast, and that way you will get the freshest and
+newest episodes as they’re released. And I look forward to
+seeing you next time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/29
+
+38
+
+

@@ -1,0 +1,316 @@
+SDS PODCAST
+EPISODE 150
+FIVE MINUTE
+FRIDAY:
+HAVE A MENTOR
+
+Show Notes: http://www.superdatascience.com/150
+
+1
+
+This is Five Minute Friday episode number 150, Have a Mentor.
+Welcome, guys, to the Super Data Science podcast episode number 150.
+How crazy is that? It feels like we were just talking about episode 50 not so
+long ago, but it's already 150. Yeah, so, the podcast has been going on for
+how long now? Since September 2016, so, what does that give us? October,
+November, December, January, February, March, six ... one and a half
+years. One and a half years and we're up to 150 episodes. Congrats,
+everybody. What I usually do, if you've noticed is that every round number
+like 50 and 100, or now 150, I try to reflect back and see who I can and
+should thank for how we've gotten here and where we've gotten. This time,
+I'd like to thank my mentors, my mentors who helped me get here and who
+actually helped make all of this happen.
+None of this would have been possible without all the guidance that I've
+received from important people in my life who have been helping out with
+advice and some directly, some indirectly. I consider mentors both people
+who I actually interact with directly and people who might not even know
+about my existence, but at the same time, I leverage a lot of their knowledge
+and skills. I follow their podcasts or I follow their teachings, their online
+workshops, and other things.
+Of course, in my life, I've had quite a lot of mentors. I think I started really
+focusing on mentors consciously after leaving to Deloitte. It was actually
+still at Deloitte where I got my first mentor, it was Richard Hopkins who
+we've met on the podcast. He's been one of my ... or, he was. Now he's
+moved to Sydney, we don't catch up that often, unfortunately. We catch up
+like once a year if we're lucky. Before, it was frequently like once a month or
+so. He was one of my first mentors who was a consistent mentor for several
+years.
+Currently, I have a mentor Vitaly Dolgov. Vitaly was on the podcast last
+week, so not the previous episode, but last week he was on the podcast.
+That was episode 147. Also, you met him at the very start. I think it was
+Show Notes: http://www.superdatascience.com/150
+
+2
+
+like episode 12 1/2, the special episode that we had. Vitaly is currently my
+consistent mentor. We catch up several times a year, and I ask him for
+advice, for business advice, for personal advice, for life advice, all different
+types of advice. Of course, I've had mentors here and there, so people who
+have, for a few months, been guiding me through certain things and certain
+people that I've met that influenced me.
+Finally, there are people like Tony Robbins who I follow and who I get
+inspiration from. I'm sure he's never even heard my name, but at the same,
+I've learned a lot from him. So, that's also another mentor. Tim Ferris,
+another mentor. I don't follow Tim Ferris that much anymore, but in a
+certain part of my journey he had a crucial influence.
+Today I wanted to thank all of them. Thank you very much to you guys, to
+my mentors, for helping me come here, for helping build this podcast and
+everything else that is Super Data Science. It's been a heck of a journey,
+and I definitely couldn't have done it without you. The other thing that I
+wanted to do today was to encourage you, the listener, to make sure you
+have a mentor. Hence, the title of this podcast, Have a Mentor.
+I think it's pretty clear why a mentor is important, but why am I
+encouraging you guys to do it is because we don't normally think about it. I
+kind of thought about it because we were already catching up with Richard,
+and I was already getting a lot of value. So, from a selfish point-of-view, I
+wanted to kind of lock it in and make sure that we do continue catching up.
+So, I said, "Hey Richard, do you want to be my mentor?" Then it was up to
+me to make sure we catch up, and go to lunch one a month, and spend an
+hour me asking him questions, and him giving me answers, and maybe him
+asking me questions as well.
+This is actually a philosophy from Richard that a mentor/mentee
+relationship cannot actually exist unless it's both ways. So, you cannot
+always be take, take, take, you have to also give to the other person.
+Therefore, when you're looking for a mentor, you have to keep in mind,
+Show Notes: http://www.superdatascience.com/150
+
+3
+
+"Hey, okay, so what can I actually give to the other person?" You will be
+surprised. Sometimes you think you have nothing to give, but you actually
+do. There's life experiences, there's philosophies that you have, there's
+values that you have that you can share with the other person and help
+them also learn. Even if you give 20% of the time and take 80% of the time,
+that's okay because it is implied that the person that is your mentor, who is
+your mentor, is more experienced and they have more to give. Still, it can't
+be 100% to 0%.
+That's one thing. The other thing is, how do you find mentors. That's the
+hard part. Where do you go to find them? For me, I worked with Richard. I
+worked with many people through the course of my career, but with
+Richard, we kind of hit it off. We were working in a remote location. We
+were traveling for seven months in and out to an office, so we kind of
+bonded along the way. We went to the gym together, went to work together,
+drove cars together. We bonded along the way, so it was essential. It was
+obvious that he's got a lot more experience than me, and I can learn a lot
+from him. So, it was just a natural step.
+Sometimes it's not always a natural step, but you will still feel it, you will
+feel that this person has something that you can learn. For me, this is
+where I like this story of how Vitaly and I met. Vitaly's roommate, Dmitry
+Korneev ... You know all of the participants of this story. Vitaly's exroommate was Dmitry Korneev, who was also on the podcast who is a
+forensic specialist, who was at the very start. I think it was like episode
+eight or seven, or something like that, on this podcast. Dmitry asked me
+and Artem ... Artem Vladimirov was also on the podcast. Artem was on the
+podcast twice now, most recently ... Which episode was it? 141. Artem is a
+consultant in BCG right now.
+Back then, all of us, except Vitaly, used to work at Deloitte. Dmitry asked
+Vitaly and asked Artem and me to help move their furniture, to help Vitaly
+and Dmitry move their furniture. We agreed, we went to move the furniture.
+Show Notes: http://www.superdatascience.com/150
+
+4
+
+By the end of it, when we were almost done, Vitaly walked up, I think he
+was busy with something, or halfway through he got there. Instantly, I saw
+what kind of person he is and I could feel that there's something I could
+learn from him. So, then he treated us all to breakfast, which was very nice,
+and then we all parted ways. I kept in my head that, "Hey, look, this guy's
+really switched on. You can see how his brain is churning away, how his
+brain works. It's very close to me. I can really relate to that. I want to learn
+from him. I want to somehow get to know what he knows, get those ... " You
+can't even explain it. It's just like intuition.
+Sometimes you have a thought, which just happens not in your prefrontal
+cortex, like somewhere deep inside your brain. Because it's not linked to
+your prefrontal cortex directly, you cannot explain it with words, and that's
+what intuition is, when something is deep inside your brain and you cannot
+just voice it. You try to master some types of words to explain what it is, but
+it's actually hard to explain.
+When you get this feeling that this person has happened in your life not at
+random, there's a reason they're in your life, you should not let that feeling
+go. You should do something about it. So, I kept that in mind. Little do we
+know, what happened unexpectedly ... I guess the word here is
+unexpectedly later on, or expectedly, if you believe in fate, what happened
+later was Vitaly actually sent out an email to people interested in motor
+bikes in his contact list saying, "Hey, look, I'm selling some motorcycle gear.
+Do you want to come over and buy it if you want?" He was just selling it at
+a normal price, not middle prices because he wanted to get rid of it.
+Even though I didn't need the motorcycle gear, I said, "Yes, I'll buy it," and I
+came over just because I wanted to chat to him. I came over with, of course,
+the money for the motorcycle gear, but also I had a whole list of questions,
+like two pages of questions. I had business questions and career questions
+that I wanted to ask him. He was very surprised to see that, but he helped
+me through them. That's how we hit it off. That's how he saw that I'm
+Show Notes: http://www.superdatascience.com/150
+
+5
+
+serious about this, that I really want to learn from him. He was open to
+catching up more and more often ... not that often, like maybe two or three
+times a year, but even that was enough.
+Whenever I had questions about my career and along the way, I would write
+them down in a separate notepad. When all the questions filled up a whole
+page or several and I felt the time was write, I would call Vitaly, I would
+send him a message and say, "Hey, let's catch up." We'd go for a coffee, or
+we'd go for breakfast, or now we catch up mostly for breakfast several times
+a year, even maybe more often maybe once or twice a quarter we catch up
+now. In fact, we do even moreso. We went scuba diving recently on XHMS
+Brisbane. It's a warship that was in the Vietnam War. It's been sunk near
+Brisbane, and you can dive in it, it's a really cool dive, go inside.
+We do diving together and other things. We've become friends even more
+than mentors. I mean, even though more than he's just my mentor, we're
+now friends. At the start, we would catch up for breakfast, for coffee, and so
+on, and it really is up to the mentee to drive that relationship, to make sure
+that you do encourage your mentor to catch up with you, you bring the list
+of questions, and you also make sure ... it's your job to make sure it's not
+way. So, you ask lots of questions, but also you try to give value. If you see
+that there's something you know ... For instance, data science, in my case, I
+guess I know a little bit about data. Vitaly's not a data scientist. He's a
+consultant, so I can help him out with maybe some data questions or
+maybe some areas of business that are different to what he's currently in
+and that I have a little bit of experience.
+For instance, he's starting his podcast now, and I can give some tips there
+because I've explored that. He's giving me tips on other things. It's in your
+hands. So, those are kind of the steps. First, identify or acknowledge that
+everybody can benefit from a mentor. Without my mentors, my whole career
+journey would have been different, all absolutely different. A great example
+is ... I think it was start of ... what year was it? Start of last year, 2017, I
+Show Notes: http://www.superdatascience.com/150
+
+6
+
+had a catch-up with Vitaly. I told him about how the machine learning
+course, how we launched it in September 2016, and it was going great, and
+then all the other courses I'm interested in working on.
+He said, "Hey, look, if people are interested in machine learning, then
+maybe you should focus more on AI, and deep learning, and those things
+and help people learn that because that's what they really need." I thought,
+"Hey, hold on." That was in line with the Pareto law, the 80/20 rule. I
+thought, "Oh, whoa. That's a really cool idea, really cool perspective that I
+didn't think of." That lead to the Deep Learning course, the AI course, the
+Computer Vision course, the ... what's it called, the Chat Bot course, all
+those courses that [Adlon 00:13:21] and I have created.
+Those all came out of our brainstorm with [Adlon 00:13:29] and all the idea
+that we're having together, but the initial, for me personally, the initial
+trajectory was set in that conversation that completely changed my focus.
+Instead of focusing on other topics that I had in mind, I completely shifted
+into this space to cover ... For me, it became obvious. I think for Adlan it
+was obvious all along, but for me, it became obvious that we need to come
+and cover all these courses.
+Step one is, acknowledge that everybody can benefit from a mentor. Step
+two, look out for these mentor connections. Maybe you already have
+somebody in your life, in your workplace, or maybe through hobbies or
+through friends, you know somebody who you aspire to be, you know
+somebody who you want to learn from and you always get value from when
+you do accidentally interact with them or happen to be in the same room
+with them. Maybe you've met that person already. If you have, maybe that
+can be your next mentor.
+Step two, identify those people, and/or wait for them. If you don't have
+them, look out for them. As it happens in life, sometimes you get things
+that you don't expect, but at least if you're aware ... If you actively look for a
+mentor like, "Can you be my mentor?", just looking for a mentor, asking
+Show Notes: http://www.superdatascience.com/150
+
+7
+
+everybody, that's probably not the best approach. If you're aware of it and
+you're not pushing for it, but you're just aware of it and you're waiting for
+it, it will happen. That's step two. Find the person or wait for the person to
+come into your life.
+Step three, approach the person. Step four, make sure you have consistent
+catch-ups and write down your list of questions in advance. Consistent
+means ... it depends, it could be once a month, or once a week, it could be
+two times a year. Sometimes even that is sufficient. It depends on how
+available the other person is, and how many questions you have, and how
+relevant this connection is ... how relevant their expertise is to what you're
+trying to solve.
+Finally, it's up to you to drive that relationship. Don't expect your mentor to
+call you up and say, "Hey, let's catch up." No, you should be saying, "Hey,
+I'd love to catch up. When do you have time? Let's do that," and then that.
+Finally, step five or six, I guess, is also be thankful and grateful to your
+mentor for helping you. Also, be conscious about when there is no more
+value you can get from your mentor. When you have ... either outgrowing
+your mentor, or most likely what will happen is your paths have just
+diverted in different ways. There's so much your mentor can give you that is
+relevant to you, but then the rest of the stuff that they're into is probably
+not exactly what you're into. Unless you're following exactly in their career
+footsteps, most likely your path is going to be different.
+There will be some overlap, and so you need to make sure you fill that
+overlap up, like you get value while you can there. Once you've learned
+enough or everything that they could give you in that overlap, don't try to
+get from them something they don't know. There's no point in ... I don't
+know. Me, hypothetically have a mentor who would teach me about data
+science, let's say data science but they don't know about machine learning,
+and I want to and I want to build a career in machine learning. So, I learn
+everything about data science that they can teach me, but then I'm starting
+Show Notes: http://www.superdatascience.com/150
+
+8
+
+to be more focused on machine learning, I wouldn't go to the same mentor
+and ask for machine learning because they ... why would you make them
+uncomfortable? If you know that they don't know machine learning, there's
+no point in doing that.
+So, also be aware of what your mentor's expertise is in. If at some point you
+start to diverge out of there, then maybe it's time to end the mentor/mentee
+relationship and stay friends or stay in touch. That's fine as well. Just be
+aware of what you can get from your mentor, and try to get that. If you
+don't need that anymore, then move on and get a new mentor. It's okay to
+have several mentors at the same time as well.
+Those are the tips for getting mentors. What was that? Like five or six.
+Acknowledge that it's important, look out for those people, approach the
+mentor, guide or be responsible for the relationship, and you'll write your
+list of questions about, but also be aware ... step five, also be aware that
+this relationship is likely to end or is likely to deplete itself in the sense of
+the knowledge that you can get. Then you'll maybe transition to a
+friendship, or it will just end and you will need to find a new mentor.
+There we go. Hope everybody can find a mentor. Also finally, if you don't
+have a mentor or if you can't find one right now, or even if you do have a
+mentor or you can find one, don't forget about the other ways you can
+receive mentorship, not directly, so indirect methods. For instance, I like
+Tony Robbins' courses ... or, what are they called, Tony Robbins' events.
+I've been two. I'm probably going to go to more, because there I'm learning
+from him. Not one-on-one, it's like one to 5,000 or one to 1,000, but I'm
+learning. He's talking to a thousand people, but I'm getting still what I want
+to get and it's very valuable information for me.
+Also, I like Simon Sinek's videos on YouTube. He does have amazing videos
+about the important current problems of society and how social media is
+affecting us, why people buy certain things, people don't buy other things,
+and so on. I've watched three, or four, five of his videos on YouTube, and
+Show Notes: http://www.superdatascience.com/150
+
+9
+
+those are really good. I like Jay Shetty's videos. I follow him on Instagram,
+even though I don't use Instagram that often, but when I'm there,
+something pops and it's usually a call of wisdom. Jay Shetty was a monk
+for three years in India, came back to the UK, so he's got some wisdom as
+well to share, lots of it in fact.
+Vitaly said, "Sometimes there's mentors ... a person you'd love for them to
+be your mentor, but they're too busy. They cannot be everybody's mentor."
+Vitaly said he's going to start a podcast, so that could be useful. He's going
+to start a newsletter, that could be useful. You're probably listening to this
+podcast, and in a way, that's you getting some information from me. I try to
+share once a week certain things that I learn, and I'm really grateful that
+you're listening to this. I'd love to help everybody one-on-one, but I for sure
+can't do it. So, the best way I can do it is this like this.
+There's lots of sources of information other than one-on-one mentoring that
+you can attend to, and lookout for those as well. Fill your life with those
+things in addition to the one-on-one real life mentors that you can have,
+and actually treat those people that you listen to as your mentors. If you
+think of them that way, it's not going just like, "I like this," but you're like,
+"Oh, Jay Shetty said this," or, "Tony Robbins has this opinion," and, "That's
+very interesting. I learned that today from Tony Robbins," or from this and
+this person. Even though they don't know about you, you can still treat
+them as your mentors.
+There you go. That was our X course into the World of Mentors. Wow, that's
+20 minutes. Okay, hopefully that was useful. Hopefully that encourages
+you to look out for a mentor and if you have people in your life or you don't,
+approach them about being your mentor. It doesn't matter what age you
+are. It doesn't matter what stage of your life you're in, everybody can benefit
+from a mentor. All right, on that note, thank you so much for being here
+today. I look forward to seeing you back here next time. Until then, happy
+analyzing.
+Show Notes: http://www.superdatascience.com/150
+
+10
+
+

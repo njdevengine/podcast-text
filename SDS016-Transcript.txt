@@ -1,0 +1,1503 @@
+	  
+
+SDS PODCAST
+EPISODE 16
+WITH
+RICHARD HOPKINS
+
+Show Notes: http://www.superdatascience.com/16
+
+1
+
+	  
+
+Kirill:
+
+This
+is
+episode
+number
+16,
+with
+PricewaterhouseCoopers Richard Hopkins.
+
+Director
+
+at
+
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello and welcome to this episode of the SuperDataScience
+podcast. I'm super excited to bring you today my good friend
+and mentor, Richard Hopkins. Richard and I go way back.
+We met back in 2012, when we were both working at
+Deloitte, and we've had a hell of a ride since. We worked on
+this massive project for months and months and months
+where we were flying in and out of this remote location, and
+we really got to bond along the way. And in this episode, we
+share our experiences about two things. First of all, we talk
+about data and how Richard, being the director at
+PricewaterhouseCoopers and running a lot of the business
+transformation that they do for their clients, and the
+business operation side of things, how Richard uses data in
+his day to day role, and what insights he can share from his
+position with you about how data drives organisations.
+Also in this podcast, we talk about mentoring. So Richard
+has been my mentor for several years now, and I have
+learned so much from him, and in this podcast, we'll answer
+some questions about what mentorship is, how to be a
+
+Show Notes: http://www.superdatascience.com/16
+
+2
+
+	  
+
+mentor, how to be a mentee, how to look for a mentor, and
+what this relationship entails.
+And finally, there's a special surprise for you in this episode
+towards the very end, Richard will reveal a position that he's
+currently recruiting for. So if you're interested in developing
+a career in data science, this might be your opportunity.
+Especially if you're located in Sydney or Melbourne in
+Australia, and you're interested in the space of consulting.
+So there's a very interesting position, or several positions,
+that Richard is recruiting for. He's building up this team,
+and he actually needs people with data science skills. So if
+you want to jump straight ahead to that before you listen to
+the podcast, feel free to do that. This is going to happen
+somewhere around the 57th minute of the podcast. Or feel
+free to listen to the podcast to understand exactly what we're
+talking about, understand the background, and definitely
+check out that opportunity. Richard shares some contact
+details as well. So if you're in those cities and you're
+interested, definitely get in touch with Richard. This could
+be a great opportunity for you.
+So all in all, this is a very exciting episode. It was so much
+fun to catch up with one of my good friends and mentors,
+and I'm happy that you're going to be part of this
+conversation. Without further ado, I bring to you Richard
+Hopkins of PwC.
+(background music plays)
+Welcome everybody to the SuperDataScience podcast. Today
+I've got my friend and mentor, Richard Hopkins, joining me
+for the show. Richard, welcome to the show. How are you
+today?
+Show Notes: http://www.superdatascience.com/16
+
+3
+
+	  
+
+Richard:
+
+I'm well, Kirill. Thanks for having me.
+
+Kirill:
+
+Thank you so much. And where are you located right now?
+I'm in Brisbane, Australia. Where are you?
+
+Richard:
+
+I'm in Sydney, Australia, on a very grey, overcast, miserable
+day.
+
+Kirill:
+
+Yeah. Yeah, what's going on with the weather there? It's so
+sunny here in Brisbane!
+
+Richard:
+
+It's sunny one day, and cloudy and cold the next.
+
+Kirill:
+
+Yeah, yeah, I saw a few photos online. And just to quickly
+introduce Richard, we go way back with Richard Hopkins.
+We worked together at Deloitte, and then kept working
+together, even when we weren't on the same project, and
+since then, Richard, you moved to Sydney. What took you
+down there to Sydney?
+
+Richard:
+
+Yeah, so I got offered the national lead position for their
+Operational Improvement team. So I head that up in Sydney
+at the moment.
+
+Kirill:
+
+At PwC, that's right?
+
+Richard:
+
+PwC. That's correct.
+
+Kirill:
+
+Yeah, so Richard made the move from Deloitte to PwC, and
+now he's building a huge team there, in this area. And what
+exactly do you do, so our listeners can relate a little bit
+more?
+
+Richard:
+
+In layman's terms, I basically make companies more
+profitable by improving operations. And I tend to work with
+companies that are in a distressed environment.
+
+Show Notes: http://www.superdatascience.com/16
+
+4
+
+	  
+
+Kirill:
+
+Yeah, that’s exactly what Richard is best at, taking
+companies out of a bad place and putting them into a good
+one. And that actually is a good segue to how we met. Can
+you elaborate on that a little bit more? Because I was new to
+Deloitte, so I just joined Deloitte, and I was put on a project
+with Richard. What were your impressions at the time?
+
+Richard:
+
+Yeah, so we worked together on a project where a very large
+global company had bought another large global company.
+And about 12 months after the merger things weren’t going
+so well, so our team got brought in to try and remedy that.
+And one of the key missing elements of that team was a data
+scientist. So I requested that we get a data scientist and they
+put you forward.
+
+Kirill:
+
+Yeah, I clearly remember that time. This was back in 2012,
+everybody. I was looking through the profiles of the people
+who were working on the project, and specifically of Richard,
+because I was going to work with him, and I was looking at
+your photo and I was like “I don’t like this guy.” (laughs)
+Really, the first impression was like “I don’t want to work
+with him.” Remember we had that first phone call, because
+this was a remote location and you were already at that
+location? We had that phone call and from there we started
+to get along.
+
+Richard:
+
+Yeah, it worked well. 13 months working together and we
+grew that project and had a really successful outcome, so it
+was great.
+
+Kirill:
+
+Yeah, crazy. And we really got to bond. It was the first time
+when through a work environment, I actually got to bond
+with someone. I remember out of those 13 months, for 7 of
+them, we were flying in and out, like one and a half hour
+flight on Monday to the location, and one and a half hour
+
+Show Notes: http://www.superdatascience.com/16
+
+5
+
+	  
+
+flight back on Friday. And all those stories at the airport,
+getting there early to sit in the lounge and stuff like that,
+having a chat – that was so much fun.
+Richard:
+
+Yeah, it was great.
+
+Kirill:
+
+Good times. So we really bonded with Richard and we’ll talk
+more about the role that mentorship has played in our
+relationship and in our career growth further down in this
+podcast. But for now I wanted to start with the obvious
+question. For those of you who haven’t heard or don’t know
+Richard that well yet, Richard is very good at what he does
+in the sense of restructuring companies and bringing them
+to a good state where they can either be sold or they can
+continue operating. However, Richard isn’t actually a data
+scientist. He specifically asked me to say that, to stress that
+point. That he isn’t a data scientist, but at the same time he
+knows how to work with data, and he knows how to put the
+right people in the right places to do that data work for him
+and then he takes action based on those decisions. I want to
+get a little bit into that and we’ll slowly get into that. So can
+you tell me, and for the benefit of our listeners, when did
+you first become aware of the fact that data is becoming so
+important globally and in the way that businesses operate
+that you started to implement or use data in your business
+decisions?
+
+Richard:
+
+Yeah, sure. It was probably that project that we worked on,
+Kirill. I was reporting to senior management in Australia. I
+was looking at the financial numbers and the reports that
+management were producing from within the company, and
+I could see a very large disconnect between what was being
+reported and what was actually happening in operations on
+the ground. And you mentioned working from that remote
+
+Show Notes: http://www.superdatascience.com/16
+
+6
+
+	  
+
+location. That gave me the visibility on what was happening
+on the ground. So I saw a very dire need to get the data
+correct and in a format that actually resembled the true
+picture. That was a real catalyst for me to start pursuing
+that work flow that basically links data and operations
+together.
+Kirill:
+
+Yeah, totally. And would you say that had an impact and it
+was a worthwhile thing to do?
+
+Richard:
+
+Absolutely. It changed the dynamics of that project. I mean,
+it didn’t necessarily change what I wanted to do on the
+project, but it gave me the support and the ammunition to
+have robust discussions with management to make change
+happen. Not having that data previously, I was acting more
+on hearsay rather than acting on facts and they could
+always defend their position. But once I had the data that
+showed the true fact, and in a way that matched up with, or
+supported, what was happening in operations, that’s when
+changes could happen.
+
+Kirill:
+
+Very, very true. I remember some of those conversations. I
+sat in on some of the conversations where Richard was
+actually presenting to global CEOs of this billion dollar
+company. This is very, very impressive. And a lot of this stuff
+we can’t mention – the name of the client and so on – but
+still to this day I remember the very tough conversations
+because there were so many parties involved, including the
+acquired company and the acquirer and different executives
+in the company. So data definitely helped to back those
+decisions. And would you say, Richard, that at times—
+because from what I was hearing and seeing, I would think
+this was the case. But from your position, would you say
+that at times, what the data was showing was very
+
+Show Notes: http://www.superdatascience.com/16
+
+7
+
+	  
+
+controversial to what the executives knew and what they
+were standing by? And you had to actually convince them
+that they were wrong. Was that the case sometimes?
+Richard:
+
+That’s right. It actually was an interesting cycle. The first
+meeting we had utilizing the data profile, and you probably
+remember this, the data didn’t quite show the right outcome
+to what was happening in operations and we had to spend a
+lot of time changing the data. So at the first meeting we had
+the stakeholders, certain parties definitely had the upper
+hand. The second meeting we had with the stakeholders,
+when we’d had a couple of weeks to structure the data in a
+way to make it very usable and it actually resembled the
+true position, the tide turned in terms of the negotiation
+power. And also, the overall outcome for all stakeholders
+became a lot better because everyone was a lot more
+informed. That was a real eye-opener. The data was saying
+one thing, operations was saying another, and it took quite a
+bit of a process to get those two to align.
+
+Kirill:
+
+Yeah, that’s a great example. And I like that you mentioned
+that the outcome is better for everybody when you see the
+truth. Data doesn’t lie. Sometimes consultants go into a
+company and they make stuff up and they hypothesize and
+so on. But when you look at the data, the bottom-up
+approach, it just doesn’t lie to you.
+
+Richard:
+
+Absolutely. And I think that’s a critical point and hopefully
+we get to talk about it more, is how the traditional top-down
+approach that consulting use and their methodology
+matched with the data scientists’ bottom-up approach, if
+used properly, can be extremely powerful.
+
+Kirill:
+
+Yeah, we’ll definitely touch on that more. But for now I just
+wanted to go into a bit more detail into that. I would like you
+
+Show Notes: http://www.superdatascience.com/16
+
+8
+
+	  
+
+to give our listeners a generalized example of all of this that
+we’re talking about, about data and operations, and how
+that changed the stakeholders’ view. I understand this is all
+sensitive information, and we cannot disclose a lot of stuff,
+but at the same time out of the things that you know, maybe
+you’ve done other projects with other companies, and maybe
+you can generalize an example for us just to get a feel for
+what you mean when you say that data really gave you that
+extra view or other perspective on what’s happening in the
+operations and it really clicked when you started looking at
+the data.
+Richard:
+
+Sure. So one example that comes to mind was a global
+airline that I worked with for approximately 12 months. They
+were having some working capital issues. And for the
+listeners out there, working capital is basically how do you
+get as much cash as you can in the bank rather than
+spending it and throwing it out the door. So it’s a
+combination of debtors, creditors and inventory.
+They were having a huge working capital issue and they
+thought that they had to go out and collect cash faster off of
+debtors. They thought that was their solution because their
+debtors were over the standard 30 days. And when I
+undertook the analysis, it actually wasn’t the fact that
+debtors were their problem. It was very clear that they were
+paying their creditors too early. It was also very clear that
+they were paying their creditors too much. And it was also
+very clear that they had way too much unnecessary
+inventory. And the only way that I was able to do that was
+having the data tell the story. I actually used your colleague
+– I think you remember Anna – on that project.
+
+Kirill:
+
+Oh, yeah.
+
+Show Notes: http://www.superdatascience.com/16
+
+9
+
+	  
+
+Richard:
+
+So again, I partnered with a data scientist to come up and
+help me find the solution with that project because what the
+company thought was the issue was very, very different to
+what the actual issue was.
+
+Kirill:
+
+Fantastic. That’s a fantastic example. And I like that very
+capitalistic approach or term when you said that they’re
+paying their creditors too early. You’d think that you’d want
+to pay your debts back really quickly. But if you have
+payment term of 60 or whatever days, why pay earlier? That
+should totally make sense to a lot of people. That’s
+something to abide by.
+That’s a great example, and that’s a good introduction to
+another question I wanted to ask you. How do you feel about
+working with data through the power of the data scientist
+that you’re working with? Obviously, with your background
+and with your focus on operations, you just cannot afford to
+sit down and learn all those tools, and learn your Python, R
+programming, and you don’t necessarily need to. Because
+you have this access to all of these people who already know
+these things who can do the job. So what would you say
+about how you feel about working with data scientists in one
+team and managing them and getting the most out of their
+interaction with the data that you supply them?
+
+Richard:
+
+Sure. I’ve just hired a data scientist in my team and the
+reason why I specifically hired this data scientist more than
+going and working with their data science team within PwC,
+which there is a whole data team, the key difference and
+value add that he brought that traditional data scientists
+didn’t, and I think you learned this as well, Kirill, and this is
+the skill that you have now, is understanding the operations
+of the business or the situation that you’re doing the data
+
+Show Notes: http://www.superdatascience.com/16
+
+10
+
+	  
+
+analysis for. I think sometimes data scientists tend to go
+straight into the analysis. They get an answer and they think
+that’s the answer because the data said it was, and they
+haven’t relayed it back to the operational environment. And
+they also can’t explain how to use that data in an
+operational context. I think that was the best data scientist
+I’ve worked with are certainly the ones who understand how
+to use the data and make an operational decision.
+Kirill:
+
+That’s some valid advice for those of our listeners who are in
+executive positions or managerial positions similar to
+Richard’s where you’re not the person crunching the
+numbers, you’re not the data scientist, but you are working
+closely with data scientists. I totally side by that advice, that
+it is very important to make sure that you create an
+environment where your data scientists or analysts are
+immersed into that domain and knowledge that the business
+problem at hand presents. For me, it was a make it or break
+it on that project we were working with. I wasn’t just
+crunching numbers. I was actually flying over there for 7
+months every week to immerse myself in the operations of
+that business to understand it better, to uncover those
+things that sometimes data cannot show you, but they help
+you deal with the data much better. Thank you very much
+for that advice. I’m sure a lot of our both data scientist
+listeners and managerial listeners will find it useful.
+Speaking of domain knowledge, how do you personally go
+about developing domain knowledge? When you’re on a
+brand new project, you just started with a company, what
+are your first steps to understand that intrinsic environment
+in which the business operates?
+
+Show Notes: http://www.superdatascience.com/16
+
+11
+
+	  
+
+Richard:
+
+It’s a combination of listening to the team and having those
+stakeholder meetings and stepping through the end-to-end
+process. Sometimes you look at the whole business, which is
+generally what I do, but other times you look at very specific
+aspects of the business. So it’s just getting an end-to-end
+view of the operations and then it’s going through the
+systems themselves and seeing what the numbers are telling
+you. So for me, I very much work with the accounting
+system, so I look at the profit and loss, balance sheet, cash
+flow, and try and link up what the system is saying to what
+the people in those meetings told me about operations.
+Again, it depends on what aspect of the business you’re
+looking at.
+
+Kirill:
+
+Yeah, solid points there. I think it’s probably a bit different
+to the way I go about getting domain knowledge because
+obviously you’re in more of a position where you deal with
+executives, and as a data scientist I deal with people more.
+Also executives sometimes, but now that I’ve got some
+experience and I’ve been leading projects, but when you’re
+just working on the projects it’s more about sitting down
+with the people and watching them work it. I remember at
+one of my previous jobs after Deloitte, I was actually sitting
+down with people to—you know how sometimes when you
+call into an organization they say “This call is being recorded
+and monitored for training purposes,” and stuff like that? So
+I would sit in on those calls that are being recorded and
+monitored just to understand how the business operates.
+You get some very powerful insights out of that.
+
+Richard:
+
+One thing that I tend to notice is that new recruits, whether
+it’s a data scientist or an accountant or consultant, the
+listening skills of those people tend to be not lacking, but
+
+Show Notes: http://www.superdatascience.com/16
+
+12
+
+	  
+
+not to the level that they need to be to really obtain the
+information that they’re getting from the company or the
+stakeholder. So I guess one bit of advice when you are
+starting out on projects and trying to obtain as much
+information is try and ask as many questions as you can.
+The ratio should be 70% of them talking, 30% of you talking.
+That’s just my rough ratio but really, really listening to those
+people on the ground and trying to help them understand
+what their issue is by asking the questions because quite
+often, they’ll do the problem solving themselves on the spot.
+It’s really crucial, and it’s something that quite often new
+recruits to the profession lack.
+Kirill:
+
+Yeah totally, and a very good point there as well. It stands in
+line with the saying “Those who know don’t speak and those
+who speak don’t know.” If you know what you’re doing, then
+you’re not going to be talking. You’re going to take some time
+to absorb more information rather than just start talking at
+the time. Oh, yeah, now I remember. (laughs) This brings
+back memories.
+Richard was very politically correct just now, being very
+vague who he’s talking about but actually I made that
+mistake one time. We had a call on that project and I was
+talking to the CFO of that company directly and reporting on
+something, and I was just blabbering on and on and I was
+just making these assumptions as I went on and the CFO
+just went like, “No, that’s wrong.” I was in this situation
+where I just said too much and I couldn’t take it back, and
+then afterwards you told me “Everything was good but you
+should talk less sometimes and listen more.” Do you
+remember that?
+
+Richard:
+
+I certainly do.
+
+Show Notes: http://www.superdatascience.com/16
+
+13
+
+	  
+
+Kirill:
+
+Yeah, I definitely learned from that a lot. All right, so before
+we move on to the really cool part of the podcast where I
+want to talk about mentoring, I wanted to ask you about
+that point you mentioned, the top-down versus bottom-up
+approach. Could you tell us a bit more what is this topdown, and what is this bottom-up, and who uses what and
+how do they compare?
+
+Richard:
+
+Yeah, sure. So traditionally consultants use what they call a
+top-down approach, where they will look at the market data,
+then they will talk to senior executives, then they tend to go
+down to the next level of line managers and then they get
+down to the people on the ground, if they ever do get down
+to the people on the ground, but very rarely. They scope
+their projects based on the information available from the
+top-down approach and then form that opinion.
+In my view, what accountants tend to do, what data
+scientists tend to do is work much more from a bottom-up,
+where the data and the people on the ground outline what
+actually is happening day-to-day. Quite often there is a
+disconnect between those two, the top-down and bottom-up
+numbers, so where I’ve found that my best success has been
+is where I do both of those analyses and I link those two
+together generally in what’s called the driver tree analysis. I
+won’t go into detail of exactly what a driver tree analysis is,
+but it’s basically working out what happens with the
+financials and what levers in the operations are causing
+those financial results. Again, I won’t go into too much detail
+about that. But having that top-down and bottom-up
+approach links the data to operations and gives the full true
+picture. I try not to go too technical in the
+operation/accounting space.
+
+Show Notes: http://www.superdatascience.com/16
+
+14
+
+	  
+
+Kirill:
+
+No, that totally makes sense. I also learned the comparison
+between the two. After working for some time at Deloitte,
+and then working with the consultants as well, because
+consulting was a separate part of the business. It’s actually
+very interesting for those of you who haven’t encountered
+any of the big four companies, which are Deloitte,
+PricewaterhouseCoopers, KPMG and Ernst&Young. It’s very
+interesting to look at their structure and how they have
+separate divisions within the company and what they’re in
+charge of and how they work together. So if you find some
+time, just look it up online and see what that looks like. And
+that’s powerful. After working with consulting for some time,
+I figured out that top-down is a bit different to bottom-up.
+And from where you are now, Richard, and from all your
+experience working with both of these approaches, what
+would you say are the advantages and disadvantages of each
+one?
+
+Richard:
+
+Sure. So the bottom-up approach you can tend to come to a
+conclusion a lot quicker. So that’s a big advantage as in the
+numbers tell what happened. However, to drive change, it’s
+very, very difficult. If you work out something’s wrong, but
+you just want to go in there with the numbers and say “The
+numbers say that you guys are selling too many of these
+widgets because it’s costing you too much money.” Well, the
+company’s not really going to listen to you because you
+haven’t collaborated, you haven’t talked. They might sell
+those widgets for a specific situation where they have to sell
+those widgets to sell another product. That’s where it’s got
+an advantage in that it gives you a very quick outcome, and
+you can tend to make a decision. However, that decision
+might not be the best decision in the full context.
+
+Show Notes: http://www.superdatascience.com/16
+
+15
+
+	  
+
+The top-down approach, though, where you tend to work
+with stakeholders and get the full overall picture, have
+workshops, takes a lot longer and it doesn’t necessarily
+match the data. However, you come to a conclusion with the
+stakeholders. People have their input, they feel like they’re
+engaged and you can tend to implement change a lot easier.
+But it takes too long. So when you’re working in an
+environment where the company is extremely profitable and
+they’ve got a long, long time to make a change, such as a
+really big university, or the likes of Microsoft or one of those
+sorts of companies, you wouldn’t necessarily need to do a
+bottom-up or much of a bottom-up approach to get that
+hard answer because you don’t need to make a change that
+quickly. However, when you work in a company that’s
+distressed, you have to make a change very, very quickly.
+Otherwise the business could go insolvent. So that’s where
+we merge the two, top-down and bottom-up approaches, to
+bring stakeholders along so they implement the change but
+also get to the answer very, very quickly.
+Kirill:
+
+Okay. Yeah, that’s a good summary. And I’ll just reiterate
+that again. So the bottom-up approach, which is more the
+data-driven approach, the data science/accounting type of
+approach, gets you the numbers and gets you results very
+quickly so you can tell what’s the problem very quickly but
+you might not be able to drive change quick enough because
+you just don’t understand the business well enough.
+Whereas the top down approach, which is more of the
+consulting approach, usually doesn’t get you the answers as
+quickly, but at the same time it allows you to understand
+the business better and in the long run drive the change. So
+the best approach, when you have the resources, is to
+
+Show Notes: http://www.superdatascience.com/16
+
+16
+
+	  
+
+combine the two, some people doing top-down and bottomup. And I have an interesting question then. If you’re doing
+top-down and bottom-up and let’s say you have two separate
+teams – one is doing top-down and one is doing bottom-up –
+and then they come to you with the results and if the results
+don’t align, who are you going to side by?
+Richard:
+
+That’s where a good project manager helps both the teams
+understand where they’re meant to go. It quite often
+happens that they don’t align the first time, and you might
+remember it in our own projects, and that’s where the
+project manager will go to the data scientist and be like,
+“Okay, this number doesn’t make sense because of XYZ. Can
+you go and rerun the numbers?” I remember a lot of
+conversations we had where you went back and reran the
+numbers. It wasn’t that your numbers were wrong, it was
+just they were analysed in the wrong context, if that makes
+sense.
+
+Kirill:
+
+Yeah, I will never admit that my numbers were wrong.
+
+Richard:
+
+They weren’t wrong. So that’s where the project manager can
+help shape both of the teams doing the analysis. You know,
+acting in silos is never a good idea, and that’s the same with
+project teams.
+
+Kirill:
+
+Yeah, totally. All right, that was some very solid conversation
+and I think we did some rapid fire questions there about
+data and consulting and restructuring. From here I would
+like to move on a little bit to our relationship as mentormentee. For those of you who are listening to the podcast
+and don’t know, I have several mentors in my life and
+Richard is one of them. In fact, Richard is the mentor I’ve
+had the longest relationship with. It started all back in 2012
+when we were flying in and out of that remote location, and
+
+Show Notes: http://www.superdatascience.com/16
+
+17
+
+	  
+
+then we managed to keep our relationship going and I’ve
+learned a lot throughout this experience and I feel like I’ve
+grown a lot.
+So a lot of the time now I get asked “How do you find a
+mentor?” “How do you approach a mentor?” “What do you
+get out of this mentor-mentee relationship?” and oftentimes I
+cannot give answers because it’s case by case for everybody.
+It’s person-specific. It depends on what you’re after in life,
+what you’re looking for. But at the same time I thought it
+would be a good opportunity now that I’ve got Richard on
+the podcast to go into a little bit more depth into how our
+relationship was structured, so maybe some of you guys can
+take away from this and maybe pursue the same thing in
+your careers. Let’s kick this off and let’s start with, I guess—
+Richard, we were obviously manager and data analyst at the
+time. And we could’ve stayed like that. But what do you
+think triggered that spark in your eye? (laughs) I’m joking.
+What do you think triggered that start of our relationship as
+mentor and mentee?
+Richard:
+
+I think what I certainly got out of our working relationship
+was that your skillset was so different to mine and that I
+quickly realized that if I was to get that skillset, I’d have to
+learn from you. So I’ve actually learned quite a lot from you
+in that regard and I feel that the roles were reversed as well
+where my skillsets were very, very different to your skillsets
+and you wanting to be an entrepreneur and have your own
+business, you quickly picked up that I had that skillset that
+I could offer you so you could learn that and apply that to
+your future endeavours. I think that mutual respect of our
+skillset plus the fact that we both had very similar interests
+and the conversation was never dull gave us this outcome.
+
+Show Notes: http://www.superdatascience.com/16
+
+18
+
+	  
+
+Kirill:
+
+Yeah, totally. Thank you very much. I appreciate you
+mentioning that because I can see how definitely my skills in
+operations and business have improved drastically. But I
+can also see how after we met and connected, your passion
+for data, or vision for data, in your projects has also taken a
+bit of a different turn, and you’ve put a bit heavier weight on
+that, especially now that you’re hiring data scientists into
+your organization. So I’m glad to hear I had some sort of
+influence in that area. That’s always good to know.
+At the same time, while we were travelling all the time, every
+week, we actually stayed at this one hotel – obviously in
+different rooms – and in the morning we’d wake up at 5:00
+AM, we’d go to the gym together, and we’d have coffee at the
+coffeehouse, which I still cannot forget that one time when
+with my Russian arrogance—the coffee was late, remember
+that?
+
+Richard:
+
+I do.
+
+Kirill:
+
+Yeah, the coffee was late and I knocked on the glass and
+Richard was like, “Please, don’t do that ever again. That is so
+rude.” Yeah, I learned in that respect as well how Australia
+is different to where I’m from originally. We were doing a lot
+of things together outside of work. We quickly became
+friends. Do you find that friendship helps mentorship or it
+detracts from it?
+
+Richard:
+
+I don’t think it impacts it negatively. I think you need to
+have a good relationship with your mentor and I think that’s
+key. And I think the best mentor relationships—I mean, I’m
+a mentor to a number of people and I also have mentors.
+There’s always a mutual respect. I think that is naturally
+aligned to a friendship type of relationship. No, it’s not an
+absolute necessity, but I can’t see it hurting.
+
+Show Notes: http://www.superdatascience.com/16
+
+19
+
+	  
+
+Kirill:
+
+Okay. Yeah, that’s good. That’s interesting that you
+mentioned that you’re a mentor to several people but you
+also have your own mentors. So it doesn’t stop there, right?
+It’s not that since you’re a mentor to somebody that means
+you know everything in the world. You also have your
+mentors. Can you elaborate a bit on that? How do you feel
+about having your own mentors and also being a mentor to
+others?
+
+Richard:
+
+What I start with when people ask me to be a mentor—just
+for the listeners out there, don’t expect everyone to say yes
+to being a mentor because it’s a lot of responsibility. You are
+shaping someone’s life, and if you don’t feel like you will be a
+good enough mentor, you can often say no. So in me
+determining whether I want to be someone’s mentor, I need
+to feel like they have got something to contribute to me also.
+I think if I’m in a relationship where I’m just giving and
+giving and giving, it’s very one-sided and I don’t look forward
+to the catch-ups. But if I’ve got a mentor-mentee
+relationship where yes, I might be giving the majority of the
+advice, but also every single time I catch up with them I’m
+like “Oh, geez, what they said about X was really good,” or “Y
+was great,” or “I really liked how they approached this.” I
+might be a bit selfish, but if I feel like I can help them a lot,
+and I feel like they can help me a little, then I will certainly
+be open to a mentor-mentee relationship. Then on the
+flipside, when I’m picking who I want my mentors to be, I
+want to have that connection with them. I also want to feel
+like I have skills that they will benefit from because that
+would mean they’re excited to catch up with me. But then at
+the same time, I want them to be able to add materially to
+my career. And that’s just the way I approach it.
+
+Show Notes: http://www.superdatascience.com/16
+
+20
+
+	  
+
+Kirill:
+
+Yeah, that’s fantastic advice. I never thought of it that way
+but it totally makes sense. It totally makes sense now. It
+shouldn’t be a one-way, because a lot of people get excited
+about getting a mentor and they think it’s a one-way
+relationship where they will just get value out of it all the
+time. That’s not the case. It should always be a give-andtake. It doesn’t mean that you have to go out and build a
+certain skillset that you’re going to be able to share with
+somebody. You already have that. Just based on the person
+you are, based on the experiences you had, even if they’re
+not related to your career, even if it’s just playing the piano
+or being an outgoing person, you already have something
+that you can share. You just have to find the right person
+that is interested in learning from you as well.
+Also, that’s great advice for people who are in a position
+where they get to ask to be mentors. It is a big responsibility
+and you should approach it not just by how are you going to
+change other person’s life, but are you going to stick
+around? Are you going to be a mentor long enough to change
+their life? And for that to happen, you have to get something
+out of it too. And it’s not being selfish, it’s just fair, I think.
+Yeah, that’s some very interesting thoughts, especially for
+people looking for mentors now to digest that and take that
+on board. And what would you say, in a nutshell, is the
+essence of mentorship? What is mentorship to you, Richard?
+
+Richard:
+
+In a nutshell, one word would be support. What I’ve needed
+from my mentors over the years is either supporting me and
+approving the direction that I’m going with my career and
+the decisions I’m making, or opening my eyes up to the fact
+that I might not quite be doing the right thing and direct me
+
+Show Notes: http://www.superdatascience.com/16
+
+21
+
+	  
+
+in the right way. So I see a mentor as supporting the growth
+of my career.
+Kirill:
+
+Yeah. And not just career, right?
+
+Richard:
+
+You’re right. It could be anything. It could be personal
+growth, it could be spiritual growth, it could be—I mean,
+how many times have we talked about relationships, family,
+non-family? It can be anything that’s impacting on a
+person’s life, can be involved in a mentor-mentee
+relationship.
+
+Kirill:
+
+Yeah, I totally agree with that. At least half of the time, we’ve
+talked about non-career related stuff. I can honestly say that
+has really supported me through the good times and
+through the bad times. It’s shown me when I’m on the right
+path and I’m doing the right thing, and with your life
+experience, you look at my situation and you’re like, “Oh,
+yeah. You’re making the right decision.” You probably don’t
+say that. You say it like “This is why it feels like you’re
+making the right decision.” Sometimes you guide me and
+you say, “Hey, maybe you should consider these other
+things.” I think I’ve told you this before, but one of the
+things I really like about our catch-ups, flying to this project
+and working in some harsh conditions we got to—in
+Australia it’s called “banter”. Is that the right term?
+
+Richard:
+
+That’s right, yeah.
+
+Kirill:
+
+So banter is like when cricket players, they just — not swear
+at each other, but they make fun of each other and make
+rude comments. It’s just like friendly but still kind of on-theedge type of exchange of comments. You know, we’d get used
+to throwing that around, but whenever we got to our
+mentor-mentee catch-up and everything, we’d walk to the
+
+Show Notes: http://www.superdatascience.com/16
+
+22
+
+	  
+
+place where we have lunch – we’d usually do it during lunch
+– and as soon as we would sit down at the table, it’s like “All
+right, now the catch-up is starting.” I could see your face
+change. Instantly, you were no longer that Richard who’s a
+friend, who’s “we’re just having fun” and just making jokes
+all the time, but you were Richard who’s actually listening to
+me. I could see how you instantly turned into this person
+who is ready to listen to what I have to say. And I really
+appreciated it that time. So thank you so much for being
+able to switch over into this mode of listening and
+understanding what is bothering me and giving me some of
+your thoughts on that.
+Richard:
+
+No worries. It’s been good.
+
+Kirill:
+
+Yeah, it’s been fantastic. Unfortunately, now that you’re in
+Sydney, it’s a bit harder to catch up for us like that. But
+still, whenever we can. Last time we caught up was in May,
+right?
+
+Richard:
+
+Yeah, last time it was in Sydney, that’s right.
+
+Kirill:
+
+It’s your turn now to come back to Brisbane. (laughs) And
+we even have this tradition that when we catch up we catch
+up for lunch, and if one time I pay for lunch, next time
+Richard pays, then I pay, then Richard pays. So it is
+definitely a give-and-take type of relationship. All right, so
+hopefully that was useful for those of you who are in a
+position of a mentor or looking for a mentor. Yeah, some
+very interesting thoughts there.
+Now I would like to move on to back a bit to data science, or
+data in operations, and just a bit of a rapid fire of questions.
+As a manager or leader in operations, what would you say
+
+Show Notes: http://www.superdatascience.com/16
+
+23
+
+	  
+
+has been the biggest challenge you’ve ever had that had
+something to do with data?
+Richard:
+
+In terms of the technical aspect or in terms of how I’ve used
+data?
+
+Kirill:
+
+I was actually going for how you’ve used data, but technical
+aspect is also a pretty interesting question as well. If you can
+answer both of them, that would be great.
+
+Richard:
+
+Sure. One probably leads the other. In terms of the technical
+aspect, quite often we come into companies that don’t have
+sophisticated IT managers or data people involved and so
+the systems are a shamozzle, and they are a bolt-on, or
+there’s a million spreadsheets that don’t talk to each other.
+And the biggest challenge I think I’ve ever faced was an
+Australian company turning over close to $10 billion. To put
+that in perspective, that’s probably 18,000-20,000
+employees, and they still used Excels for everything.
+Everything.
+
+Kirill:
+
+No way.
+
+Richard:
+
+Yeah. And every department had a different Excel. And every
+department reported based on this Excel. There was nothing
+to pull it all together. This was just an ultimate, siloed,
+horrible business. Trying to come in, obviously, with the way
+the commodities had taken a turn for the worse – things
+changed very quickly for this company and they needed
+answers but it was almost impossible to find the answers in
+the timeframe we needed, basically. So that went from being
+8 operational people and 2 data scientists to me being the
+only operations person and everyone else a data scientist.
+
+Kirill:
+
+So you went from 2 data scientists to 7 data scientists.
+
+Show Notes: http://www.superdatascience.com/16
+
+24
+
+	  
+
+Richard:
+
+I think it ended up being 7 to 10. It was closer to 10 towards
+the end of it because we needed one on every side and we
+needed to get down to the raw data entry people and it was
+just – it was hard. However, in that time—that took 6 weeks.
+It normally takes 2 weeks, but it took 6 weeks to come out
+with an output that allowed me to make a decision. But
+what was really interesting is because the people running
+the business were all operational people and never had to
+understand the data, trying to convince them to make the
+decision because the data said so was so hard. They were
+such instinctive executives that having to go through the
+process of data, me and my traditional operational selling
+style, which is not very detailed – it’s got a little bit of detail
+but not a lot – they couldn’t understand it. When I got a data
+science partner to come in and talk through every single
+step that they did along the path to come to the answer, they
+started to get it.
+So that’s where the balance of using data to help drive
+decisions was really, really crucial, and where partnering
+with the data scientists just made the biggest difference with
+that engagement. If it was me doing it the traditional way, I
+wouldn’t have gotten anywhere.
+
+Kirill:
+
+Classic! That’s a very, very peculiar or very traditional
+example of executives not getting it. But that’s crazy!
+Everything was in spreadsheets! I just can’t even fathom
+that.
+
+Richard:
+
+Well, I think you remember one company we worked with
+where most of their stuff was in spreadsheets or across four
+different accounting systems.
+
+Kirill:
+
+Yeah.
+
+Show Notes: http://www.superdatascience.com/16
+
+25
+
+	  
+
+Richard:
+
+It is bizarre how some companies operate.
+
+Kirill:
+
+Yeah, totally. All right, that was a great example. Next
+question I had, and I don’t know if the answer will be
+different, because that seems like a huge win for you—it was
+exactly that. What is the biggest win in your career that
+you’ve ever had where you’ve actually used data to your
+advantage? Would you say that was the win, or do you have
+another example for us?
+
+Richard:
+
+Actually, the single biggest win where data completely
+turned the whole engagement was—I don’t know if you
+remember, but you, me and Keith had to prepare a board
+report for a pretty hostile meeting. We had about a day and
+a half to do it.
+
+Kirill:
+
+Oh, yeah.
+
+Richard:
+
+And the national CEO and the global COO from our side and
+then the equivalent on the other company’s side, which was
+also a multibillion dollar company, were going to be in the
+meeting. Fortunately, we had worked very hard for them a
+couple of months earlier to pull all the data together and
+have really nice spreadsheets and analyses and databases
+and everything automated so that we could pull analyses
+very, very quickly and we knew it was accurate. So this
+meeting happened and my equivalent on the other team’s
+side came out blasting, saying how much money we owed
+them. I think they were saying we owed them $40 million in
+the next week and saying how terrible we were. It was just
+so one-sided. And then the CEO of the company we were
+working with got out a report and said “Well, no, that doesn’t
+sound right,” put our numbers in front of them, and that
+number turned out to be that they actually owed $5 million
+
+Show Notes: http://www.superdatascience.com/16
+
+26
+
+	  
+
+to our company. So every meeting after that,
+automatically had the respect of everyone in that room.
+
+we
+
+Kirill:
+
+I remember that. I don’t remember the exact details because
+it was obviously a much bigger feat for you. Your career was
+probably on the line in that meeting!
+
+Richard:
+
+Correct.
+
+Kirill:
+
+Yeah, totally. That was insane. You know, looking back on
+those days, gives me so much—what’s the word? When you
+reminisce something, you get nostalgic. It was so much fun.
+It was like a game of chess, you know? Like, this company,
+and this company, and then they’re sorting out their
+business, and we’re on one side, and there’s the equivalent
+of you on the other side, who is going to get the facts right
+and so on. Yeah, it was so much fun. Do you miss that time
+or do you still have that—?
+
+Richard:
+
+I’m still doing it. I’m still having that much fun. I love it.
+
+Kirill:
+
+Yeah, I can imagine. You’re still in that environment. You
+just made me realize now that I actually miss it a little bit,
+but what I don’t miss is the hours. Stepping aside a bit from
+the rapid fire questions, you’re still working. You’ve been in
+the consulting space for how long now?
+
+Richard:
+
+About 12 years.
+
+Kirill:
+
+12 years! That’s probably the longest now out of all the
+guests that I’ve had on this podcast that have been in
+consulting. You’ve been working 12-hour days, weekends, at
+nights, in the morning, all over the place, on holidays, and
+you’re still doing it. What keeps you going? How come you
+don’t get tired of this?
+
+Show Notes: http://www.superdatascience.com/16
+
+27
+
+	  
+
+Richard:
+
+The biggest thing for me is I learn. Pretty much every job I
+learn something new. I’ve still got a lot to learn in my career.
+I mean, I’m quite young, I’m only 32 and I started this when
+I was at university, so that’s why I’ve got the 12 years under
+my belt. Every single engagement, I learn something new.
+And every engagement then allows me to create something
+new. So my offering is very new and it’s the only one in the
+market. And the only reason I’ve been able to do that is
+because I keep learning. So the day I stop learning is the day
+I’ll stop doing it and I’ll do something else.
+
+Kirill:
+
+Good answer. It’s definitely worth the trouble you go through
+to learn all the things that you’re learning right now. Okay,
+next question: What is your most favourite thing about being
+able to use data in your business decisions?
+
+Richard:
+
+It saves a lot of time. A huge amount of time. I could not do
+what I do if I didn’t have the data scientists working with
+me.
+
+Kirill:
+
+Great answer. I think one of the best answers I’ve had to
+that question. Okay, so from where you’re standing at and
+what you’ve seen about data and how you use data in
+operations and how you’ve seen it being used in businesses,
+where do you think the field of data science is going, or the
+influence of data in business, and the part that data plays,
+the role that data plays, in businesses? What should our
+listeners look out for to prepare for the future and to adjust
+their careers accordingly?
+
+Richard:
+
+I’ve actually thought about this a fair bit over the last few
+years, Kirill, so I might have an answer that’s a little bit
+weird. So one of the things I’ve always wanted to do, and
+there’s a few people doing it, is to have a problem-solving
+tool that links data and the ERP systems to operations more
+
+Show Notes: http://www.superdatascience.com/16
+
+28
+
+	  
+
+effectively. So what I mean by that is at the moment, if you
+want to install an ERP system with a large company, you
+have to spend 10, 20 million dollars, whatever it is. You have
+loads of consultants in there, it takes up all this time, and at
+the end of the day, it actually doesn’t align to the operations
+and what operations actually need in the business. You
+know, one of the reasons Oracle was such a success is
+because they were the first ones to sort of align the ERP
+system or the data with operations. So what I would love to
+be able to do is to develop a problem-solving tool that helps
+very automotively, or whatever the word is, work with
+companies and the ERP systems and have the two line up
+without having to spend the $20 million+ to implement it.
+Kirill:
+
+Sorry for interrupting you. What is an ERP system for those
+of us who don’t—?
+
+Richard:
+
+Enterprise Resource Planning tool. So it’s basically your HR,
+to manage payroll, to manage paying accounts, to manage
+your accounting, it manages projects. It’s basically any IT
+system that you have in your company. It’s the systems that
+produce the data that you guys analyse.
+
+Kirill:
+
+Okay. So you think one of the things that’s going to change
+how data is going to impact large organizations in the future
+is that these ERP systems—there’s hopefully going to be a
+way to implement them much faster than spending $20
+million on consulting fees and so on.
+
+Richard:
+
+That’s just the tip of the iceberg. I also think these systems
+are actually going to do the jobs of a lot of the people who
+use it today. For instance, there’s no longer going to be 3
+people doing payroll or people doing accounts payable; it will
+be a robot analysing the data and determining if it’s right or
+wrong based on other operational data that it’s learned from
+
+Show Notes: http://www.superdatascience.com/16
+
+29
+
+	  
+
+its other system in the company. I think the technology is
+going to get so much smarter and the coding is going to get
+so much better that these things — within 99% accuracy —
+will be able to do the job of basic admin people in that role at
+the moment, which is—at the end of the day, who does it.
+That’s just one example of where I think data is going to go.
+It’s just eliminating those areas, time constraints etc. in
+business.
+Kirill:
+
+Very interesting advice. So for those of you listening out
+there, I just want to put this in perspective. This is advice, or
+an opinion, coming from a person who’s been 12 years in
+business operations, who’s turned around dozens, probably
+hundreds of businesses, and who’s seen how they work
+inside. So Richard right now is outlining a very evident (to
+him) pain point of these companies. That means that one
+day, somebody’s going to address it sooner or later. It might
+be you, somebody who is listening to this podcast. The fact
+of the matter is that one day, there will be a company that
+solves this problem and it will bring efficiency into the
+businesses, it will bring cost-savings, but at the same time it
+will also bring a lot of redundancy, so a lot of these people
+that are actually fulfilling these roles will become redundant.
+That is unfortunate, but that is the way of progress. That is
+something to think about, whether you’re in one of those
+roles and you might want to start looking into ways you can
+adjust your skillset to get a promotion or a different job or
+somehow still be valuable to your company. Or maybe you’re
+going to be one of those people that is going to be
+implementing those things in the business that increase
+efficiency. So it is a very valuable insight from somebody
+who’s been working in this space for such a long time.
+
+Show Notes: http://www.superdatascience.com/16
+
+30
+
+	  
+
+Richard:
+
+I was just going to say anyone who works out how to fully
+automate the system is going to be a very, very successful
+person.
+
+Kirill:
+
+Yeah, totally. Okay, thank you so much for that. And before
+we wrap up this podcast, you had something you wanted to
+share with our listeners. What was it?
+
+Richard:
+
+Sure. I’m actually aggressively hiring to build my team in
+Sydney and Melbourne at the moment, and one of the key
+skillsets we’re looking for are data science skills, so if there’s
+any listeners out there that have basic accounting
+knowledge but also a data science background or skillset,
+please get in contact with me because we’d love to chat to
+you.
+
+Kirill:
+
+Fantastic! So there you go, guys. Right on this show, right
+on the podcast, Richard is sharing with you some
+opportunities for your career, especially if you’re in
+Australia, in Sydney or Melbourne. If you have a background
+in data science and some experience and a bit of accounting
+knowledge, get in touch with Richard. You’ll be able to get
+his LinkedIn and maybe any other contact details he shares
+on the show page and we’ll share that at the end of the
+podcast. So make sure to check that out. This might be your
+golden ticket into the world of a beautiful and fantastic
+career. Thank you so much, Richard. How can our listeners
+contact you, follow you or find you if they want to get in
+touch about this opportunity or just look at how your career
+progresses throughout the years?
+
+Richard:
+
+Sure. They can send me an email. It’s pretty easy, it’s
+richard.hopkins@pwc.com, or they can shoot me a note on
+LinkedIn. They can find me through your profile or they can
+just look me up.
+
+Show Notes: http://www.superdatascience.com/16
+
+31
+
+	  
+
+Kirill:
+
+Awesome! And we’ll definitely leave those details on the show
+notes page. Get ready, prepare yourself to be bombarded
+with emails. And one final question: What is your one
+favourite book that you can recommend to our listeners for
+them to become better data scientists or just improve their
+careers or even personal life?
+
+Richard:
+
+Well, it’s interesting because I was thinking I was going to
+recommend some really cool “Security Analysis” book by
+Benjamin Graham or some data science book that I read
+trying to get my skills up, but I realized you guys are
+probably a lot smarter than I am in that space. But it goes
+back to that listening skill that I think you learn as you go
+through the professional world. So the best listening book
+I’ve ever read is “How To Win Friends and Influence People”
+by Dale Carnegie. I think if there’s anything that can help
+with life, not data science specific, but it will also help with
+that, that book probably had the greatest impact on me. So I
+recommend getting that.
+
+Kirill:
+
+Thank you so much. I’ve actually been recommended that
+book, I don’t think on this podcast but by other people as
+well. It’s on my list. So “How To Win Friends and Influence
+People” by Dale Carnegie. All of you guys listening to this
+podcast, definitely check it out. Thank you so much,
+Richard. I really appreciate you taking the time out of your
+busy day to join us on this podcast.
+
+Richard:
+
+Not a problem. Thanks, Kirill.
+
+Kirill:
+
+So there you have it. I hope you enjoyed this episode. And if
+you’re in Sydney or Melbourne, Australia, or if you’re
+planning on relocating to those cities, then definitely get in
+touch with Richard. This could be such a great opportunity
+for your career. For me personally, working with Richard
+
+Show Notes: http://www.superdatascience.com/16
+
+32
+
+	  
+
+was a very mind-opening experience and I learned a lot. It
+was a great opportunity for growth, both professionally and
+personally. And for takeaways from this episode, it’s really
+hard to decide, right? We talked about data science on one
+hand, then we talked about the top-down and the bottom-up
+approach, and all those other things, and at the same time
+we also talked about mentorship.
+So I’m going to highlight two takeaways from this episode.
+First one is probably the difference between the top-down
+and bottom-up, and how they can be used in combination,
+and the advantages and disadvantages of either approach.
+And in terms of the mentorship side of things, definitely a
+great takeaway for me was something I didn’t think about
+before – is that a mentor-mentee relationship has to be a
+two-way relationship, so you can’t just expect your mentor
+to constantly be giving you value and adding value to your
+career and to your growth, you have to be giving something
+back. Even if it’s not as much, it still should be something
+that you have to offer your mentor. So there we go. That was
+the episode with Richard Hopkins.
+If you’d like to get the show notes, transcript for this episode
+and all the other materials mentioned in this show, then go
+to www.superdatascience.com/16. There you will find
+everything, including the contact details for Richard, where
+you can get in touch with him and follow his career. And on
+that note, I’m going to wrap up today. Make sure to follow
+Richard on LinkedIn. I’ll see you next time. Until then,
+happy analyzing.
+
+Show Notes: http://www.superdatascience.com/16
+
+33
+
+

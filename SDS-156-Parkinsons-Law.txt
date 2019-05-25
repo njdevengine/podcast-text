@@ -1,0 +1,123 @@
+SDS PODCAST
+EPISODE 156
+FIVE MINUTE
+FRIDAY:
+PARKINSON’S LAW
+
+Show Notes: http://www.superdatascience.com/156
+
+1
+
+This is FiveMinuteFriday episode number 156, Parkinson's Law. Welcome
+back to the SuperDataScience podcast. Today I've got something interesting
+I'd like to share with you that happened to me this week. For this story,
+we're going to need Parkinson's Law. In case you're not familiar with
+Parkinson's Law, I'd like to first describe what it is.
+Have you ever experienced a situation where you know that you have
+approximately three hours of work to do, but for some reason because you
+have five hours of spare time, that work takes up all the five hours. Or, you
+might have one or, let's say you have two days of work to do, but you've
+been allocated a whole week to finish that project, and somehow those two
+days of work end up taking up the full week, the full five days of your work
+week to complete anyway.
+That phenomenon, the expansion of work to fill the time available to it is
+actually called Parkinson's Law. A quick trivia on history, Parkinson's Law
+was first mentioned by Cyril Northcote Parkinson in an article published in
+the Economist in 1955 and it was the first sentence in that article and it
+went like this.
+It is a commonplace observation that work expands so as to fill the time
+available for its completion, and then the article goes on. That's what
+Parkinson's Law is all about. If you can think of work as a gas. If you have a
+certain amount of gas, I don't know, like, one kilogram of air, for instance,
+and you have a one liter bottle, than that gas will fill up one liter. If you
+have a 10 liter bottle, that gas will fill up 10 liters. As the gas expands to fill
+all the spaces provided to it, and so does work. As much as you have time
+to complete a certain task, that's how much time that task will take up.
+The story that happened to me this week goes as follows. Today's
+Wednesday and on Friday evening I need to be in Bali. That means that I
+need to get some time between now and then, I need to get on a flight, on a
+six hour flight and go there. I already knew this quite a while ago, but on
+Monday, I needed to finalize the flights, and pick when I'm going. I had two
+Show Notes: http://www.superdatascience.com/156
+
+2
+
+choices. Out of the available flights, and due to other circumstances, I
+could have gone to Bali on Thursday or I could have gone on Friday.
+But I know that I need to be there on Friday, so why would I ever decide to
+go on Thursday? Why not stay an extra day in Australia and spend it
+working because I also had quite a lot of work to do. I had quite a few
+tutorials to record, some podcasts, and some other things that I needed to
+do here, that I actually needed to be present in Australia to perform them.
+Therefore, it makes sense to give myself as much time as possible to
+complete all the tasks. In that sense, I would buy the ticket to go to Bali on
+Friday, so I'd have the full week, or the full four days, Monday, Tuesday,
+Wednesday, Thursday, to work and then Friday morning I would get on a
+flight and go to Bali. I decided not to do that, and instead, I decided to apply
+Parkinson's Law.
+I thought to myself, okay, I have an X amount of work to do and it feels like
+I will get it done in four days. From Monday to Thursday I'll probably get it
+done. But then, I thought to myself, what if I only had three days? What if I
+put myself in the situation where I know I only have three days, and instead
+of spending an extra day in Australia working, I can spend that extra day, I
+can go fly to Bali on Thursday, and probably still going to find a way to get
+all that work done.
+It made total sense in that approach, like, we can all ... Like, another thing I
+thought to myself, we can always keep working all the time, and forget to
+relax, and forget to just spend some alone time, things like that. Eventually,
+what I ended up doing is, buying the tickets for Thursday morning, and
+putting myself in the circumstance where I only had three days to do that
+amount of work, which I thought I could comfortably do in four days.
+I basically did the Parkinson's Law in reverse. I knew that I have a gas
+which takes up four liters, and I knew as well, that I could squeeze it into
+three liters and it would be fine. Finally enough, right now, it's Wednesday
+Show Notes: http://www.superdatascience.com/156
+
+3
+
+evening, 7 p.m. and I'm sitting here, and I've done everything. I've recorded
+a good close to 20 tutorials for two different courses, and I've done a lot of
+other tasks, and a few meetings, and things like that.
+Eventually, I ended up putting everything into those three days anyway and
+I'm going to go a day early and have a rest. That's what it's about and it's
+important, I guess, to understand this law sometimes and catch yourself.
+For me, it's a good example. I have not done this before, usually I would
+always give myself as much time as possible to get everything done. But
+here, I was able to do the things I needed to do and delegate the things that
+somebody else could do.
+I'm pretty sure, looking back, I'm pretty sure, if I had bought the flights for
+Friday, the same exact thing would happen, except for it would take me
+four days. I would get exactly the same amount of work done, I wouldn't
+have gotten more work done. I wound up getting exactly the amount of
+work that I did, but it would just take me four days because I would
+procrastinate somewhere or I would spend a bit longer doing something
+else. I'll become, like, try to be too perfectionist about a certain task, and
+things like that.
+There you go, just a story from my life experience from this week on how
+work expands or contracts. Hopefully, like, I definitely learned something
+from experience. Hopefully from sharing with you that allowed you to
+maybe also see something for yourself in that experience. Maybe looking
+back, you can think of situations where you've been affected by Parkinson's
+Law in either a good way or in a bad way. I think that's resinating with
+these things or recalling them in your memory, can help then, be more
+practive about how much time you allocate to certain tasks in the future.
+It's probably not really applicable to the weekend, even though you might
+have some tasks on the weekend that you can apply Parkinson's Law to,
+but maybe next week, give it a go. See if you can apply Parkinson's Law in
+reverse to save yourself some time, and maybe go home early, or have a
+Show Notes: http://www.superdatascience.com/156
+
+4
+
+longer lunch break, or if you can't do either of those, spend some time
+learning something online instead of spending the same amount of time
+working and getting that same amount of work done that you could've
+gotten done sooner or faster. That's Parkinson's Law, hope you enjoyed the
+story, I look forward to seeing you back here next time. Until then, happy
+analyzing.
+
+Show Notes: http://www.superdatascience.com/156
+
+5
+
+

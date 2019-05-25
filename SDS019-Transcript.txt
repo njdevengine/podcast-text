@@ -1,0 +1,1333 @@
+	  
+
+SDS PODCAST
+EPISODE 19
+WITH
+OT RATSAPHONG
+
+Show Notes: http://www.superdatascience.com/19
+
+1
+
+	  
+
+Kirill:
+
+This is episode number 19, with Business Analyst Ot
+Ratsaphong.
+(background music plays)
+Welcome to the SuperDataScience podcast. My name is Kirill
+Eremenko, data science coach and lifestyle entrepreneur.
+And each week we bring you inspiring people and ideas to
+help you build your successful career in data science.
+Thanks for being here today and now let’s make the complex
+simple.
+(background music plays)
+Hello and welcome to the SuperDataScience podcast. Today
+I’ve got a very interesting guest joining me for the show. Ot
+Ratsaphong is a Business Analyst in the Australian
+Department of Veteran Affairs. And what is interesting about
+Ot is that he has been working in the space of data science
+in the Australian government for many, many years. And
+he's changed different departments, changed different roles,
+but throughout his career, he's some how mostly stayed
+with the government departments performing business
+analytics roles.
+So in this podcast, Ot will share some insights on how the
+government uses data and data science to perform and to
+deliver the best services to its customers, which are the
+citizens of a country. I personally learned quite a lot about
+how the government operates and what career opportunities
+exist in the government, and I think you will too.
+And also in this podcast, we discuss something that we've
+touched on previously in episode 11 with Garth Zoller, how
+right brain people go about data science. And in this
+
+Show Notes: http://www.superdatascience.com/19
+
+2
+
+	  
+
+podcast, you will actually learn a huge advantage that right
+brain people have when it comes to data science and
+thinking about data science problems.
+So I can't wait for you to check all of that out in today's
+show. And without further ado, I bring to you Ot, Business
+Analyst at the Department of Veteran Affairs.
+(background music plays)
+Hello everybody, and welcome to the SuperDataScience
+podcast. Today I’ve got a very interesting guest with me here
+on the show, Ot Rataphong calling in from Canberra,
+Australia. How are you today, Ot?
+Ot:
+
+I'm great, thanks Kirill!
+
+Kirill:
+
+Thank you very much for coming on the show and how is
+the weather there in Canberra right now?
+
+Ot:
+
+At the moment, very hot and muggy. And thank you for
+having me on the podcast.
+
+Kirill:
+
+Oh, it's my pleasure. All right yeah, so it's great to have you.
+And we actually had a quick chat with Ot before the podcast
+and Ot's really interesting, he's got an interesting
+background in art and we had a bit of a chat in French and
+practiced that a little bit. And yeah, so we've got quite a lot
+to talk about. And right away I want to mention a quick
+disclaimer. So Ot is involved in government work, he's
+worked in the Tax Office of Australia, and the Immigration
+Office, and he currently works in the Department of Veteran
+Affairs.
+And therefore, throughout this podcast, there will be a lot of
+moments where due to security level clearances, Ot cannot
+mention some things and go into a lot of detail. So you'll
+
+Show Notes: http://www.superdatascience.com/19
+
+3
+
+	  
+
+have to forgive us for these omissions. But at the same time,
+we're going to hopefully have a wonderful chat about how
+government approaches data science and thinks about data
+science, and then some of Ot's background, and maybe a
+couple of other things that Ot has been involved in and has
+been using data science for.
+So are you ready for this Ot?
+Ot:
+
+Oh yeah!
+
+Kirill:
+
+All right. Ok. Let's get started. So first of all, very interesting
+is where you currently work. Could you tell our listeners a
+bit more about your current government facility that you
+work in?
+
+Ot:
+
+Ok, currently I'm working at the Department of Veterans
+Affairs. What I do, I'm working as a Business Analyst and
+I'm involved in upgrading one of their systems, which is
+involved with looking after the psychological Veterans and
+Family Counselling Services. When I got that position
+recently, I found it very interesting because I wanted to get
+into that data science and one of my interests was health,
+mental health. So I was looking forward to seeing how I
+could get myself involved in that field.
+But at the moment, I'm not currently looking at any client
+data because there's a lot of privacy issues that the
+Department outsources and then studies in relation to
+mental health and psychology to elite university studies.
+
+Kirill:
+
+Interesting. So you're helping them upgrade a system. So
+you've been through a couple of government departments
+throughout your career. What has driven this choice? Why
+have you always chosen to stay inside the government sector
+
+Show Notes: http://www.superdatascience.com/19
+
+4
+
+	  
+
+rather than go into the industry or into consulting maybe?
+What attracts you in working for the government?
+Ot:
+
+Well I started my IT career when I -- actually, it's a funny
+story. After I graduated from art school, I was looking for a
+job and a friend from university, I met up with him, and he
+was working at the Tax Office. And he said to me, "Ah, you
+know, you should come and join the Tax Office, because
+they're looking for graduates, and then they can send you to
+study further if you want to." And that was an attraction to
+me. And this friend, he studied Botany. He did [inaudible] in
+Botany, but he was studying Law. And so he did a complete
+shift. I thought, "Ok, Tax Office." [inaudible] And I thought it
+was a good opportunity to get a job with the government,
+and then they pay for a free education. So that was my
+attraction.
+
+Kirill:
+
+Yeah, ok. And why did you stay?
+
+Ot:
+
+Well, I wanted to get into IT. And at that time, there was a
+shortage of IT people, and they were prepared to train. And
+they said, look, if you come to Canberra, we'll train you. So
+that was the attraction, and that's how I ended up in
+Canberra. There was a lot of on-the-job training, I could go
+to university and they'd pay my university fees. And so that
+was the attraction. And so I moved my family and all that,
+and we just ended up staying here.
+
+Kirill:
+
+Ok, all right.
+
+Ot:
+
+Things like school, and this and that. Yeah.
+
+Kirill:
+
+Yeah. And in Canberra, just for those of our listeners who
+might not be totally familiar with the Australian geography,
+it's a common misconception that Sydney is the capital of
+
+Show Notes: http://www.superdatascience.com/19
+
+5
+
+	  
+
+Australia. Sydney is actually just the biggest city, and
+probably the financial capital. But actually the capital of
+Australia is Canberra. And so from your story, I'm gathering
+that there's a lot of government departments located in
+Canberra; it's quite easy to find a government job in that
+city. Is that correct?
+Ot:
+
+Yeah. So most of the work initially was government work.
+But now, Canberra has grown and is changing. So there's a
+50-50 split. There's a lot of work that's outsourced now, and
+so there's consultants and oil, and there's lots of
+construction and commercial, and lots of other work
+involved in Canberra. There's still a lot of work in IT, there's
+a lot of work. It's mainly government work.
+
+Kirill:
+
+Yeah, that’s quite a big split, 50:50. Even if it’s quite
+approximate, that’s a lot of government jobs. Okay, but
+obviously, even though at the time it was probably easy or
+more common to get a government job in Canberra, is there
+something that specifically attracts you about government
+work? Is it some benefits or is it the approach, the culture in
+the workplace? Is there anything that you can pinpoint?
+
+Ot:
+
+In government work there’s so much work to do that you can
+never get bored. (laughs) It’s like working on a big farm.
+There’s lots of work to do and there are lots of projects. And
+from an IT perspective -- I guess, listening to your podcast,
+when you worked in Deloitte’s, you were saying that there is
+lots of work, you know, a variety of work. And in the same
+way, in the government work, there’s so much variety as
+well. So you could move from one project to another
+depending on whatever you’re interested in. I’ve worked in
+my early days in distributed computing, so I got to travel a
+lot. I visited a lot of Australia because I had to go and set up
+
+Show Notes: http://www.superdatascience.com/19
+
+6
+
+	  
+
+computers and set up systems for different government
+departments.
+I moved to Defence and worked there and I got to set up lots
+of systems all around all of the bases around Australia. I did
+a lot of travel, so it’s very nice.
+Kirill:
+
+Okay. One thing that we’re definitely not going to talk about
+on this podcast is the systems you set up for the
+Department of Defence. That will get this podcast shut
+down. (Laughs) So we will stick to the Department of Veteran
+Affairs and just your overall experience with government. My
+question, not that I wonder about it every single day, but
+whenever it comes to government and data science, the
+question that I normally have is, when you’re a company
+and you’re out there competing with other companies in
+your same space, you’re forced to use data science.
+If you think about it, there’s two companies – A and B – they
+do exactly the same thing and they have the same products
+and services, but one of them uses data science to its
+advantage in operations and marketing and so on, and the
+other one doesn’t. Of course, company A, the one that uses
+data science will overcome company B and have this huge
+competitive edge.
+On the other hand, government doesn’t really compete with
+anybody. Government creates the rules. Government has to
+exist. You cannot outcompete government because it just
+has to be there. So they don’t have this pressing need to be
+on the cutting edge of data science, have the latest
+technology, implement the latest systems and so on. And yet
+here you are telling us that you are helping the government
+
+Show Notes: http://www.superdatascience.com/19
+
+7
+
+	  
+
+implement systems
+capabilities.
+
+to
+
+improve
+
+their
+
+data
+
+analytics
+
+And I’ve also heard that Australia’s Bureau of Meteorology
+bought a supercomputer for their predictions, and so on. So
+there are signals indicating that the government is investing
+into data science. It does recognize the value. So having you
+on the podcast here is very valuable because you can
+provide your impression, without going into any additional
+details that you cannot disclose, but just your impression of
+does the government use data science, does the government
+think of data science as this new technology or new area or
+field that it needs to implement?
+Ot:
+
+Yeah, okay. I think what came to mind when you were
+talking about this is there’s a government department that is
+charged with ensuring that all government departments
+provide online access. And there’s an on-going work in all
+departments to migrate a lot of their systems to provide
+online access to government services. And even though the
+government departments don’t have anyone to compete with,
+there is this overarching government policy, I guess, to do
+more with less. (Laughs)
+
+Kirill:
+
+OK.
+
+Ot:
+
+Yeah, there is a lot of work being done to make the most out
+of taxpayers’ money. Governments are always looking to be
+efficient. In terms of data science, they’re looking at—I better
+not talk about the other departments that I’ve worked with
+before, but there are two things: how to make government
+services more accessible, easier and, for example, in
+Veterans’ Affairs, many of the veterans are aging, they’re
+retired and they want to travel. You know, like what they call
+
+Show Notes: http://www.superdatascience.com/19
+
+8
+
+	  
+
+the “grey nomads”. They don’t want to come into the office to
+make a claim so we provide online access to them. They
+could be anywhere. So they can just log in through their
+laptops or their iPhones, iPads or the mobile devices and
+just to provide any inquiries they want, they can just do it
+online. That’s a big saving for the department and it’s a
+really good service for the clients, for the veterans.
+Kirill:
+
+Okay. I see what you’re saying. So basically it’s not the
+competition that drives governments to use and implement
+data science and new systems and so on, but it’s actually
+the consumers, it’s actually the expectations that people
+now have because all the other companies that we deal with,
+whether it’s banks or shops and so on, they have these
+online systems, and we’re used to, as consumers, to be able
+to access and make claims online. And therefore, the
+government needs to keep up with our expectations and
+therefore it provides a great service and also it significantly
+reduces its own operational cost. Is that a good summary of
+what we just talked about?
+
+Ot:
+
+That’s right.
+
+Kirill:
+
+Okay.
+
+Ot:
+
+I think Australia is in the forefront in the world in terms of
+government providing online services. Even in America, a lot
+of government services are very disjointed because of the
+government structure. Even in England as well, a lot of
+people -- I heard people being in long queues just to pay
+their bills, to get government access and all that. Things
+might be changing now, but the government works with a lot
+of corporations, joint venture type things to develop services
+
+Show Notes: http://www.superdatascience.com/19
+
+9
+
+	  
+
+and they can then export these services to other countries as
+well.
+Kirill:
+
+That’s very interesting. Yeah, I will kind of agree and
+disagree on the online stuff. Like, I’ve personally had
+experiences in Australia where I had to go and I couldn’t do
+something online, like make a health claim or something. I
+had to actually physically go. But hopefully, that will
+improve with time. It’s not everywhere. You can submit your
+tax online and things like that, so that’s good. Compared to
+other countries, I don’t know about the experience, because
+I’m not a U.S. citizen and I can’t comment on that, but I’ve
+seen a couple of websites that some of the U.S. departments
+have for their customers. And the new website that the
+Australian government has rolled out, which is
+mygov.com.au, that is like miles ahead of everybody else. I
+really like the versatility and usefulness of that website. So I
+will agree with you on that point.
+
+Ot:
+
+I did work on myGov at some point but, you know, in terms
+of making it easy for business to do business, I think the tax
+office has done a really good job on that.
+
+Kirill:
+
+Yeah, I agree with you on that. That’s also true. Okay, so
+that’s been a good kind of summary of government and how
+they use data science. One thing I was curious about, and
+probably a lot of our listeners will have the same question, is
+very often in government, we come across bureaucracy. And
+a lot of people have this negative impression, or there’s a
+negative connotation, around this whole concept and the
+word “bureaucracy” has this whole negative connotation to
+it, that whenever you need something done, or even inside
+the government, the government wants to change
+something, and going through a change, there’s a lot of
+
+Show Notes: http://www.superdatascience.com/19
+
+10
+
+	  
+
+paperwork that it has to go through. So being somebody who
+works in the government, and obviously you see this from a
+different lens. What would your comment be on that? Like,
+why does it exist, and is it really necessary? Is there a
+justification to all of that lengthy paperwork and processing
+that sometimes has to be put in place?
+Ot:
+
+Yeah. Whenever the government needs to implement a new
+system or undertake a new project, a submission has to be
+made for funding through the department. Department then
+makes a submission through Parliament to get funding. So
+as the public servants could work in the government, we
+need to be really aware that we need to report how we’re
+spending the money. Because if we are not spending it
+properly and it gets out that the proper checks and balances
+haven’t been done, then it’s very bad publicity for the
+company. So we have to be really careful. We’re trying to
+make business balance so we’re trying to get work done, but
+also trying to make sure that at the end of the project, that
+we can say that we’ve done it properly, that we haven’t done
+anything wrong. Because everything needs to be
+documented and archived, and there’s a 99-year time chain
+for all documentation. At some point in time, you can go to
+the government archives and do any research you want. You
+could submit freedom of information and find out how
+things have been done.
+
+Kirill:
+
+Yeah, that’s interesting.
+
+Ot:
+
+Everything is public, so we’re making sure we look after
+public money really. It’s not our money, it’s public money.
+
+Show Notes: http://www.superdatascience.com/19
+
+11
+
+	  
+
+Kirill:
+
+And it’s not just money. It’s also the data, right? The
+government deals with all this sensitive information from the
+public.
+
+Ot:
+
+Yeah. The data is even more important. I can say that when
+I was working in the tax office, there was what we call an
+“air gap” between outside systems and internal systems just
+to make sure that there is no possibility of having [inaudible
+20:38] lots of privacy issues.
+
+Kirill:
+
+Yeah. I can imagine that. Because this is a careers podcast, I
+would like to ask you a question about—for those of our
+listeners who are looking to start a career, or maybe make a
+move in their career into data science specifically in
+government-related work, what would you say the number
+one thing is that they should look out for? What would you
+say they should be prepared for, or research or get
+themselves ready for going into this step in their career of
+working for the government in the space of data science?
+
+Ot:
+
+As I mentioned before, I started my career as a developer,
+and my main focus – a lot of my main focus was in data
+transfers, being able to analyse data and understanding
+data. You need to be good at data analysis. That’s your
+starting point, and then obviously with data science, how to
+manipulate data. I was talking to a couple of colleagues early
+on who are doing data science, and a lot of the work is data
+collection. You know, as we’ve heard before, in data science,
+data collection, data manipulation, cleaning data, a lot of
+work is searching for data. Because there is a lot of data, but
+it’s sort of in all the different government departments. And I
+was thinking about the talk today, I think the big thing that
+I think will be the main thing for data scientists going
+forward is unsupervised learning, having that ability to get
+
+Show Notes: http://www.superdatascience.com/19
+
+12
+
+	  
+
+understanding of how unsupervised learning works and
+being able to set up a system that can collect data,
+categorize it and then analyse it, and then go forward.
+They’re the skills that you need.
+In Canberra, we have a couple of data science meet-ups that
+I’m in. Different people are doing different things. A lot of
+work will be done in text analysis. There’s a lot of legislation.
+Different departments do different things. For example, in
+health, we have a lot of health-related data: how government
+departments – how the health department — how much
+spending is done in terms of what medicine, what
+treatments, what drugs, what illnesses. There’s a heap of
+data to be analysed to come up with how to efficiently make
+use of government funding. Government is about how to
+best make use of government spending, make the most out
+of the tax dollars that they collect. I did a project in health
+and we had to analyse data related to spending. When you
+go to a hospital, there is a treatment package that includes
+say, surgery, drugs, etc. The government collects all that
+because that all goes to MediCare. There is work being done
+there. So for somebody who is interested in government
+work as a data scientist, you need to be flexible about what
+work is there and to understand what the government
+department is interested in doing.
+And teamwork is a big thing. That’s a key thing. If you go for
+an interview, they’re always looking for people who can work
+with other people. (laughs) And that is not related to data
+science, but in a data science it’s a multi-discipline, isn’t it?
+You have to work programmers, data analysts and
+everything like that. People skills are important as much as
+your technical skills.
+Show Notes: http://www.superdatascience.com/19
+
+13
+
+	  
+
+Kirill:
+
+All right, thank you. I like that comment that unsupervised
+learning is going to take a major role in government's data
+science work going forward because indeed, when you think
+about it, there are so many different departments in any
+government, and they’re all interlinked, and sometimes
+information needs to be gathered from all different locations.
+So unsupervised learning, where the algorithm can come
+with predictions without having some input set of rules,
+input learning structure, that can be a very valuable
+addition to government analysis in the space of data.
+But what I did also like is your comment about teamwork.
+Indeed, it’s not directly related to data science, but when you
+think about it, data scientists can be different. And
+personally, I like to work in teams. But oftentimes, I find
+myself secluded, I find myself just working on my own
+project and driving the project. I’m very passionate about
+taking one thing and going forward with it. Still, people skills
+are important. You do need to get information from different
+places, and from different parts of the organization, so you
+need to know how to speak with people anyway. But
+sometimes there are projects where you don’t need to work
+in a team of data scientists to get to a final result when it’s
+like a one-man job.
+Whereas from your comments it made me think that
+probably in government, that is a rarer case. Where in
+government it’s more, because of all of these regulatory
+frameworks, because of the compliance procedures, because
+of all the Q and A that has to happen, because of all the
+sensitive information, like one person cannot have access to
+everything and cannot do the whole project on their own, I’m
+kind of thinking that probably is the case in government,
+
+Show Notes: http://www.superdatascience.com/19
+
+14
+
+	  
+
+that you would find yourself more commonly working in
+teams of analysts or data scientists, rather than being able
+to take a project and just spearhead it on your own and get
+the final result. Is that fair?
+Ot:
+
+This is a good point because this is what will give you insight
+into government work. I work with some senior managers
+who have specialized knowledge of their domain. And then
+as well as that, we have policy people who have specialized
+knowledge about the government policy involved. And as
+well as that, we have then the subject matter experts who
+are at the coal face, who would meet and talk to people, or
+provide support to end users. And that’s another level of
+teamwork.
+Then there’s the IT people you have to deal with. If your
+system needs support, or you need to interface with a
+different government department, then you need to be able
+to talk to those people and be on good terms and have an
+understanding of what kind of data you need to transfer
+between your department and the other government
+department. You need to understand security issues and
+make sure that all those checks and balances are in place.
+So you need to be a bit of a jack of all trades in terms of
+being able to talk to people, as well as knowing what you can
+offer in terms of your skillset.
+
+Kirill:
+
+Yeah, that was a great summary. I think, for a lot of our
+listeners out there, and I hope that for a lot of our listeners
+out there, this little conversation about government debunks
+some of those myths that you might have preconceived
+about working in government, that maybe it’s boring, that a
+lot of the stuff is just mundane or routine. From what Ot has
+described, it doesn’t sound like that at all. In fact, on the
+
+Show Notes: http://www.superdatascience.com/19
+
+15
+
+	  
+
+contrary, when you have to work with lots of different
+people, you have to constantly be ready to work inside a
+team. You’re servicing this whole population, so it’s a very
+responsible type of work.
+The only thing you have to be prepared for is some specifics,
+I guess, that are a bit different from working in the industry.
+And one of them we outlined here in the podcast, is that you
+have to really be a team player. Some people are more of a
+team player, some people are less of a team player. Probably
+think about that, and maybe there’s some other specifics
+which we probably won’t go into detail right now, but it gives
+you a good kind of perception of which way to keep looking
+to understand if government is a good choice for you as a
+career.
+Ot:
+
+Yeah, and if you’re interested in a particular area, you know,
+there are opportunities. You have to be more proactive about
+pushing your perspective on what you can do and what you
+can offer to the government department. It takes a bit of
+time, I suppose. I mean, I’m personally still new to data
+science, but I’ve sort of been able to manoeuvre myself to
+areas which may require data science type work. At this
+current project, not so much, but you sort of build up your
+case in terms of what you can do, and eventually people find
+out what you can do and then you get to the jobs where
+there’s more data science work.
+
+Kirill:
+
+Oh, yeah. That’s a great advantage that you just outlined.
+That because of the vast size of government, and the amount
+of different departments—like, you’ve moved through three
+different departments.
+
+Ot:
+
+Oh, lots more.
+
+Show Notes: http://www.superdatascience.com/19
+
+16
+
+	  
+
+Kirill:
+
+Lots more. There you go. So would you say it was—not easy,
+but it wasn’t as complex as going on and finding a new job?
+
+Ot:
+
+No. No.
+
+Kirill:
+
+Exactly. Once you get into government, and if you find that
+you have a valuable skillset to offer, but it’s not exactly right
+for the position where you’re currently in, or you start
+exploring new skills, you’ve grown, you’ve developed, it’s very
+easy, from what I understand from Ot’s comments, to jump
+around to find the right place for you. And the government
+knows — they want to keep talented people inside this
+massive customer-facing organization which is the
+government. So there you go, that’s a huge advantage, that
+you will find the right place for your skills.
+
+Ot:
+
+There’s definitely some work in Canberra in the data science
+area. You just need to be patient and keep networking, so
+that you have meet-ups, you talk to people, learn from each
+other. And we’ve got some really good field data scientists I
+can learn from. I’ve been to a couple of meet-ups and I’m
+just amazed by the talent that we have in Canberra.
+
+Kirill:
+
+Yeah. Okay, thank you very much. That has been a great
+overview of government, and hopefully, our listeners have
+picked up quite a lot of stuff from there. Now we’re going to
+move on to a different topic. I’m going to do something that I
+haven’t done before. We’ve got two very interesting topics
+outlined, and I’ll give Ot a chance to choose which one he
+wants to talk about more because we probably won’t have
+enough time to cover both. Topic number one is that Ot has
+a very interesting background. He’s actually got two arts
+degrees, so let’s just look into LinkedIn here. So you’ve
+completed a Bachelor of Arts in French, Economics and
+
+Show Notes: http://www.superdatascience.com/19
+
+17
+
+	  
+
+Environmental Studies, and you’ve also got a Bachelor of
+Visual Arts in Sculpture, Photography and Painting. So a
+very right-brained person going into data science, and we
+can talk about that and your experience. Or, as you
+mentioned before we started the podcast, you have a passion
+for trading. So you use data science in trading options and
+that is also a very interesting field. We can also talk about
+that. What would you prefer to talk about, Ot?
+Ot:
+
+They’re both related, so I’ll try and combine them.
+
+Kirill:
+
+Okay.
+
+Ot:
+
+You want me to start now?
+
+Kirill:
+
+Yes, yes, please.
+
+Ot:
+
+Okay. So when I was studying art, what happened was the
+question as an art student was how does the audience, the
+viewer, look at a painting and the interaction between this
+piece of canvas with a bit of pigment and painting. And
+where's this meaning – how do you get meaning and joy from
+it, especially when you are talking about abstract art. So
+that was the question for me at the time. And then
+computers came along, and then we became interested in
+user interfaces. And then that was another question, "Okay,
+so we’re moving from canvas to the screen." And then
+computers became intelligent, and they can play chess. So
+we’re not dealing with inanimate objects anymore. We’re
+dealing with something that has a semblance of intelligence.
+And so that drew me to the computer and artificial
+intelligence field. So as an art student and also as an
+economist, I was interested in how society works, especially
+how the financial—you know, how does society hang
+
+Show Notes: http://www.superdatascience.com/19
+
+18
+
+	  
+
+together? And that led me to the stock market because that’s
+where the rubber meets the road. (laughs) At that time, I
+happened to be working in the tax office and one of my
+colleagues had done a Masters in artificial intelligence with
+regards to weather prediction, and he was doing neural
+networks and all that. That was about in the year 2000. The
+neural networks are fairly new.
+Kirill:
+
+Very new back then.
+
+Ot:
+
+Very new. And I asked to see his notes, and the notes were –
+I just couldn’t make sense, head or tail of it. And there
+wasn’t a lot of work. You know, at that time, what he was
+trying to pitch was to use neural networks and artificial
+intelligence to detect fraud.
+
+Kirill:
+
+Which is a huge industry right now, yes?
+
+Ot:
+
+Yeah, yeah, especially tax fraud. And he was going to submit
+a sort of publication or project proposal. But I was interested
+in how to use artificial intelligence in the stock market, the
+direction of the stock market. But at that time, I knew
+virtually nothing about the stock market. I had done a
+couple courses on options trading. I chose options trading
+because I didn’t have a lot of money, and options trading
+was the only thing that made sense for someone who didn’t
+have a lot of money.
+
+Kirill:
+
+Why is that?
+
+Ot:
+
+Because of the leverage factor. So, I had to drop the artificial
+intelligence and concentrate on learning the business of
+trading. And then fast-forward to now, suddenly machine
+learning is around, and it piqued my interest again. I have
+been interested in Python and all that, and I started digging
+
+Show Notes: http://www.superdatascience.com/19
+
+19
+
+	  
+
+around algorithmic trading, and there’s a couple of websites
+that talk about that. And that’s how I moved from art to
+artificial intelligence to trading. So they’re related in a way.
+(Laughs)
+Kirill:
+
+Very interesting. So even though they’re very different, the
+way you think about them, they’re actually very related.
+
+Ot:
+
+Yeah. They are related. And coming from the right brain
+perspective, the way I look at the market is to try and find
+relationships between different things that drive the market.
+For example, people look at the open high, low close, and all
+that, but things have moved on from that. Like, you can’t
+beat that anymore. And now people are looking at satellite
+pictures and going back to the original source of the
+business to see how the businesses might be working based
+on the number of cars in the car park.
+
+Kirill:
+
+I haven’t heard that one before. That is amazing.
+
+Ot:
+
+You haven’t heard that? Well, there is a company that takes
+photos from satellites, and there is this group that analyses
+the number of cars in the car park of Wal-Mart. And then
+they can work out how well or how not so well Wal-Mart
+prices will be based on the daily number of cars in the car
+park. Or something like that!
+
+Kirill:
+
+That is on the verge of insider trading.
+
+Ot:
+
+It’s like you have to be—you have to really look naturally.
+You can’t just dig deeper. You have to dig different holes. So,
+to be competitive we have to look at different relationships
+that may not seem related, and that’s where the human
+mind is better. Machines can do that, but you’ve got to point
+them in certain directions. You know, I do a lot of thinking
+
+Show Notes: http://www.superdatascience.com/19
+
+20
+
+	  
+
+about this and I’m sure other data scientists do that. But
+coming from humanities or arts point of view — you were
+talking about it in your podcast: Which one is better, Python
+or R, in a different podcast. I started looking at Python, and I
+knew nothing about R, but my curiosity made me think “I
+need to look at this.” Having learned R, I think “Gee, this is
+much better for quick data analysis, just to get the initial
+picture of things.” And so I’m doing a lot of exploration with
+R at the moment, learning a lot of R, because I think a lot of
+the initial data scientists are tending to use R to just get the
+initial insight, and then if they need to dig deeper, then they
+might go into Python which is more general purpose
+language.
+Kirill:
+
+Yeah. Okay, that’s an interesting comment about R/Python.
+And I really liked your example of thinking laterally when
+doing data science. And I agree, machines probably can’t do
+that – not just yet.
+
+Ot:
+
+Not yet.
+
+Kirill:
+
+Not yet. With time probably, but right now that is an
+advantage of humans. It’s funny, because this conversation
+has for the first time ever, I think, made me think in the
+reverse way. Usually you think, “Okay, data science. So
+people with a left brain perspective, with a left brain way of
+thinking, they have an advantage because they have
+probably studied something related to that, they’re
+statistically better at math, they like stats and enjoy that
+kind of stuff more.” And usually my question to a right brain
+person is, “How do you catch up on that? What do you do to
+kind of make up for that—?”
+
+Ot:
+
+That lack of a technical—
+
+Show Notes: http://www.superdatascience.com/19
+
+21
+
+	  
+
+Kirill:
+
+Yeah, exactly. But with you, it made me think the other way.
+It made me think that somebody with a right brain has an
+advantage over somebody with a left brain in the sense that
+you’re better at thinking laterally. You’ve studied arts, you’ve
+studied photography, sculpture, painting and all these other
+things that have helped you develop those skills of thinking
+non-traditionally about problems. And so now my question
+to you is: How does somebody with a left brain make up for
+that? How does somebody with a left brain improve
+themselves to think laterally better?
+
+Ot:
+
+My facetious answer would be to work with somebody with a
+right brain. You know, there’s this thing called STEM, right?
+
+Kirill:
+
+Yeah, yeah.
+Mathematics.
+
+Ot:
+
+Yeah. Now there’s this new one called STEAM.
+
+Kirill:
+
+STEAM? Arts? They put Arts in it?
+
+Ot:
+
+A is the Arts, yeah.
+
+Kirill:
+
+Yay! Good. Finally!
+
+Ot:
+
+So, people are moving from STEM to STEAM. They’re
+recognizing the value of arts education. I’m a big proponent
+of arts education. My first degree was to learn how to learn.
+Yeah, what I learned from my first degree was how to learn.
+So I can learn anything if I put my mind to it. And then my
+second degree was learning how to survive and how to make
+use of what you’ve got. As an art student, we learned just to
+make do with found objects. You know, there’s artists who
+used to make art with found objects. So putting these two
+together and looking at say, the stock market, I said, “Okay,
+what do I want to do and what do I need to get to where I
+
+Science,
+
+Technology,
+
+Show Notes: http://www.superdatascience.com/19
+
+Engineering
+
+and
+
+22
+
+	  
+
+want to be?” And using my skill of learning to learn, I just
+learned what I needed to learn. So using this tool I believe I
+can apply myself to just about anything. For example, one of
+my interests that we talked about is vegetarian food. And my
+latest interest is in brewing and microbes and—
+Kirill:
+
+Brewing beer?
+
+Ot:
+
+Brewing beer, brewing cider.
+
+Kirill:
+
+At home? Illegally?
+
+Ot:
+
+At home. Yeah, just brewing—
+
+Kirill:
+
+Not illegally, right? It’s just for yourself?
+
+Ot:
+
+Just for yourself. You’re allowed to brew alcohol in Australia
+for self-consumption. If you want to sell it, you need a
+license.
+
+Kirill:
+
+Okay, gotcha.
+
+Ot:
+
+But as well as brewing alcohol, there’s brewing – not brewing
+– preserving and using the bacteria, good bacteria, probiotic
+bacteria. So one of my other areas is researching that kind
+of thing.
+
+Kirill:
+
+No, I completely agree with that. It’s a very interesting notion
+of learning how to learn. I think my degree largely was about
+that as well. It wasn’t about studying physics – it was about
+studying physics. But at the end of the day, right now I don’t
+use the quantum mechanics or the laser physics that I
+learned. But it really helped me understand how to learn
+very difficult concepts when the need arises. That kind of
+made us steer away a bit from the original question, which
+was what does a left brain person that is good at
+mathematics, that has been programming all their life, or is
+
+Show Notes: http://www.superdatascience.com/19
+
+23
+
+	  
+
+very into programming and statistics and all these other
+things where people with a left brain world perception are
+more dominant normally, what does that person do to
+develop their right brain, to develop their lateral thinking, to
+develop their creative skills now in their current position?
+Because now they can’t go back to university and start
+studying these things. Is there any suggestions that you can
+make, or any recommendations for people with a left brain
+to develop these right brain-specific skills? I don’t know, like
+start doing pottery, get a hobby or—
+Ot:
+
+Yeah, yeah. I was just thinking – just get out there and enjoy
+a life a bit more! (Laughs) No, no. I mean, do different things.
+For example, when the market crashed in 2008, I took time
+off from a lot of that analytical stuff, which was very much
+linear, linear analytical stuff. I took time off because the
+market was just all over the place. I took a small loss – it
+wasn’t a big loss – and I just needed a break.
+And so I took up photography. And I thought “I need to get
+back to my arts interests,” and then I took up photography
+and really just didn’t think about that. I wouldn’t advise
+people to break away, but to incorporate a bit more art into
+your life. Or even just going to the movies and just
+appreciating how a movie is made, for example, and just
+looking at movies more from an intellectual appreciation
+type of thing. Or read books. A lot of the technical people
+that I know read a lot of books – for example,
+science/fantasy books. So I’m not sure if I can advise people
+that much, because even technical, left brain people have
+right brain elements within. It’s just searching for them. One
+of my best friends who introduced me to the tax office, he
+was a real science geek. He used to read five novels at a
+
+Show Notes: http://www.superdatascience.com/19
+
+24
+
+	  
+
+time. He introduced me to the idea of reading multiple books
+at the same time. But then he switched to law. And he
+became—you know, he made it to the Bar, and he totally
+switched from science to law. I think people can do it. It’s
+just – one thing I think helps is to understand society a bit
+more, if they’re coming from a pure technical background, is
+to understand history. I was watching the “Cosmos” series
+recently, you know, the one by Neil deGrasse Tyson. It’s a
+more recent series. And I learned about Edmond Halley—
+you know Halley’s Comet? You’ve heard of Halley’s Comet?
+Kirill:
+
+Yes.
+
+Ot:
+
+Yeah, he was reknown for predicting Halley’s Comet 50 years
+before it arrived. And even after he died, [indecipherable
+49:52]. But the thing was what I learned here is
+understanding history gives you an appreciation of the
+bigger picture, of how we fit in. The connection of Haley is
+really interesting, because he was the one who sponsored
+and published Isaac Newton’s work “Principia Mathematica,”
+which today is the foundation for space exploration. During
+that time, Isaac Newton was a nobody, an unknown, he was
+a recluse, but Halley went and sought him out and asked
+him to develop what he knew about gravity. And it’s so
+interesting!
+
+Kirill:
+
+Yeah, very interesting.
+
+Ot:
+
+History is really interesting, and I think it just gives you a
+bigger picture about the whole how things fit together.
+
+Kirill:
+
+Thank you. That’s a wonderful comment. And yeah, there’s
+so much to explore: history, movies, documentaries,
+hobbies, all these different areas in addition to your
+profession, your data science, your career, you can add into
+
+Show Notes: http://www.superdatascience.com/19
+
+25
+
+	  
+
+your life that will help you develop a different way of
+thinking. So thank you very much for that. That’s been a
+great overview and I think we’ve had a fantastic chat. And
+for those of our listeners who want to contact you or follow
+you or somehow follow your career, what would you say the
+best way to do that is?
+Ot:
+
+The best way is through LinkedIn. That’s my main
+professional work channel. In terms of photography, I have a
+photography Facebook page on which I occasionally publish
+some of my photos. It’s Ot Ratsaphong Photography on
+Facebook. Look it up.
+
+Kirill:
+
+Yeah, we’ll definitely include the links to these resources in
+the show notes.
+
+Ot:
+
+Yeah, I’m happy to help anyone with any questions relating
+to photography.
+
+Kirill:
+
+Yeah, for sure. And if you have any questions relating to
+careers, what it’s like working in the government, make sure
+to hit up Ot and he’ll share what he can with you. Don’t
+expect that he can share everything because of certain
+restrictions. And one final question for you, Ot. What is your
+one favourite book that can help our listeners become better
+data scientists or just better themselves?
+
+Ot:
+
+Better data scientists? I think, as I’m a beginner in data
+science, my book that I would go to, which is one interesting
+really—there’s a couple of books that I recommend. One is
+“The Data Science Handbook” written by Carl Shen, Henry
+Wang and William Chen. They interviewed a couple of the
+pioneers in data science. I learned from people
+[indecipherable 53:05] things together. There’s a bit of
+history involved as well in it and that’s a good book.
+
+Show Notes: http://www.superdatascience.com/19
+
+26
+
+	  
+
+Another one is called “R for Data Science” by Hadley
+Wickham – Hadley Wickham is a key developer in R – as well
+as “Advanced R,” another one by Hadley Wickham. Other
+than that, another really good book I like has to do with
+habits. I forgot the name—
+Kirill:
+
+“The Power of Habit”?
+
+Ot:
+
+“The Power of Habit,” yeah.
+
+Kirill:
+
+By Charles Duhigg.
+
+Ot:
+
+Yeah. The thing with that book is developing with habits and
+then you can let your subconscious brain do the boring bits
+and then you free your conscious mind to think about other
+things, more creative things.
+
+Kirill:
+
+There’s some fantastic advice in that book. I agree with you.
+I should read it. I’ve read bits and pieces. I should sit down
+and read the whole thing.
+
+Ot:
+
+It’s not always easy, but you just keep reading a little bit at a
+time. Don’t read it in one sitting.
+
+Kirill:
+
+Yeah, let it sink in. For sure. So I’m just going to recap
+those: “The Data Science Handbook”, “R for Data Science”,
+“Advanced R” and “The Power of Habits”. There you go. All of
+those will be included in the show notes. Thank you very
+much Ot, for joining me today on the show. We had a
+fantastic chat and you shared some very valuable insights. It
+was a great pleasure having you on the show.
+
+Ot:
+
+Thank you, Kirill. Thank you for the opportunity to share
+and I hope I’ve been able to help somebody, especially
+somebody with a right brain perspective, and helped them,
+encouraged them, to explore data science.
+
+Show Notes: http://www.superdatascience.com/19
+
+27
+
+	  
+
+Kirill:
+
+Oh, I’m sure you have. Have a great day, thank you and I’ll
+talk to you some time soon. Bye.
+
+Ot:
+
+Okay, bye.
+
+Kirill:
+
+Well, there you have it. I hope you enjoyed today’s podcast
+and learned a thing or two from Ot who so kindly shared his
+insights into two things. We talked about two main things
+today. We talked about government and the way government
+thinks about data and the way the government, despite it
+not being under competitive pressure, still seeks to
+implement the latest technologies and methodologies and
+ways to use data to serve its customers, the citizens better.
+And also we talked about how Ot uses his right brain
+mentality to his advantage when it comes to data science.
+Personally, for me the main takeaway was the lateral
+thinking. That people who study arts and who are more
+creative have this advantage that they can think laterally
+about business problems. And that example about taking
+photos of cars in the car parks of Wal-Mart to understand
+how the business is doing is a great illustration of that
+concept. So if you are not really a creative person, you don’t
+consider yourself to be that creative, well, maybe you’re
+wrong, maybe there is a part of you that is creative and you
+just need to find it and explore it further. As Ot suggested,
+maybe sign up for some hobby or start learning something
+about history or pick up a new craft that you haven’t looked
+into before and maybe that will help you explore your hidden
+talents and that might even help you in your career in data
+science.
+I hope you enjoyed today’s podcast and as always, you can
+find the show notes, including the episode transcript, at
+
+Show Notes: http://www.superdatascience.com/19
+
+28
+
+	  
+
+www.superdatascience.com/19. There we will also share all
+of the resources that Ot mentioned, including the books and
+the link to his profile and Facebook page with photography
+which you totally should go and check out.
+And finally, if I can ask you for one thing at the end of the
+show, is if you know somebody who is, in your view, more of
+a right brain person and might be interested, or is
+interested, in getting into the field of data science, then
+forward them this podcast to encourage them to get started.
+And on that note, I look forward to seeing you next time.
+Until then, happy analysing.
+
+Show Notes: http://www.superdatascience.com/19
+
+29
+
+

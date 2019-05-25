@@ -1,0 +1,105 @@
+SDS PODCAST
+EPISODE 182
+FIVE MINUTE
+FRIDAY:
+THE IMPORTANCE
+OF DATA SCIENCE
+COMMUNITY
+Show Notes: http://www.superdatascience.com/182
+
+1
+
+This is FiveMinuteFriday, episode number 182, the data science
+community.
+Welcome back to the super data science podcast, ladies and gentlemen.
+Very excited to have you back on the show. And today, I'd like to reiterate
+something that has been mentioned repeatedly on the podcast in the past
+three or four episodes. And that is the concept of the data science
+community. And rarely do I hear something on the podcast mentioned over
+and over again. Sometimes it happens, and books are mentioned, or
+techniques and models and algorithms or other concepts are mentioned,
+but they're usually spread out. But here, we had literally three or maybe
+even four podcasts where integral people were saying the same thing on
+and on, and on again. And different people from different countries,
+different walks of life, different areas of data science. And I wanted to just
+reiterate that so that we see the true value in this.
+So Gregory Piatetsky-Shapiro, Zach Larcher, Matt Corry and I believe Tim
+Lafferty as well all mentioned the concept of the data science community,
+and how this community that we're all part of is unique. How, in the space
+of data science, everybody's extremely friendly. Everybody will always help
+you out. Wherever you post a question, whether it's on Stack Overflow and
+GitHub, or whether it's on the Tableau forums or on Kaggle competitions.
+Wherever you post a question, people will jump in, help you out and provide
+some advice, provide some guidance, provide some examples, case studies
+of how they've done things.
+Where everybody's quite open to sharing their thoughts, their ideas about
+developing opensource software. Where people are also expressing ideas
+about developing algorithms and creating new packages and once those are
+created, those are also shared and we can use them when we constantly see
+new R packages, new Python packages, new developments in the space on
+TensorFlow, in the space of PyTorch and other areas of data science and
+analytics.
+Show Notes: http://www.superdatascience.com/182
+
+2
+
+So I just want us to all, for a second, appreciate how lucky we are that we
+are part of this amazing community that we can learn from all the people
+that are sharing their videos on YouTube, from all the people that are
+posted blogs on LinkedIn, or on Medium or in other sources, for all the free
+eBooks and all these other components that help our education in the
+space of data science and propel our careers forward. So I'd like for all just
+pause for a second to acknowledge that and appreciate that we're part of
+this
+And then, something that I'd like to ask of you this weekend. It's a small
+ask, but I think it's going to make a big difference for the community in
+general. Just this weekend, think of something that you received or learned
+from the data science community, whether it was some advice, some help,
+maybe a blog post, a YouTube video, a comment somebody made. And
+think of one that actually really impacted your learning pathway, or what
+you chose to learn next, or how you chose to go about your career, or
+maybe a certain tool or technique. And first thing, I'll probably encourage
+you to tell that person who helped you that they did help you. Because so
+many blog posts, so many videos, so many advice and comments, they go
+unnoticed. And it doesn't take much to go back there and just post a quick
+message to say thank you, or if it's on Medium, give that person a few
+claps, or something else. But probably a message, a personal message is
+always better, because the person will know they're appreciated, and that
+will encourage them to share more.
+And coming from a perspective of an instructor, where I teach this, as
+myself, it means the world when you hear a great comment when your
+content has helped somebody go forward, or your content has helped
+somebody empower them in their career and change their life. So highly,
+highly encourage doing that. And the second thing would be to think of a
+way where you can give back to the community. So if you have never posted
+a blog post, or never shared a video, or never shared some source code or
+some code that you were working on, or maybe even just shared a link on
+Show Notes: http://www.superdatascience.com/182
+
+3
+
+LinkedIn, something that you read recently, something that's useful, then
+this weekend is the time to do it. This is your chance to give back to the
+community and to show the world that you are part of this data science
+movement and that you are helping others. And that will, trust me, that will
+have ripple effects and others will see it, and others will want to share. And
+you will feel so great when somebody says thank you. And imagine if you
+can impact somebody's life and help them make the better choice, or make
+a better choice in their career.
+So if you can write a blog post, write a blog post and share it on LinkedIn. If
+you can record a video, record a video and share it on YouTube. If you don't
+have time, which can also be the case, but maybe you've read something
+recently somewhere. Well, just take that link and add a few of your
+comments to it and share on LinkedIn. It'll take you five minutes, but it can
+change somebody's life. So let's make this weekend the weekend of the data
+science community and let's all share something. At least one thing, and at
+least one thank you to somebody who's helped you. This will be epic. Let's
+go do it.
+All right guys. Have a good weekend, and I'll talk to you next time. Until
+then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/182
+
+4
+
+

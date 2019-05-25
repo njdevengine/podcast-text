@@ -1,0 +1,275 @@
+SDS PODCAST
+EPISODE 188
+FIVE MINUTE
+FRIDAY:
+THE DATA SCIENCE
+GAP
+
+Show Notes: http://www.superdatascience.com/188
+
+1
+
+This is Five Minute Friday Episode 188, The Data Science Gap. Welcome
+back to the Super Data Science podcast, ladies and gentlemen. Today we
+got a very exciting topic to cover off a very intriguing topic which is called
+data science gap. This is a term that we came up with at Super Data
+Science for a phenomenon which we're observing in the data science
+marketplace. What is this all about?
+If you look at the data science job market then you will find that on one
+hand you've got a booming requirement for jobs. The number of jobs is
+constantly increasing. There's a huge demand for data science skills for
+machine learning experts, for artificial intelligence experts. for data
+scientists across the board to join companies and drive their operations and
+their businesses in general. We have data, [power 00:01:02] of data and
+that is a great representation of the fact that the number of ... the amount
+of data is growing exponentially in the world and businesses due to
+competitive pressure are more and more looking into leveraging their own
+data, leveraging this asset that they have that they haven't been looking at,
+that they haven't been seeing, that they haven't been leveraging, haven't
+being utilizing.
+Now they're looking at leveraging it to further to get that extra efficiency, to
+get that extra margin, to get that extra competitive edge to service their
+customers better and so on. That's on the side of demand. It definitely is
+there. On the other hand, in terms of supply what's going on? A couple of
+years ago it wasn't there. Data science was so new, businesses wanted data
+scientists but the data scientists weren't there. But now what we're seeing
+is that there is lots of data scientists flooding the market. There's people
+who've taken education in the space who would now even have experience.
+They're posting their profiles, they're posting their ... they're applying for
+these jobs so the supply is also there.
+But at the same time, the data science jobs are still very hard to fill. Even
+though there's supply and demand, the supply it's a very booming topi. You
+Show Notes: http://www.superdatascience.com/188
+
+2
+
+would expect that these jobs would get filled very quickly. In reality, data
+science jobs are actually open for 45 days on average in the US which is five
+days longer than the national average of 40 days. Normally jobs are only
+open for about 40 days on average, in this space data science is 45 days.
+Why is this happening? Why is it so hard to fill these data science jobs even
+though there is supply and there is demand or demand and supply? This
+phenomenon is what we are calling the data science gap. This gap actually
+comes from a number of reasons, from the fact that on one hand the supply
+that we have for data science, people who are still applying for these jobs,
+who are submitting their resumes aren't necessarily skilled enough
+experienced enough in the space of data science to fill those jobs.
+On the other hand, what we are seeing is actually most of the reason for
+this gap is actually coming from the demand side, from the fact that
+recruiters and HR managers are not yet used to this whole new topic of
+data science. They're not very familiar with this playing field and when they
+come up with these job descriptions sometimes they're using templates
+from other areas, other kind of similar areas which don't really work for
+data science. For instance, a job description which requires eight years of
+experience in data science is quite absurd given that the field has barely
+been around for that long, not even that long. How can somebody have 8 or
+10 or 15 years of experience in data science if the field hasn't been around
+long enough for that to happen.
+Examples like that or when you see a job description where somebody is
+required to have Python, [inaudible 00:04:18], in Java and Math lab and all
+these different skills and all these different industry knowledge and
+experience, all these different industry and all the experience, again, some
+of these job descriptions are just very forced and looking for extremely rare
+qualities in candidates or essentially that's where the term unicorns. Data
+science unicorns comes from that some of the job description are looking
+Show Notes: http://www.superdatascience.com/188
+
+3
+
+for people which cannot physically exist because the requirements are so
+stringent.
+Where they all comes from is the fact that the field is so young, the field is
+so ... even while yet it's so powerful, it is so young that recruiters and HR
+managers just don't know how to describe what exactly they need. They
+cannot ... it's really hard for them to come up with the description or like
+overview of what exactly are they looking for. Many just don't even
+understand the field well enough to understand who they are looking. That
+is the data science gap.
+One of our missions at Super Data Science is to bridge that gap, to help on
+one hand organizations create better job descriptions and understand
+better who exactly do they need. They don't really need a unicorn, they
+maybe need three of these types of data scientists. Or maybe they need one
+data scientist with this experience, this knowledge and maybe four of these
+data scientists and how to build that team and things. On the other hand,
+we want to help you, our listeners, our students, people who we want to
+ultimately take care of, we want to help you bridge that gap on your side to
+better your show companies that you are the right fit for their role.
+Today we're going to go through six tips that we've come up with that will
+help you bridge the gap from your side. Here we go, let's dive straight into
+them. Tip number one is understand the field. Try to really get the domain
+knowledge of the company that you are applying for, for that business.
+Maybe you're not applying for a specific country, you might be interested in
+a certain industry, or might be healthcare, or might be a logistics or
+transportation, or it might be mining, it might be finance and banking.
+Understand the specifics of that industry and this is what we call domain
+knowledge. Understand potential problems, challenges, types of customers,
+partners, resources, logistics, assets, liabilities, all these different things
+that go into business operations and how businesses work in that space.
+Understand the field really, really well. Understand what are the
+Show Notes: http://www.superdatascience.com/188
+
+4
+
+competitors of the company that you're interested in, how are they doing
+this, what's the differences.
+Once you have this knowledge, ideally you even maybe do some projects,
+practical assignments or get some practical hands-on experience through
+case studies, for instance. For example at Super Data Science in the
+platform, we actually have case studies which we run, or in some of our
+courses we have case studies where we talk about industry-specific case to
+help you not only understand the algorithms and techniques that you can
+use, but also get some of that hands-on domain knowledge and get the
+practical skills in that space. That's number one, and because once you
+have that, all of a sudden you are much more lucrative or much more
+interesting candidate for the recruiters and HR managers because you
+already know their field, you've already demonstrated the interest and
+capacity to understand their field.
+Number two, take a course. Of course if you're listening to this podcast,
+chances are that you've already taken one or even several of our courses,
+keep that education going, keep learning, keep looking and because the
+data science field moves very quickly, you want to be on top of things. At
+Super Data Science, for instance, we're releasing courses as these
+technologies come up. For example, in February this year a new artificial
+intelligence technology came out, augmented random search or ARS. By I
+think it was March or April, we already released the course on ARS because
+we want you to be on the cutting edge of technology, we want you to be
+knowledgeable about all of these things that are happening because who's
+going to ultimately get hired? The people who stand out and the people who
+stand out are for instance those people who are always learning the very
+musings, the most advanced techniques that are going to help businesses.
+Ultimately, you don't have to be implementing them right away in a
+business but even knowing them shows that you are a person who is
+interested and was vested into this field.
+Show Notes: http://www.superdatascience.com/188
+
+5
+
+In that ocean of supply of data scientists that have flooded the market in
+recently, which isn't bad, which is a great thing, but you want to stand out.
+One of the ways to stand out is to know the most recent skill or recent tools
+or deepen your knowledge in the tools that you're really passionate about,
+that you really want to produce.
+Number three, get a mentor. I cannot stress enough how much of a
+difference in my life mentors have made. I've had mentors in the space of
+data science, in space of business. For my personal life, I've had mentors
+for understanding how to bring efficiency and optimize the way I structure
+my day and things. It's extremely important to have a mentor who will
+guide you in some of these career choices or challenge you on some of these
+things that you might be delving into a certain field or some industry or
+certain topic, and they might challenge you why are you doing that? Is this
+most efficient way to go about your career? What else can you do?
+They might open up doors for you, they might open up your eyes on certain
+things. Extremely, extremely important, find somebody. We had a podcast,
+we had a Five Minute Friday episode on the importance of mentors so I've
+shared some tips. I think I shared four or five step process on how to find a
+mentor and develop that mentor-mentee relationship. Check that out, we'll
+include the link to that episode in the show notes. Actually, I'll actually put
+up the right dial. Check that out because you definitely need a mentor,
+somebody who will guide you. It doesn't matter where you are. It was
+episode #150, it's called Have A Mentor. Check that out because once again
+a mentor will be helpful and will transform your life in ways that you can't
+even imagine right now.
+Number four, read the news. I'm a personal ... like my personal belief is
+don't read the news, it's very controversial. Don't read all of the news. I
+don't check the news, I don't watch TV, I don't check any kind of news
+outlets and things because I don't want to ... I want to filter what I get, what
+information I get, but check relevant news. For instance, a great blog to
+Show Notes: http://www.superdatascience.com/188
+
+6
+
+follow, there's a couple of them. A great blog that I read at least once a week
+or I try to read once a week, and it actually gets delivered to my inbox it's
+called The Abundance Insider by Peter Diamandis. If you go to, I think it's
+abundanceinsider.com or if you Google abundance insider you can
+subscribe to that, it's absolutely free. Once a week you will get news on all
+the technological updates, like a very distilled newsletter like email of all of
+the top, top, top things. It takes me less than 10 minutes to read through
+them, maybe five or seven minutes and click the links that I'm interested
+in.
+Something like that, find something where you will get your information but
+don't let it be information, as Tony Robbins says, don't let it be information
+that you click bait and information is being force on you and that's
+marketed to. Make it information that is actually, that you've selected by
+choice. Make a conscious selection of what you're going to be reading and
+why and what's it going to about, how is it going to help your career.
+Five, apply to the right company. Make sure that you ... when you're like ...
+a lot of time people make this mistake, they're applying to companies that
+their open positions they'll apply to everything. There's a cool company and
+they just want to apply to that right away. You need to understand how is
+that going to, how is that position actually to enhance your career and what
+is it going to do for you. It's not like, especially when you go to an interview
+it's not about just them understanding if you're the right candidate for
+them, it's also about you understanding if they're the right company for
+you. This is ... at the end of the day, this is your time that you are
+investing, this is the most valuable resource that you have, the most
+valuable commodity that we all have, something that we cannot restore.
+You're investing your time into them or you will be investing you time into
+them when you're working with them so you want make sure it's the right
+choice. Make sure you ... like less is more.
+
+Show Notes: http://www.superdatascience.com/188
+
+7
+
+Rather than applying to a hundred positions, pick the two or three that
+really matter to you, that you really believe in, and you can relate to their
+missions and visions and values. Do your research on those and really
+prove to them that you care and that you want to work there. That's the
+way to get a really great role in a company in data science, doing data
+science.
+Number six, network. This is probably by far the most important tip. You
+probably have heard the statistic. We've mentioned or I've mentioned a
+couple times in the podcast that about 70% of jobs are filled behind the
+scenes, like 70% of the jobs are filled never advertised, it's never a job
+position posted online that you can apply to, none of that. You only see, all
+these jobs that you see that's like 30% of the job positions. The reality is
+that most of the jobs are filled behind the scenes through connections,
+through somebody knowing somebody, recommending somebody,
+somebody referring somebody, internally they post the job description
+things like that.
+That is where you need to be. You need to network, you need to connect
+with people, you need to talk to them and be in the middle that because
+that's how jobs will come to you. For instance, if you've been listening to the
+podcast, at the very end I always ask our guests, is it okay like, how can I'll
+just connect with you and share a couple of ways, Twitter, Facebook and so
+on. I always ask them is it okay to connect on LinkedIn if they don't
+actually mention it themselves.
+A good starting point is connect with all our guest on LinkedIn and maybe
+message the ones that you're actually ... you are interested in their podcast
+and you really listen to it and you want to learn more and you want to have
+something to say. That's a great way to establish these connections and
+build these networks. There's other ways of course, you can go to meetups,
+go to conferences, go to events, go to ... connect with a group of colleagues
+Show Notes: http://www.superdatascience.com/188
+
+8
+
+or go to meet like places where data scientists gather, hackathons or
+things, and really, really network and get in that space.
+For instance, next week you'll hear from our guest, Randy Lau, who built a
+huge successful career in data science. Within a year, within one year, he
+built a career and through networking, he has gone in two jobs. Just over
+the passed year, he's gotten to ... he's got multiple job offers but now he's
+got two jobs that he is working in in data science just through networking,
+just through building connections in the space of data science and mostly
+this was done therapy LinkedIn. Look out for that podcast, that will be next
+week and you'll learn exactly the steps that you need, the exact steps that
+he took to build a career in one year. That is probably by far the most
+important step that you can take, number six, to network.
+There we go. That's the data science gap, and that's what you can do about
+filling it in from your side and standing out from the crowd. Don't worry.
+The bottom line is the demand for data science is definitely there, you just
+need to do everything you can to stand out from the crowd and be the data
+scientist that everybody else wants, the company's want, and we'll do our
+part on helping educate businesses on how to better write those job
+descriptions and how to better find them. Hopefully together we can all
+bridge this data science gap so everybody is happy in the end. On that note,
+I hope you enjoyed today's podcast. I look forward to you back here next
+time. Until then, happy analyzing.
+
+Show Notes: http://www.superdatascience.com/188
+
+9
+
+

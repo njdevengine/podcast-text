@@ -1,0 +1,680 @@
+SDS PODCAST
+EPISODE 200
+FIVE MINUTE
+FRIDAY:
+THE FUTURE OF DATA SCIENCE |
+SPEAKERS MASHUP EDITION
+
+http://www.superdatascience.com/200
+
+Welcome to the Super Data Science Podcast, episode number 200. Welcome
+back, ladies and gentlemen to the Super Data Science Podcast, and today is
+our anniversary, episode number 200. How crazy is that? It feels just like
+not that long ago, we started this whole show but it's actually been two
+years.
+Been over two years since we started the podcast and I'd like to say a huge
+thank you for all of you for being part of the show. It's been an amazing
+journey and in order to commemorate this very special 200th episode, we
+decided to double down on a very pressing topic.
+On a topic that is all over the planet, that is affecting every industry, every
+business and very soon is going to be affecting every single person on this
+globe. And you're right, you guessed it. That topic is artificial intelligence.
+So in today's show, you will hear what artificial intelligence is all about and
+what the future of data science looks like according to the top AI experts
+that we've interviewed in the past. To do this, we've created a special
+mashup, or you may call it a recap episode with our 16 biggest AI experts.
+That's right. We took the top 16 AI experts that have been on this show and
+have put together their thoughts into this one episode. So I can't wait for
+you to check it out and without further ado, please enjoy Double Down on
+Artificial Intelligence.
+Today, we had a very special guest, Ulf Morys, who is the Finance Director
+of the German branch of the game design development and distribution
+company, Ubisoft. Now, I'm sure you've heard of Ubisoft before. They're the
+maker of such game brands like Watchdogs, Assassins Creed and Far Cry.
+So as you can imagine, this is a huge company, it's a huge name in the
+world of computer games.
+
+http://www.superdatascience.com/200
+
+From what you've seen and what you've learned about data science, where
+do you think this field is going in the future, in the coming years?
+Tools will get easier to handle, so there will be a sort of democratization of
+data science, certainly. So there's a huge chance also for the vendor
+companies, like you mentioned, Tableau and what I personally got very
+endeared with digging into data science, was, of course, open source
+software because both R and Python are open source and I just find it
+incredible, the quality of support that you're getting when you're having
+questions, for example. It's just amazing.
+So I think data science, we will also advance the cause of open source
+software to a certain extent. But to answer your question then, where do I
+think what we had with data science in the near and medium future, in the
+narrow professional sense or really concentrating just on finance, I would
+say it will really help to what we said previously, separate permanently,
+data from the data processing logic to get rid of this mess that Excel is
+making.
+When you take it to a bigger scale, it will help to combine more
+systematically the use of data analytics techniques and data visualization
+for really the discovery of patterns and rules in your data, which is like by
+my previous example of what I said, do some predictions like, “Where do I
+invest my money? Is this customer better than this customer?" And I have
+more than just the guts feeling to base my decision on.
+Ultimately for me because it's really the most important part, I think of the
+traditional finance role in an operative company. Not on a corporate level,
+that well, that too, but it's still different. But on the operative level, the
+planning process is really important because you always ... I mean, you
+need to know where you want to be tomorrow and integrating predictive
+methods into concrete plannings of costs and especially revenues, will
+become paramount.
+http://www.superdatascience.com/200
+
+If you really focus on the financial function, I think this is where data
+science can really improve things and will play a major role, but if you take
+it to a larger sense, data science, the most intriguing field right now and I
+don't think you can make a huge mistake. Learning about it is
+unsupervised learning because it's like again, I only have the theory really.
+But I mean, the difference is, of course, with supervised learning, you need
+to know the outcome. You need to have a training data set, and with
+unsupervised learning, you just learn structures from data by itself.
+So it's Sui generis, they would say in Latin, as also from your own origin.
+The data structure emerges from nothing. Te very simple fact is that as
+soon as you leave the field of structured data in NLP systems and if you
+enter the field of big data from resources as disparate as let's say, Facebook
+entries, tweets of feedbacks from websites, commentaries and so forth, you
+just end up with so much more unstructured data and any tool that will
+allow you to have structure emerged from initially unstructured data will be
+enormously important and helpful.
+Today, I've got one of the top students of super data science, Garth Zoller.
+From where you are now, from what you're learning about data science or
+from how far you've gotten into the field, from what you see now, where do
+you think the field of data science is going and what would you recommend
+to our listeners to look into, to prepare for the future of data science?
+Based on what I've seen and what I'm getting a sense of is, it feels very
+much like the late '90s, early 2000s, with the technology boom that
+happened at that time, that was largely centered around network
+administration and system administration.
+That's where data science is to me, today, in the industry. It is the thing
+and what to me is a little different about data science compared to that
+earlier time, that earlier time was about the hardware or the software.
+http://www.superdatascience.com/200
+
+Data Science, yeah, we have some tools, but it's really, again, about that
+way of thinking about problems and being disciplined in how you create
+little miniature of quick experiments to vet out proof points of whether
+something is valid or statistically meaningful.
+That extends well beyond a tool and well beyond a particular timeframe. To
+me is more like maybe personal computers way back when they started.
+Can you really get sustainable employment if you don't have some basic
+computer skills today? It's going to be difficult.
+Data science to me is like that going forward. It will be the differentiator
+between organizations. The organizations that have a deep concentrated
+knowledge of data science skills are going to have a competitive advantage
+and whatever you're doing, even if you're not a data scientist, maybe you're
+a people manager or whatever else, applying data science to what you do
+will differentiate you from your peers.
+It ultimately always affects the relationship you have with your customer.
+You're able to create more authentic and provable relationship, giving them
+exactly what they need based on the data and also driving the bottom line.
+Today we have a unique episode because we have a very special guest,
+Damian Mingle. Damian is the Chief Data Scientist at WPC Healthcare, but
+not only that, he's also a speaker and author and he has been ranked in
+the top 1% of data scientists across the whole world by Kaggle.
+"From where you stand and from all of your experience, where would you
+say you think the field of data science is going and what should our
+listeners look out for, to prepare for data science in the future?
+I think more and more of what will come is more of the automation. There
+has been a real big emphasis on the fact that there's not a lot of data
+scientists out there, which I don't know, maybe that's true, maybe that's
+http://www.superdatascience.com/200
+
+not true. At least that's what the media is saying. So there's a scarcity and
+there's a need to create some synthetic or artificial data scientist.
+So some of what we do can be automated, absolutely. I think we'll see more
+of that come into our wheelhouse, if you will, and that could be a good
+thing. It's much like if we take our own medicine, like we were talking about
+with the doctor, maybe there's some things we don't necessarily want to do
+in data science, and there's other things that we're interested in doing.
+I think there'll probably be three major things that will show up in the next
+maybe five years. One is, can you ... as a way to prevent being automated
+out of data science, I think you'd have to think along the lines of, “Can I
+convert a business problem into a data science problem?”
+Right now, you think about IBM Watson and some of these other big
+cognitive platforms are really great, it's really exciting times. But there's a
+couple hangups. One is, if you can't get the data to them, they can't do any
+of that stuff. So sharing out how to get to your data, that's the new
+bottleneck. It's not crunch time on the numbers and that sort of thing.
+That's gonna be an interesting thing to overcome.
+The other thing is trying to create targets. We talked about creating data
+science solutions for business problems. If you don't know how to create a
+target, something you want to predict, that's not obvious, I think that you
+will have a difficult time in the future with data science. I think that'll
+become ... I really think ... and even in a meeting on your own, depending
+on what your role is with the company, thinking through, “How would I
+make this a data science problem?" is a good mental experiment that you
+can do. You never have to share it with anybody, but it's a way for you to
+start doing some brain training on how to think machine learning in the
+world. And that's very, very powerful.
+
+http://www.superdatascience.com/200
+
+If you can't implement these data science solutions, I think that'll be
+another struggle. That other third one, which I think is going to be
+everybody's future field day, if you have the IBM's of the world and some of
+these other data science players come in and they start automating the ...
+it's going to sit everybody's floor, let's call it 80% area under the curve.
+The new gold will be trying to move it from 80% to 85, 86, 87%. So you're
+going to have developed techniques on future engineering and how to work
+with data and some of the stuff we talked about sub-setting, subspace,
+ensemble, all these sorts of things, to be able to get yourself the lift that you
+need because today, people would pay from going from 50 to 85%. That's
+huge. That means lots of money and a lot of cases, a lot of saved lives.
+In the future, I think you'll see those margins shrink or there's percents
+shrink, but they're still gonna want to pay for them.
+Today, I've got a very exciting guest with me, Sinan Ozdemir, who is an
+author, a head instructor of data science at the General Assembly and the
+founder of Legion Analytics.
+Where do you think the field of data science is going and what should our
+listeners prepare for to be ready for the future that's coming?
+That is a big one. I think that the future of data science, the future of
+machine learning and AI ... I'm gonna piggy back off of a previous answer
+that I had and say, the future of data science won't necessarily be in the
+most innovative software technologies but what it's going to be, is the ability
+to apply these technologies to fields that have not been updated, in some
+cases centuries.
+I think that to prepare yourselves, listeners, to prepare yourselves, as you're
+learning data science, as you're listening to a lecture on Chi Square tests or
+listening about Pandas or data frames or data manipulation. As you're
+learning this, never ever forget why or how you're going to use this
+http://www.superdatascience.com/200
+
+information. Never get lost in the theory or even in the practice, but always
+keep yourself grounded by saying, "You know what, my wife's shop uses
+data and I think they're using it incorrectly. How can I bring this to them or
+my buddy is starting a vineyard and I want to be able to use image
+recognition to help them know when their yields are coming in or when
+their yields are good or bad."
+So always remember, you can apply this not necessarily to the most ... Uber
+or Tesla, SpaceX, Solar City, not even to the most innovative companies,
+but never forget that there is a plethora of SMBs, smaller to medium sized
+companies who could also use this technology.
+Wonderful. Love that answer. And yeah, it definitely ... that's something
+we've already discussed a bit and it's good to reiterate that. Always look out
+for where you can apply the knowledge that you're learning.
+Today, we've got an interesting guestToday, We've got Kimberly Diaz joining us and Kimberly is using data
+science for something very, very noble. Kimberly is a data analyst in the
+space of medical research and she uses data science to help provide
+healthcare and support services for individuals living with HIV and Aids.
+From where you are and I think it is your answer is actually gonna be very
+valuable to lots of all our listeners because you are in a very different space,
+you're in biology or in medicine and a lot of our guests, very few of us are
+operating in that space.
+So the question is, from where you are and from what you've seen about
+data science, where do you think this field is going? So what'd you think is
+coming for the world in terms of data science and in specifically in your
+profession and what would you say listeners need to prepare for to look out
+for the future, so that they can build their careers in that space or just be
+prepared for what's coming in terms of data and medicine?
+http://www.superdatascience.com/200
+
+So, I think one of the bigger, more significant applications of data science in
+terms of medicine, is that information that is collected about you on the
+data side can be used to ... from anything, from collecting genomic data can
+be used to determine which drugs will better treat your cancer, from coming
+from HIV, what areas of the county should we be looking forward to see the
+next outbreak of a certain disease.
+So I think in medicine, the sky's the limit in terms of how useful it can be in
+and ultimately with the goal of saving people's lives and improving people's
+lives who are dealing with diseases which can many times be fatal. So that's
+the biggest thing that I see, data science being able to use in the medical
+space, is that it has an overall goal of improving care.
+I think one of the challenges to data science being applied heavily in the
+field of medicine is that oftentimes people are reluctant to change and that
+there is a big learning curve with it. I'm seeing that a lot with the
+implementation of various EMRs in hospital settings, that there is a
+learning curve involved with learning how to properly use an EMR, EHR to
+document information in the chart for a patient, but I think that the overall
+goal of saving lives and decreasing healthcare costs makes it a challenge
+that's worth people in that profession and in that space meeting.
+So I guess that's my comment about medicine and data science. I think the
+sky's the limit, I think ultimately will improve the health of people and that
+will ultimately drive costs down. At least, that's the hope.
+Yeah, I totally agree with you andToday we have Josh Colson, who is my friend back from the Deloitte today.
+So back in 2012, we met and we did some work together and then he
+moved on to a new role at LinkedIn and he's been there ever since and he's
+really grown in the team.
+
+http://www.superdatascience.com/200
+
+He's actually now a manager there and has a team of his own and manages
+a huge part of the insights team of LinkedIn for Asia Pacific, where he helps
+employers find the right talent for their organizations and understand how
+to go by.
+From where you sit, from all the things you see about data, you have a
+team, you worked at LinkedIn, you have so much access to data. You
+actually have this bird's eye view of what's going on in the world. Where do
+you think the field of data science is going and what should our listeners
+prepare for coming in the future?
+I think I mentioned earlier. Every organization in the world who hasn't ...
+who sees that data is part of the value that they create, is going to continue
+to see that data as more valuable to their bottom line.
+I think the real challenge for data science in the near term is connecting
+with the business and really focusing on measuring their impact and
+making sure that the models that they're putting in place, the algorithms
+that they're driving, they are driving real revenue and bottom line profit and
+it's all about ...
+And that's it. Really, I think that's the biggest trend that's happening right
+now. I think the data scientists that will be the most valued are the ones
+that have already been able to build a brand for themselves because they
+have to live it success to businesses and I'm thinking the same way that a
+private equity and venture capitalists provide value by stripping companies
+and turning every company and that kind of thing. I think data scientists
+will build personal brands based on the work that they can do with
+organizations to reinforce the top line and bottom line.
+We've got a very interesting guest today. Today we're talking with David
+Venturi and David is a fascinating person because he, at some point in his
+life, understood that he wants to study data science. He wants to be a data
+http://www.superdatascience.com/200
+
+scientist and he actually enrolled in one of the prestigious universities in
+Canada for a data science degree, for a data science masters.
+But within two weeks of studying there, he dropped out and he didn't drop
+out because he was not satisfied with his career choice and he wanted to do
+something else. No, he dropped out because he realized that what he was
+learning wasn't sufficient enough, and guess what he did instead? Instead,
+he created his own masters program based on courses available online.
+So he looked at different data science masters programs that are offered by
+different universities, then based on that, he compiled his own program
+using the courses that he can purchase or find for free online. I thought
+that it was an ingenious idea. It saved him $30,000. And also, of course, he
+was free to pick the best quality of content that was available to him.
+Where do you think this whole field is going? What are the most important
+things people should focus on to prepare themselves for the future of data
+science coming in two, three, five years from now?
+Yeah, so one thing that I'm currently working on and that I didn't realize
+this is really important going in, is the software engineering aspect; being
+able to make your code reproducible and it happened the best practices for
+testing or testing your code and debugging all of the software engineering
+skills that I think a lot of new data scientists may not have, going in, if you
+didn't study computer science for example.
+So that maybe not ... that may not be what the future is, but I think that's
+a really important part that can be overlooked.
+Today, we've got a very interesting guest. Today, we've got the founder and
+Co- CEO of Experfy, Harpreet Singh.
+The other interesting question I had as well, which I'd really be curious to
+get your opinion on is, from where you sit, from all the things that you see
+http://www.superdatascience.com/200
+
+going on in the space of data science, where do you think this field is going
+and what should our listeners prepare for to be ready for the data science of
+2020 or the data science of 2025? What would you recommend for them?
+So, yeah, I know this field is changing so rapidly that it would be a fool's
+errand to make many predictions but one thing is for sure, that there is a
+lot of automation going on.
+We have a lot of tools that are developing and that are being developed
+rather and this is going to be a very exciting space and it's going to impact
+every industry and the industries that are going to see the most change are
+the ones that have the best data or the richness of data.
+So those we will see evolving much faster than the others. If you are in such
+an industry, then I think it's a very good idea to embrace analytics. Even if
+you're not a data scientist, even if you're a manager, understanding how
+one can become data driven, how processes can benefit from different types
+of analysis is really important.
+Making sure that the company has some kind of a data strategy to capture
+the right data is another important consideration because companies that
+are not going to do that are frankly going to be ... they're not going to be
+very competitive. They probably won't even exist in the next five, 10 years.
+It's a bold assumption but if we look at how many fortune 500 companies
+exist from the last century, let's say 1950s, I would say at least 30 or 40
+have disappeared. So I think companies that do take data science seriously
+are the ones that are going to stick around.
+Yup. Yup. Totally agree with you and that's some very interesting advice
+and overview of what to expect and you're totally right. It's evolving so
+quickly. It's hard to make very definitive predictions, but very interesting
+what you said about automation and that managers should also look into
+data science and I totally agree with you that there's even some predictions
+http://www.superdatascience.com/200
+
+that out of the fortune 500 companies, over half of them will disappear in
+the next decade just because of what's happening in the space of data
+sciences; what's going on, so it's a huge disruptor as well as an enabler for
+companies.
+Today we've got a very interesting guest, Deblina Bhattacharjee. She is
+calling in from Seoul, which is South Korea and she is an AI researcher
+working at one of the universities there or doing her degree at one of the
+universities there.
+From what you've seen around the world and from the research you've
+done, what do you think the future is of artificial intelligence?
+As far as I know and also from the opinions of the scientists and
+researchers with whom I met in the conferences around the world, what all
+of us we think is the field of data sciences headed towards a fusion with
+intelligent systems to create smarter cities of the future. That's the main
+vision.
+So I also strongly believe that with the ongoing research with real time, big
+data and Internet of everything right now, data science is going to explode
+in the future.
+With a lot of stuff happening, the thing is that as of today, in the morning
+when I got up, I just read this, "Strata and Scalar, they have been replaced
+by Hadoop already and ... sorry, Strata and Scalar have replaced Hadoop
+and there have beenJust a bit of a different direction.
+... and there are the data Ops tools which are being developed to help data
+engineers like a DevOps tools which used to be previously for the
+developers, now they are data Ops and they have been built by companies
+like Nexla and Data Kitchen and it's really great how data field is
+http://www.superdatascience.com/200
+
+progressing and also the automated predictive analytics, which is like the
+thing which is happening right now.
+So this predictive analytics had been automated last year and the data
+robot was created and people were like, "okay, so by 2025, everyone is going
+to be out of jobs." But then it was a bit too soon to say because the data
+robot as now, it's just speeds up the model development for any model that
+you're building and it's the one stop solution to speed up whatever you're
+implementing in the industry.
+So it has a long way to go, definitely. It's a budding field. So both AI and
+data science together, it's going to be really powerful in the future.
+Yeah, we've got Urie Suhr on the show and the Urie is in the short, a
+headhunter. She's the director of talent acquisition for collective[i] which is
+a data science company which uses artificial intelligence and predictive
+analytics to help their clients with things like sales, CRM and creating a
+better customer journey.
+From what you've seen from all the work you've done, the work you do and
+the candidates you've seen and the job descriptions, where do you think the
+field of data science is going and what should our listeners prepare for in
+order to be ready for the future?
+This is a tough question, so I truly feel that the title of data analytics or
+data analyst is probably going to go away in the near future. I think that it
+will soon be replaced by a traditional data scientist and a lot of data
+scientists are now moving more into the deep learning space and towards AI
+and machine learning.
+So I think it's really important to always make sure that you have the ear
+on the ground and recognize what's going around as far as not just what's
+trending but what makes sense as far as where the momentum is going,
+when we talk about just the world of data.
+http://www.superdatascience.com/200
+
+What I find really interesting currently right now is that data science is
+almost becoming interconnected with big data. I mean it all still isn't in the
+data family, but it's almost becoming ... I'm seeing more and more cross
+pollination between the intersection of big data and data science.
+So there have been very interesting candidates that I can give an example
+that I've seen that maybe they were more of a Hadoop developer or working
+more on Cloud and things like that of that nature and being more on the
+engineering side, now migrating over to the data science field. Then also,
+same thing. I see a lot of data scientists now ramping up on technology
+such as Spark and so forth. Being able to really be more connected on the
+big data side of things. That wheelhouse.
+... inspiring new guest on the show. Matt Dancho is the founder of Business
+Science Consulting Firm in the space of data science which works with
+companies ranging from startups to fortune 500 companies. Not only is
+Matt the founder of businesses, but also he's the author of multiple R
+packages, so just tidyquants to empty case, we put table time and others.
+Philosophical question; from what you've seen in data science and from the
+way it's evolved, where do you think this field is going and what should our
+listeners look into to prepare for the future?
+So in terms of the field of data science, I think we're still just in the
+beginning with it. We've got a lot of tools that are evolving and I think we're
+gonna to be going more towards automated tools like I love what H2O is
+doing right now with actually making it easier to get these high accuracy
+models now.
+So where I really see the benefit is in a different part of data science, which
+is actually communication. We talked a little bit about Shiny web
+applications. I really see that as being a huge benefit for businesses. That's
+
+http://www.superdatascience.com/200
+
+something that at Business Science, we're actively investing a lot of time
+into.
+Some of our first projects ... actually, I think our first five projects with the
+client were Shiny web apps, but it's being able to distribute analytics
+interactively. So you've got a machine learning algorithm, you're trying to
+forecast something or you're trying to predict whether an employee is going
+to churn, you have to have a way to distribute that information to
+nontechnical people in a wide audience and I think Shiny is the way to do
+that or at least one of the ways. You've got Power BI, Tablo, as other that,
+Carl, you had mentioned.
+I really see that as the future of data science, as being both good at the
+tools, understanding you need them to know the tools inside and out and
+understand them. I think the tools are going to get easier to use, but I think
+down the road, what's really going to become very powerful is being able to
+communicate that data in a interactive way.
+Gotcha. Awesome. Thank you. That's a very apt answer. Sums it up very
+nicely and I totally agree with what people should be looking into to become
+super powerful data scientists and change the world.
+Just got off the phone with a senior data scientist at LinkedIn, Eric Weber,
+and we had a great chat. Really, really enjoyed the chat.
+From what you're seeing in data science and education and from all the
+experiences you've had and where you stand now, where do you think the
+whole field of data science is going and what should our listeners prepare
+for to be ready for the future that's coming?
+This is a tough question. In terms of where it's going, I think we're going to
+see some radical changes as companies start reckoning the investments
+that they've made in data science and by that I mean, some companies are
+going to decide that they haven't seen a return on investment and I think in
+http://www.superdatascience.com/200
+
+a lot of cases it's because maybe they're not measuring the right thing, but
+you're going to see other companies that decide to double down and say,
+"Okay, we really need to take seriously how we're measuring the impact of
+our data scientists on this organization."
+So to me, what the near future feels like is really developing proof of
+concept for really looking at ROI of data scientists, really turning the data
+science on to the actual data scientists, "How are you going to measure
+your value for us? How are you going to test your value for us?" And that's
+a question I think we're going to have to answer.
+To this point I think, data science being the sexy career and having high
+salaries and all of this stuff, that's great, but companies at the end of the
+day are business and they need to see the lift and the amount of
+improvement they get from adding data sciences, and to me that's a near
+term thing. That's something that a lot of companies will be grappling with.
+And the thing to me, where we're going, I mentioned scalability at the start
+of the conversation.
+Scalability is a big deal. I continue to not sometimes care if someone can
+eek out an extra 0.1% of performance in their model and I'd rather see them
+be able to scale and productionize their model so that we don't have to rely
+on someone maintaining it over time, so that we can actually build it to deal
+with the size of the data that we have.
+This is an issue that we see at LinkedIn, but it's not unique to LinkedIn.
+The volume of data is not going to decrease. The speed at which it comes in
+is not going to slow down all of a sudden and so I think really dealing with
+scalability, that is a big issue to grapple with here in the near future.
+We have got a super exciting, super prompt episode, super futuristic
+episode with Andrew Borysov from the MMOne project.
+
+http://www.superdatascience.com/200
+
+From everything that you've seen so far, where do you think the space of
+data science is going? Spaces of data science, AI, machine learning is going
+and what'd you think our listeners should prepare for to be ready for the
+future that's coming?
+I don't think it's gonna make sense for me to talk about different areas
+where data science could be applied in particular and only like legal or
+everything about the images and how you process them.
+So I would speak more philosophical in general. One day, we're going to
+come to the ... I'm sorry for calling it like this but 'matrix', in some kind of
+way, maybe not the way the brothers described it.
+What I mean is that people spend less and less time offline and more online
+and it's gonna be even more. Even now in the United States, there is a big
+problem. A lot of shopping malls are shutting down and there is nothing
+that people are intended to do with this big amount of space.
+So people will get even deeper into virtual world since this is where we are
+as play and when you have the virtual world, you need to have artificial
+brain there that can talk to you, that you can do something about, I mean
+talk to another person in this world and so on.
+This is where the data science approaches need to be implemented in one
+way or another? So I'm thinking more globally about this.
+Yeah, no, that's a very ...
+Decimal part?
+... accurate picture.
+Yeah. So, and the other part is of course billions of people one day losing
+their jobs simply because, let's call this computure.
+Yeah, we'll do it ...
+http://www.superdatascience.com/200
+
+I'm excited about this episode because I have the legend of data science,
+Eugene Dubossarsky on the show. And legend is in no way, not even the
+slightest and overstatement because Eugene is indeed regarded as a
+thought leader in the space of data science indefinitely in Australia that I
+can tell you for sure and I would even go as far as saying across the world,
+across the Globe.
+Eugene is a person who started multiple companies and has participated in
+multiple companies in the space of data science. Just recently started
+Advantage Data. It's a world class data science consulting firm that works
+with C-level executives and CEOs.
+He's also the director and principal trainer at Prescient Analytics. He's the
+head founder of Data Science Sydney and he's also the Chief Data Scientist
+at Alpha Zeta and Global Network of Data Science Consultants.
+So this one we kind of touched on as well, but maybe a summary would be
+great. Where do you think the field of data science is going and what should
+our listeners look into to prepare for the future that's coming?
+Well, I think there's gun for a data literacy, a general data literacy, which
+means the more demanding clientele in the buying side of the market.
+Something I'm betting on very heavily at the moment and also we
+mentioned before is quantum computing. So Presciient has a quantum
+computing course coming out and there'll be more quantum computing
+offerings and material from Presciient and Advantage Data in the near
+future.
+Like I said, I think statistics is key. I think getting a good grounding in
+statistics is the most important thing of all. I find people, mentorees, come
+and say, "Which data science and Masters course should I do?" And I say
+do a Masters in statistics. And once again, basing in statistics, in
+particular, causal impact analysis, you can't go wrong with those.
+http://www.superdatascience.com/200
+
+I'm still wondering what sort of machine learning tools and what sort of
+mathematical tools are going to come to the forefront now that quantum
+computing is on the verge of becoming mature technology.
+So yeah, I'd say statistics, statistics, I'd say do Kaggle competitions.
+Especially if you're a beginner, just do them incessantly. If your question is,
+"Shouldn't we learn Python or R?" It's the wrong question in two ways. One
+is, the language is the least important thing, Focus on the methods. Two is,
+you should learn both of them. You should probably have a look of Julia as
+well.
+I think curiosity, entrepreneurship and rigor, which is a very rare
+combination, those personality traits. With those personality traits, it's
+going to be key. I think being experimental, this one is a real problem for a
+lot of people.
+So one of the ways in which data science is so unlike IT is data science is
+about experimenting. It's about trying though you'll fail, about not knowing
+what you're going find until you get there and that's a huge challenge for a
+lot of people, both from the executive side of the world and the IT side of the
+world.
+So dealing with being comfortable with uncertainty and being comfortable
+with uncertainty about your own career. No one knows what a data science
+career path looks like. No one knows what it's going to be like in the future.
+So it's having a certain courage, a sort of comfort.
+We've got a super energetic guest for you, Josie [inaudible 00:39:50] So
+what do you need to know about Josie is that he's a serial entrepreneur
+who uses data and technology in his businesses. So Josie is involved in
+initiatives such as metal roofs, construction, designer glass specialties and
+others.
+
+http://www.superdatascience.com/200
+
+At the same time, he actively leverages data science to improve the way he
+approaches his customers, the way he sells to his customers, the way he
+services his customers. And he's seen massive success from that initial.
+What do you see the future looking like and where do you think the world's
+going? What should our listeners prepare for that's coming in the next five
+or 10 years? What do you think the world of data and technology will be
+like?
+So I do think it's a bit scary with the ... like here recently, some Toyota
+engineers, they built a robot that can beat any player, any statistic on
+shots. It made 100% accuracy; free throws, three pointers.
+So data scientists are getting very, very good at creating this AI. So there's
+going to come to a point where it's gonna start pushing us out, but that's
+where we have to create new ways because God has given us this mind and
+this ability and so we have been amazing opportunity to leverage that.
+I do think certain aspects of it are scary, but I think it's going to be one of
+the most amazing opportunities for those that focus on creating and not
+getting bogged down in looking at the dark side of it, but keep the mind
+positive and make sure ... and to use that except as poison or fuel.
+And so when you see things that are coming in scary, that are like, "Oh
+man, where am I going to be? How am I going to do that?" Use that as fuel
+and not poison, and so I really think that the future is a ... we're going to
+work hand in hand with bots and I mean, we're gonna have a lot of
+sophisticated things within our life.
+Everything is going to have a sensor on it. And we're really focused on the
+Internet of moving things. That's gonna be a big part of our lives or we're
+going to have technology always around us and I'm not ... my wife started
+me in Instagram. I've never had a Facebook ... I'm really not one that likes
+http://www.superdatascience.com/200
+
+to consume except Flipboard. I love consuming Flipboard because it's
+amazing and it gives me a lot articles I really like.
+But just finding those things that help you be the best you and that is going
+to help you to create the best products and services. So whatever you
+consume is what you're creating from, so you have to be very, very safe with
+what ... safeguard your mind, safeguard what comes in.
+If you catch yourself just consuming stuff that you know is not producing
+good results, cut it out and do ... be self disciplined and really focus on that
+and don't limit yourself because it's an unlimited world out there, especially
+with the skills that you have.
+Today ... energetic guest on the show today, Lucy [D’Agostino Montgalen
+00:43:19]. Lucy is a person of many, many, different talents and different
+skills. So what you need to know about Lucy is that she started off by
+studying a Bachelors in Religious Studies and Italian, right after that she
+has successfully switched her career into data science. She's just completed
+a PHD in Biostatistics. She also runs the 'Our Ladies' group in Nashville,
+Tennessee.
+As we talk about that for today, what sort of is ... from your perspective,
+from all of the things you've seen, we've covered so many topics just even in
+just this podcast and I'm sure you have a much broader exposure to the
+field in general.
+From everything you've seen, where do you think the field of data science is
+going and what should our listeners prepare for to be ready for the future
+that's coming ahead in the next three to five years?
+Yeah, that's a great question. So I think in general, we're moving to that age
+of information overload, which has two consequences for data scientists. So
+the first, I think, is largely really a good thing.
+http://www.superdatascience.com/200
+
+So when I see a study now, I want to know exactly where the data came
+from and how it's analyzed. And often if it's something that I actually think
+is important to me, I want to be able to reproduce the results. I see this
+more and more of this craving for even more information even though we're
+in this information overload space, because we have the ability to share
+information so easily and I think it's really cool and it's leading to really
+neat innovations.
+What it means as data scientists, is that we're really pushed to use best
+practices in terms of reproducibility so that this can be possible. So things
+like version control and working in a scripting language instead of the gooey
+and documenting and justifying data changes and all that kind of stuff.
+I think it's becoming increasingly important because we have this ability to
+transfer information so easily. Then the second consequence of data or
+information overload, it would be that it can be hard ... this reflects on what
+I was saying earlier, but I think it can be hard for the general public to be
+able to sift through what's important and what's noise.
+So I think that means that as data scientists, we need to brush up on our
+communication skills and being able to distill really complex things, this
+really complex model that I've just had ... fully documented it for those
+people that want to be able to reproduce it. I also need to be able to
+condense it into a digestible sound bite that doesn't water it down, but also
+doesn't overload the public with unnecessary information.
+So that's kind of what you were saying before about being able to make it
+exciting and interesting, but somehow still hold onto the truth that comes
+from it, being able to make sure that for communicating things that are
+both true and also important and not being able to sift through all of the
+nitty gritty, they get it. They condense down to the single point that we're
+trying to get across and I think that is also going to be really important in
+the coming years for data scientists to be able to gain that skill.
+http://www.superdatascience.com/200
+
+So aside from being able to fit that really fancy model, being able to explain
+it in a really easily digestible way so that people can actually utilize the
+information that you gleaned from it.
+There we go. That was something special, wasn't it? 16 views of our 16
+biggest AI experts who were on the show talking about what the future of
+data science looks like.
+I hope you enjoyed and learned tons from this very special 200th episode of
+the Super Data science Podcast. Here's to another 200 episodes yet to
+come. I can't wait to interview more guests and to share their thoughts,
+their ideas, their perspectives with you and thank you so much for being
+part of this journey, for being part of the Super Data Science Show.
+Couldn't have done it without you and I'm so, so excited and so grateful
+that you are part of all of this that we do here, that you inspire us, inspire
+our guests to keep sharing their thoughts and ideas.
+Thank you once again and I can't wait to see you next week. And until then,
+happy analyzing.
+
+http://www.superdatascience.com/200
+
+

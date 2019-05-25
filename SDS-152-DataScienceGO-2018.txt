@@ -1,0 +1,175 @@
+SDS PODCAST
+EPISODE 152
+FIVE MINUTE
+FRIDAY:
+DATASCIENCEGO
+2018
+
+Show Notes: http://www.superdatascience.com/152
+
+1
+
+This is FiveMinuteFriday episode number 152, DataScienceGO 2018.
+Welcome back to the SuperDataScience podcast, ladies and gentlemen,
+and, today, I've got an exciting announcement for all of us.
+The DataScienceGO Super Early Bird Tickets are on sale. If you've been
+waiting around for them, this is your time to act. In fact, today is the last
+that you can get them. They've been on sale for a few days now or a week,
+and you may have seen some emails floating around, some announcements
+on LinkedIn, Facebook, some ads. It's happening. It's happening now, and if
+you wanted to get a ticket, then this is the time you can get one.
+In this podcast, I wanted to just talk about DataScienceGO a little bit and
+tell you what happened last year and what we are up to this year, so, for
+those of you who don't know, let's start there, if you haven't heard of
+DataScienceGO before, DataScienceGO is an event that we came up with.
+For a couple of years, we were doing courses and line and we've built up a
+community. Right now, we have, what is it, almost 500,000 students
+worldwide, which is very, very exciting, and then, at some point, [Hadelin
+00:01:21] and I felt that we're not really getting to meet any of you in
+person, that there's so much more that we can experience for ourselves and
+help our students experience, and so we decided to come up with an event.
+It took us quite a while to figure out a name, and there were a couple of
+suggestions, and DataScienceGO was the winning option, and, yeah, so, in
+October last year, we held our very first live conference. It was a lot of work,
+a lot of preparation. We were preparing for it for six months, and even six
+months ... This is a whole new world for me. I never knew what it would be
+like to prepare a live event for 150 people. That's exactly how many people
+attended DataScienceGO last year, a 150, and I never knew how much
+work it would be and what it would involve, and so even six months of
+preparation was barely enough.
+
+Show Notes: http://www.superdatascience.com/152
+
+2
+
+It was barely enough to make everything happen and book the hotel, book
+the company that's going to be doing audio visuals and the flare effect, book
+the speakers, get a motivational speaker on board and all sorts of these
+things, but, nevertheless, we pulled it off, and thank you, a huge thank you
+to the SuperDataScience and DataScienceGO team. It was really an
+amazing event, amazing experience.
+I'll tell you why I feel it was amazing and why I ... what our purpose is and
+mission with this event, and so the idea for the event originally came to
+Hadelin and I when we were attending a conference ourselves back I May
+last year, and while it was a great conference, at the same time, it was on
+data science, of course, but at the same time, we felt that something was
+missing. We felt that it was nice. There was a technical knowledge. A lot of
+people were talking about their advancements in deep learning or even
+explaining deep learning in a basic level or machine learning and other
+things, other topics as well, but it really felt that it was a bit dry and it was
+lacking some energy to it, some passion, some empowerment. Like we
+walked away with a lot of knowledge, but we didn't feel that much more
+empowered and that much more energized.
+At the same time, it so happened that last year I also attended, also in May,
+what a coincidence, I also attended the Tony Robbins' Date With Destiny
+event, and, there, I walked away super empowered, super energized,
+powerful. I felt like I could change the world. I was completely different
+person, and so we thought about it and we decided to combine the two. We
+decided to take data science and to take energy, power, passion, fulfillment
+and put them together, and that's what DataScienceGO is all about.
+It's a completely different experience. It's not just one of those conferences
+where you go to network, yes, and get some technical knowledge, yes, but
+it's much more than that. In addition to networking and getting technical
+knowledge, our focus is to empower people, to help you feel alive again, to
+help you feel that you have the power not only to change, not only to learn
+Show Notes: http://www.superdatascience.com/152
+
+3
+
+something new, but to change your whole life, to feel, to build a life and a
+career where you feel fulfilled every single day, where you're doing what you
+love, where you're having a fun and great time and you're empowering
+others around you, and you're like one of those people that walk into a
+room and everybody feels your energy, everybody feels your passion.
+It's totally achievable. I've been through this myself. We all have ups and
+downs, but through the right guidance and through the right people around
+you, you can totally achieve a whole new state in your life, and that's what
+we set out to create with DataScienceGO, and that's why in DataScienceGO
+2018 we actually invited a lot of data science speakers. True, we invited
+Ben Taylor, but we asked Ben Taylor not to just talk about deep learning
+and the things that he's so passionate about like the new NVIDIA GPU
+that's come out or training, retraining one of his models. We asked him to
+talk about careers, and that's also a topic that he's very, very well-versed
+on.
+We invited some professionals in the space of machine learning and, of
+course, data science to also talk about the technical topics, but we also
+invited a motivational speaker. In fact, we had Kyle Cease last year. He's a
+famous comedian, and he's also been in a few movies, and we actually
+invited him to inspire people, and he has no relation whatsoever to data
+science, but he got a standing ovation, and people were actually crying and
+laughing during his presentation because he got through to everybody, got
+through to our hearts and made us really melt in our chairs and realize
+what our lives are all about and where we're going, and so that was very
+exciting.
+We invited a recruiter to talk about how you can build your career, how you
+can position yourself whether internally within your company or if you're
+looking for a job externally. We invited some people, some students with
+success stories, so students who have taken our courses and who have
+Show Notes: http://www.superdatascience.com/152
+
+4
+
+built a career from zero to hero and who have completely changed the
+trajectory of their own lives and are feeling much happier and more excited.
+All in all, it was a great mix of different speakers and people were not
+knowing what to expect next throughout the two days, and so that's what
+we're going to be replicating this year and, in fact, we're actually going to
+double down on that.
+Last year, we had a 150 people attend, and, this year, we want 400 people
+to attend, so we can see how much impact we made last time and we really
+want to help as many people as we can, to connect to as many people as we
+can, so it's again going to be in San Diego. If you're interested, it's October
+12th, 13th, 14th, so we get together on the Friday. We have a social night
+on Friday, then, Saturday, it's the full day, morning session, lunch
+networking, afternoon session, evening networking, and then, Sunday, half
+day, up until lunch and I think a little bit past lunch.
+We're inviting lots of speakers. Again, Ben Taylor's going to be there.
+Hadelin is going to be there. We're inviting Rico Meinl who's flying in from
+Germany, Neelabh Pant who's flying in from Texas, Nadieh Bremer who's
+flying in from Amsterdam, and a couple of others that we're still getting
+everything sorted. It's quite a while away, so this time we've started
+preparing a whole year in advance, and we had to book the hotel and get
+everything on board, and so this time we're much more prepared for it.
+Last time, what I noticed was a lot of people came there and had their
+company pay for them, so, if you don't have the means or you would prefer
+not to pay for it yourself, then maybe you could check with your manager
+because they can maybe cover your flights, accommodation and tickets.
+Maybe they can cover some of that.
+In fact, during the registration process, you'll see that we've put out a letter
+there, which you can download and send to your manager and check with
+them if they want to, if they'd like to sponsor you, because, ultimately,
+Show Notes: http://www.superdatascience.com/152
+
+5
+
+everybody wants the best data scientist on board and everybody wants to
+work with happy people, so why wouldn't your company invest into your
+personal and professional growth? That's just something I had wanted to
+tell you guys about.
+Yeah, so we're preparing for a massive event. I totally understand if you're
+not in there yet. Like if you're in San Diego, I'll be surprised if you don't
+come because I would personally really go out to meet you. If you're in the
+US, then I can understand it might be hard, but just bear in mind that last
+time we actually had somebody who was flying in from Brazil on a 25-hour
+flight. Somebody came in all the way from Czech Republic on a 24-hour
+flight, and Rico came in all the way from Germany. These are just students.
+These are not speakers. These are students who came from all over the
+world just to attend this event.
+Yeah, if you can make it, I'd love to network, connect with you in person
+and shake your hand and give you hug probably towards the end. I think
+it's going to be a really fun time. We're putting in a lot of effort to make this
+event special and unique just for you, and I can guarantee, if you do come,
+you will walk away a different person and you'll have a much clearer and
+much more exciting, I guess, path ahead of you that you'll be looking
+forward to every single day.
+On that note, thank you so much for listening to this. Whether or not you
+can come or not, I really appreciate you as a student. If you are interested,
+the tickets are ... the Super Early Bird Tickets are on sale. This is the last
+day they're available, and you can find them at www.datasciencego.com. I
+look forward to seeing you in San Diego.
+
+Show Notes: http://www.superdatascience.com/152
+
+6
+
+
